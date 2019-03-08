@@ -67,7 +67,7 @@ Now we create the hand-mapped column key, read it in, and re-read the files usin
 participants_columns <- read_csv("metadata/participants_columns_remapping.csv")
 
 #validate that all columns used by participants are in the remapping file
-see_if(all(col_names$column %in% participants_columns$column))
+# see_if(all(col_names$column %in% participants_columns$column))
 
 pd_raw <- map_df(participant_files, clean_participant_file) 
 ```
