@@ -1,0 +1,840 @@
+---
+title: "MB1 Variable Validation"
+author: "The ManyBabies Analysis Team"
+date: '`r format(Sys.time(), "%a %b %d %X %Y")`'
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    number_sections: yes
+---
+
+# Intro
+
+This is the second MB1 preprocessing script. The goal of this file is to ensure that all variables have the values assumed by further analysis. 
+
+This script is organized around variable types being processed. 
+
+**identifiers** 
+[should not be modified after reading and merging in 01_read_and_merge.RMD]
+
+* lab
+* subid
+
+**trial variables**
+
+* trial_order
+* trial_num
+* stimulus
+* trial_type
+* stimulus_num
+
+**moderators/exclusion variables**
+
+* method
+* age_days
+* NAE
+* monolingual
+* gender
+* trial error
+* participant error
+* preterm
+* pilot
+
+**DVs**
+
+* looking_time
+* total_trial_time
+
+NOTE: No exclusions are performed in this script. These are all performed in `03_exclusion.Rmd`.
+
+```{r setup, echo=FALSE, message=FALSE}
+source("helper/common.R")
+```
+
+There is a nasty issue where `total_trial_time` is getting cast to integer because of the integer nature of this variable with the first couple of labs' data. To solve this I have hackily set the `guess_max` parameter of `read_csv` to 2000 rows, which ensures that we have enough data to read in as double and not integer.
+
+```{r}
+d <- read_csv("processed_data/01_merged_ouput.csv", guess_max = 3000)
+```
+
+Data import functions are factored into a helper functions file. 
+
+```{r}
+source("helper/preprocessing_helper.R")
+```
+
+# Trial variables
+
+The goal of this subsection is to ensure that we have the following variables. 
+
+* trial_order - which counterbalance? [1:4]
+* trial_type - IDS vs. ADS 
+* stimulus_num - which number in the pair [-1 or 1:8]
+* trial_num - which number in -2, -1, 1:16
+
+## trial_order
+
+What trial orders do we have?
+
+```{r}
+unique(d$trial_order)
+
+d %>% 
+  filter(!trial_order %in% 1:4 | is.na(trial_order)) %>% 
+  group_by(lab, subid) %>%
+  count %>%
+  datatable
+```
+
+If we do not have trial order information, the best we can do is coerce to `NA`. Note that one lab (`chosunbaby`) marked error babies as `NA`, this will not affect downstream conclusions.
+
+```{r}
+d$trial_order[!(d$trial_order %in% 1:4)] <- NA
+```
+
+We need to pass this test. 
+
+```{r}
+validate_that(all(d$trial_order %in% c(1,2,3,4) | is.na(d$trial_order)))
+```
+
+** `trial_order` checking is satisfactory **
+
+## trial_type and stimulus_num
+
+We need to set up the `trial_type`/`stimulus_num` fields for shuffling and computing differences. `trial_type` should be `IDS`/`ADS`. `stimulus_num` should be -1 for training, nad 1:8 otherwise.  
+
+Note that `trial_type` and `stimulus` carry redundant information.  
+
+```{r}
+unique(d$stimulus)
+```
+
+Let's fix some of these to start. 
+
+```{r}
+d <- d %>%
+  mutate(stimulus = toupper(stimulus),
+         stimulus = str_replace(stimulus, "-",""),
+         stimulus = str_replace(stimulus, " ",""),
+         stimulus = str_replace(stimulus, "FINAL",""),
+         stimulus = str_replace(stimulus, "NEW",""),
+         stimulus = str_replace(stimulus, "ASD","ADS"),
+         stimulus = str_replace(stimulus, "TRIAL","TRAIN"),
+         stimulus = str_replace(stimulus, "TRAINING","TRAIN"),
+         stimulus = str_replace(stimulus, ".WAV",""),
+         stimulus = ifelse(str_detect(str_sub(stimulus,0,1), "[0-9]"),
+                           str_c(str_sub(stimulus,2,4),str_sub(stimulus,0,1)), 
+                           stimulus), # flip reversed ones
+         stimulus = ifelse(stimulus == "ERROR", NA, stimulus),
+         stimulus = ifelse(stimulus == "NA", NA, stimulus),
+         stimulus = ifelse(stimulus == "N/A", NA, stimulus),
+         stimulus = ifelse(stimulus == "N", NA, stimulus),
+         stimulus = ifelse(stimulus == "TRAIN" & trial_num %in% -2:2, "TRAIN", stimulus),
+         stimulus = ifelse(stimulus == "TRAIN_TRAIN_MUSIC", "TRAIN", stimulus),
+         stimulus = ifelse(stimulus == "TRAIN1", "TRAIN", stimulus),
+         stimulus = ifelse(stimulus == "TRAIN2", "TRAIN", stimulus))
+         
+unique(d$stimulus)
+```
+
+Note that some labs marked IDS/ADS with no number. These need to be fixed by hand. 
+
+```{r}
+d %>%
+  filter(stimulus %in% c("IDS", "ADS","N") ) %>%
+  group_by(lab, subid) %>%
+  count %>%
+  datatable
+```
+
+Also `NA`s need to be fixed. Right now we will assume these are all for error trials. 
+
+```{r}
+d %>%
+  filter(is.na(stimulus)) %>%
+  group_by(lab, subid) %>%
+  count %>%
+  datatable
+```
+
+Now we separate this field to get `stimulus_num`.
+
+```{r}
+d <- d %>% 
+  separate(stimulus, into = c("trial_type", "stimulus_num"), sep = 3) %>%
+  mutate(trial_type = ifelse(trial_type == "TRA", "TRAIN", trial_type), 
+         stimulus_num = ifelse(stimulus_num == "IN", "-1", stimulus_num), 
+         stimulus_num = as.numeric(stimulus_num))
+```
+
+Now ensure that this worked.
+
+```{r}
+validate_that(all(d$trial_type %in% c("TRAIN","IDS","ADS") | is.na(d$trial_type)))
+validate_that(all(d$stimulus_num %in% c(-1,1:8) | is.na(d$stimulus_num)))
+```
+
+** `trial_type` and `stimulus_num` checking is satisfactory **
+
+## trial_num
+
+There are two issues here. 
+
+First, labs used `trial_num` differently. A few numbered from 1:18.
+
+```{r}
+ggplot(d, aes(x = trial_num)) +
+  geom_histogram(breaks=-3:20)
+```
+
+Let's find those labs and deal with the issue.
+
+```{r}
+d %>%
+  group_by(lab) %>%
+  summarise(min = min(trial_num),
+            max = max(trial_num)) %>%
+  filter(min != -2 | max !=16) %>%
+  datatable
+```
+
+We will deal with this by enumerating lab practices and fixing in code.
+
+```{r}
+# some labs consistently number from 1:18
+labs_numbering_from_one <- c("baldwinlabuoregon", "pocdnorthwestern", 
+                             "udssaarland", "lcdfsu")
+
+d$trial_num <- as.numeric(d$trial_num)
+
+d <- d %>%
+  mutate(trial_num = case_when(
+    lab %in% labs_numbering_from_one &
+      trial_type == "TRAIN" ~ trial_num - 3, # training = -2, -1
+    lab %in% labs_numbering_from_one &
+      trial_type != "TRAIN" ~ trial_num - 2, # test = 1:16
+    TRUE ~ trial_num)) # otherwise
+
+# lancaster numbered their two files differently, such that the older children (subids starting with 14mb) are numbered 1:18. 
+d <- d %>%
+  mutate(trial_num = case_when(
+    lab == "lancaster" & str_detect(subid, "14mb") &
+      trial_type == "TRAIN" ~ trial_num - 3, # training = -2, -1
+    lab == "lancaster" & str_detect(subid, "14mb") &
+      trial_type != "TRAIN" ~ trial_num - 2,
+    TRUE ~ trial_num)) # otherwise
+
+
+## princeton has one trial -3, just delete this.
+d <- filter(d, trial_num != -3)
+
+## POCD has one remaining trial 17, just delete this also
+d <- filter(d, trial_num < 17)
+```
+
+Test. 
+
+```{r}
+see_if(all(d$trial_num >= -2 & d$trial_num <= 16))
+```
+
+Second, if there aren't exactly 18 trials for a participant, we want to make it so there are! (IE by defining a row for an 'error' at trial 1, 2, etc. of each baby.) First, check how many rows exist for each participant (which may not be the same as the number of trials!)
+
+These are cases where the number of trial numbers doesn't match the number of rows. 
+
+```{r}
+trial_row_checker <- d %>%
+  group_by(lab, subid) %>%
+  summarize(trialcount = n_distinct(trial_num), 
+            rowcount = length(trial_num)) 
+
+trial_row_checker %>%
+  filter(trialcount != rowcount) %>%
+  datatable
+```
+
+Several of these were fixed in the data. The others are all cases where there are manual numbering errors, which can be fixed in code.
+
+```{r}
+# pull babies for which there is a miscount AND there are 18 rows
+# note that cogdevlabbyu omitted many rows, so we can't correct any potential misnumbering
+miscount_babies <- trial_row_checker %>%
+  filter(trialcount != rowcount, rowcount == 18) %>% 
+  unite("labsubid", c("lab","subid")) %>%
+  pull(labsubid)
+
+# note that this is a dangerous way to do this as it will fail silently if the trials are not ordered correctly, could be corrected down the line. 
+d[paste(d$lab,d$subid, sep="_") %in% miscount_babies, "trial_num"] <- rep(c(-2,-1,1:16), 
+                                                              length(miscount_babies))
+```
+
+These are case where there aren't 18 trials, perhaps because of failure to report missing trials. 
+
+```{r}
+trial_row_checker %>%
+  filter(trialcount != 18) %>%
+  datatable
+```
+
+Most of these cases are simply cases where labs haven't reported a bunch of `NA` trials for children who fussed out. We won't fix these. 
+
+Test that we have matching numbering for all kids. 
+
+```{r}
+see_if(d %>%
+         group_by(lab, subid) %>%
+         summarize(trialcount = n_distinct(trial_num), 
+                   rowcount = length(trial_num), 
+                   match = trialcount == rowcount) %>%
+         pull(match) %>%
+         all)
+
+```
+
+** `trial_num` checking is satisfactory **
+
+
+# Exclusion variables
+
+* pilot
+* monolingual
+* developmental disorders
+* second session
+* preterm
+
+and, perhaps most problematically:
+
+* trial error
+* participant error
+
+
+## Pilot
+
+Identifying participants as pilots. If `pilot == T` it indicates that there was the word "pilot" in their subid, session_error_type, or notes.
+
+```{r}
+d$pilot <- grepl("pilot", tolower(d$subid)) | 
+  grepl("pilot", tolower(d$session_error_type)) | 
+  grepl("pilot", tolower(d$notes))
+```
+  
+## monolingual
+  
+> Monolingual. Monolingual infants of any language background were included in the sample. Monolingual was defined as 90% parent-reported exposure to the native language. This cutoff score struck a balance between including most infants who are typically considered monolingual in infant language studies, while excluding those who might be considered bilingual (Byers-Heinlein, 2015). XYZ (%XYZ) infants were tested but did not meet this criterion.
+
+```{r}
+d$lang_group <- tolower(d$lang_group)
+
+d %>%
+  group_by(lab, subid) %>%
+  select(lang_group) %>%
+  distinct %>%
+  group_by(lang_group) %>%
+  count %>%
+  datatable
+
+```
+
+Note there is some missing data. 
+
+```{r}
+d$monolingual <- d$lang_group %in% 
+  c("monolingual","monilingual","monolinugal","Monolinugal")
+```
+
+We can also approach classifying monolingual status based on whether any of the langX_exposure columns are >= 90%.
+  
+```{r}
+d <- d %>% 
+  mutate(monolingual_exposure = case_when(
+    lang1_exposure >= 90 ~ TRUE,
+    lang2_exposure >= 90 ~ TRUE,
+    lang3_exposure >= 90 ~ TRUE,
+    lang4_exposure >= 90 ~ TRUE,
+    lab == "childlabmanchester" ~ TRUE, # childlab-manchester did not give lang1_exposure, all were monolingual.
+    TRUE ~ FALSE
+  ))
+
+#fixing some participant-level issues: sub os014 (bablingoslo) and m19 (isplabmcgill) were confirmed by the lab as monolingual though percent language exposure was not collected. lab confirmed that sub 37 (babylablmu) hears 100% (not 80%) German, sub s22 (trainorlab) should be classified as possible bilingual input due to error in parent report (see issue #195) - classifying as not monolingual here.
+d <- d %>% 
+  mutate(monolingual_exposure = case_when(
+    lab == "babylingoslo" & subid == "os014" ~ TRUE,
+    lab == "isplabmcgill" & subid == "m19" ~ TRUE,
+    lab == "babylablmu" & subid == "37" ~ TRUE,
+    lab == "trainorlab" & subid == "s22" ~ FALSE,
+    TRUE ~ monolingual_exposure)) # otherwise
+
+higher_prop_lang2 <- d %>%
+  filter(lang1_exposure < lang2_exposure)
+
+monolingual_mismatch <- d %>%
+  filter(monolingual != monolingual_exposure)
+```
+
+In sum, `r sum(d$monolingual_exposure)` trials from `r length(unique(d[d$monolingual_exposure,]$subid))` children are classifed as monolingual based on reported percentages of language exposure, and `r length(unique(d[!d$monolingual_exposure,]$subid))` are not marked this way (`r signif(mean(!d$monolingual_exposure), 2) *100`% of trials).
+
+`r length(unique(monolingual_mismatch$subid))` participants were marked differently by experimenters compared to the exposure estimate. In most cases, this is due to a difference in cutoffs. Resolving this by incoproating correct info from monolingual_exposure into monolingual column. When there is a mismatch, going with monolingual_exposure classification.
+
+```{r}
+
+d <- d %>% 
+  mutate(monolingual = case_when(
+    monolingual != monolingual_exposure ~ monolingual_exposure,
+    monolingual == monolingual_exposure ~ monolingual,
+    TRUE ~ NA)) # otherwise
+```
+
+Remove reconciliation variable `monolingual_exposure`.
+
+```{r}
+d <- select(d, -monolingual_exposure)
+```
+
+
+## cognitive_developmental
+  
+  > No diagnosed developmental disorders. We excluded infants with parent-reported developmental disorders (e.g., chromosomal abnormalities, etc.) or diagnosed hearing impairments. XYZ (%XYZ) infants were tested but did not meet this criterion. Due to concerns about the accuracy of parent reports, we did not plan exclusions based on self-reported ear infections unless parents reported medically-confirmed hearing loss. 
+
+
+```{r}
+unique(d$cognitive_developmental)
+
+d$td <- !(tolower(d$cognitive_developmental) %in% 
+                 c("yes","y"))
+
+see_if(all(d$td %in% c(TRUE, FALSE)))
+
+```
+
+Some issues reported as having cognitive/developmental/hearing issues that don't seem to be grounds for exclusion. We are resolving this issue by reviewing lab notes for these participants and re-classifying them.
+
+```{r}
+
+participants_td_to_keep <- read_csv("metadata/participants_cog_hearing_exclusions.csv")
+
+#validate lab names
+see_if(all(participants_td_to_keep$lab %in% d$lab))
+
+d <- d %>% 
+  left_join(participants_td_to_keep)
+
+d$Exclude <- ifelse(is.na(d$Exclude),FALSE,d$Exclude)
+
+d$td <- !(d$Exclude)
+
+d <- select(d, -Exclude)
+
+see_if(all(d$td %in% c(TRUE, FALSE)))
+
+```
+
+We reviewed lab notes and re-classified infants as td based on these notes. See metadata-README.md regarding `participants_cog_hearing_exclusions.csv` for details about td classifications.
+  
+Currently, `r length(unique(d[!d$td,]$subid))` children are marked as not TD.
+
+## second_session
+  
+```{r}
+unique(d$second_session)
+
+d$second_session <- tolower(d$second_session) %in% c("y")
+
+see_if(all(d$second_session %in% c(TRUE, FALSE)))
+```
+
+Currently `r signif(mean(d$second_session),2)*100`% of trials are marked as from second session babies. Note that these are not going to be excluded as there are not enough. 
+
+## fullterm and days_preterm
+
+> Full-term. We defined full term as gestation times greater than or equal to 37 weeks.
+
+```{r}
+unique(d$preterm)
+
+d$full_term <- !(tolower(d$preterm) %in% c("preterm", "y"))
+
+see_if(all(d$full_term %in% c(TRUE, FALSE)))
+
+```
+
+Currently, `r sum(!d$full_term)` trials (`r signif(mean(!d$full_term),2)*100`%) from `r length(unique(d[!d$full_term,]$subid))` children are marked as preterm and excluded from primary analyses. 
+
+Classifying infants by number of days preterm (prior to 37 weeks). First, correct for labs that reported days before 40 (and in one case 41) weeks, then classify infants less than 37 weeks as preterm.
+
+```{r}
+preterm_fix <- read_csv("metadata/preterm_fix.csv") %>%
+  rename(lab = labid) %>%
+  select(-filename)
+
+#validate lab names
+see_if(all(preterm_fix$lab %in% d$lab))
+
+d <- d %>%
+  left_join(preterm_fix)
+
+d <- d %>%
+  mutate(days_preterm_fixed = case_when(
+    preterm_fix == "all_full_term" ~ NA_integer_,
+    preterm_fix == "40" ~ as.integer(days_preterm - 21),
+    preterm_fix == "41" ~ as.integer(days_preterm - 28),
+    preterm_fix == "37" ~ as.integer(days_preterm),
+    TRUE ~ as.integer(days_preterm)))
+
+# remove unnecessary column
+d <- select(d, -preterm_fix)
+
+# classify infants as preterm based on days
+# includes one fix for lab: ileap, subid: e48s006 who doesn't have anything in the `days_preterm` column but should be classified as preterm.
+d <- d %>% 
+  mutate(full_term_by_days = case_when(
+    lab == "ileap" & subid == "e48s006" ~ FALSE,
+    days_preterm_fixed <= 0 ~ TRUE,
+    is.na(days_preterm_fixed) ~ TRUE,
+    days_preterm_fixed > 0 ~ FALSE,
+    TRUE ~ NA
+  ))
+
+# How many infants are classified as preterm by this method
+table(d[!duplicated(d$subid),]$full_term_by_days)
+
+```
+Find mismatches with lab-reported status.
+
+```{r}
+d %>%
+  group_by(lab, subid) %>%
+  select(full_term, full_term_by_days) %>%
+  distinct %>%
+  filter(full_term != full_term_by_days) %>%
+  group_by(lab) %>%
+  count %>%
+  datatable()
+```
+
+Approaching preterm status this way, `r length(unique(d[!d$full_term_by_days,]$subid))` children (`r signif(mean(!d$full_term_by_days),2)*100`% of trials) are marked as preterm and excluded from primary analyses. Adopt `full_term_by_days` approach.
+
+```{r}
+d$full_term <- d$full_term_by_days
+d <- select(d,-full_term_by_days) 
+```
+
+## session_error 
+
+> Participants could also be excluded for analysis based on session-level errors, including: equipment error (e.g., no sound or visuals on the first pair of trials), experimenter error (e.g., an experimenter was unblinded in setups where infant looking was measured by live button press), or evidence of parent/outside interference noted by participating labs (e.g., talking or pointing by parents, construction noise, sibling pounding on door). XYZ (XYZ%) infants were dropped from analysis due to session-level errors (XYZ for equipment error, XYZ for experimenter error, XYZ for parental interference).
+
+Note that some errors are trial-level and the trials will be dropped, others are participant-level and the participant will be dropped. 
+
+```{r}
+d$session_error <- tolower(d$session_error)
+unique(d$session_error)
+noerror_entries <- c("noerror", "noerror?","no error", "0", "noreror","norerror","no","na")
+```
+
+Many participants may be marked as having a session error, despite having usable trials. Before excluding session error participants, we make sure we keep those participants we have identified as being incorrectly classified as a session error. This includes subjects marked as a session error by the lab for not completing all trials, for what we consider to be trial-level errors, or for not meeting a non-procedural criterion (excluded based on age, preterm, language, pilot testing, etc.). These subjects are in the metadata file `participants_session_error_keep.csv`. The column 'session_error_change_reason' also includes a short explanation of why we are reversing the session error code for each subject. In addition, we are adding a unified coding of the (remaining) session error types into three categories: equipment failure, outside interference, experimenter error. The recoded session error types are in the metadata file `participants_session_error_type.csv` and the column containing the updated session error code is named `session_error_type_recoded`.
+
+```{r}
+participants_error_to_keep <- read_csv("metadata/participants_session_error_keep.csv")
+
+#validate lab names
+see_if(all(participants_error_to_keep$lab %in% d$lab))
+
+d <- d %>% 
+  left_join(participants_error_to_keep)
+
+d$session_error_recoded <- ifelse(is.na(d$session_error_recoded),0,d$session_error_recoded)
+
+d$session_error <- !(is.na(d$session_error)|
+                       tolower(d$session_error) %in% noerror_entries | 
+                         d$session_error_recoded == 1)
+
+see_if(all(d$session_error %in% c(TRUE, FALSE)))
+
+#add column for unified coding of session error
+participants_error_type <- read_csv("metadata/participants_session_error_type.csv")
+
+#validate lab names
+see_if(all(participants_error_type$lab %in% d$lab))
+
+d <- d %>% 
+  left_join(participants_error_type)
+```
+
+## trial_error
+
+Now move on to trial errors. 
+
+```{r}
+prop_error <- d %>%
+  group_by(lab) %>%
+  summarise(prop_error = mean(trial_error == "error")) 
+
+prop_error %>%
+  datatable
+```
+
+Note that there were a large number of trial numbers reported and there was no compliance at all in using our trial error categorization. 
+
+```{r}
+d %>%
+  group_by(trial_error_type) %>%
+  summarise(n = n()) %>%
+  filter(!is.na(trial_error_type), 
+         trial_error_type != "",
+         trial_error_type != "NA",) %>%
+  arrange(desc(n)) %>%
+  datatable() 
+
+```
+Before excluding trial errors, we make sure we keep those trials we have identified as being incorrectly classified as a trial error and remove trials not marked as an error. These subjects are in the metadata file `participants_trial_error_keep.csv` (see metadata-README for details).
+
+```{r}
+participants_trial_error_update <- read_csv("metadata/participants_trial_error_update.csv")
+
+#validate lab names
+see_if(all(participants_trial_error_update$lab %in% d$lab))
+
+d <- d %>% 
+  left_join(participants_trial_error_update)
+
+d$trial_error_new <- ifelse(is.na(d$trial_error_new),d$trial_error,d$trial_error_new)
+
+d$trial_error_new <- tolower(d$trial_error_new)
+unique(d$trial_error_new)
+noerror_trial_entries <- c("noerror", "no error", "no", "no_error", "noerror'")
+
+d$trial_error <- !(is.na(d$trial_error_new) |
+                     d$trial_error_new %in% noerror_trial_entries)
+
+d <- select(d, -trial_error_new)
+
+see_if(all(d$trial_error %in% c(TRUE, FALSE)))
+
+```
+
+ There are `r sum(prop_error$prop_error == 1, na.rm=TRUE)` labs with 100% trial error (`r signif(mean(prop_error$prop_error == 1, na.rm=TRUE), 2)*100`%) out of a total of `r nrow(prop_error)` labs.
+
+
+# Moderators
+
+These variables are used in the main analyses as primary moderators. 
+
+* NAE
+* method
+* gender
+* age_days
+
+## NAE
+
+Create the NAE predictor for the primary preregistered data analyses. NAE marks participants from labs in north america. Here's the problem: language is "English" but is that NAE? 
+
+Solution: hand-coding of labs, which should be checked. 
+
+This assumes that all babies from NAE labs are NAE-acquiring, which is not true. 
+
+```{r}
+NAE_labs <- read_csv("metadata/NAE_labs.csv")
+
+#validate lab names
+see_if(all(NAE_labs$lab %in% d$lab))
+
+d$nae <- d$lab %in% NAE_labs$lab
+```
+
+
+## Method
+
+
+```{r}
+unique(d$method)
+
+d$method <- tolower(str_replace_all(d$method, "-", "") %>%
+                      str_replace_all(" ", ""))
+
+d$method[d$method == "et"] <- "eyetracking"
+d$method[d$method == "eyetracking&onlinecoding"] <- "eyetracking"
+d$method[d$method == "headturn"] <- "hpp"
+d$method[d$method == "preference"] <- "hpp"
+d$method[d$method == "powerpointadministration(noteyetracking)"] <- "singlescreen"
+d$method[d$method == "powerpointversion"] <- "singlescreen" #??
+d$method[d$method == "popwerpointversion"] <- "singlescreen" #??
+unique(d$method)
+
+# do some labs have method missing for some babies? yes
+# do some labs have more than one method? yes
+d %>%
+  group_by(lab) %>%
+  summarise(all_na_method = all(is.na(method)), 
+            any_na_method = any(is.na(method)), 
+            two_methods = length(unique(method[!is.na(method)]))>1,
+            two_methods_nas = length(unique(method[!is.na(method)]))>1 &
+              any(is.na(method))) %>%
+  datatable
+
+# if there is only one method, then interpolate this for the NAs.
+d <- d %>%
+  split(.$lab) %>%
+  map_df(function (df) {
+    methods <- unique(df$method[!is.na(df$method)])
+    if (length(methods)==1 & any(is.na(df$method))) {
+                df$method <- methods[1]
+    }
+    return(df)
+  })
+
+see_if(all(d$method %in% c("hpp","eyetracking","singlescreen")))
+```
+
+## Gender
+
+
+```{r}
+unique(d$gender)
+d$gender <- toupper(d$gender)
+
+d <- d %>%
+  mutate(gender2 = case_when(
+    gender == "FEMALE" ~ "F", # change 'female' to F
+    gender == "MALE" ~ "M", # change 'male' to M
+    gender == 0 ~ NA_character_, # change 0 to NA
+    TRUE ~ gender))
+    
+d %>%
+  group_by(lab, subid) %>%
+  select(gender) %>%
+  distinct %>%
+  group_by(lab) %>%
+  filter(!(gender %in% c("M","F"))) %>%
+  count %>%
+  datatable
+
+see_if(all(d$gender %in% c("M", "F", NA)))
+
+```
+
+
+## age_days and age_group
+
+Add age groups back in. 
+
+```{r}
+month <- 365.25 / 12
+
+d$age_mo <- d$age_days / month
+ggplot(d, aes(x = age_mo)) + 
+  geom_histogram(binwidth = 1)
+
+d$age_group <- cut(d$age_mo, c(3,6,9,12,15), 
+                   labels = c("3-6 mo","6-9 mo","9-12 mo","12-15 mo"), 
+                   include.lowest = TRUE)
+max(d$age_mo, na.rm=TRUE)
+
+see_if(all(d$age_mo > 3 & d$age_mo < 15))
+
+participants_by_lab_and_age_group = d %>%
+  group_by(lab, age_group) %>%
+  summarize(participants = n_distinct(subid))
+
+print(participants_by_lab_and_age_group, n=1e4)
+
+```
+
+Note that there are qute a number of babies who are out of the target age range. These babies should be excluded and they are in the exclusions script, though the number is not reported. 
+
+# Dependent Variables
+
+## looking_time
+
+Looking times histogram.
+
+```{r}
+ggplot(d, aes(x = looking_time)) + 
+  geom_histogram() + 
+  scale_x_log10()
+```
+
+Some people reported in seconds, others in milliseconds. Identified a few labs who reported milliseconds rather than seconds. Converting their looking_time entries to seconds
+
+
+```{r}
+d %>%
+  group_by(lab) %>%
+  summarise(ms = mean(looking_time > 100, na.rm=TRUE)) %>%
+  filter(ms != 0) %>%
+  datatable
+  
+## converting to seconds for labs confirmed as using milliseconds
+labs_using_milliseconds <- read_csv("metadata/labs_convert_looking_time_to_seconds.csv")
+
+d <- d %>% 
+  mutate(looking_time = case_when(
+    lab %in% labs_using_milliseconds$lab ~ looking_time/1000, # divide looking_time by 1000 
+    TRUE ~ looking_time)) # otherwise
+```
+
+Also it is possible that some people used the old stimuli at 21s, while most others used the new 18s ones. Let's look at the distribution of labs with LTs > 18, > 19, and > 21s. 
+
+```{r}
+d %>%
+  group_by(lab) %>%
+  summarise(more_than_18 = mean(looking_time > 18, na.rm=TRUE),
+            more_than_19 = mean(looking_time > 19, na.rm = TRUE),
+            more_than_21 = mean(looking_time > 21, na.rm=TRUE)) %>%
+  filter(more_than_18 != 0) %>%
+  datatable
+
+## per decision made on 10/19, cropping all looking times over 18s to exactly 18s
+
+d <- d %>% 
+   mutate(looking_time = ifelse(looking_time > 18, 18, # if looking_time > 18s, truncate it 18s
+                               looking_time)) # otherwise, leaving looking_time
+
+```
+
+Re-examine visually. 
+
+```{r}
+ggplot(d, aes(x = looking_time)) + 
+  geom_histogram()
+```
+
+Formal test. 
+
+```{r}
+see_if(all(d$looking_time <= 18, na.rm=TRUE))
+```
+
+
+## total_trial_time
+
+We still have the milliseconds issue with `total_trial_time`. But as a prerequisite, `total_trial_time` should always be >= `looking_time`. Is this true? 
+
+```{r}
+d %>% 
+  group_by(lab) %>%
+  summarise(tt_greater_than_lt = mean(total_trial_time >= d$looking_time & !is.na(looking_time), na.rm=TRUE)) %>%
+  arrange(desc(tt_greater_than_lt)) %>%
+  datatable()
+```
+
+The short answer is no. Many labs do not report `total_trial_time`, at least in a useable form. Those that do report it appear to be using it differently. 
+
+This is **very worrisome** and may point to different intepretations of `looking_time` across labs. But for now the only thing we can do is disavow this variable and remove it from the dataset. 
+
+```{r}
+d <- select(d, -total_trial_time)
+```
+
+
+# Output
+
+Output intermediate file. 
+
+```{r}
+write_csv(d, "processed_data/02_validated_output.csv")
+```
+
+
+
+

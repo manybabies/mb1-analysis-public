@@ -1,0 +1,161 @@
+---
+title: "MB1 Exclusions"
+author: "The ManyBabies Analysis Team"
+date: '`r format(Sys.time(), "%a %b %d %X %Y")`'
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    number_sections: yes
+---
+
+
+# Intro
+
+This script implements and documents exclusion criteria. 
+
+It outputs two datafiles: 
+
+1. `_trial`, which contains all trials for LMEMs, and
+2. `_diff`, which contains trial pairs for meta-analytic effect sizes. 
+
+These datafiles are output in three different "preps," 
+
+1. `_main`, which contains all babies (including second-session),
+2. `_no2ndsess`, which contains no second session babies, and
+3. `_secondary`, which contains the superset of participants who will be analyzed for the 'lab factors' project.
+
+Further exploratory analyses rely on exclusions based on more stringent data contribution standards and are implemented in `05_exploratory_analysis.Rmd`.
+
+```{r setup, echo=FALSE, message=FALSE}
+source(here::here("helper/common.R"))
+source(here("helper/preprocessing_helper.R"))
+```
+
+# Exclusions
+
+Note that all exclusions are written in paper format and sourced here so as to allow matching exactly to the data exclusion script. 
+
+```{r child="paper/exclusions.Rmd"}
+
+```
+
+
+# Trial pairing (blinding, differences)
+
+Remove all training trials. There are a number of cases where there are missing stimulus numbers and trial types. This is problematic and needs to be checked. 
+
+```{r}
+d %>%
+  filter(trial_type != "TRAIN") %>%
+  group_by(lab, subid, stimulus_num) %>%
+  count %>%
+  filter(n > 2) %>%
+  datatable
+```
+
+Make sure that our trial pairs are not duplicated once we have removed these missing data and the training trials.  
+
+```{r}
+d <- filter(d, trial_type != "TRAIN", 
+            !is.na(trial_type))
+
+trial_pairs <- d %>%
+  group_by(lab, subid, stimulus_num) %>%
+  count 
+
+see_if(all(trial_pairs$n <= 2), 
+            msg = "DUPLICATED TRIAL PAIRS")
+```
+
+## Blinding 
+
+Current data output is **UNBLINDED.** 
+
+```{r}
+#d <- d %>%
+#   group_by(lab, subid, stimulus_num) %>%
+#   mutate(trial_type = base::sample(trial_type))
+```
+
+## Compute condition differences
+
+Computing condition differences reveals a lot of issues in the dataset, in particular this line will not work unless there are no duplicated trial pairs (see chunk above). 
+
+```{r}
+diffs <- d %>%
+  mutate(trial_num = floor((trial_num+1)/2)) %>%
+  spread(trial_type, looking_time) %>%
+  mutate(diff = IDS - ADS)
+```
+
+
+# Construct missing variable
+
+> To test for effects of moderators on the presence of missing data, we constructed a categorical variable (missing), which was true if a trial had no included looking time (e.g., no looking recorded, a look under 2 s, or no looking because the infant had already terminated the experiment). 
+
+There is probably a better place to construct this variable, but it depends on assumptions about the structure of the dataset, so it seemed safest to put it after all the validation and checking is done. 
+
+Critically, this step fills in the dataset with blank rows; all moderators for the missingness analysis need to be filled in for that. That means we need both `method` and `age` to be complete for each of these, plus other possible moderators (`nae` in particular). This is done in the last line below. 
+
+```{r}
+d <- d %>% 
+  ungroup %>%
+  complete(trial_num, nesting(lab, subid)) %>%
+  mutate(missing = is.na(looking_time) | looking_time < 2) %>%
+  group_by(lab, subid) %>%
+  mutate(age_days = age_days[!is.na(age_days)][1],
+         age_mo = age_mo[!is.na(age_mo)][1],
+         age_group = age_group[!is.na(age_group)][1],
+         method = method[!is.na(method)][1], 
+         nae = nae[!is.na(nae)][1])
+  
+```
+
+# Output 
+
+
+1. `_trial`, which contains all trials for LMEMs, and
+2. `_diff`, which contains trial pairs for meta-analytic effect sizes. 
+
+These datafiles are output in three different "preps," 
+
+1. `_main`, which contains all babies (including second-session),
+2. `_no2ndsess`, which contains no second session babies, and
+3. `_secondary`, which *also* retains babies who had a session-level error.
+
+## Main dataset with second-session babies
+
+Note that the total number of second-session babies is really quite tiny. We planned this analysis but we are probably unlikely to be able to learn much from it. 
+
+```{r}
+d %>%
+  group_by(lab, subid) %>%
+  summarise(second_session = all(second_session)) %>%
+  filter(second_session) %>%
+  count
+```
+
+Output. 
+
+```{r}
+write_csv(d, "processed_data/03_data_trial_main.csv")
+write_csv(diffs, "processed_data/03_data_diff_main.csv")
+
+#write_csv(d, "processed_data/03_data_trial_secondary_UNBLINDED.csv")
+#write_csv(diffs, "processed_data/03_data_diff_secondary_UNBLINDED.csv")
+```
+
+## Dataset without second session babies
+
+```{r}
+d <- exclude_by(d, quo(second_session))
+diffs <- exclude_by(diffs, quo(second_session))
+```
+
+and write: 
+
+```{r}
+write_csv(d, "processed_data/03_data_trial_no2ndsess.csv")
+write_csv(diffs, "processed_data/03_data_diff_no2ndsess.csv")
+```

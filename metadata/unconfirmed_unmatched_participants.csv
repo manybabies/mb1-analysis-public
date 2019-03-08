@@ -1,0 +1,5 @@
+lab,subid,trialcount,rowcount,trial_error,present_td,lines_in_pd,age_days,notes,session_error_type,present_pd,Confirmed
+childlabmanchester,mb16,NA,NA,NA,FALSE,1,NA,baby did not show up,baby did not show up,TRUE,FALSE
+infantlanglabutk,mb1r143fs8,NA,NA,NA,FALSE,1,451,NA,"Entire file was corrupt, unable to extract data",TRUE,FALSE
+infantlanglabutk,mbir143fs8,1,1,exclude,TRUE,NA,NA,NA,NA,FALSE,FALSE
+infantlanglabutk,mrir131fs3,1,1,exclude,TRUE,NA,NA,NA,NA,FALSE,FALSE

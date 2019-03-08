@@ -1,0 +1,779 @@
+lab,subid,trial_num,trial_error_recoded,trial_error_new,trial_error_change_reason
+unlvmusiclab,run009,-1,1,noerror,infant heard silence after 18s
+unlvmusiclab,run014,-2,1,noerror,infant heard silence after 18s
+unlvmusiclab,run014,-1,1,noerror,infant heard silence after 18s
+unlvmusiclab,run016,-2,1,noerror,infant heard silence after 18s
+unlvmusiclab,run018,-2,1,noerror,infant heard silence after 18s
+unlvmusiclab,run020,-2,1,noerror,infant heard silence after 18s
+unlvmusiclab,run020,-1,1,noerror,infant heard silence after 18s
+unlvmusiclab,run022,-1,1,noerror,infant heard silence after 18s
+unlvmusiclab,run023,-2,1,noerror,infant heard silence after 18s
+unlvmusiclab,run025,-2,1,noerror,infant heard silence after 18s
+unlvmusiclab,run026,-2,1,noerror,infant heard silence after 18s
+unlvmusiclab,run026,-1,1,noerror,infant heard silence after 18s
+chosunbaby,h02y01,-2,1,noerror,not excluding for age at trial level
+chosunbaby,h02y01,-1,1,noerror,not excluding for age at trial level
+chosunbaby,h02y01,1,1,noerror,not excluding for age at trial level
+chosunbaby,h02y01,2,1,noerror,not excluding for age at trial level
+chosunbaby,h02y01,3,1,noerror,not excluding for age at trial level
+chosunbaby,h02y01,4,1,noerror,not excluding for age at trial level
+chosunbaby,h02y01,5,1,noerror,not excluding for age at trial level
+chosunbaby,h02y01,6,1,noerror,not excluding for age at trial level
+chosunbaby,h02y01,7,1,noerror,not excluding for age at trial level
+chosunbaby,h02y01,8,1,noerror,not excluding for age at trial level
+chosunbaby,h02y01,9,1,noerror,not excluding for age at trial level
+chosunbaby,h02y01,10,1,noerror,not excluding for age at trial level
+chosunbaby,h02y01,11,1,noerror,not excluding for age at trial level
+chosunbaby,h02y01,12,1,noerror,not excluding for age at trial level
+chosunbaby,h02y01,13,1,noerror,not excluding for age at trial level
+chosunbaby,h02y01,14,1,noerror,not excluding for age at trial level
+chosunbaby,h02y01,15,1,noerror,not excluding for age at trial level
+chosunbaby,h02y01,16,1,noerror,not excluding for age at trial level
+chosunbaby,h07y05,-2,1,noerror,not excluding for age at trial level
+chosunbaby,h07y05,-1,1,noerror,not excluding for age at trial level
+chosunbaby,h07y05,1,1,noerror,not excluding for age at trial level
+chosunbaby,h07y05,2,1,noerror,not excluding for age at trial level
+chosunbaby,h07y05,3,1,noerror,not excluding for age at trial level
+chosunbaby,h07y05,4,1,noerror,not excluding for age at trial level
+chosunbaby,h07y05,5,1,noerror,not excluding for age at trial level
+chosunbaby,h07y05,6,1,noerror,not excluding for age at trial level
+chosunbaby,h07y05,7,1,noerror,not excluding for age at trial level
+chosunbaby,h07y05,8,1,noerror,not excluding for age at trial level
+chosunbaby,h07y05,9,1,noerror,not excluding for age at trial level
+chosunbaby,h07y05,10,1,noerror,not excluding for age at trial level
+chosunbaby,h07y05,11,1,noerror,not excluding for age at trial level
+chosunbaby,h07y05,12,1,noerror,not excluding for age at trial level
+chosunbaby,h07y05,13,1,noerror,not excluding for age at trial level
+chosunbaby,h07y05,14,1,noerror,not excluding for age at trial level
+chosunbaby,h07y05,15,1,noerror,not excluding for age at trial level
+chosunbaby,h07y05,16,1,noerror,not excluding for age at trial level
+chosunbaby,h08y06,-2,1,noerror,not excluding for age at trial level
+chosunbaby,h08y06,-1,1,noerror,not excluding for age at trial level
+chosunbaby,h08y06,1,1,noerror,not excluding for age at trial level
+chosunbaby,h08y06,2,1,noerror,not excluding for age at trial level
+chosunbaby,h08y06,3,1,noerror,not excluding for age at trial level
+chosunbaby,h08y06,4,1,noerror,not excluding for age at trial level
+chosunbaby,h08y06,5,1,noerror,not excluding for age at trial level
+chosunbaby,h08y06,6,1,noerror,not excluding for age at trial level
+chosunbaby,h08y06,7,1,noerror,not excluding for age at trial level
+chosunbaby,h08y06,8,1,noerror,not excluding for age at trial level
+chosunbaby,h08y06,9,1,noerror,not excluding for age at trial level
+chosunbaby,h08y06,10,1,noerror,not excluding for age at trial level
+chosunbaby,h08y06,11,1,noerror,not excluding for age at trial level
+chosunbaby,h08y06,12,1,noerror,not excluding for age at trial level
+chosunbaby,h08y06,13,1,noerror,not excluding for age at trial level
+chosunbaby,h08y06,14,1,noerror,not excluding for age at trial level
+chosunbaby,h08y06,15,1,noerror,not excluding for age at trial level
+chosunbaby,h08y06,16,1,noerror,not excluding for age at trial level
+chosunbaby,h09y07,-2,1,noerror,not excluding for age at trial level
+chosunbaby,h09y07,-1,1,noerror,not excluding for age at trial level
+chosunbaby,h09y07,1,1,noerror,not excluding for age at trial level
+chosunbaby,h09y07,2,1,noerror,not excluding for age at trial level
+chosunbaby,h09y07,3,1,noerror,not excluding for age at trial level
+chosunbaby,h09y07,4,1,noerror,not excluding for age at trial level
+chosunbaby,h09y07,5,1,noerror,not excluding for age at trial level
+chosunbaby,h09y07,6,1,noerror,not excluding for age at trial level
+chosunbaby,h09y07,7,1,noerror,not excluding for age at trial level
+chosunbaby,h09y07,8,1,noerror,not excluding for age at trial level
+chosunbaby,h09y07,9,1,noerror,not excluding for age at trial level
+chosunbaby,h09y07,10,1,noerror,not excluding for age at trial level
+chosunbaby,h09y07,11,1,noerror,not excluding for age at trial level
+chosunbaby,h09y07,12,1,noerror,not excluding for age at trial level
+chosunbaby,h09y07,13,1,noerror,not excluding for age at trial level
+chosunbaby,h09y07,14,1,noerror,not excluding for age at trial level
+chosunbaby,h09y07,15,1,noerror,not excluding for age at trial level
+chosunbaby,h09y07,16,1,noerror,not excluding for age at trial level
+chosunbaby,h12y09,-2,1,noerror,not excluding for age at trial level
+chosunbaby,h12y09,-1,1,noerror,not excluding for age at trial level
+chosunbaby,h12y09,1,1,noerror,not excluding for age at trial level
+chosunbaby,h12y09,2,1,noerror,not excluding for age at trial level
+chosunbaby,h12y09,3,1,noerror,not excluding for age at trial level
+chosunbaby,h12y09,4,1,noerror,not excluding for age at trial level
+chosunbaby,h12y09,5,1,noerror,not excluding for age at trial level
+chosunbaby,h12y09,6,1,noerror,not excluding for age at trial level
+chosunbaby,h12y09,7,1,noerror,not excluding for age at trial level
+chosunbaby,h12y09,8,1,noerror,not excluding for age at trial level
+chosunbaby,h12y09,9,1,noerror,not excluding for age at trial level
+chosunbaby,h12y09,10,1,noerror,not excluding for age at trial level
+chosunbaby,h12y09,11,1,noerror,not excluding for age at trial level
+chosunbaby,h12y09,12,1,noerror,not excluding for age at trial level
+chosunbaby,h12y09,13,1,noerror,not excluding for age at trial level
+chosunbaby,h12y09,14,1,noerror,not excluding for age at trial level
+chosunbaby,h12y09,15,1,noerror,not excluding for age at trial level
+chosunbaby,h12y09,16,1,noerror,not excluding for age at trial level
+chosunbaby,h13y10,-2,1,noerror,not excluding for age at trial level
+chosunbaby,h13y10,-1,1,noerror,not excluding for age at trial level
+chosunbaby,h13y10,1,1,noerror,not excluding for age at trial level
+chosunbaby,h13y10,2,1,noerror,not excluding for age at trial level
+chosunbaby,h13y10,3,1,noerror,not excluding for age at trial level
+chosunbaby,h13y10,4,1,noerror,not excluding for age at trial level
+chosunbaby,h13y10,5,1,noerror,not excluding for age at trial level
+chosunbaby,h13y10,6,1,noerror,not excluding for age at trial level
+chosunbaby,h13y10,7,1,noerror,not excluding for age at trial level
+chosunbaby,h13y10,8,1,noerror,not excluding for age at trial level
+chosunbaby,h13y10,9,1,noerror,not excluding for age at trial level
+chosunbaby,h13y10,10,1,noerror,not excluding for age at trial level
+chosunbaby,h13y10,11,1,noerror,not excluding for age at trial level
+chosunbaby,h13y10,12,1,noerror,not excluding for age at trial level
+chosunbaby,h13y10,13,1,noerror,not excluding for age at trial level
+chosunbaby,h13y10,14,1,noerror,not excluding for age at trial level
+chosunbaby,h13y10,15,1,noerror,not excluding for age at trial level
+chosunbaby,h13y10,16,1,noerror,not excluding for age at trial level
+chosunbaby,h14y11,-2,1,noerror,not excluding for age at trial level
+chosunbaby,h14y11,-1,1,noerror,not excluding for age at trial level
+chosunbaby,h14y11,1,1,noerror,not excluding for age at trial level
+chosunbaby,h14y11,2,1,noerror,not excluding for age at trial level
+chosunbaby,h14y11,3,1,noerror,not excluding for age at trial level
+chosunbaby,h14y11,4,1,noerror,not excluding for age at trial level
+chosunbaby,h14y11,5,1,noerror,not excluding for age at trial level
+chosunbaby,h14y11,6,1,noerror,not excluding for age at trial level
+chosunbaby,h14y11,7,1,noerror,not excluding for age at trial level
+chosunbaby,h14y11,8,1,noerror,not excluding for age at trial level
+chosunbaby,h14y11,9,1,noerror,not excluding for age at trial level
+chosunbaby,h14y11,10,1,noerror,not excluding for age at trial level
+chosunbaby,h14y11,11,1,noerror,not excluding for age at trial level
+chosunbaby,h14y11,12,1,noerror,not excluding for age at trial level
+chosunbaby,h14y11,13,1,noerror,not excluding for age at trial level
+chosunbaby,h14y11,14,1,noerror,not excluding for age at trial level
+chosunbaby,h14y11,15,1,noerror,not excluding for age at trial level
+chosunbaby,h14y11,16,1,noerror,not excluding for age at trial level
+chosunbaby,h15y12,-2,1,noerror,not excluding for age at trial level
+chosunbaby,h15y12,-1,1,noerror,not excluding for age at trial level
+chosunbaby,h15y12,1,1,noerror,not excluding for age at trial level
+chosunbaby,h15y12,2,1,noerror,not excluding for age at trial level
+chosunbaby,h15y12,3,1,noerror,not excluding for age at trial level
+chosunbaby,h15y12,4,1,noerror,not excluding for age at trial level
+chosunbaby,h15y12,5,1,noerror,not excluding for age at trial level
+chosunbaby,h15y12,6,1,noerror,not excluding for age at trial level
+chosunbaby,h15y12,7,1,noerror,not excluding for age at trial level
+chosunbaby,h15y12,8,1,noerror,not excluding for age at trial level
+chosunbaby,h15y12,9,1,noerror,not excluding for age at trial level
+chosunbaby,h15y12,10,1,noerror,not excluding for age at trial level
+chosunbaby,h15y12,11,1,noerror,not excluding for age at trial level
+chosunbaby,h15y12,12,1,noerror,not excluding for age at trial level
+chosunbaby,h15y12,13,1,noerror,not excluding for age at trial level
+chosunbaby,h15y12,14,1,noerror,not excluding for age at trial level
+chosunbaby,h15y12,15,1,noerror,not excluding for age at trial level
+chosunbaby,h15y12,16,1,noerror,not excluding for age at trial level
+chosunbaby,h22y18,-2,1,noerror,not excluding for age at trial level
+chosunbaby,h22y18,-1,1,noerror,not excluding for age at trial level
+chosunbaby,h22y18,1,1,noerror,not excluding for age at trial level
+chosunbaby,h22y18,2,1,noerror,not excluding for age at trial level
+chosunbaby,h22y18,3,1,noerror,not excluding for age at trial level
+chosunbaby,h22y18,4,1,noerror,not excluding for age at trial level
+chosunbaby,h22y18,5,1,noerror,not excluding for age at trial level
+chosunbaby,h22y18,6,1,noerror,not excluding for age at trial level
+chosunbaby,h22y18,7,1,noerror,not excluding for age at trial level
+chosunbaby,h22y18,8,1,noerror,not excluding for age at trial level
+chosunbaby,h22y18,9,1,noerror,not excluding for age at trial level
+chosunbaby,h22y18,10,1,noerror,not excluding for age at trial level
+chosunbaby,h22y18,11,1,noerror,not excluding for age at trial level
+chosunbaby,h22y18,12,1,noerror,not excluding for age at trial level
+chosunbaby,h22y18,13,1,noerror,not excluding for age at trial level
+chosunbaby,h22y18,14,1,noerror,not excluding for age at trial level
+chosunbaby,h22y18,15,1,noerror,not excluding for age at trial level
+chosunbaby,h22y18,16,1,noerror,not excluding for age at trial level
+chosunbaby,h27y20,-2,1,noerror,not excluding for age at trial level
+chosunbaby,h27y20,-1,1,noerror,not excluding for age at trial level
+chosunbaby,h27y20,1,1,noerror,not excluding for age at trial level
+chosunbaby,h27y20,2,1,noerror,not excluding for age at trial level
+chosunbaby,h27y20,3,1,noerror,not excluding for age at trial level
+chosunbaby,h27y20,4,1,noerror,not excluding for age at trial level
+chosunbaby,h27y20,5,1,noerror,not excluding for age at trial level
+chosunbaby,h27y20,6,1,noerror,not excluding for age at trial level
+chosunbaby,h27y20,7,1,noerror,not excluding for age at trial level
+chosunbaby,h27y20,8,1,noerror,not excluding for age at trial level
+chosunbaby,h27y20,9,1,noerror,not excluding for age at trial level
+chosunbaby,h27y20,10,1,noerror,not excluding for age at trial level
+chosunbaby,h27y20,11,1,noerror,not excluding for age at trial level
+chosunbaby,h27y20,12,1,noerror,not excluding for age at trial level
+chosunbaby,h27y20,13,1,noerror,not excluding for age at trial level
+chosunbaby,h27y20,14,1,noerror,not excluding for age at trial level
+chosunbaby,h27y20,15,1,noerror,not excluding for age at trial level
+chosunbaby,h27y20,16,1,noerror,not excluding for age at trial level
+chosunbaby,h31y24,-2,1,noerror,not excluding for age at trial level
+chosunbaby,h31y24,-1,1,noerror,not excluding for age at trial level
+chosunbaby,h31y24,1,1,noerror,not excluding for age at trial level
+chosunbaby,h31y24,2,1,noerror,not excluding for age at trial level
+chosunbaby,h31y24,3,1,noerror,not excluding for age at trial level
+chosunbaby,h31y24,4,1,noerror,not excluding for age at trial level
+chosunbaby,h31y24,5,1,noerror,not excluding for age at trial level
+chosunbaby,h31y24,6,1,noerror,not excluding for age at trial level
+chosunbaby,h31y24,7,1,noerror,not excluding for age at trial level
+chosunbaby,h31y24,8,1,noerror,not excluding for age at trial level
+chosunbaby,h31y24,9,1,noerror,not excluding for age at trial level
+chosunbaby,h31y24,10,1,noerror,not excluding for age at trial level
+chosunbaby,h31y24,11,1,noerror,not excluding for age at trial level
+chosunbaby,h31y24,12,1,noerror,not excluding for age at trial level
+chosunbaby,h31y24,13,1,noerror,not excluding for age at trial level
+chosunbaby,h31y24,14,1,noerror,not excluding for age at trial level
+chosunbaby,h31y24,15,1,noerror,not excluding for age at trial level
+chosunbaby,h31y24,16,1,noerror,not excluding for age at trial level
+chosunbaby,h35y25,-2,1,noerror,not excluding for age at trial level
+chosunbaby,h35y25,-1,1,noerror,not excluding for age at trial level
+chosunbaby,h35y25,1,1,noerror,not excluding for age at trial level
+chosunbaby,h35y25,2,1,noerror,not excluding for age at trial level
+chosunbaby,h35y25,3,1,noerror,not excluding for age at trial level
+chosunbaby,h35y25,4,1,noerror,not excluding for age at trial level
+chosunbaby,h35y25,5,1,noerror,not excluding for age at trial level
+chosunbaby,h35y25,6,1,noerror,not excluding for age at trial level
+chosunbaby,h35y25,7,1,noerror,not excluding for age at trial level
+chosunbaby,h35y25,8,1,noerror,not excluding for age at trial level
+chosunbaby,h35y25,9,1,noerror,not excluding for age at trial level
+chosunbaby,h35y25,10,1,noerror,not excluding for age at trial level
+chosunbaby,h35y25,11,1,noerror,not excluding for age at trial level
+chosunbaby,h35y25,12,1,noerror,not excluding for age at trial level
+chosunbaby,h35y25,13,1,noerror,not excluding for age at trial level
+chosunbaby,h35y25,14,1,noerror,not excluding for age at trial level
+chosunbaby,h35y25,15,1,noerror,not excluding for age at trial level
+chosunbaby,h35y25,16,1,noerror,not excluding for age at trial level
+chosunbaby,h39y26,-2,1,noerror,not excluding for age at trial level
+chosunbaby,h39y26,-1,1,noerror,not excluding for age at trial level
+chosunbaby,h39y26,1,1,noerror,not excluding for age at trial level
+chosunbaby,h39y26,2,1,noerror,not excluding for age at trial level
+chosunbaby,h39y26,3,1,noerror,not excluding for age at trial level
+chosunbaby,h39y26,4,1,noerror,not excluding for age at trial level
+chosunbaby,h39y26,5,1,noerror,not excluding for age at trial level
+chosunbaby,h39y26,6,1,noerror,not excluding for age at trial level
+chosunbaby,h39y26,7,1,noerror,not excluding for age at trial level
+chosunbaby,h39y26,8,1,noerror,not excluding for age at trial level
+chosunbaby,h39y26,9,1,noerror,not excluding for age at trial level
+chosunbaby,h39y26,10,1,noerror,not excluding for age at trial level
+chosunbaby,h39y26,11,1,noerror,not excluding for age at trial level
+chosunbaby,h39y26,12,1,noerror,not excluding for age at trial level
+chosunbaby,h39y26,13,1,noerror,not excluding for age at trial level
+chosunbaby,h39y26,14,1,noerror,not excluding for age at trial level
+chosunbaby,h39y26,15,1,noerror,not excluding for age at trial level
+chosunbaby,h39y26,16,1,noerror,not excluding for age at trial level
+chosunbaby,h41y28,-2,1,noerror,not excluding for age at trial level
+chosunbaby,h41y28,-1,1,noerror,not excluding for age at trial level
+chosunbaby,h41y28,1,1,noerror,not excluding for age at trial level
+chosunbaby,h41y28,2,1,noerror,not excluding for age at trial level
+chosunbaby,h41y28,3,1,noerror,not excluding for age at trial level
+chosunbaby,h41y28,4,1,noerror,not excluding for age at trial level
+chosunbaby,h41y28,5,1,noerror,not excluding for age at trial level
+chosunbaby,h41y28,6,1,noerror,not excluding for age at trial level
+chosunbaby,h41y28,7,1,noerror,not excluding for age at trial level
+chosunbaby,h41y28,8,1,noerror,not excluding for age at trial level
+chosunbaby,h41y28,9,1,noerror,not excluding for age at trial level
+chosunbaby,h41y28,10,1,noerror,not excluding for age at trial level
+chosunbaby,h41y28,11,1,noerror,not excluding for age at trial level
+chosunbaby,h41y28,12,1,noerror,not excluding for age at trial level
+chosunbaby,h41y28,13,1,noerror,not excluding for age at trial level
+chosunbaby,h41y28,14,1,noerror,not excluding for age at trial level
+chosunbaby,h41y28,15,1,noerror,not excluding for age at trial level
+chosunbaby,h41y28,16,1,noerror,not excluding for age at trial level
+chosunbaby,h42y29,-2,1,noerror,not excluding for age at trial level
+chosunbaby,h42y29,-1,1,noerror,not excluding for age at trial level
+chosunbaby,h42y29,1,1,noerror,not excluding for age at trial level
+chosunbaby,h42y29,2,1,noerror,not excluding for age at trial level
+chosunbaby,h42y29,3,1,noerror,not excluding for age at trial level
+chosunbaby,h42y29,4,1,noerror,not excluding for age at trial level
+chosunbaby,h42y29,5,1,noerror,not excluding for age at trial level
+chosunbaby,h42y29,6,1,noerror,not excluding for age at trial level
+chosunbaby,h42y29,7,1,noerror,not excluding for age at trial level
+chosunbaby,h42y29,8,1,noerror,not excluding for age at trial level
+chosunbaby,h42y29,9,1,noerror,not excluding for age at trial level
+chosunbaby,h42y29,10,1,noerror,not excluding for age at trial level
+chosunbaby,h42y29,11,1,noerror,not excluding for age at trial level
+chosunbaby,h42y29,12,1,noerror,not excluding for age at trial level
+chosunbaby,h42y29,13,1,noerror,not excluding for age at trial level
+chosunbaby,h42y29,14,1,noerror,not excluding for age at trial level
+chosunbaby,h42y29,15,1,noerror,not excluding for age at trial level
+chosunbaby,h42y29,16,1,noerror,not excluding for age at trial level
+chosunbaby,h47y32,-2,1,noerror,not excluding for age at trial level
+chosunbaby,h47y32,-1,1,noerror,not excluding for age at trial level
+chosunbaby,h47y32,1,1,noerror,not excluding for age at trial level
+chosunbaby,h47y32,2,1,noerror,not excluding for age at trial level
+chosunbaby,h47y32,3,1,noerror,not excluding for age at trial level
+chosunbaby,h47y32,4,1,noerror,not excluding for age at trial level
+chosunbaby,h47y32,5,1,noerror,not excluding for age at trial level
+chosunbaby,h47y32,6,1,noerror,not excluding for age at trial level
+chosunbaby,h47y32,7,1,noerror,not excluding for age at trial level
+chosunbaby,h47y32,8,1,noerror,not excluding for age at trial level
+chosunbaby,h47y32,9,1,noerror,not excluding for age at trial level
+chosunbaby,h47y32,10,1,noerror,not excluding for age at trial level
+chosunbaby,h47y32,11,1,noerror,not excluding for age at trial level
+chosunbaby,h47y32,12,1,noerror,not excluding for age at trial level
+chosunbaby,h47y32,13,1,noerror,not excluding for age at trial level
+chosunbaby,h47y32,14,1,noerror,not excluding for age at trial level
+chosunbaby,h47y32,15,1,noerror,not excluding for age at trial level
+chosunbaby,h47y32,16,1,noerror,not excluding for age at trial level
+chosunbaby,h59y41,-2,1,noerror,not excluding for age at trial level
+chosunbaby,h59y41,-1,1,noerror,not excluding for age at trial level
+chosunbaby,h59y41,1,1,noerror,not excluding for age at trial level
+chosunbaby,h59y41,2,1,noerror,not excluding for age at trial level
+chosunbaby,h59y41,3,1,noerror,not excluding for age at trial level
+chosunbaby,h59y41,4,1,noerror,not excluding for age at trial level
+chosunbaby,h59y41,5,1,noerror,not excluding for age at trial level
+chosunbaby,h59y41,6,1,noerror,not excluding for age at trial level
+chosunbaby,h59y41,7,1,noerror,not excluding for age at trial level
+chosunbaby,h59y41,8,1,noerror,not excluding for age at trial level
+chosunbaby,h59y41,9,1,noerror,not excluding for age at trial level
+chosunbaby,h59y41,10,1,noerror,not excluding for age at trial level
+chosunbaby,h59y41,11,1,noerror,not excluding for age at trial level
+chosunbaby,h59y41,12,1,noerror,not excluding for age at trial level
+chosunbaby,h59y41,13,1,noerror,not excluding for age at trial level
+chosunbaby,h59y41,14,1,noerror,not excluding for age at trial level
+chosunbaby,h59y41,15,1,noerror,not excluding for age at trial level
+chosunbaby,h59y41,16,1,noerror,not excluding for age at trial level
+chosunbaby,h32o08,-2,1,noerror,not excluding for age at trial level
+chosunbaby,h32o08,-1,1,noerror,not excluding for age at trial level
+chosunbaby,h32o08,1,1,noerror,not excluding for age at trial level
+chosunbaby,h32o08,2,1,noerror,not excluding for age at trial level
+chosunbaby,h32o08,3,1,noerror,not excluding for age at trial level
+chosunbaby,h32o08,4,1,noerror,not excluding for age at trial level
+chosunbaby,h32o08,5,1,noerror,not excluding for age at trial level
+chosunbaby,h32o08,6,1,noerror,not excluding for age at trial level
+chosunbaby,h32o08,7,1,noerror,not excluding for age at trial level
+chosunbaby,h32o08,8,1,noerror,not excluding for age at trial level
+chosunbaby,h32o08,9,1,noerror,not excluding for age at trial level
+chosunbaby,h32o08,10,1,noerror,not excluding for age at trial level
+chosunbaby,h32o08,11,1,noerror,not excluding for age at trial level
+chosunbaby,h32o08,12,1,noerror,not excluding for age at trial level
+chosunbaby,h32o08,13,1,noerror,not excluding for age at trial level
+chosunbaby,h32o08,14,1,noerror,not excluding for age at trial level
+chosunbaby,h32o08,15,1,noerror,not excluding for age at trial level
+chosunbaby,h32o08,16,1,noerror,not excluding for age at trial level
+chosunbaby,h33o09,-2,1,noerror,not excluding for age at trial level
+chosunbaby,h33o09,-1,1,noerror,not excluding for age at trial level
+chosunbaby,h33o09,1,1,noerror,not excluding for age at trial level
+chosunbaby,h33o09,2,1,noerror,not excluding for age at trial level
+chosunbaby,h33o09,3,1,noerror,not excluding for age at trial level
+chosunbaby,h33o09,4,1,noerror,not excluding for age at trial level
+chosunbaby,h33o09,5,1,noerror,not excluding for age at trial level
+chosunbaby,h33o09,6,1,noerror,not excluding for age at trial level
+chosunbaby,h33o09,7,1,noerror,not excluding for age at trial level
+chosunbaby,h33o09,8,1,noerror,not excluding for age at trial level
+chosunbaby,h33o09,9,1,noerror,not excluding for age at trial level
+chosunbaby,h33o09,10,1,noerror,not excluding for age at trial level
+chosunbaby,h33o09,11,1,noerror,not excluding for age at trial level
+chosunbaby,h33o09,12,1,noerror,not excluding for age at trial level
+chosunbaby,h33o09,13,1,noerror,not excluding for age at trial level
+chosunbaby,h33o09,14,1,noerror,not excluding for age at trial level
+chosunbaby,h33o09,15,1,noerror,not excluding for age at trial level
+chosunbaby,h33o09,16,1,noerror,not excluding for age at trial level
+bcrlunlv,mb0202,-2,1,noerror,not excluding for language at trial level
+bcrlunlv,mb0202,-1,1,noerror,not excluding for language at trial level
+bcrlunlv,mb0202,1,1,noerror,not excluding for language at trial level
+bcrlunlv,mb0202,2,1,noerror,not excluding for language at trial level
+bcrlunlv,mb0202,3,1,noerror,not excluding for language at trial level
+bcrlunlv,mb0202,4,1,noerror,not excluding for language at trial level
+bcrlunlv,mb0202,5,1,noerror,not excluding for language at trial level
+bcrlunlv,mb0202,6,1,noerror,not excluding for language at trial level
+bcrlunlv,mb0202,7,1,noerror,not excluding for language at trial level
+bcrlunlv,mb0202,8,1,noerror,not excluding for language at trial level
+bcrlunlv,mb0202,9,1,noerror,not excluding for language at trial level
+bcrlunlv,mb0202,10,1,noerror,not excluding for language at trial level
+bcrlunlv,mb0202,11,1,noerror,not excluding for language at trial level
+bcrlunlv,mb0202,12,1,noerror,not excluding for language at trial level
+bcrlunlv,mb0202,13,1,noerror,not excluding for language at trial level
+bcrlunlv,mb0202,14,1,noerror,not excluding for language at trial level
+bcrlunlv,mb0202,15,1,noerror,not excluding for language at trial level
+bcrlunlv,mb0202,16,1,noerror,not excluding for language at trial level
+bcrlunlv,mb1204,-2,1,noerror,not excluding for preterm at trial level
+bcrlunlv,mb1204,-1,1,noerror,not excluding for preterm at trial level
+bcrlunlv,mb1204,1,1,noerror,not excluding for preterm at trial level
+bcrlunlv,mb1204,2,1,noerror,not excluding for preterm at trial level
+bcrlunlv,mb1204,3,1,noerror,not excluding for preterm at trial level
+bcrlunlv,mb1204,4,1,noerror,not excluding for preterm at trial level
+bcrlunlv,mb1204,5,1,noerror,not excluding for preterm at trial level
+bcrlunlv,mb1204,6,1,noerror,not excluding for preterm at trial level
+bcrlunlv,mb1204,7,1,noerror,not excluding for preterm at trial level
+bcrlunlv,mb1204,8,1,noerror,not excluding for preterm at trial level
+bcrlunlv,mb1204,9,1,noerror,not excluding for preterm at trial level
+bcrlunlv,mb1204,10,1,noerror,not excluding for preterm at trial level
+bcrlunlv,mb1204,11,1,noerror,not excluding for preterm at trial level
+bcrlunlv,mb1204,12,1,noerror,not excluding for preterm at trial level
+bcrlunlv,mb1204,13,1,noerror,not excluding for preterm at trial level
+bcrlunlv,mb1204,14,1,noerror,not excluding for preterm at trial level
+bcrlunlv,mb1204,15,1,noerror,not excluding for preterm at trial level
+bcrlunlv,mb1204,16,1,noerror,not excluding for preterm at trial level
+bcrlunlv,mb2204,-2,1,noerror,not excluding for preterm at trial level
+bcrlunlv,mb2204,-1,1,noerror,not excluding for preterm at trial level
+bcrlunlv,mb2204,1,1,noerror,not excluding for preterm at trial level
+bcrlunlv,mb2204,2,1,noerror,not excluding for preterm at trial level
+bcrlunlv,mb2204,3,1,noerror,not excluding for preterm at trial level
+bcrlunlv,mb2204,4,1,noerror,not excluding for preterm at trial level
+bcrlunlv,mb2204,5,1,noerror,not excluding for preterm at trial level
+bcrlunlv,mb2204,6,1,noerror,not excluding for preterm at trial level
+infantlanglabutk,mbir134fs7,-2,1,noerror,not excluding for age at trial level
+infantlanglabutk,mbir134fs7,-1,1,noerror,not excluding for age at trial level
+infantlanglabutk,mbir134fs7,1,1,noerror,not excluding for age at trial level
+infantlanglabutk,mbir134fs7,2,1,noerror,not excluding for age at trial level
+infantlanglabutk,mbir134fs7,3,1,noerror,not excluding for age at trial level
+infantlanglabutk,mbir134fs7,4,1,noerror,not excluding for age at trial level
+infantlanglabutk,mbir134fs7,5,1,noerror,not excluding for age at trial level
+infantlanglabutk,mbir134fs7,6,1,noerror,not excluding for age at trial level
+infantlanglabutk,mbir134fs7,7,1,noerror,not excluding for age at trial level
+infantlanglabutk,mbir134fs7,8,1,noerror,not excluding for age at trial level
+infantlanglabutk,mbir134fs7,9,1,noerror,not excluding for age at trial level
+infantlanglabutk,mbir134fs7,10,1,noerror,not excluding for age at trial level
+infantlanglabutk,mbir134fs7,11,1,noerror,not excluding for age at trial level
+infantlanglabutk,mbir134fs7,12,1,noerror,not excluding for age at trial level
+infantlanglabutk,mbir134fs7,13,1,noerror,not excluding for age at trial level
+infantlanglabutk,mbir134fs7,14,1,noerror,not excluding for age at trial level
+infantlanglabutk,mbir134fs7,15,1,noerror,not excluding for age at trial level
+infantlanglabutk,mbir134fs7,16,1,noerror,not excluding for age at trial level
+infantlanglabutk,mbir64ms9,-2,1,noerror,not excluding for language at trial level
+infantlanglabutk,mbir64ms9,-1,1,noerror,not excluding for language at trial level
+infantlanglabutk,mbir64ms9,1,1,noerror,not excluding for language at trial level
+infantlanglabutk,mbir64ms9,2,1,noerror,not excluding for language at trial level
+infantlanglabutk,mbir64ms9,3,1,noerror,not excluding for language at trial level
+infantlanglabutk,mbir64ms9,4,1,noerror,not excluding for language at trial level
+infantlanglabutk,mbir64ms9,5,1,noerror,not excluding for language at trial level
+infantlanglabutk,mbir64ms9,6,1,noerror,not excluding for language at trial level
+infantlanglabutk,mbir64ms9,7,1,noerror,not excluding for language at trial level
+infantlanglabutk,mbir64ms9,8,1,noerror,not excluding for language at trial level
+infantlanglabutk,mbir64ms9,9,1,noerror,not excluding for language at trial level
+infantlanglabutk,mbir64ms9,10,1,noerror,not excluding for language at trial level
+infantlanglabutk,mbir64ms9,11,1,noerror,not excluding for language at trial level
+infantlanglabutk,mbir64ms9,12,1,noerror,not excluding for language at trial level
+infantlanglabutk,mbir64ms9,13,1,noerror,not excluding for language at trial level
+infantlanglabutk,mbir64ms9,14,1,noerror,not excluding for language at trial level
+infantlanglabutk,mbir64ms9,15,1,noerror,not excluding for language at trial level
+infantlanglabutk,mbir64ms9,16,1,noerror,not excluding for language at trial level
+islnotredame,p38mb21,-2,1,noerror,not excluding for language at trial level
+islnotredame,p38mb21,-1,1,noerror,not excluding for language at trial level
+islnotredame,p38mb21,1,1,noerror,not excluding for language at trial level
+islnotredame,p38mb21,2,1,noerror,not excluding for language at trial level
+islnotredame,p38mb21,3,1,noerror,not excluding for language at trial level
+islnotredame,p38mb21,4,1,noerror,not excluding for language at trial level
+islnotredame,p38mb21,5,1,noerror,not excluding for language at trial level
+islnotredame,p38mb21,6,1,noerror,not excluding for language at trial level
+islnotredame,p38mb21,7,1,noerror,not excluding for language at trial level
+islnotredame,p38mb21,8,1,noerror,not excluding for language at trial level
+islnotredame,p38mb21,9,1,noerror,not excluding for language at trial level
+islnotredame,p38mb21,10,1,noerror,not excluding for language at trial level
+islnotredame,p38mb21,11,1,noerror,not excluding for language at trial level
+islnotredame,p38mb21,12,1,noerror,not excluding for language at trial level
+islnotredame,p38mb21,13,1,noerror,not excluding for language at trial level
+islnotredame,p38mb21,14,1,noerror,not excluding for language at trial level
+islnotredame,p38mb21,15,1,noerror,not excluding for language at trial level
+islnotredame,p38mb21,16,1,noerror,not excluding for language at trial level
+ldlottawa,mbms12,-2,1,noerror,not excluding for age at trial level
+ldlottawa,mbms12,-1,1,noerror,not excluding for age at trial level
+ldlottawa,mbms12,1,1,noerror,not excluding for age at trial level
+ldlottawa,mbms12,2,1,noerror,not excluding for age at trial level
+ldlottawa,mbms12,3,1,noerror,not excluding for age at trial level
+ldlottawa,mbms12,4,1,noerror,not excluding for age at trial level
+ldlottawa,mbms12,5,1,noerror,not excluding for age at trial level
+ldlottawa,mbms12,6,1,noerror,not excluding for age at trial level
+ldlottawa,mbms12,7,1,noerror,not excluding for age at trial level
+ldlottawa,mbms12,8,1,noerror,not excluding for age at trial level
+ldlottawa,mbms12,9,1,noerror,not excluding for age at trial level
+ldlottawa,mbms12,10,1,noerror,not excluding for age at trial level
+ldlottawa,mbms12,11,1,noerror,not excluding for age at trial level
+ldlottawa,mbms12,12,1,noerror,not excluding for age at trial level
+ldlottawa,mbms12,13,1,noerror,not excluding for age at trial level
+ldlottawa,mbms12,14,1,noerror,not excluding for age at trial level
+ldlottawa,mbms12,15,1,noerror,not excluding for age at trial level
+ldlottawa,mbms12,16,1,noerror,not excluding for age at trial level
+ldlottawa,mbms20,-2,1,noerror,not excluding for age at trial level
+ldlottawa,mbms20,-1,1,noerror,not excluding for age at trial level
+ldlottawa,mbms20,1,1,noerror,not excluding for age at trial level
+ldlottawa,mbms20,2,1,noerror,not excluding for age at trial level
+ldlottawa,mbms20,3,1,noerror,not excluding for age at trial level
+ldlottawa,mbms20,4,1,noerror,not excluding for age at trial level
+ldlottawa,mbms20,5,1,noerror,not excluding for age at trial level
+ldlottawa,mbms20,6,1,noerror,not excluding for age at trial level
+ldlottawa,mbms20,7,1,noerror,not excluding for age at trial level
+ldlottawa,mbms20,8,1,noerror,not excluding for age at trial level
+ldlottawa,mbms20,9,1,noerror,not excluding for age at trial level
+ldlottawa,mbms20,10,1,noerror,not excluding for age at trial level
+ldlottawa,mbms20,11,1,noerror,not excluding for age at trial level
+ldlottawa,mbms20,12,1,noerror,not excluding for age at trial level
+ldlottawa,mbms20,13,1,noerror,not excluding for age at trial level
+ldlottawa,mbms20,14,1,noerror,not excluding for age at trial level
+ldlottawa,mbms20,15,1,noerror,not excluding for age at trial level
+ldlottawa,mbms20,16,1,noerror,not excluding for age at trial level
+ldlottawa,mbms21,-2,1,noerror,not excluding for age at trial level
+ldlottawa,mbms21,-1,1,noerror,not excluding for age at trial level
+ldlottawa,mbms21,1,1,noerror,not excluding for age at trial level
+ldlottawa,mbms21,2,1,noerror,not excluding for age at trial level
+ldlottawa,mbms21,3,1,noerror,not excluding for age at trial level
+ldlottawa,mbms21,4,1,noerror,not excluding for age at trial level
+ldlottawa,mbms21,5,1,noerror,not excluding for age at trial level
+ldlottawa,mbms21,6,1,noerror,not excluding for age at trial level
+ldlottawa,mbms21,7,1,noerror,not excluding for age at trial level
+ldlottawa,mbms21,8,1,noerror,not excluding for age at trial level
+ldlottawa,mbms21,9,1,noerror,not excluding for age at trial level
+ldlottawa,mbms21,10,1,noerror,not excluding for age at trial level
+ldlottawa,mbms21,11,1,noerror,not excluding for age at trial level
+ldlottawa,mbms21,12,1,noerror,not excluding for age at trial level
+ldlottawa,mbms21,13,1,noerror,not excluding for age at trial level
+ldlottawa,mbms21,14,1,noerror,not excluding for age at trial level
+ldlottawa,mbms21,15,1,noerror,not excluding for age at trial level
+ldlottawa,mbms21,16,1,noerror,not excluding for age at trial level
+ldlottawa,mbms34,-2,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms34,-1,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms34,1,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms34,2,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms34,3,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms34,4,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms34,5,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms34,6,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms34,7,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms34,8,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms34,9,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms34,10,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms34,11,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms34,12,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms34,13,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms34,14,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms34,15,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms34,16,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms35,-2,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms35,-1,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms35,1,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms35,2,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms35,3,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms35,4,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms35,5,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms35,6,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms35,7,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms35,8,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms35,9,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms35,10,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms35,11,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms35,12,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms35,13,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms35,14,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms35,15,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms35,16,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms49,-2,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms49,-1,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms49,1,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms49,2,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms49,3,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms49,4,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms49,5,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms49,6,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms49,7,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms49,8,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms49,9,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms49,10,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms49,11,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms49,12,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms49,13,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms49,14,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms49,15,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms49,16,1,noerror,not excluding for preterm at trial level
+ldlottawa,mbms57,-2,1,noerror,not excluding for age at trial level
+ldlottawa,mbms57,-1,1,noerror,not excluding for age at trial level
+ldlottawa,mbms57,1,1,noerror,not excluding for age at trial level
+ldlottawa,mbms57,2,1,noerror,not excluding for age at trial level
+ldlottawa,mbms57,3,1,noerror,not excluding for age at trial level
+ldlottawa,mbms57,4,1,noerror,not excluding for age at trial level
+ldlottawa,mbms57,5,1,noerror,not excluding for age at trial level
+ldlottawa,mbms57,6,1,noerror,not excluding for age at trial level
+ldlottawa,mbms57,7,1,noerror,not excluding for age at trial level
+ldlottawa,mbms57,8,1,noerror,not excluding for age at trial level
+ldlottawa,mbms57,9,1,noerror,not excluding for age at trial level
+ldlottawa,mbms57,10,1,noerror,not excluding for age at trial level
+ldlottawa,mbms57,11,1,noerror,not excluding for age at trial level
+ldlottawa,mbms57,12,1,noerror,not excluding for age at trial level
+ldlottawa,mbms57,13,1,noerror,not excluding for age at trial level
+ldlottawa,mbms57,14,1,noerror,not excluding for age at trial level
+ldlottawa,mbms57,15,1,noerror,not excluding for age at trial level
+ldlottawa,mbms57,16,1,noerror,not excluding for age at trial level
+ldlottawa,mbms58,-2,1,noerror,not excluding for age at trial level
+ldlottawa,mbms58,-1,1,noerror,not excluding for age at trial level
+ldlottawa,mbms58,1,1,noerror,not excluding for age at trial level
+ldlottawa,mbms58,2,1,noerror,not excluding for age at trial level
+ldlottawa,mbms58,3,1,noerror,not excluding for age at trial level
+ldlottawa,mbms58,4,1,noerror,not excluding for age at trial level
+ldlottawa,mbms58,5,1,noerror,not excluding for age at trial level
+ldlottawa,mbms58,6,1,noerror,not excluding for age at trial level
+ldlottawa,mbms58,7,1,noerror,not excluding for age at trial level
+ldlottawa,mbms58,8,1,noerror,not excluding for age at trial level
+ldlottawa,mbms58,9,1,noerror,not excluding for age at trial level
+ldlottawa,mbms58,10,1,noerror,not excluding for age at trial level
+ldlottawa,mbms58,11,1,noerror,not excluding for age at trial level
+ldlottawa,mbms58,12,1,noerror,not excluding for age at trial level
+ldlottawa,mbms58,13,1,noerror,not excluding for age at trial level
+ldlottawa,mbms58,14,1,noerror,not excluding for age at trial level
+ldlottawa,mbms58,15,1,noerror,not excluding for age at trial level
+ldlottawa,mbms58,16,1,noerror,not excluding for age at trial level
+lppparisdescartes2,mb15af,16,1,error,needs to be coded as an error trial based on lab notes
+lppparisdescartes2,mb21np,14,1,error,needs to be coded as an error trial based on lab notes
+lppparisdescartes2,mb21np,15,1,error,needs to be coded as an error trial based on lab notes
+lancaster,14mb03,9,1,error,exclude as error based on lab response
+lancaster,14mb03,10,1,error,exclude as error based on lab response
+lancaster,14mb03,11,1,error,exclude as error based on lab response
+lancaster,14mb03,12,1,error,exclude as error based on lab response
+lancaster,14mb03,13,1,error,exclude as error based on lab response
+lancaster,14mb03,14,1,error,exclude as error based on lab response
+lancaster,14mb03,15,1,error,exclude as error based on lab response
+lancaster,14mb03,16,1,error,exclude as error based on lab response
+lancaster,14mb25,-1,1,error,exclude based on lab response
+lancaster,14mb25,1,1,error,exclude based on lab response
+lancaster,14mb25,8,1,error,exclude based on lab response
+lancaster,14mb25,9,1,error,exclude based on lab response
+lancaster,14mb25,10,1,error,exclude based on lab response
+lancaster,14mb25,11,1,error,exclude based on lab response
+lancaster,14mb25,12,1,error,exclude based on lab response
+lancaster,8mb04,9,1,error,needs to be coded as an error trial based on lab notes
+lancaster,8mb04,10,1,error,needs to be coded as an error trial based on lab notes
+lancaster,8mb04,11,1,error,needs to be coded as an error trial based on lab notes
+lancaster,8mb04,12,1,error,needs to be coded as an error trial based on lab notes
+lancaster,8mb04,13,1,error,needs to be coded as an error trial based on lab notes
+lancaster,8mb04,14,1,error,needs to be coded as an error trial based on lab notes
+lancaster,8mb04,15,1,error,needs to be coded as an error trial based on lab notes
+lancaster,8mb04,16,1,error,needs to be coded as an error trial based on lab notes
+lancaster,8mb10,8,1,error,needs to be coded as an error trial based on lab notes
+lancaster,8mb10,9,1,error,needs to be coded as an error trial based on lab notes
+lancaster,8mb10,10,1,error,needs to be coded as an error trial based on lab notes
+lancaster,8mb10,11,1,error,needs to be coded as an error trial based on lab notes
+lancaster,8mb10,12,1,error,needs to be coded as an error trial based on lab notes
+lancaster,8mb10,13,1,error,needs to be coded as an error trial based on lab notes
+lancaster,8mb10,14,1,error,needs to be coded as an error trial based on lab notes
+lancaster,8mb10,15,1,error,needs to be coded as an error trial based on lab notes
+lancaster,8mb10,16,1,error,needs to be coded as an error trial based on lab notes
+infantcoglablouisville,236607,13,1,error,needs to be coded as an error trial based on lab notes
+infantcoglablouisville,236607,14,1,error,needs to be coded as an error trial based on lab notes
+infantcoglablouisville,236607,15,1,error,needs to be coded as an error trial based on lab notes
+infantcoglablouisville,236607,16,1,error,needs to be coded as an error trial based on lab notes
+infantllmadison,mb009,10,1,error,remove these trials due to procedure error affecting all later trials
+infantllmadison,mb009,12,1,error,remove these trials due to procedure error affecting all later trials
+infantllmadison,mb009,14,1,error,remove these trials due to procedure error affecting all later trials
+infantllmadison,mb009,16,1,error,remove these trials due to procedure error affecting all later trials
+infantllmadison,mb012,8,1,error,remove these trials due to procedure error affecting all later trials
+infantllmadison,mb012,9,1,error,remove these trials due to procedure error affecting all later trials
+infantllmadison,mb012,12,1,error,remove these trials due to procedure error affecting all later trials
+infantllmadison,mb012,13,1,error,remove these trials due to procedure error affecting all later trials
+infantllmadison,mb012,15,1,error,remove these trials due to procedure error affecting all later trials
+purdueinfantspeech,4337,10,1,error,should be trial errors rather than session error
+purdueinfantspeech,4337,11,1,error,should be trial errors rather than session error
+purdueinfantspeech,4337,12,1,error,should be trial errors rather than session error
+purdueinfantspeech,4337,13,1,error,should be trial errors rather than session error
+purdueinfantspeech,4337,14,1,error,should be trial errors rather than session error
+purdueinfantspeech,4337,15,1,error,should be trial errors rather than session error
+purdueinfantspeech,4337,16,1,error,should be trial errors rather than session error
+babylabuclajohnson,10055,-2,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10055,-1,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10055,1,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10055,2,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10055,3,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10055,4,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10055,5,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10055,6,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10055,7,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10055,8,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10055,9,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10055,10,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10055,11,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10055,12,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10055,13,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10055,14,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10055,15,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10055,16,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10586,-2,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10586,-1,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10586,1,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10586,2,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10586,3,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10586,4,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10586,5,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10586,6,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10586,7,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10586,8,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10586,9,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10586,13,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10586,14,1,error,trial level error for fussiness previoulsy coded as session level error
+babylabuclajohnson,10586,16,1,error,trial level error for fussiness previoulsy coded as session level error
+infantcoglablouisville,234580,7,1,error,expeiment was terminated here due to fussiness
+infantcogubc,tp13,3,1,error,global fussiness previously coded as session level error
+minddevlabbicocca,mb04,-2,1,error,trial level error for fussiness previoulsy coded as session level error
+minddevlabbicocca,mb04,-1,1,error,trial level error for fussiness previoulsy coded as session level error
+minddevlabbicocca,mb04,1,1,error,trial level error for fussiness previoulsy coded as session level error
+minddevlabbicocca,mb04,2,1,error,trial level error for fussiness previoulsy coded as session level error
+minddevlabbicocca,mb04,3,1,error,trial level error for fussiness previoulsy coded as session level error
+minddevlabbicocca,mb04,4,1,error,trial level error for fussiness previoulsy coded as session level error
+minddevlabbicocca,mb04,5,1,error,trial level error for fussiness previoulsy coded as session level error
+minddevlabbicocca,mb04,6,1,error,trial level error for fussiness previoulsy coded as session level error
+minddevlabbicocca,mb04,7,1,error,trial level error for fussiness previoulsy coded as session level error
+minddevlabbicocca,mb04,8,1,error,trial level error for fussiness previoulsy coded as session level error
+minddevlabbicocca,mb04,9,1,error,trial level error for fussiness previoulsy coded as session level error
+minddevlabbicocca,mb04,10,1,error,trial level error for fussiness previoulsy coded as session level error
+minddevlabbicocca,mb04,11,1,error,trial level error for fussiness previoulsy coded as session level error
+minddevlabbicocca,mb04,12,1,error,trial level error for fussiness previoulsy coded as session level error
+minddevlabbicocca,mb04,13,1,error,trial level error for fussiness previoulsy coded as session level error
+minddevlabbicocca,mb04,14,1,error,trial level error for fussiness previoulsy coded as session level error
+minddevlabbicocca,mb04,15,1,error,trial level error for fussiness previoulsy coded as session level error
+minddevlabbicocca,mb04,16,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,3,-2,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,3,-1,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,3,1,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,3,2,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,3,3,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,3,4,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,3,5,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,3,6,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,3,7,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,3,8,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,3,9,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,3,10,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,3,11,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,3,12,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,3,13,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,3,14,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,3,15,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,3,16,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,20,-2,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,20,-1,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,20,1,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,20,2,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,20,3,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,20,4,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,20,5,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,20,6,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,20,7,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,20,8,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,20,9,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,20,10,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,20,11,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,20,12,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,20,13,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,20,14,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,20,15,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,20,16,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,46,-2,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,46,-1,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,46,1,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,46,2,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,46,3,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,46,4,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,46,5,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,46,6,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,46,7,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,46,8,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,46,9,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,46,10,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,46,11,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,46,12,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,46,13,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,46,14,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,46,15,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,46,16,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,64,-2,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,64,-1,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,64,1,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,64,2,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,64,3,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,64,4,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,64,5,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,64,6,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,64,7,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,64,8,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,64,9,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,64,10,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,64,11,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,64,12,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,64,13,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,64,14,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,64,15,1,error,trial level error for fussiness previoulsy coded as session level error
+udssaarland,64,16,1,error,trial level error for fussiness previoulsy coded as session level error
+lllliv,mb065,1,1,error,trial level error for fussiness previoulsy coded as session level error
+lllliv,mb065,2,1,error,trial level error for fussiness previoulsy coded as session level error
+lllliv,mb065,3,1,error,trial level error for fussiness previoulsy coded as session level error

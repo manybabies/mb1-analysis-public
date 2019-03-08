@@ -1,0 +1,366 @@
+---
+title: "MB1 Data Reading and Merge"
+author: "The ManyBabies Analysis Team"
+date: '`r format(Sys.time(), "%a %b %d %X %Y")`'
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    number_sections: yes
+---
+
+# Intro
+
+This Rmd is the first preprocessing file for the primary ManyBabies 1 (IDS Preference) dataset. The goal is to get everything into a single datafile that can be used for subsequent analyses. 
+
+These data are **extremely messy**. Every single variable has a variety of deviations from format in unpredictable ways. Thus, no property of the dataset can be taken for granted; everything must be carefully tested.
+
+Data analytic decisions:
+
+* Download and clean all data in a local copy - pulling from drive is impossible because there are so many messy aspects of the data that need to be manually corrected. 
+* Try and fix as many things as possible programmatically, e.g. so that we can reproduce it from the raw data.
+* There are some things that are really hard to fix programmatically, examples include duplicate subject IDs, misnumbering, etc. These have been fixed in the raw data, but are documented in the relevant spot (in the issues page of the mb1-analysis repository! Issues & contact to labs are documented, and issues are closed & updated when the copy of the data in `processed_data/participants_cleaned/` or `processed_data/trials_cleaned/` has been modified.)
+* Test each variable to ensure that it has the properties we want; correct errors; retest. 
+
+Outline of data analysis:
+
+* `01_read_and_merge` reads and merges the data. The goal of this file is to create a single inclusive file that has all data from all labs. 
+* `02_variable_validation` corrects errors in variables and ensures that formats are correct. 
+* `03_exclusion` reports exclusions and creates diff files. 
+* `04_confirmatory_analysis` is the set of confirmatory analyses that were preregisted (see [here](https://osf.io/grqau/))
+* `05_exploratory_analysis` contains other, non-preregistered analyses for mb1
+
+```{r setup, echo=FALSE, message=FALSE}
+source("helper/common.R")
+```
+
+Data import functions are factored into a helper functions file. 
+
+```{r}
+source("helper/preprocessing_helper.R")
+```
+    
+# Participant Import 
+
+Participant data were reported in very non-uniform formats. It is quite painful to coerce these surprisingly variant datafiles into a single file, so we take a lot of care here to check that these steps didn't introduce issues into the participant data. Lots of hand-checking is useful. 
+
+Note that so many columns were misnamed or renamed that we output a set of columns and hand-map them to their correct equivalents. This is done by reading in all files, munging col names and then outputting the unique ones. 
+
+```{r}
+participant_files <- dir("processed_data/participants_cleaned/",pattern = "*")
+col_names <- map_df(participant_files, function(fname) {
+  pd <- read_multiformat_file(path = "processed_data/participants_cleaned/",
+                              fname = fname)
+  return(data_frame(column = names(pd), file = fname))
+  }) %>%
+  mutate(column = clean_names(column)) %>%
+  group_by(column) %>%
+  mutate(file = ifelse(n() > 1, "many", file)) %>%
+  distinct()
+
+write_csv(col_names, "metadata/participants_columns_used.csv")
+```
+
+Now we create the hand-mapped column key, read it in, and re-read the files using this.  
+
+```{r}
+participants_columns <- read_csv("metadata/participants_columns_remapping.csv")
+
+#validate that all columns used by participants are in the remapping file
+see_if(all(col_names$column %in% participants_columns$column))
+
+pd_raw <- map_df(participant_files, clean_participant_file) 
+```
+
+Visualize dataset. (Transposed so that we can see the variable labels). 
+
+```{r}
+pd_raw %>%
+  vis_dat() + 
+  coord_flip()
+```
+
+```{r}
+n_participant_rows = nrow(pd_raw)
+unique_participants_by_lab = pd_raw %>%
+  group_by(lab) %>%
+  summarize(participants = n_distinct(subid))
+```
+
+Right after trial import, there are `r n_participant_rows` rows in the pd_raw dataframe; this includes data from `r length(unique_participants_by_lab$lab)` labs. The number of participants coming from each lab is as follows:
+
+```{r}
+print(unique_participants_by_lab, n=1e4)
+```
+
+# Trial Import
+
+Do the reading. 
+
+```{r}
+trial_files <- dir("processed_data/trials_cleaned/", pattern = "*")
+td_raw <- map_df(trial_files, read_trial_file) 
+```
+
+Visualization of data. 
+
+```{r}
+vis_dat(td_raw)
+```
+
+
+```{r}
+n_trial_rows = nrow(td_raw)
+```
+
+Directly after read-in, there are `r n_trial_rows` rows in td_raw, representing data from `r length(unique(td_raw$lab))` labs. 
+
+# Programmatic Pre-Merge Adjustments
+
+There are many merge problems due to inconsistencies in lab/subid across the two datasets that are reported. Therefore, we do a bunch of adjustments to name formatting - as much as possible is done here, and anything done by hand is documented via github issues (the files in `processed_data/participants_cleaned` and `trials_cleaned` are a result of that work.)
+
+```{r}
+td <- td_raw
+pd <- pd_raw
+
+# brcl is mb_0101 for trials and MB_0101 for participants
+# leeds lcdu uses mb01 in trials, MB01 in participants
+# POCD-Northwestern is lowercase in participants and uppercase in trials
+td$lab <- tolower(td$lab)
+pd$lab <- tolower(pd$lab)
+td$subid <- tolower(td$subid)
+pd$subid <- tolower(pd$subid)
+
+# konstanz is MB01 in trials and mb_01 in participants
+pd$subid[pd$lab == "babylab-konstanz"] <- str_replace(pd$subid[pd$lab == "babylab-konstanz"], 
+"_", "")
+# POCD-Northwestern didn't zero-pad their subids between mb1 and mb9
+pd$subid[pd$lab == "pocd-northwestern"] <- 
+  str_replace(pd$subid[pd$lab == "pocd-northwestern"], "mb0","mb")
+
+# nijmegen need "_9-12" appended to all subids 9-12mos in the trials file. 
+affected_nijmegen <- td$lab == "babylab_nijmegen" & !str_detect(td$subid,"_6-9")
+td$subid[affected_nijmegen] <- str_c(td$subid[affected_nijmegen], "_9-12")
+
+# essex need transformation of subid in trial data: 9_0* -> 9_12_0* and 12_0* -> 12_15_0*
+essex_add12 <- pd$lab == "babylablang-essex" & str_detect(pd$subid, "mb9_")
+pd$subid[essex_add12] <- gsub("mb9_", "mb9_12_", pd$subid[essex_add12])
+essex_add15 <- pd$lab == "babylablang-essex" & str_detect(pd$subid, "mb12_")
+pd$subid[essex_add15] <- gsub("mb12_", "mb12_15_", pd$subid[essex_add15])
+
+# brcl-unlv has a problem in the trial data where one participant was labelled with consecutive numbers
+td$subid[td$lab == "bcrl-unlv" & str_detect(td$subid, "mb_36")] <- "mb_3604"
+
+# fixing a typo
+td$subid[td$lab == "ethos-rennes"& td$subid=="mu850"] <- "mu805"
+
+# louisville also has a numbering issue
+td$subid[td$lab == "infantcoglab-louisville" & str_detect(td$subid, "234580-")] <- "234580-2"
+
+# lscp-psl has "lscp-psl" attached in the trial data
+pd$subid[pd$lab == "lscp-psl"] <- str_c(pd$subid[pd$lab == "lscp-psl"], "lscp-psl")
+
+# lancaster is "lancslab" in participants
+pd$lab[pd$lab == "lancslab"] <- "lancaster"
+
+# koku-hamburg is "hamburg" in participants
+pd$lab[pd$lab == "hamburg"] <- "koku-hamburg"
+
+# commenting these lines out for now, as original data files have been replace, and this code no longer applies
+# # "paris descartes_manybabies1" is "lpp_parisdescartes2" in participants
+# td$lab[td$lab == "paris descartes_manybabies1"] <- "lpp_parisdescartes2"
+# 
+# # paris descartes has suffix on subid names in trial, remove these
+# td$subid[td$lab == "lpp_parisdescartes2"] <- 
+#   str_extract(td$subid[td$lab == "lpp_parisdescartes2"], "[A-z]+")
+# td$subid[td$lab == "lpp_parisdescartes2"] <- 
+#   str_replace(td$subid[td$lab == "lpp_parisdescartes2"], "_","")
+# 
+# # paris descartes has prefix on subid names in participants, remove these since not present in trials
+# pd$subid[pd$lab == "lpp_parisdescartes2"] <- 
+#   str_replace(pd$subid[pd$lab == "lpp_parisdescartes2"], "mb[0-9]+_","")
+
+# cfn-uofn is cfn-uon in participants
+pd$lab[pd$lab == "cfn-uon"] <- "cfn_uofn"
+
+#babylab_kingswood is babylabwesternsydney
+pd$lab[pd$lab == "babylab-westernsydney"] <- "babylab_kingswood"
+
+# babylabkingswood has 'mb' prefix on subject names in pd only; add them to td
+td$subid[td$lab == "babylab_kingswood"] <- str_c("mb", td$subid[td$lab == "babylab_kingswood"])
+```
+
+Dropping % from language exposure columns. This was originally part of variable_validation, but was causing an issue when reading the data file generated by this read_and_merge script (numeric values were being changed to NAs).
+
+```{r}
+
+pd$lang1_exposure <- lang_exp_to_numeric(pd$lang1_exposure)
+pd$lang2_exposure <- lang_exp_to_numeric(pd$lang2_exposure)
+pd$lang3_exposure <- lang_exp_to_numeric(pd$lang3_exposure)
+pd$lang4_exposure <- lang_exp_to_numeric(pd$lang4_exposure)
+
+```
+Values in langX_exposure with decimals were being changed to NAs when reading the data into 02_variable_validation. Rounding here to avoid that issue.
+
+```{r}
+
+pd$lang1_exposure <- trunc(pd$lang1_exposure)
+pd$lang2_exposure <- trunc(pd$lang2_exposure)
+pd$lang3_exposure <- trunc(pd$lang3_exposure)
+pd$lang4_exposure <- trunc(pd$lang4_exposure)
+
+```
+
+General sanitization of lab and subid variables:
+
+```{r}
+pd_len = nrow(pd)
+td_len = nrow(td)
+pd <- pd %>%
+  mutate(lab = str_replace_all(lab, '[^[:alnum:]]',''))%>%
+  mutate(subid = str_replace_all(subid, '[^[:alnum:]]',''))
+
+td <- td %>%
+  mutate(lab = str_replace_all(lab, '[^[:alnum:]]',''))%>%
+  mutate(subid = str_replace_all(subid, '[^[:alnum:]]',''))
+
+assert_that(pd_len == nrow(pd), td_len == nrow(td))
+```
+
+
+# Pre-Merge Checking
+
+In this section, we first need to do some formatting/data cleaning to ensure that merging participant and trial level data works right; note that there should *not* be any dropping of participants/trials for 'real' reasons (ie fussout) in this section (that happens in `03_exlusion`.)
+
+To document any inconsistencies that remain, here is a table of all participant IDs that
+are missing from one or another of the data files.  Each of these should either eventually be 
+removed from this list (via better data cleaning above), or documented after the merge (saved to metadata in some form).
+
+```{r}
+participants_premerge_td <- td %>%
+  group_by(lab, subid) %>%
+  summarize(trialcount = n_distinct(trial_num), 
+            rowcount = length(trial_num), trial_error = last(trial_error_type),present_td=TRUE)
+
+participants_premerge_pd <- pd %>%
+  group_by(lab, subid) %>%
+  summarize(lines_in_pd = n(), age_days = first(age_days), notes = first(notes), session_error_type = first(session_error_type), present_pd=TRUE)
+
+all_participants_premerge <- merge(participants_premerge_td, participants_premerge_pd, all.x=TRUE, all.y=TRUE) %>%
+  replace_na(list(present_pd = FALSE, present_td=FALSE))
+
+unmatched_participants_premerge = filter(all_participants_premerge, !(present_td & present_pd))
+
+#Check if any of these are in the metadata that records resolved-unmatched records (pilot, no-trial real kids, subIDs not actually used...)
+
+conf <- read_csv('metadata/true_unmatched_participants.csv') %>%
+  filter(Confirmed == 'X')%>%
+  select(subid, lab, Confirmed)
+
+unmatched_participants_premerge <- merge(unmatched_participants_premerge, conf, all.x=TRUE) %>%
+  replace_na(list(Confirmed = FALSE))%>%
+  filter(Confirmed != 'X')
+
+write_csv(unmatched_participants_premerge, 'metadata/unconfirmed_unmatched_participants.csv')
+```
+
+Here come some tables for summarizing types of errors that occur (helpful for knowing which labs will need checking/contacting by hand):
+
+<!-- TODO: Add diagnostics: Is it **ever** okay for a participant to disappear during the merge? If so, what are the cases? Make sure the dropped participants fit those criteria.  -->
+
+
+```{r}
+unique_participants_by_lab = pd %>%
+  group_by(lab) %>%
+  summarize(participants = n_distinct(subid))
+
+unique_participants_by_lab_from_trials <- td %>%
+  group_by(lab) %>%
+  summarize(participants = n_distinct(subid))
+
+lab_checker <- merge(unique_participants_by_lab, 
+      unique_participants_by_lab_from_trials,
+      by="lab", 
+      all.x=TRUE, all.y=TRUE, 
+      suffixes = c(".pd",".td")) %>%
+  mutate(participant_concord = participants.pd == participants.td) 
+```
+
+
+Looking at participants by lab, there are a few kinds of inconsistencies. 
+
+* These labs have more participants in trial than in participants - particularly confusing! The following issues remain. 
+
+
+
+```{r} 
+filter(lab_checker, participants.td > participants.pd)
+```
+
+* These labs have fewer participants in trial than in participants. This may be valid if the 'extras' are babies who came to lab but didn't finish any trials; however, this is something to be more extensively checked.
+
+```{r}
+filter(lab_checker, participants.td < participants.pd)
+```
+
+* Finally, these are labs are missing a data source altogether (or are bad lab-id values). As of 8/28, no labs are here, suggesting we have all the datafiles! 
+
+```{r} 
+filter(lab_checker, is.na(participants.td) | is.na(participants.pd))
+```
+
+These next two tests should be passed if the tables above looked OK. 
+
+```{r}
+validate_that(length(unique(pd$lab)) == length(unique(td$lab)))
+validate_that(all(lab_checker$participant_concord))
+```
+
+# Merge
+
+Use `inner_join` to get matching participants. Our process is then to use testing to identify where we are missing participants in this join. 
+
+```{r}
+d <- inner_join(td %>% select(-file), pd %>% select(-file)) 
+```
+
+# Test Merge
+
+```{r}
+participants_postmerge <- d %>%
+  group_by(lab, subid) %>%
+  summarize(trialcount = n_distinct(trial_num), 
+            rowcount = length(trial_num))
+```
+
+Compare the number of rows and trials to pre-merge values! In the resulting dataframe, we have `r nrow(setdiff(select(participants_premerge_td, lab, subid, trialcount, rowcount), participants_postmerge))` participants missing from TD and `r nrow(setdiff(select(participants_premerge_pd, lab, subid), select(participants_postmerge, lab, subid)))` from PD.  Where did they go, and why did they drop?
+
+Here's a full list of participants (and labs) who get lost during merge. Use `anti_join` to detect lost participants. (For sanity, this should be the same as the pre-merged list of 'problem' subids)
+
+```{r}
+lost_participants_td <- anti_join(participants_premerge_td, participants_postmerge)
+lost_participants_pd <- anti_join(participants_premerge_pd, participants_postmerge)
+
+
+validate_that(nrow(lost_participants_td) + nrow(lost_participants_pd) == nrow(unmatched_participants_premerge))
+
+datatable(lost_participants_td)
+datatable(lost_participants_pd)
+
+```
+
+When the participants/trials merge is working perfectly, the following tests will be passed. 
+
+```{r}
+validate_that(nrow(lost_participants_td) == 0)
+validate_that(nrow(lost_participants_pd) == 0)
+```
+
+
+# Output
+
+Output intermediate files. 
+
+```{r}
+write_csv(d, "processed_data/01_merged_ouput.csv")
+```
