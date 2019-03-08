@@ -1,0 +1,82 @@
+lab,subid,method,RA,age_days,trial_order,session_error,session_error_type,notes,second_session,lang_group,lang1,lang1_exposure,lang2,lang2_exposure,lang3,lang3_exposure,lang4,lang4_exposure,caregiver_seat,MacArthur_Ladder,participant_gender,race_ethinicty,parentA_gender,parentA_education,parentB_gender,parentB_education,preterm,days_preterm,prev_earinfection,curr_earinfection,hearing_vision,hearing_vision_info,cognitive_developmental,cognitive_developmental_info,sib1_age,sib1_gender,sib2_age,sib2_gender,sib3_age,sib3_gender,sib4_age,sib4_gender
+babylab-lmu,1,Eyetracking,Nadine,369,1,error,pilot participant,pilot participant,N,Bilingual,Polish,60,German,40,NA,NA,NA,NA,caregiver,8,F,NC,F,12,M,18,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,2,Eyetracking,Nadine,326,2,error,pilot participant,pilot participant,N,Monolingual,German,99,NA,NA,NA,NA,NA,NA,caregiver,6.5,M,NC,F,18,M,21,term,NA,No,No,N,NA,N,NA,6,M,NA,NA,NA,NA,NA,NA
+babylab-lmu,3,Eyetracking,Nadine,335,3,error,pilot participant,pilot participant,N,Bilingual,Croatian,80,German,20,NA,NA,NA,NA,caregiver,9,F,NC,F,18,M,21,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,4,Eyetracking,Nadine,351,4,error,no masking music for mother,mp3 player for the masking music did not work,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,6.5,F,NC,F,16,M,16,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,5,Eyetracking,Nadine,314,1,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,9,M,NC,M,21,F,18,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,6,Eyetracking,Nadine,336,2,noerror,NA,NA ,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,9,M,NC,M,18,F,18,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,7,Eyetracking,Nadine,352,3,noerror,NA,NA ,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,NC,F,NC,M,15,F,20,term,NA,No,No,N,NA,N,NA,3,M,NA,NA,NA,NA,NA,NA
+babylab-lmu,8,Eyetracking,Alyssa,371,4,error,language exclusion,language exclusion,N,Bilingual,German,20,English,50,Cantonese,30,NA,NA,caregiver,6,M,NC,M,16,F,18,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,9,Eyetracking,Nadine,321,1,noerror,NA,NA ,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver ,4,F,NC,F,13,M,13,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,10,Eyetracking,Nadine,340,2,noerror,NA,NA ,N,Monolingual,German,99,Spanish,0.98,English,0.2,NA,NA,caregiver,7,F,NC,M,18,F,19,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,11,Eyetracking,Alyssa,329,3,error,pilor participant,pilot participant,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,7.5,M,NC,F,18,M,21,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,12,Eyetracking,Alyssa,341,1,error,pilot participant,pilot participant,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,7.5,F,NC,M,21,F,21,term,NA,No,No,N,NA,N,NA,12,M,9,F,NA,NA,NA,NA
+babylab-lmu,13,Eyetracking,Nadine,348,1,noerror,NA,NA,N,Monolingual,German,95,Russian,5,NA,NA,NA,NA,caregiver,7,M,NC,F,16,M,16,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,14,Eyetracking,Nadine,343,2,noerror,NA,NA ,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,5,F,NC,F,10,NA,NA,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,15,Eyetracking,Nadine,351,3,noerror,NA,NA,N,Monolingual,German,99,English,1,NA,NA,NA,NA,seat,4,M,NC,F,15,M,18,term,NA,No,No,N,NA,N,NA,5,M,NA,NA,NA,NA,NA,NA
+babylab-lmu,16,Eyetracking,Nadine,353,4,noerror,NA,NA ,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,6,M,NC,M,13,F,13,term,NA,No,No,N,NA,N,NA,5,F,NA,NA,NA,NA,NA,NA
+babylab-lmu,17,Eyetracking,Nadine,336,1,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,5,M,NC,F,13,M,13,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,18,Eyetracking,Nadine,331,1,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,7,F,NC,F,18,M,18,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,19,Eyetracking,Nadine,355,3,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,7.5,F,NC,F,21,F,21,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,20,Eyetracking,Nadine,341,4,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,6.5,M,NC,F,18,M,18,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,21,Eyetracking,Nadine,364,1,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,7,F,NC,F,16,M,16,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,22,Eyetracking,Nadine,368,2,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,8,F,NC,M,21,F,18,term,NA,No,No,N,NA,N,NA,4,F,NA,NA,NA,NA,NA,NA
+babylab-lmu,23,Eyetracking,Nadine,412,3,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,8,F,NC,F,13,M,13,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,24,Eyetracking,Nadine,361,4,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,7.5,M,NC,F,18,M,18,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,25,Eyetracking,Nadine,418,1,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,8.5,F,NC,F,16,M,13,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,26,Eyetracking,Nadine,357,2,noerror,NA,NA,N,Monolingual,German,95,English,5,NA,NA,NA,NA,seat,7.5,F,NC,M,18,F,18,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,27,Eyetracking,Nadine,390,1,noerror,NA,NA ,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,8,M,NC,F,18,M,18,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,28,Eyetracking,Anna,312,1,error,pilot participant,pilot participant,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,3.5,M,NC,F,15,NA,NA,term,NA,No,No,N,NA,N,NA,3,F,NA,NA,NA,NA,NA,NA
+babylab-lmu,29,Eyetracking,Anna,402,1,error,pilot participant,pilot participant,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,7,F,NC,F,13,M,13,term,NA,No,No,N,NA,N,NA,4,M,NA,NA,NA,NA,NA,NA
+babylab-lmu,30,Eyetracking,Anna,416,1,noerror,NA,Child had strap from child seat in mouth while testing,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,5.5,M,NC,M,21,F,18,term,NA,No,No,N,NA,N,NA,2,M,NA,NA,NA,NA,NA,NA
+babylab-lmu,31,Eyetracking,Anna,416,1,noerror,NA,Was very distracted by sister in the room,N,Monolingual,German,94,English,6,NA,NA,NA,NA,seat,7.5,M,NC,F,25,M,15,term,NA,No,No,N,NA,N,NA,1,F,NA,NA,NA,NA,NA,NA
+babylab-lmu,32,Eyetracking,Anna,416,1,noerror,NA,"For 2-3 sec distracted, because brother in the room",N,Monolingual,German,95,English,5,NA,NA,NA,NA,caregiver,7.5,F,NC,F,25,M,15,term,NA,No,No,N,NA,N,NA,1,M,NA,NA,NA,NA,NA,NA
+babylab-lmu,33,Eyetracking,Anna,360,1,noerror,NA,Child was very unsettled,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,NC,F,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+babylab-lmu,34,Eyetracking,Anna,360,1,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,6.5,M,NC,F,14,M,18,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,35,Eyetracking,Anna,391,1,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,8,F,NC,F,18,M,21,term,NA,No,No,N,NA,N,NA,5,M,3,F,NA,NA,NA,NA
+babylab-lmu,36,Eyetracking,Anna,381,1,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,9.5,M,NC,F,18,M,16,term,NA,No,No,N,NA,N,NA,4,F,NA,NA,NA,NA,NA,NA
+babylab-lmu,37,Eyetracking,Anna,413,1,noerror,NA,NA,N,Monolingual,German,80,NA,NA,NA,NA,NA,NA,seat,7,M,NC,F,18,M,18,term,NA,No,No,N,NA,N,NA,5,F,4,F,NA,NA,NA,NA
+babylab-lmu,38,Eyetracking,Anna,433,1,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,5,F,NC,F,13,M,13,term,NA,No,No,N,NA,N,NA,5,F,NA,NA,NA,NA,NA,NA
+babylab-lmu,39,Eyetracking,Anna,442,1,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,8,F,NC,F,18,M,13,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,40,Eyetracking,Anna,414,2,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,7,F,NC,F,13,M,18,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,41,Eyetracking,Anna,380,3,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,8,F,NC,F,16,M,21,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,42,Eyetracking,Anna,411,4,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,7,F,NC,F,13,M,13,term,NA,No,No,N,NA,N,NA,13,F,9,F,NA,NA,NA,NA
+babylab-lmu,43,Eyetracking,Anna,466,1,error,over age range,over age range,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,8.5,M,NC,F,18,M,18,term,NA,No,No,N,NA,N,NA,5,F,NA,NA,NA,NA,NA,NA
+babylab-lmu,44,Eyetracking,Anna,453,2,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,6,M,NC,F,16,M,18,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,45,Eyetracking,Anna,399,3,noerror,NA,NA,N,Monolingual,German,95,English,5,NA,NA,NA,NA,seat,7.5,M,NC,M,13,F,16,term,NA,No,No,N,NA,N,NA,3,F,NA,NA,NA,NA,NA,NA
+babylab-lmu,46,Eyetracking,Anna,277,4,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,7,F,NC,F,18,M,18,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,47,Eyetracking,Anna,413,1,noerror,NA,NA,N,Monolingual,German,95,Italian,5,NA,NA,NA,NA,seat,6,M,NC,F,18,M,21,term,NA,Yes,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,48,Eyetracking,Anna,377,2,error,language exclusion,language exclusion,N,Bilingual,German,50,English,50,NA,NA,NA,NA,seat,4,F,NC,F,9,M,9,term,NA,No,No,N,NA,N,NA,10,M,4,F,NA,NA,NA,NA
+babylab-lmu,49,Eyetracking,Anna,263,4,error,under age range,under age range,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,Caregiver,7.5,F,NC,F,18,M,18,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,50,Eyetracking,Anna,436,2,noerror,NA,NA,N,Monolingual,German,95,Greek,5,,NA,NA,NA,Caregiver,9,M,NC,F,13,M,21,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,51,Eyetracking,Anna,289,1,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,Caregiver,6.5,F,NC,F,18,M,18,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,52,Eyetracking,Anna,446,4,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,6.5,M,NC,F,18,M,16,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,53,Eyetracking,Anna,440,2,noerror,NA,NA ,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,Caregiver,8.5,M,NC,F,18,M,18,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,54,Eyetracking,Anna,452,3,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,7.5,M,NC,F,18,M,16,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,55,Eyetracking,Anna,435,4,noerror,NA,NA,N,Monolingual,German,80,Swiss German,20,NA,NA,NA,NA,caregiver,8,M,NC,F,18,M,18,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,56,Eyetracking,Anna,430,1,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,5.5,F,NC,F,18,M,9,term,NA,No,No,N,NA,N,NA,3,F,NA,NA,NA,NA,NA,NA
+babylab-lmu,57,Eyetracking,Anna,431,3,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,8,M,NC,F,10,M,13,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,58,Eyetracking,Anna,286,1,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,7,F,NC,F,18,M,18,term,NA,No,No,N,NA,N,NA,3,M,NA,NA,NA,NA,NA,NA
+babylab-lmu,59,Eyetracking,Anna,329,2,noerror,NA,NA ,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,6.5,F,NC,F,18,M,18,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,60,Eyetracking,Anna,313,3,noerror,NA,NA,N,Monolingual,German,90,English,10,NA,NA,NA,NA,seat,8,F,NC,F,18,M,18,term,NA,No,No,N,NA,N,NA,9,M,NA,NA,NA,NA,NA,NA
+babylab-lmu,61,Eyetracking,Anna,318,1,noerror,NA,NA,N,Monolingual,German,90,English,10,NA,NA,NA,NA,seat,8.5,M,NC,F,18,M,21,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,62,Eyetracking,Anna,324,2,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,7,M,NC,F,16,M,18,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,63,Eyetracking,Anna,331,3,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,4,F,NC,F,18,NA,NA,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,64,Eyetracking,Anja,432,1,error,pilot participant,pilot participant ,N,Monolingual,German,90,Bayerisch,10,NA,NA,NA,NA,seat,6,M,NC,F,16,M,18,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,65,Eyetracking,Anna,276,4,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,8.5,M,NC,M,18,F,18,term,NA,No,No,N,NA,N,NA,3,F,NA,NA,NA,NA,NA,NA
+babylab-lmu,66,Eyetracking,Anna,310,3,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,7.5,M,NC,F,16,M,9,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,67,Eyetracking,Anja,416,1,error,"pilot participant, 8 weeks Preterm",pilot participant,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,7.5,M,NC,F,16,M,18,preterm,60,No,No,N,NA,N,NA,10,M,NA,NA,NA,NA,NA,NA
+babylab-lmu,68,Eyetracking,Anna,394,2,error,pilot participant ,pilot participant,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,6,F,NC,F,13,M,13,term ,NA,No,No,N,NA,N,NA,6,M,NA,NA,NA,NA,NA,NA
+babylab-lmu,69,Eyetracking,Anna,427,3,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,6.5,F,NC,F,21,M,18,term ,NA,No,No,N,NA,N,NA,4,M,NA,NA,NA,NA,NA,NA
+babylab-lmu,70,Eyetracking,Anja,449,4,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,7.5,M,NC,F,18,M,18,term ,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,71,Eyetracking,Anna,315,2,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,5,M,NC,F,13,M,18,term ,NA,No,No,N,NA,N,NA,3,F,NA,NA,NA,NA,NA,NA
+babylab-lmu,72,Eyetracking,Anna,398,3,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,9.5,M,NC,F,18,M,14,term ,NA,No,No,N,NA,N,NA,3,M,1,F,NA,NA,NA,NA
+babylab-lmu,73,Eyetracking,Anna,398,4,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,9.5,F,NC,F,18,M,14,term ,NA,No,No,N,NA,N,NA,3,M,1,M,NA,NA,NA,NA
+babylab-lmu,74,Eyetracking,NC,384,4,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,NC,F,NC,F,18,M,21,term ,NA,Yes,No,N,NA,N,NA,3,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,75,Eyetracking,Anja,300,4,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,8,M,NC,F,21,M,18,term ,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,76,Eyetracking,Anna,426,1,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,7.5,F,NC,F,21,M,21,term ,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,77,Eyetracking,Anja,276,2,noerror,NA,NA,N,Monolingual,German,98,English,2,NA,NA,NA,NA,seat,6,F,NC,F,16,M,18,term ,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,78,Eyetracking,NC,NC,NC,error,subject number not used,NC,N,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC,NC
+babylab-lmu,79,Eyetracking,Anja,303,3,noerror,NA,NA,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,NC,M,NC,F,14,M,14,term ,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,80,Eyetracking,Carolina,377,2,noerror,NA,NA,N,Monolingual,German,95,English,2.5,French ,2.5,NA,NA,seat,7,F,NC,F,18,M,18,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+babylab-lmu,81,Eyetracking,Anna,457,1,error,pilot participant,pilot participant,N,Monolingual,German,100,NA,NA,NA,NA,NA,NA,seat,8,M,NC,F,18,M,18,term,NA,No,No,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA

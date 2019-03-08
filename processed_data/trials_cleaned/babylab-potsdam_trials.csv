@@ -1,0 +1,865 @@
+lab,subid,trial_type,stimulus,trial_num,looking_time,total_trial_time,trial_error,trial_error_type,notes
+babylab-potsdam,b6805,training,train1,-2,15.951,17.726,noerror,NA,NA
+babylab-potsdam,b6805,training,train2,-1,11.473,16.564,noerror,NA,NA
+babylab-potsdam,b6805,IDS,IDS1,1,13.944,14.955,noerror,NA,NA
+babylab-potsdam,b6805,ADS,ADS1,2,6.48,6.48,noerror,NA,NA
+babylab-potsdam,b6805,IDS,IDS2,3,16.272,17.886,noerror,NA,NA
+babylab-potsdam,b6805,ADS,ADS2,4,3.978,5.253,noerror,NA,NA
+babylab-potsdam,b6805,ADS,ADS3,5,4.126,9.22,noerror,NA,offline correction - experimenter error - subtraction of 534 ms - hard to code - looking back and forth
+babylab-potsdam,b6805,IDS,IDS3,6,1.294,1.294,noerror,NA,NA
+babylab-potsdam,b6805,IDS,IDS4,7,4.416,5.589,noerror,NA,NA
+babylab-potsdam,b6805,ADS,ADS4,8,1.378,1.378,noerror,NA,NA
+babylab-potsdam,b6805,ADS,ADS5,9,4.546,5.573,noerror,NA,NA
+babylab-potsdam,b6805,IDS,IDS5,10,1.15,1.15,noerror,NA,NA
+babylab-potsdam,b6805,ADS,ADS6,11,4.375,6.235,noerror,NA,NA
+babylab-potsdam,b6805,IDS,IDS6,12,3.045,3.045,noerror,NA,NA
+babylab-potsdam,b6805,IDS,IDS7,13,3.749,3.749,noerror,NA,NA
+babylab-potsdam,b6805,ADS,ADS7,14,7.26,8.815,noerror,NA,not so clear if baby is looking or not at the end of the trial
+babylab-potsdam,b6805,ADS,ADS8,15,4.379,4.379,noerror,NA,NA
+babylab-potsdam,b6805,IDS,IDS8,16,1.058,1.058,noerror,NA,NA
+babylab-potsdam,b6829,training,train1,-2,15.382,18,noerror,NA,NA
+babylab-potsdam,b6829,training,train2,-1,6.546,7.669,noerror,NA,NA
+babylab-potsdam,b6829,IDS,IDS5,1,12.668,12.668,noerror,NA,NA
+babylab-potsdam,b6829,ADS,ADS5,2,15.954,18,noerror,NA,NA
+babylab-potsdam,b6829,ADS,ADS7,3,10.035,11.414,noerror,NA,NA
+babylab-potsdam,b6829,IDS,IDS7,4,12.066,16.74,noerror,NA,NA
+babylab-potsdam,b6829,ADS,ADS1,5,10.421,11.624,noerror,NA,NA
+babylab-potsdam,b6829,IDS,IDS1,6,6.037,6.037,noerror,NA,NA
+babylab-potsdam,b6829,ADS,ADS3,7,3.789,3.789,noerror,NA,NA
+babylab-potsdam,b6829,IDS,IDS3,8,3.868,3.868,noerror,NA,NA
+babylab-potsdam,b6829,ADS,ADS2,9,5.341,5.341,noerror,NA,NA
+babylab-potsdam,b6829,IDS,IDS2,10,3.798,3.798,noerror,NA,NA
+babylab-potsdam,b6829,IDS,IDS4,11,6.097,6.097,noerror,NA,NA
+babylab-potsdam,b6829,ADS,ADS4,12,4.909,4.909,noerror,NA,NA
+babylab-potsdam,b6829,IDS,IDS6,13,11.238,11.238,noerror,NA,NA
+babylab-potsdam,b6829,ADS,ADS6,14,2.799,2.799,noerror,NA,fussy
+babylab-potsdam,b6829,IDS,IDS8,15,NC,NC,error,experiment ended early,starts crying
+babylab-potsdam,b6829,ADS,ADS8,16,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6833,training,train1,-2,18,18,noerror,NA,NA
+babylab-potsdam,b6833,training,train2,-1,12.516,17.369,noerror,NA,NA
+babylab-potsdam,b6833,IDS,IDS5,1,14.694,18,noerror,NA,offline correction - experimenter error - subtraction of 497 ms - child wasnt looking
+babylab-potsdam,b6833,ADS,ADS5,2,6.268,6.268,noerror,NA,NA
+babylab-potsdam,b6833,ADS,ADS7,3,2.991,2.991,noerror,NA,NA
+babylab-potsdam,b6833,IDS,IDS7,4,2.452,2.452,noerror,NA,NA
+babylab-potsdam,b6833,ADS,ADS1,5,2.75,2.75,noerror,NA,NA
+babylab-potsdam,b6833,IDS,IDS1,6,14.486,18.001,noerror,NA,NA
+babylab-potsdam,b6833,ADS,ADS3,7,15.806,17.888,noerror,NA,NA
+babylab-potsdam,b6833,IDS,IDS3,8,5.055,5.868,noerror,NA,NA
+babylab-potsdam,b6833,ADS,ADS2,9,2.85,2.85,noerror,NA,NA
+babylab-potsdam,b6833,IDS,IDS2,10,7.723,9.398,noerror,NA,NA
+babylab-potsdam,b6833,IDS,IDS4,11,6.135,6.135,noerror,NA,NA
+babylab-potsdam,b6833,ADS,ADS4,12,16.037,18,noerror,NA,NA
+babylab-potsdam,b6833,IDS,IDS6,13,13.582,18.001,noerror,NA,NA
+babylab-potsdam,b6833,ADS,ADS6,14,7.929,11.073,noerror,NA,NA
+babylab-potsdam,b6833,IDS,IDS8,15,3.061,3.061,noerror,NA,NA
+babylab-potsdam,b6833,ADS,ADS8,16,12.801,18,noerror,NA,NA
+babylab-potsdam,b6834,training,train2,-2,18,18,noerror,NA,NA
+babylab-potsdam,b6834,training,train1,-1,6.423,6.423,noerror,NA,NA
+babylab-potsdam,b6834,ADS,ADS1,1,14.257,14.257,noerror,NA,NA
+babylab-potsdam,b6834,IDS,IDS1,2,15.459,15.459,noerror,NA,NA
+babylab-potsdam,b6834,ADS,ADS2,3,3.566,3.566,noerror,NA,NA
+babylab-potsdam,b6834,IDS,IDS2,4,4.847,4.847,noerror,NA,NA
+babylab-potsdam,b6834,IDS,IDS3,5,3.137,3.137,noerror,NA,NA
+babylab-potsdam,b6834,ADS,ADS3,6,4.469,4.469,noerror,NA,NA
+babylab-potsdam,b6834,ADS,ADS4,7,4.149,4.149,noerror,NA,NA
+babylab-potsdam,b6834,IDS,IDS4,8,15.754,15.754,noerror,NA,child needed long to orient to centre light for trial start
+babylab-potsdam,b6834,IDS,IDS5,9,18,18,noerror,NA,child needed long to orient to centre light for trial start
+babylab-potsdam,b6834,ADS,ADS5,10,4.681,4.681,noerror,NA,uneasy from here on
+babylab-potsdam,b6834,IDS,IDS6,11,10.759,10.759,noerror,NA,NA
+babylab-potsdam,b6834,ADS,ADS6,12,5.033,5.033,noerror,NA,NA
+babylab-potsdam,b6834,ADS,ADS7,13,5.16,5.16,noerror,NA,NA
+babylab-potsdam,b6834,IDS,IDS7,14,3.972,3.972,noerror,NA,NA
+babylab-potsdam,b6834,IDS,IDS8,15,5.381,5.381,noerror,NA,NA
+babylab-potsdam,b6834,ADS,ADS8,16,4.966,4.966,noerror,NA,NA
+babylab-potsdam,b6846,training,train2,-2,14.937,17.953,noerror,NA,NA
+babylab-potsdam,b6846,training,train1,-1,3.792,3.792,noerror,NA,NA
+babylab-potsdam,b6846,ADS,ADS1,1,4.355,4.355,noerror,NA,NA
+babylab-potsdam,b6846,IDS,IDS1,2,15.306,16.255,noerror,NA,NA
+babylab-potsdam,b6846,ADS,ADS2,3,4.724,5.152,noerror,NA,NA
+babylab-potsdam,b6846,IDS,IDS2,4,8.495,8.495,noerror,NA,NA
+babylab-potsdam,b6846,IDS,IDS3,5,10.707,10.707,noerror,NA,NA
+babylab-potsdam,b6846,ADS,ADS3,6,7.223,9,noerror,NA,NA
+babylab-potsdam,b6846,ADS,ADS4,7,13.646,13.646,noerror,NA,NA
+babylab-potsdam,b6846,IDS,IDS4,8,16.809,18,noerror,NA,NA
+babylab-potsdam,b6846,IDS,IDS5,9,16.736,18,noerror,NA,NA
+babylab-potsdam,b6846,ADS,ADS5,10,15.373,18,noerror,NA,NA
+babylab-potsdam,b6846,IDS,IDS6,11,16.766,18.001,noerror,NA,NA
+babylab-potsdam,b6846,ADS,ADS6,12,16.601,18,noerror,NA,NA
+babylab-potsdam,b6846,ADS,ADS7,13,8.332,8.332,noerror,NA,NA
+babylab-potsdam,b6846,IDS,IDS7,14,8.77,10.656,noerror,NA,NA
+babylab-potsdam,b6846,IDS,IDS8,15,4.904,4.904,noerror,NA,NA
+babylab-potsdam,b6846,ADS,ADS8,16,12.877,16.953,noerror,NA,NA
+babylab-potsdam,b6850,training,train2,-2,18,18,noerror,NA,NA
+babylab-potsdam,b6850,training,train1,-1,2.646,2.646,noerror,NA,NA
+babylab-potsdam,b6850,ADS,ADS5,1,9.656,10.032,noerror,NA,NA
+babylab-potsdam,b6850,IDS,IDS5,2,6.74,6.74,noerror,NA,NA
+babylab-potsdam,b6850,IDS,IDS7,3,16.911,18,noerror,NA,NA
+babylab-potsdam,b6850,ADS,ADS7,4,7.66,9.587,noerror,NA,NA
+babylab-potsdam,b6850,IDS,IDS1,5,5.486,5.486,noerror,NA,NA
+babylab-potsdam,b6850,ADS,ADS1,6,10.325,11.968,noerror,NA,NA
+babylab-potsdam,b6850,IDS,IDS3,7,18,18,noerror,NA,NA
+babylab-potsdam,b6850,ADS,ADS3,8,4.37,5.275,noerror,NA,NA
+babylab-potsdam,b6850,IDS,IDS2,9,10.855,10.855,noerror,NA,NA
+babylab-potsdam,b6850,ADS,ADS2,10,4.384,4.384,noerror,NA,NA
+babylab-potsdam,b6850,ADS,ADS4,11,4.326,4.326,noerror,NA,NA
+babylab-potsdam,b6850,IDS,IDS4,12,7.705,9.514,noerror,NA,NA
+babylab-potsdam,b6850,ADS,ADS6,13,4.481,4.481,noerror,NA,NA
+babylab-potsdam,b6850,IDS,IDS6,14,6.533,6.533,noerror,NA,NA
+babylab-potsdam,b6850,ADS,ADS8,15,12.041,12.94,noerror,NA,NA
+babylab-potsdam,b6850,IDS,IDS8,16,5.862,5.862,noerror,NA,NA
+babylab-potsdam,b6854,training,train2,-2,14.294,17.706,noerror,NA,NA
+babylab-potsdam,b6854,training,train1,-1,1.64,1.64,noerror,NA,NA
+babylab-potsdam,b6854,ADS,ADS5,1,5.882,7.079,noerror,NA,NA
+babylab-potsdam,b6854,IDS,IDS5,2,4.145,5.668,noerror,NA,NA
+babylab-potsdam,b6854,IDS,IDS7,3,9.804,13.022,noerror,NA,NA
+babylab-potsdam,b6854,ADS,ADS7,4,8.191,9.297,noerror,NA,NA
+babylab-potsdam,b6854,IDS,IDS1,5,2.378,2.378,noerror,NA,NA
+babylab-potsdam,b6854,ADS,ADS1,6,3.358,4.993,noerror,NA,NA
+babylab-potsdam,b6854,IDS,IDS3,7,8.403,11.19,noerror,NA,NA
+babylab-potsdam,b6854,ADS,ADS3,8,3.105,4.09,noerror,NA,NA
+babylab-potsdam,b6854,IDS,IDS2,9,0.691,0.691,noerror,NA,NA
+babylab-potsdam,b6854,ADS,ADS2,10,1.377,1.377,noerror,NA,Got pacifier from mum
+babylab-potsdam,b6854,ADS,ADS4,11,3.926,3.926,noerror,NA,uneasy from here on
+babylab-potsdam,b6854,IDS,IDS4,12,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6854,ADS,ADS6,13,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6854,IDS,IDS6,14,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6854,ADS,ADS8,15,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6854,IDS,IDS8,16,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6869,training,train2,-2,17.553,18,noerror,NA,NA
+babylab-potsdam,b6869,training,train1,-1,16.023,17.92,noerror,NA,NA
+babylab-potsdam,b6869,ADS,ADS1,1,15.25,18,noerror,NA,NA
+babylab-potsdam,b6869,IDS,IDS1,2,14.568,18.001,noerror,NA,NA
+babylab-potsdam,b6869,ADS,ADS2,3,15.36,18,noerror,NA,NA
+babylab-potsdam,b6869,IDS,IDS2,4,14.858,18.001,noerror,NA,NA
+babylab-potsdam,b6869,IDS,IDS3,5,15.532,17.822,noerror,NA,NA
+babylab-potsdam,b6869,ADS,ADS3,6,12.986,16.826,noerror,NA,NA
+babylab-potsdam,b6869,ADS,ADS4,7,6.034,7.652,noerror,NA,NA
+babylab-potsdam,b6869,IDS,IDS4,8,9.82,10.944,noerror,NA,NA
+babylab-potsdam,b6869,IDS,IDS5,9,1.537,1.537,noerror,NA,NA
+babylab-potsdam,b6869,ADS,ADS5,10,3.558,3.558,noerror,NA,NA
+babylab-potsdam,b6869,IDS,IDS6,11,0.671,0.671,noerror,NA,NA
+babylab-potsdam,b6869,ADS,ADS6,12,4.132,6.258,noerror,NA,NA
+babylab-potsdam,b6869,ADS,ADS7,13,2.074,2.074,noerror,NA,NA
+babylab-potsdam,b6869,IDS,IDS7,14,0.98,0.98,noerror,NA,NA
+babylab-potsdam,b6869,IDS,IDS8,15,5.26,7.107,noerror,NA,NA
+babylab-potsdam,b6869,ADS,ADS8,16,1.721,1.721,noerror,NA,NA
+babylab-potsdam,b6873,training,train1,-2,17.226,18,noerror,NA,NA
+babylab-potsdam,b6873,training,train2,-1,11.687,11.687,noerror,NA,NA
+babylab-potsdam,b6873,IDS,IDS1,1,12.513,12.513,noerror,NA,NA
+babylab-potsdam,b6873,ADS,ADS1,2,16.444,18,noerror,NA,NA
+babylab-potsdam,b6873,IDS,IDS2,3,14.853,16.028,noerror,NA,NA
+babylab-potsdam,b6873,ADS,ADS2,4,4.277,4.277,noerror,NA,NA
+babylab-potsdam,b6873,ADS,ADS3,5,4.521,4.521,noerror,NA,NA
+babylab-potsdam,b6873,IDS,IDS3,6,3.511,3.511,noerror,NA,NA
+babylab-potsdam,b6873,IDS,IDS4,7,3.512,3.512,noerror,NA,NA
+babylab-potsdam,b6873,ADS,ADS4,8,2.604,2.604,noerror,NA,NA
+babylab-potsdam,b6873,ADS,ADS5,9,3.159,3.159,noerror,NA,NA
+babylab-potsdam,b6873,IDS,IDS5,10,3.793,3.793,noerror,NA,NA
+babylab-potsdam,b6873,ADS,ADS6,11,3.57,3.57,noerror,NA,NA
+babylab-potsdam,b6873,IDS,IDS6,12,2.619,2.619,noerror,NA,NA
+babylab-potsdam,b6873,IDS,IDS7,13,3.227,3.227,noerror,NA,NA
+babylab-potsdam,b6873,ADS,ADS7,14,6.365,6.365,noerror,NA,NA
+babylab-potsdam,b6873,ADS,ADS8,15,4.586,4.586,noerror,NA,a few times movement outside the video but that was not looking and was coded as such
+babylab-potsdam,b6873,IDS,IDS8,16,13.66,16.182,noerror,NA,NA
+babylab-potsdam,b6889,training,train1,-2,16.947,18,noerror,NA,NA
+babylab-potsdam,b6889,training,train2,-1,4.569,4.569,noerror,NA,NA
+babylab-potsdam,b6889,IDS,IDS5,1,14.654,18,noerror,NA,NA
+babylab-potsdam,b6889,ADS,ADS5,2,13.262,18,noerror,NA,NA
+babylab-potsdam,b6889,ADS,ADS7,3,8.301,11.051,noerror,NA,NA
+babylab-potsdam,b6889,IDS,IDS7,4,14.668,18,noerror,NA,NA
+babylab-potsdam,b6889,ADS,ADS1,5,11.731,14.8,noerror,NA,NA
+babylab-potsdam,b6889,IDS,IDS1,6,6.189,6.189,noerror,NA,NA
+babylab-potsdam,b6889,ADS,ADS3,7,2.956,2.956,noerror,NA,NA
+babylab-potsdam,b6889,IDS,IDS3,8,4.957,4.957,noerror,NA,NA
+babylab-potsdam,b6889,ADS,ADS2,9,7.091,8.919,noerror,NA,NA
+babylab-potsdam,b6889,IDS,IDS2,10,3.891,3.891,noerror,NA,NA
+babylab-potsdam,b6889,IDS,IDS4,11,4.614,4.614,noerror,NA,NA
+babylab-potsdam,b6889,ADS,ADS4,12,2.306,2.306,noerror,NA,NA
+babylab-potsdam,b6889,IDS,IDS6,13,5.968,7.188,noerror,NA,NA
+babylab-potsdam,b6889,ADS,ADS6,14,2.274,2.274,noerror,NA,NA
+babylab-potsdam,b6889,IDS,IDS8,15,2.687,2.687,noerror,NA,NA
+babylab-potsdam,b6889,ADS,ADS8,16,4.327,4.327,noerror,NA,NA
+babylab-potsdam,b6899,training,train2,-2,8.574,9.943,noerror,NA,NA
+babylab-potsdam,b6899,training,train1,-1,1.381,1.381,noerror,NA,NA
+babylab-potsdam,b6899,ADS,ADS1,1,13.163,13.938,noerror,NA,NA
+babylab-potsdam,b6899,IDS,IDS1,2,8.383,10.105,noerror,NA,NA
+babylab-potsdam,b6899,ADS,ADS2,3,0.382,0.969,noerror,NA,offline correction - experimenter error - subtraction of 587 ms - baby did not look
+babylab-potsdam,b6899,IDS,IDS2,4,6.567,7.304,noerror,NA,NA
+babylab-potsdam,b6899,IDS,IDS3,5,5.738,5.738,noerror,NA,NA
+babylab-potsdam,b6899,ADS,ADS3,6,2.973,3.792,noerror,NA,NA
+babylab-potsdam,b6899,ADS,ADS4,7,2.921,2.921,noerror,NA,NA
+babylab-potsdam,b6899,IDS,IDS4,8,3.516,3.516,noerror,NA,NA
+babylab-potsdam,b6899,IDS,IDS5,9,2.303,2.303,noerror,NA,NA
+babylab-potsdam,b6899,ADS,ADS5,10,6.811,6.811,noerror,NA,NA
+babylab-potsdam,b6899,IDS,IDS6,11,1.178,1.178,noerror,NA,NA
+babylab-potsdam,b6899,ADS,ADS6,12,3.699,3.699,noerror,NA,NA
+babylab-potsdam,b6899,ADS,ADS7,13,0.499,0.499,noerror,NA,distracted
+babylab-potsdam,b6899,IDS,IDS7,14,0.763,0.763,noerror,NA,distracted - got pacifier from mum
+babylab-potsdam,b6899,IDS,IDS8,15,0,1.982,error,no looking in this trial,trial started without looking - child was distracted by pacifier - no look
+babylab-potsdam,b6899,ADS,ADS8,16,16.156,18,noerror,NA,trial started without looking because child was distracted - offline correction of looking time (minus 891 ms)
+babylab-potsdam,b6900,training,train1,-2,18,18,noerror,NA,NA
+babylab-potsdam,b6900,training,train2,-1,2.53,2.53,noerror,NA,NA
+babylab-potsdam,b6900,IDS,IDS1,1,4.947,6.251,noerror,NA,offline correction - subtraction of 454 ms
+babylab-potsdam,b6900,ADS,ADS1,2,2.872,2.872,noerror,NA,NA
+babylab-potsdam,b6900,IDS,IDS2,3,4.442,4.442,noerror,NA,NA
+babylab-potsdam,b6900,ADS,ADS2,4,18,18,noerror,NA,NA
+babylab-potsdam,b6900,ADS,ADS3,5,2.093,2.093,noerror,NA,NA
+babylab-potsdam,b6900,IDS,IDS3,6,3.723,3.723,noerror,NA,NA
+babylab-potsdam,b6900,IDS,IDS4,7,5.517,5.517,noerror,NA,NA
+babylab-potsdam,b6900,ADS,ADS4,8,7.099,9.367,noerror,NA,NA
+babylab-potsdam,b6900,ADS,ADS5,9,9.981,11.848,noerror,NA,NA
+babylab-potsdam,b6900,IDS,IDS5,10,1.115,1.115,noerror,NA,NA
+babylab-potsdam,b6900,ADS,ADS6,11,2.101,2.101,noerror,NA,NA
+babylab-potsdam,b6900,IDS,IDS6,12,6.088,8.127,noerror,NA,NA
+babylab-potsdam,b6900,IDS,IDS7,13,9.892,12.785,noerror,NA,NA
+babylab-potsdam,b6900,ADS,ADS7,14,6.438,8.482,noerror,NA,NA
+babylab-potsdam,b6900,ADS,ADS8,15,5.431,6.392,noerror,NA,NA
+babylab-potsdam,b6900,IDS,IDS8,16,5.306,6.938,noerror,NA,NA
+babylab-potsdam,b6903,training,train1,-2,14.922,18,noerror,NA,NA
+babylab-potsdam,b6903,training,train2,-1,6.534,6.534,noerror,NA,NA
+babylab-potsdam,b6903,IDS,IDS5,1,15.525,18,noerror,NA,NA
+babylab-potsdam,b6903,ADS,ADS5,2,8.732,10.494,noerror,NA,NA
+babylab-potsdam,b6903,ADS,ADS7,3,14.066,18.001,noerror,NA,NA
+babylab-potsdam,b6903,IDS,IDS7,4,16.653,18,noerror,NA,NA
+babylab-potsdam,b6903,ADS,ADS1,5,14.585,18,noerror,NA,NA
+babylab-potsdam,b6903,IDS,IDS1,6,6.82,7.328,noerror,NA,NA
+babylab-potsdam,b6903,ADS,ADS3,7,3.761,3.761,noerror,NA,NA
+babylab-potsdam,b6903,IDS,IDS3,8,14.964,17.286,noerror,NA,offline correction - experimenter error - subtraction of 967 ms - baby did not look
+babylab-potsdam,b6903,ADS,ADS2,9,6.296,8.886,noerror,NA,NA
+babylab-potsdam,b6903,IDS,IDS2,10,8.078,9.657,noerror,NA,NA
+babylab-potsdam,b6903,IDS,IDS4,11,5.686,6.819,noerror,NA,NA
+babylab-potsdam,b6903,ADS,ADS4,12,4.887,4.887,noerror,NA,NA
+babylab-potsdam,b6903,IDS,IDS6,13,3.237,3.237,noerror,NA,NA
+babylab-potsdam,b6903,ADS,ADS6,14,6.996,6.996,noerror,NA,NA
+babylab-potsdam,b6903,IDS,IDS8,15,5.546,5.546,noerror,NA,NA
+babylab-potsdam,b6903,ADS,ADS8,16,4.344,5.581,noerror,NA,NA
+babylab-potsdam,b6910,training,train2,-2,16.248,18,noerror,NA,NA
+babylab-potsdam,b6910,training,train1,-1,4.326,6.967,noerror,NA,NA
+babylab-potsdam,b6910,ADS,ADS5,1,9.42,10.919,noerror,NA,NA
+babylab-potsdam,b6910,IDS,IDS5,2,7.012,8.771,noerror,NA,NA
+babylab-potsdam,b6910,IDS,IDS7,3,5.502,9.665,noerror,NA,NA
+babylab-potsdam,b6910,ADS,ADS7,4,6.434,6.434,noerror,NA,NA
+babylab-potsdam,b6910,IDS,IDS1,5,12.525,14.014,noerror,NA,NA
+babylab-potsdam,b6910,ADS,ADS1,6,2.794,2.794,noerror,NA,NA
+babylab-potsdam,b6910,IDS,IDS3,7,2.009,2.009,noerror,NA,NA
+babylab-potsdam,b6910,ADS,ADS3,8,1.94,4.476,noerror,NA,offline correction - subtraction of 1034 ms because baby did not look
+babylab-potsdam,b6910,IDS,IDS2,9,5.064,6.802,noerror,NA,NA
+babylab-potsdam,b6910,ADS,ADS2,10,1.206,1.206,noerror,NA,NA
+babylab-potsdam,b6910,ADS,ADS4,11,1.43,1.43,noerror,NA,NA
+babylab-potsdam,b6910,IDS,IDS4,12,1.613,1.613,noerror,NA,NA
+babylab-potsdam,b6910,ADS,ADS6,13,8.088,9.624,noerror,NA,NA
+babylab-potsdam,b6910,IDS,IDS6,14,4.515,4.515,noerror,NA,NA
+babylab-potsdam,b6910,ADS,ADS8,15,3.962,3.962,noerror,NA,NA
+babylab-potsdam,b6910,IDS,IDS8,16,7.831,9.766,noerror,NA,NA
+babylab-potsdam,b6911,training,train1,-2,12.483,18,noerror,NA,offline correction - trial had to be started without the baby looking - subtraction of 1055 ms because baby did not look
+babylab-potsdam,b6911,training,train2,-1,6.632,8.989,noerror,NA,NA
+babylab-potsdam,b6911,IDS,IDS5,1,6.819,8.466,noerror,NA,NA
+babylab-potsdam,b6911,ADS,ADS5,2,4.942,6.933,noerror,NA,NA
+babylab-potsdam,b6911,ADS,ADS7,3,6.524,7.224,noerror,NA,NA
+babylab-potsdam,b6911,IDS,IDS7,4,15.67,16.295,noerror,NA,NA
+babylab-potsdam,b6911,ADS,ADS1,5,3.258,4.104,noerror,NA,NA
+babylab-potsdam,b6911,IDS,IDS1,6,4.435,6.124,noerror,NA,NA
+babylab-potsdam,b6911,ADS,ADS3,7,5.204,7.922,noerror,NA,NA
+babylab-potsdam,b6911,IDS,IDS3,8,14.684,18,noerror,NA,NA
+babylab-potsdam,b6911,ADS,ADS2,9,3.599,3.599,noerror,NA,NA
+babylab-potsdam,b6911,IDS,IDS2,10,2.285,3.641,noerror,NA,NA
+babylab-potsdam,b6911,IDS,IDS4,11,5.329,6.451,noerror,NA,NA
+babylab-potsdam,b6911,ADS,ADS4,12,3.582,5.016,noerror,NA,NA
+babylab-potsdam,b6911,IDS,IDS6,13,3.801,5.579,noerror,NA,NA
+babylab-potsdam,b6911,ADS,ADS6,14,0.84,0.84,noerror,NA,NA
+babylab-potsdam,b6911,IDS,IDS8,15,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6911,ADS,ADS8,16,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6912,training,train1,-2,5.895,5.895,noerror,NA,NA
+babylab-potsdam,b6912,training,train2,-1,15.133,18,noerror,NA,NA
+babylab-potsdam,b6912,IDS,IDS1,1,2.59,2.59,noerror,NA,NA
+babylab-potsdam,b6912,ADS,ADS1,2,10.758,12.235,noerror,NA,NA
+babylab-potsdam,b6912,IDS,IDS2,3,17.43,18.001,noerror,NA,NA
+babylab-potsdam,b6912,ADS,ADS2,4,10.098,12.784,noerror,NA,NA
+babylab-potsdam,b6912,ADS,ADS3,5,8.873,11.924,noerror,NA,NA
+babylab-potsdam,b6912,IDS,IDS3,6,8.52,10.247,noerror,NA,NA
+babylab-potsdam,b6912,IDS,IDS4,7,4.872,5.391,noerror,NA,NA
+babylab-potsdam,b6912,ADS,ADS4,8,4.347,4.347,noerror,NA,NA
+babylab-potsdam,b6912,ADS,ADS5,9,12.175,13.813,noerror,NA,NA
+babylab-potsdam,b6912,IDS,IDS5,10,11.691,14.375,noerror,NA,NA
+babylab-potsdam,b6912,ADS,ADS6,11,3.575,3.575,noerror,NA,NA
+babylab-potsdam,b6912,IDS,IDS6,12,6.015,7.17,noerror,NA,NA
+babylab-potsdam,b6912,IDS,IDS7,13,4.726,4.726,noerror,NA,NA
+babylab-potsdam,b6912,ADS,ADS7,14,2.208,2.208,noerror,NA,NA
+babylab-potsdam,b6912,ADS,ADS8,15,4.67,6.764,noerror,NA,NA
+babylab-potsdam,b6912,IDS,IDS8,16,5.756,12.832,noerror,NA,offline correction - trial had to be started without the baby looking - subtraction of 5406 ms because baby did not look
+babylab-potsdam,b6914,training,train2,-2,16.337,18,noerror,NA,NA
+babylab-potsdam,b6914,training,train1,-1,3.628,3.628,noerror,NA,NA
+babylab-potsdam,b6914,ADS,ADS5,1,13.22,13.22,noerror,NA,NA
+babylab-potsdam,b6914,IDS,IDS5,2,3.733,3.733,noerror,NA,before the trial mum points to the centre light
+babylab-potsdam,b6914,IDS,IDS7,3,6.363,6.363,noerror,NA,NA
+babylab-potsdam,b6914,ADS,ADS7,4,2.737,2.737,noerror,NA,NA
+babylab-potsdam,b6914,IDS,IDS1,5,14.85,18.001,noerror,NA,NA
+babylab-potsdam,b6914,ADS,ADS1,6,4.615,5.583,noerror,NA,NA
+babylab-potsdam,b6914,IDS,IDS3,7,8.804,9.438,noerror,NA,sneezes
+babylab-potsdam,b6914,ADS,ADS3,8,5.324,5.324,noerror,NA,NA
+babylab-potsdam,b6914,IDS,IDS2,9,6.451,7.087,noerror,NA,whiny
+babylab-potsdam,b6914,ADS,ADS2,10,9.158,10.734,noerror,NA,NA
+babylab-potsdam,b6914,ADS,ADS4,11,1.891,2.646,noerror,NA,NA
+babylab-potsdam,b6914,IDS,IDS4,12,3.425,3.425,noerror,NA,NA
+babylab-potsdam,b6914,ADS,ADS6,13,7.087,7.087,noerror,NA,short crying
+babylab-potsdam,b6914,IDS,IDS6,14,1.88,1.88,noerror,NA,crying - reaches for mum - short pause
+babylab-potsdam,b6914,ADS,ADS8,15,4.363,4.363,noerror,NA,NA
+babylab-potsdam,b6914,IDS,IDS8,16,9.291,13.899,noerror,NA,starts crying a little
+babylab-potsdam,b6915,training,train1,-2,13.727,18,noerror,NA,NA
+babylab-potsdam,b6915,training,train2,-1,6.572,8.494,noerror,NA,NA
+babylab-potsdam,b6915,IDS,IDS1,1,10.759,11.566,noerror,NA,NA
+babylab-potsdam,b6915,ADS,ADS1,2,4.189,4.189,noerror,NA,NA
+babylab-potsdam,b6915,IDS,IDS2,3,2.39,2.39,noerror,NA,NA
+babylab-potsdam,b6915,ADS,ADS2,4,3.393,3.393,noerror,NA,NA
+babylab-potsdam,b6915,ADS,ADS3,5,6.37,9.24,noerror,NA,NA
+babylab-potsdam,b6915,IDS,IDS3,6,6.712,6.712,noerror,NA,NA
+babylab-potsdam,b6915,IDS,IDS4,7,6.23,6.23,noerror,NA,NA
+babylab-potsdam,b6915,ADS,ADS4,8,2.406,2.406,noerror,NA,NA
+babylab-potsdam,b6915,ADS,ADS5,9,3.532,3.532,noerror,NA,NA
+babylab-potsdam,b6915,IDS,IDS5,10,5.488,6.779,noerror,NA,NA
+babylab-potsdam,b6915,ADS,ADS6,11,3.533,3.533,noerror,NA,NA
+babylab-potsdam,b6915,IDS,IDS6,12,2.353,2.353,noerror,NA,NA
+babylab-potsdam,b6915,IDS,IDS7,13,4.524,4.524,noerror,NA,NA
+babylab-potsdam,b6915,ADS,ADS7,14,5.603,5.603,noerror,NA,NA
+babylab-potsdam,b6915,ADS,ADS8,15,3.285,3.285,noerror,NA,NA
+babylab-potsdam,b6915,IDS,IDS8,16,4.926,5.249,noerror,NA,NA
+babylab-potsdam,b6920,training,train1,-2,18,18,noerror,NA,NA
+babylab-potsdam,b6920,training,train2,-1,11.719,17.74,noerror,NA,NA
+babylab-potsdam,b6920,IDS,IDS1,1,15.917,18.001,noerror,NA,NA
+babylab-potsdam,b6920,ADS,ADS1,2,16.066,17.98,noerror,NA,NA
+babylab-potsdam,b6920,IDS,IDS2,3,13.087,18.001,noerror,NA,NA
+babylab-potsdam,b6920,ADS,ADS2,4,3.425,3.425,noerror,NA,NA
+babylab-potsdam,b6920,ADS,ADS3,5,12.827,15.547,noerror,NA,NA
+babylab-potsdam,b6920,IDS,IDS3,6,5.894,5.894,noerror,NA,NA
+babylab-potsdam,b6920,IDS,IDS4,7,13.328,18,noerror,NA,offline correction - button press error by experimenter - addition of 833 ms because baby did look
+babylab-potsdam,b6920,ADS,ADS4,8,7.521,9.425,noerror,NA,NA
+babylab-potsdam,b6920,ADS,ADS5,9,9.198,13.959,noerror,NA,NA
+babylab-potsdam,b6920,IDS,IDS5,10,4.266,4.266,noerror,NA,NA
+babylab-potsdam,b6920,ADS,ADS6,11,3.964,3.964,noerror,NA,NA
+babylab-potsdam,b6920,IDS,IDS6,12,3.638,3.638,noerror,NA,NA
+babylab-potsdam,b6920,IDS,IDS7,13,13.103,17.616,noerror,NA,NA
+babylab-potsdam,b6920,ADS,ADS7,14,6.571,10.916,noerror,NA,offline correction - button press error by experimenter - subtraction of 66 ms because baby did not look
+babylab-potsdam,b6920,ADS,ADS8,15,3.256,3.349,noerror,NA,offline correction - experimenter error - subtraction of 93 ms - baby did not look
+babylab-potsdam,b6920,IDS,IDS8,16,6.599,6.599,noerror,NA,NA
+babylab-potsdam,b6923,training,train1,-2,11.547,18,noerror,NA,NA
+babylab-potsdam,b6923,training,train2,-1,11.986,18,noerror,NA,NA
+babylab-potsdam,b6923,IDS,IDS1,1,11.833,16.02,noerror,NA,NA
+babylab-potsdam,b6923,ADS,ADS1,2,5.365,5.365,noerror,NA,NA
+babylab-potsdam,b6923,IDS,IDS2,3,15.481,18.001,noerror,NA,NA
+babylab-potsdam,b6923,ADS,ADS2,4,6.963,10.612,noerror,NA,NA
+babylab-potsdam,b6923,ADS,ADS3,5,7.065,10.122,noerror,NA,NA
+babylab-potsdam,b6923,IDS,IDS3,6,7.276,10.863,noerror,NA,offline correction - button press error by experimenter - subtraction of 319 ms because baby did not look
+babylab-potsdam,b6923,IDS,IDS4,7,7.618,9.519,noerror,NA,NA
+babylab-potsdam,b6923,ADS,ADS4,8,7.626,8.696,noerror,NA,NA
+babylab-potsdam,b6923,ADS,ADS5,9,4.444,5.194,noerror,NA,NA
+babylab-potsdam,b6923,IDS,IDS5,10,5.377,6.419,noerror,NA,NA
+babylab-potsdam,b6923,ADS,ADS6,11,5.42,7.384,noerror,NA,NA
+babylab-potsdam,b6923,IDS,IDS6,12,7.029,9.265,noerror,NA,NA
+babylab-potsdam,b6923,IDS,IDS7,13,5.104,6.125,noerror,NA,NA
+babylab-potsdam,b6923,ADS,ADS7,14,13.333,16.739,noerror,NA,offline correction - button press error by experimenter - addition of 528 ms because baby did look
+babylab-potsdam,b6923,ADS,ADS8,15,2.915,2.915,noerror,NA,NA
+babylab-potsdam,b6923,IDS,IDS8,16,4.677,7.352,noerror,NA,NA
+babylab-potsdam,b6938,training,train2,-2,14.606,17.652,noerror,NA,offline correction because stimulus started without looking - subtraction of 2496ms - and button press error by experimenter - addition of 880 ms - because baby did look
+babylab-potsdam,b6938,training,train1,-1,17.031,18,noerror,NA,NA
+babylab-potsdam,b6938,ADS,ADS5,1,18,18,noerror,NA,NA
+babylab-potsdam,b6938,IDS,IDS5,2,18,18,noerror,NA,NA
+babylab-potsdam,b6938,IDS,IDS7,3,18,18,noerror,NA,NA
+babylab-potsdam,b6938,ADS,ADS7,4,16.304,18.001,noerror,NA,NA
+babylab-potsdam,b6938,IDS,IDS1,5,18.001,18.001,noerror,NA,NA
+babylab-potsdam,b6938,ADS,ADS1,6,15.407,18,noerror,NA,NA
+babylab-potsdam,b6938,IDS,IDS3,7,17.713,18,noerror,NA,NA
+babylab-potsdam,b6938,ADS,ADS3,8,2.105,2.105,noerror,NA,NA
+babylab-potsdam,b6938,IDS,IDS2,9,15.46,18.001,noerror,NA,offline correction because stimulus started without looking - subtraction of 2541ms
+babylab-potsdam,b6938,ADS,ADS2,10,12.479,13.487,noerror,NA,offline correction because button press error by experimenter - subtraction of 1008 ms - because baby did not look - partly hard to see  - face outside of video
+babylab-potsdam,b6938,ADS,ADS4,11,14.536,14.536,noerror,NA,baby changes sitting position
+babylab-potsdam,b6938,IDS,IDS4,12,9.857,9.857,noerror,NA,before the trial a bit excited
+babylab-potsdam,b6938,ADS,ADS6,13,18,18,noerror,NA,NA
+babylab-potsdam,b6938,IDS,IDS6,14,13.748,13.748,noerror,NA,before the trial very unrestful
+babylab-potsdam,b6938,ADS,ADS8,15,17.254,18,noerror,NA,baby removes earphone cable so that the father is not blind to conditions anymore but there is no interference
+babylab-potsdam,b6938,IDS,IDS8,16,18,18,noerror,NA,NA
+babylab-potsdam,b6943,training,train2,-2,17.657,18,noerror,NA,NA
+babylab-potsdam,b6943,training,train1,-1,6.118,6.118,noerror,NA,NA
+babylab-potsdam,b6943,ADS,ADS5,1,17.747,17.747,noerror,NA,NA
+babylab-potsdam,b6943,IDS,IDS5,2,17.719,18,noerror,NA,NA
+babylab-potsdam,b6943,IDS,IDS7,3,16.3,18,noerror,NA,NA
+babylab-potsdam,b6943,ADS,ADS7,4,14.008,16.73,noerror,NA,NA
+babylab-potsdam,b6943,IDS,IDS1,5,6.497,6.497,noerror,NA,NA
+babylab-potsdam,b6943,ADS,ADS1,6,11.102,12.417,noerror,NA,NA
+babylab-potsdam,b6943,IDS,IDS3,7,15.794,18,noerror,NA,NA
+babylab-potsdam,b6943,ADS,ADS3,8,6.05,6.05,noerror,NA,NA
+babylab-potsdam,b6943,IDS,IDS2,9,9.254,9.254,noerror,NA,NA
+babylab-potsdam,b6943,ADS,ADS2,10,3.417,3.417,noerror,NA,NA
+babylab-potsdam,b6943,ADS,ADS4,11,3.315,3.315,noerror,NA,NA
+babylab-potsdam,b6943,IDS,IDS4,12,5.705,5.705,noerror,NA,NA
+babylab-potsdam,b6943,ADS,ADS6,13,2.1,2.1,noerror,NA,NA
+babylab-potsdam,b6943,IDS,IDS6,14,5.309,5.309,noerror,NA,NA
+babylab-potsdam,b6943,ADS,ADS8,15,8.616,10.64,noerror,NA,NA
+babylab-potsdam,b6943,IDS,IDS8,16,5.35,5.35,noerror,NA,NA
+babylab-potsdam,b6945,training,train2,-2,18,18,noerror,NA,NA
+babylab-potsdam,b6945,training,train1,-1,6.1,6.1,noerror,NA,NA
+babylab-potsdam,b6945,ADS,ADS1,1,18,18,noerror,NA,NA
+babylab-potsdam,b6945,IDS,IDS1,2,16.871,16.871,noerror,NA,NA
+babylab-potsdam,b6945,ADS,ADS2,3,16.768,18,noerror,NA,NA
+babylab-potsdam,b6945,IDS,IDS2,4,18.001,18.001,noerror,NA,NA
+babylab-potsdam,b6945,IDS,IDS3,5,16.083,18,noerror,NA,NA
+babylab-potsdam,b6945,ADS,ADS3,6,16.936,18,noerror,NA,NA
+babylab-potsdam,b6945,ADS,ADS4,7,16.534,16.534,noerror,NA,baby starts crying
+babylab-potsdam,b6945,IDS,IDS4,8,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6945,IDS,IDS5,9,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6945,ADS,ADS5,10,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6945,IDS,IDS6,11,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6945,ADS,ADS6,12,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6945,ADS,ADS7,13,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6945,IDS,IDS7,14,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6945,IDS,IDS8,15,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6945,ADS,ADS8,16,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6946,training,train2,-2,16.195,18,noerror,NA,NA
+babylab-potsdam,b6946,training,train1,-1,3.604,3.604,noerror,NA,NA
+babylab-potsdam,b6946,ADS,ADS1,1,15.8,18,noerror,NA,NA
+babylab-potsdam,b6946,IDS,IDS1,2,13.984,18.001,noerror,NA,NA
+babylab-potsdam,b6946,ADS,ADS2,3,5.387,5.387,noerror,NA,NA
+babylab-potsdam,b6946,IDS,IDS2,4,9.786,11.386,noerror,NA,NA
+babylab-potsdam,b6946,IDS,IDS3,5,4.695,4.695,noerror,NA,NA
+babylab-potsdam,b6946,ADS,ADS3,6,6.928,6.928,noerror,NA,NA
+babylab-potsdam,b6946,ADS,ADS4,7,11.694,12.846,noerror,NA,NA
+babylab-potsdam,b6946,IDS,IDS4,8,14.124,15.481,noerror,NA,NA
+babylab-potsdam,b6946,IDS,IDS5,9,7.235,7.235,noerror,NA,NA
+babylab-potsdam,b6946,ADS,ADS5,10,12.092,12.092,noerror,NA,NA
+babylab-potsdam,b6946,IDS,IDS6,11,1.067,1.067,noerror,NA,NA
+babylab-potsdam,b6946,ADS,ADS6,12,2.849,2.849,noerror,NA,NA
+babylab-potsdam,b6946,ADS,ADS7,13,5.592,7.075,noerror,NA,NA
+babylab-potsdam,b6946,IDS,IDS7,14,6.162,8.687,noerror,NA,fussy before the trial - offline correction - button press error - subtraction of 1734 ms
+babylab-potsdam,b6946,IDS,IDS8,15,5.708,5.708,noerror,NA,NA
+babylab-potsdam,b6946,ADS,ADS8,16,0,2.334,noerror,NA,offline correction - trial start without looking - no look at all
+babylab-potsdam,b6959,training,train1,-2,8.595,10.166,noerror,NA,NA
+babylab-potsdam,b6959,training,train2,-1,6.803,6.803,noerror,NA,NA
+babylab-potsdam,b6959,IDS,IDS1,1,7.932,7.932,noerror,NA,NA
+babylab-potsdam,b6959,ADS,ADS1,2,10.868,12.235,noerror,NA,NA
+babylab-potsdam,b6959,IDS,IDS2,3,3.413,3.413,noerror,NA,NA
+babylab-potsdam,b6959,ADS,ADS2,4,3.667,3.667,noerror,NA,NA
+babylab-potsdam,b6959,ADS,ADS3,5,2.827,2.827,noerror,NA,NA
+babylab-potsdam,b6959,IDS,IDS3,6,3.796,3.796,noerror,NA,NA
+babylab-potsdam,b6959,IDS,IDS4,7,4.538,6.522,noerror,NA,NA
+babylab-potsdam,b6959,ADS,ADS4,8,2.684,2.684,noerror,NA,NA
+babylab-potsdam,b6959,ADS,ADS5,9,6.312,7.53,noerror,NA,NA
+babylab-potsdam,b6959,IDS,IDS5,10,5.914,7.838,noerror,NA,NA
+babylab-potsdam,b6959,ADS,ADS6,11,8.742,10.282,noerror,NA,NA
+babylab-potsdam,b6959,IDS,IDS6,12,2.479,2.479,noerror,NA,NA
+babylab-potsdam,b6959,IDS,IDS7,13,6.187,6.187,noerror,NA,NA
+babylab-potsdam,b6959,ADS,ADS7,14,4.252,6.049,noerror,NA,distracted by headphones from caregiver
+babylab-potsdam,b6959,ADS,ADS8,15,10.293,13.353,noerror,NA,distracted by headphones from caregiver
+babylab-potsdam,b6959,IDS,IDS8,16,6.529,6.529,noerror,NA,NA
+babylab-potsdam,b6960,training,train2,-2,16.321,16.321,noerror,NA,NA
+babylab-potsdam,b6960,training,train1,-1,11.096,14.258,noerror,NA,NA
+babylab-potsdam,b6960,ADS,ADS1,1,12.537,14.527,noerror,NA,NA
+babylab-potsdam,b6960,IDS,IDS1,2,10.688,12.747,noerror,NA,NA
+babylab-potsdam,b6960,ADS,ADS2,3,3.244,3.244,noerror,NA,NA
+babylab-potsdam,b6960,IDS,IDS2,4,3.375,3.375,noerror,NA,NA
+babylab-potsdam,b6960,IDS,IDS3,5,7.136,7.136,noerror,NA,NA
+babylab-potsdam,b6960,ADS,ADS3,6,4.223,4.223,noerror,NA,NA
+babylab-potsdam,b6960,ADS,ADS4,7,8.408,9.289,noerror,NA,NA
+babylab-potsdam,b6960,IDS,IDS4,8,2.287,2.287,noerror,NA,NA
+babylab-potsdam,b6960,IDS,IDS5,9,11.374,14.563,noerror,NA,NA
+babylab-potsdam,b6960,ADS,ADS5,10,4.945,4.945,noerror,NA,NA
+babylab-potsdam,b6960,IDS,IDS6,11,2.539,2.539,noerror,NA,NA
+babylab-potsdam,b6960,ADS,ADS6,12,10.357,16.096,noerror,NA,NA
+babylab-potsdam,b6960,ADS,ADS7,13,6.469,6.469,noerror,NA,NA
+babylab-potsdam,b6960,IDS,IDS7,14,3.527,3.527,noerror,NA,NA
+babylab-potsdam,b6960,IDS,IDS8,15,4.359,5.518,noerror,NA,NA
+babylab-potsdam,b6960,ADS,ADS8,16,8.738,11.117,noerror,NA,NA
+babylab-potsdam,b6961,training,train2,-2,18,18,noerror,NA,NA
+babylab-potsdam,b6961,training,train1,-1,6.362,6.362,noerror,NA,NA
+babylab-potsdam,b6961,ADS,ADS5,1,15.337,17.949,noerror,NA,NA
+babylab-potsdam,b6961,IDS,IDS5,2,14.965,18,noerror,NA,NA
+babylab-potsdam,b6961,IDS,IDS7,3,13.16,16.853,noerror,NA,NA
+babylab-potsdam,b6961,ADS,ADS7,4,7.094,8.505,noerror,NA,NA
+babylab-potsdam,b6961,IDS,IDS1,5,16.68,17.972,noerror,NA,NA
+babylab-potsdam,b6961,ADS,ADS1,6,4.027,4.027,noerror,NA,NA
+babylab-potsdam,b6961,IDS,IDS3,7,15.228,18,noerror,NA,NA
+babylab-potsdam,b6961,ADS,ADS3,8,3.766,3.766,noerror,NA,NA
+babylab-potsdam,b6961,IDS,IDS2,9,5.269,5.269,noerror,NA,NA
+babylab-potsdam,b6961,ADS,ADS2,10,17.257,18,noerror,NA,NA
+babylab-potsdam,b6961,ADS,ADS4,11,2.286,2.286,noerror,NA,NA
+babylab-potsdam,b6961,IDS,IDS4,12,5.342,5.342,noerror,NA,NA
+babylab-potsdam,b6961,ADS,ADS6,13,3.67,3.67,noerror,NA,NA
+babylab-potsdam,b6961,IDS,IDS6,14,7.989,9.694,noerror,NA,NA
+babylab-potsdam,b6961,ADS,ADS8,15,3.267,3.267,noerror,NA,NA
+babylab-potsdam,b6961,IDS,IDS8,16,5.69,5.69,noerror,NA,NA
+babylab-potsdam,b6967,training,train2,-2,18,18,noerror,NA,NA
+babylab-potsdam,b6967,training,train1,-1,12.269,13.354,noerror,NA,NA
+babylab-potsdam,b6967,ADS,ADS1,1,18,18,noerror,NA,NA
+babylab-potsdam,b6967,IDS,IDS1,2,18.001,18.001,noerror,NA,NA
+babylab-potsdam,b6967,ADS,ADS2,3,16.805,18,noerror,NA,NA
+babylab-potsdam,b6967,IDS,IDS2,4,12.919,12.919,noerror,NA,NA
+babylab-potsdam,b6967,IDS,IDS3,5,10.821,12.419,noerror,NA,NA
+babylab-potsdam,b6967,ADS,ADS3,6,9.422,9.422,noerror,NA,baby plays with hands of mum - but looks at the lights
+babylab-potsdam,b6967,ADS,ADS4,7,9.905,11.15,noerror,NA,baby plays with hands of mum - but looks at the lights
+babylab-potsdam,b6967,IDS,IDS4,8,8.463,8.463,noerror,NA,baby plays with hands of mum - but looks at the lights
+babylab-potsdam,b6967,IDS,IDS5,9,5.952,5.952,noerror,NA,baby plays with hands of mum - but looks at the lights
+babylab-potsdam,b6967,ADS,ADS5,10,8.702,8.702,noerror,NA,NA
+babylab-potsdam,b6967,IDS,IDS6,11,14.691,14.691,noerror,NA,baby was interested in earphones of mum - but after trial start ok
+babylab-potsdam,b6967,ADS,ADS6,12,5.593,5.593,noerror,NA,NA
+babylab-potsdam,b6967,ADS,ADS7,13,5.132,5.132,noerror,NA,NA
+babylab-potsdam,b6967,IDS,IDS7,14,6.116,8.02,noerror,NA,NA
+babylab-potsdam,b6967,IDS,IDS8,15,2.243,2.243,noerror,NA,NA
+babylab-potsdam,b6967,ADS,ADS8,16,8.019,10.586,noerror,NA,NA
+babylab-potsdam,b6987,training,train1,-2,16.575,18,noerror,NA,NA
+babylab-potsdam,b6987,training,train2,-1,3.628,3.628,noerror,NA,NA
+babylab-potsdam,b6987,IDS,IDS5,1,11.451,11.451,noerror,NA,NA
+babylab-potsdam,b6987,ADS,ADS5,2,16.578,17.927,noerror,NA,NA
+babylab-potsdam,b6987,ADS,ADS7,3,15.126,18.001,noerror,NA,NA
+babylab-potsdam,b6987,IDS,IDS7,4,3.357,3.357,noerror,NA,NA
+babylab-potsdam,b6987,ADS,ADS1,5,6.018,6.556,noerror,NA,NA
+babylab-potsdam,b6987,IDS,IDS1,6,6.673,8.071,noerror,NA,NA
+babylab-potsdam,b6987,ADS,ADS3,7,4.865,6.612,noerror,NA,NA
+babylab-potsdam,b6987,IDS,IDS3,8,3.479,3.479,noerror,NA,NA
+babylab-potsdam,b6987,ADS,ADS2,9,5.727,5.727,noerror,NA,NA
+babylab-potsdam,b6987,IDS,IDS2,10,8.937,10.493,noerror,NA,NA
+babylab-potsdam,b6987,IDS,IDS4,11,2.807,2.807,noerror,NA,NA
+babylab-potsdam,b6987,ADS,ADS4,12,8.6,8.6,noerror,NA,NA
+babylab-potsdam,b6987,IDS,IDS6,13,3.748,3.748,noerror,NA,NA
+babylab-potsdam,b6987,ADS,ADS6,14,4.266,4.266,noerror,NA,NA
+babylab-potsdam,b6987,IDS,IDS8,15,3.243,3.243,noerror,NA,NA
+babylab-potsdam,b6987,ADS,ADS8,16,3.037,3.037,noerror,NA,NA
+babylab-potsdam,b6993,training,train1,-2,18,18,noerror,NA,NA
+babylab-potsdam,b6993,training,train2,-1,8.602,11.338,noerror,NA,offline correction because trial had to be started without the baby looking - subtraction of 2736 ms
+babylab-potsdam,b6993,IDS,IDS5,1,18,18,noerror,NA,NA
+babylab-potsdam,b6993,ADS,ADS5,2,7.899,7.899,noerror,NA,NA
+babylab-potsdam,b6993,ADS,ADS7,3,8.023,8.023,noerror,NA,baby starts crying suddenly
+babylab-potsdam,b6993,IDS,IDS7,4,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6993,ADS,ADS1,5,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6993,IDS,IDS1,6,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6993,ADS,ADS3,7,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6993,IDS,IDS3,8,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6993,ADS,ADS2,9,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6993,IDS,IDS2,10,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6993,IDS,IDS4,11,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6993,ADS,ADS4,12,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6993,IDS,IDS6,13,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6993,ADS,ADS6,14,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6993,IDS,IDS8,15,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6993,ADS,ADS8,16,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b7041,training,train1,-2,5.058,5.058,noerror,NA,NA
+babylab-potsdam,b7041,training,train2,-1,3.439,3.439,noerror,NA,NA
+babylab-potsdam,b7041,IDS,IDS5,1,3.411,4.43,noerror,NA,NA
+babylab-potsdam,b7041,ADS,ADS5,2,1.741,4.532,noerror,NA,offfline correction - button press error by experimenter - subtraction of 868 ms - because child did not look
+babylab-potsdam,b7041,ADS,ADS7,3,6.081,6.081,noerror,NA,unclear if baby looks at light or his right hand
+babylab-potsdam,b7041,IDS,IDS7,4,1.377,1.377,noerror,NA,NA
+babylab-potsdam,b7041,ADS,ADS1,5,3.519,4.984,noerror,NA,offfline correction - button press error by experimenter - subtraction of 567 ms - because child hid his face
+babylab-potsdam,b7041,IDS,IDS1,6,2.283,2.283,noerror,NA,distracted
+babylab-potsdam,b7041,ADS,ADS3,7,2.147,7.054,noerror,NA,offfline correction - button press error by experimenter - subtraction of 3303 ms - because baby actually looked to the back of the booth and not at the light
+babylab-potsdam,b7041,IDS,IDS3,8,3.2,3.98,noerror,NA,whining
+babylab-potsdam,b7041,ADS,ADS2,9,0.455,0.455,noerror,NA,baby cries a little
+babylab-potsdam,b7041,IDS,IDS2,10,10.959,13.304,noerror,NA,NA
+babylab-potsdam,b7041,IDS,IDS4,11,1.013,1.013,noerror,NA,crying - experiment stopped
+babylab-potsdam,b7041,ADS,ADS4,12,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b7041,IDS,IDS6,13,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b7041,ADS,ADS6,14,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b7041,IDS,IDS8,15,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b7041,ADS,ADS8,16,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b7045,training,train2,-2,16.588,18,noerror,NA,NA
+babylab-potsdam,b7045,training,train1,-1,12.375,18,noerror,NA,NA
+babylab-potsdam,b7045,ADS,ADS1,1,4.39,5.497,noerror,NA,NA
+babylab-potsdam,b7045,IDS,IDS1,2,4.425,4.425,noerror,NA,NA
+babylab-potsdam,b7045,ADS,ADS2,3,14.359,18,noerror,NA,NA
+babylab-potsdam,b7045,IDS,IDS2,4,1.476,1.476,noerror,NA,NA
+babylab-potsdam,b7045,IDS,IDS3,5,8.402,10.056,noerror,NA,NA
+babylab-potsdam,b7045,ADS,ADS3,6,7.928,9.654,noerror,NA,NA
+babylab-potsdam,b7045,ADS,ADS4,7,2.977,2.977,noerror,NA,NA
+babylab-potsdam,b7045,IDS,IDS4,8,3.01,3.01,noerror,NA,NA
+babylab-potsdam,b7045,IDS,IDS5,9,3.13,3.13,noerror,NA,NA
+babylab-potsdam,b7045,ADS,ADS5,10,4.688,5.764,noerror,NA,NA
+babylab-potsdam,b7045,IDS,IDS6,11,3.759,5.07,noerror,NA,NA
+babylab-potsdam,b7045,ADS,ADS6,12,1.267,1.267,noerror,NA,NA
+babylab-potsdam,b7045,ADS,ADS7,13,7.991,10.906,noerror,NA,NA
+babylab-potsdam,b7045,IDS,IDS7,14,0.984,0.984,noerror,NA,NA
+babylab-potsdam,b7045,IDS,IDS8,15,1.488,1.488,noerror,NA,NA
+babylab-potsdam,b7045,ADS,ADS8,16,5.941,5.941,noerror,NA,NA
+babylab-potsdam,b6871,training,train2,-2,18.001,18.001,noerror,NA,NA
+babylab-potsdam,b6871,training,train1,-1,17.497,18.001,noerror,NA,NA
+babylab-potsdam,b6871,ADS,ADS5,1,6.443,8.444,noerror,NA,NA
+babylab-potsdam,b6871,IDS,IDS5,2,8.84,11.841,noerror,NA,NA
+babylab-potsdam,b6871,IDS,IDS7,3,18,18,noerror,NA,NA
+babylab-potsdam,b6871,ADS,ADS7,4,5.665,7.665,noerror,NA,NA
+babylab-potsdam,b6871,IDS,IDS1,5,7.317,9.318,noerror,NA,NA
+babylab-potsdam,b6871,ADS,ADS1,6,11.887,13.889,noerror,NA,NA
+babylab-potsdam,b6871,IDS,IDS3,7,9.952,11.953,noerror,NA,NA
+babylab-potsdam,b6871,ADS,ADS3,8,8.114,10.115,noerror,NA,NA
+babylab-potsdam,b6871,IDS,IDS2,9,14.881,18,noerror,NA,NA
+babylab-potsdam,b6871,ADS,ADS2,10,11.264,13.265,noerror,NA,NA
+babylab-potsdam,b6871,ADS,ADS4,11,11.998,14,noerror,NA,NA
+babylab-potsdam,b6871,IDS,IDS4,12,14.102,17.023,noerror,NA,NA
+babylab-potsdam,b6871,ADS,ADS6,13,8.291,10.292,noerror,NA,trial start without looking
+babylab-potsdam,b6871,IDS,IDS6,14,17.376,18.001,noerror,NA,NA
+babylab-potsdam,b6871,ADS,ADS8,15,18,18,noerror,NA,NA
+babylab-potsdam,b6871,IDS,IDS8,16,6.015,8.016,noerror,NA,NA
+babylab-potsdam,b6880,training,train1,-2,15.746,17.749,noerror,NA,NA
+babylab-potsdam,b6880,training,train2,-1,6.432,8.434,noerror,NA,NA
+babylab-potsdam,b6880,IDS,IDS5,1,14.758,18.001,noerror,NA,NA
+babylab-potsdam,b6880,ADS,ADS5,2,6.222,9.384,noerror,NA,NA
+babylab-potsdam,b6880,ADS,ADS7,3,5.802,7.804,noerror,NA,NA
+babylab-potsdam,b6880,IDS,IDS7,4,5.922,9.22,noerror,NA,NA
+babylab-potsdam,b6880,ADS,ADS1,5,9.907,11.909,noerror,NA,NA
+babylab-potsdam,b6880,IDS,IDS1,6,4.964,6.966,noerror,NA,NA
+babylab-potsdam,b6880,ADS,ADS3,7,2.965,4.966,noerror,NA,NA
+babylab-potsdam,b6880,IDS,IDS3,8,6.145,8.147,noerror,NA,NA
+babylab-potsdam,b6880,ADS,ADS2,9,4.945,6.946,noerror,NA,NA
+babylab-potsdam,b6880,IDS,IDS2,10,5.785,9.274,noerror,NA,NA
+babylab-potsdam,b6880,IDS,IDS4,11,1.776,7.53,noerror,NA,NA
+babylab-potsdam,b6880,ADS,ADS4,12,2.051,4.053,noerror,NA,NA
+babylab-potsdam,b6880,IDS,IDS6,13,14.142,18.001,noerror,NA,NA
+babylab-potsdam,b6880,ADS,ADS6,14,4.909,7.91,noerror,NA,NA
+babylab-potsdam,b6880,IDS,IDS8,15,8.478,11.535,noerror,NA,NA
+babylab-potsdam,b6880,ADS,ADS8,16,2.509,5.27,noerror,NA,NA
+babylab-potsdam,b6885,training,train1,-2,17.361,18.001,noerror,NA,NA
+babylab-potsdam,b6885,training,train2,-1,17.385,18.001,noerror,NA,NA
+babylab-potsdam,b6885,IDS,IDS1,1,18,18.001,noerror,NA,NA
+babylab-potsdam,b6885,ADS,ADS1,2,13.27,18.002,noerror,NA,NA
+babylab-potsdam,b6885,IDS,IDS2,3,13.126,16.623,noerror,NA,NA
+babylab-potsdam,b6885,ADS,ADS2,4,4.687,6.688,noerror,NA,NA
+babylab-potsdam,b6885,ADS,ADS3,5,6.328,8.329,noerror,NA,NA
+babylab-potsdam,b6885,IDS,IDS3,6,8.028,10.029,noerror,NA,NA
+babylab-potsdam,b6885,IDS,IDS4,7,3.303,5.304,noerror,NA,NA
+babylab-potsdam,b6885,ADS,ADS4,8,3.857,5.858,noerror,NA,NA
+babylab-potsdam,b6885,ADS,ADS5,9,3.533,5.534,noerror,NA,NA
+babylab-potsdam,b6885,IDS,IDS5,10,2.765,4.766,noerror,NA,NA
+babylab-potsdam,b6885,ADS,ADS6,11,2.699,4.701,noerror,NA,NA
+babylab-potsdam,b6885,IDS,IDS6,12,5.345,7.346,noerror,NA,NA
+babylab-potsdam,b6885,IDS,IDS7,13,0.957,2.958,noerror,NA,NA
+babylab-potsdam,b6885,ADS,ADS7,14,6.644,9.336,noerror,NA,NA
+babylab-potsdam,b6885,ADS,ADS8,15,2.609,4.61,noerror,NA,NA
+babylab-potsdam,b6885,IDS,IDS8,16,1.593,3.594,noerror,NA,NA
+babylab-potsdam,b6893,training,train2,-2,15.84,18,noerror,NA,NA
+babylab-potsdam,b6893,training,train1,-1,13.033,17.106,noerror,NA,NA
+babylab-potsdam,b6893,ADS,ADS5,1,13.616,17.213,noerror,NA,NA
+babylab-potsdam,b6893,IDS,IDS5,2,4.52,6.809,noerror,NA,NA
+babylab-potsdam,b6893,IDS,IDS7,3,2.657,4.937,noerror,NA,NA
+babylab-potsdam,b6893,ADS,ADS7,4,4.874,8.776,noerror,NA,NA
+babylab-potsdam,b6893,IDS,IDS1,5,6.353,8.699,noerror,NA,NA
+babylab-potsdam,b6893,ADS,ADS1,6,3.296,5.578,noerror,NA,NA
+babylab-potsdam,b6893,IDS,IDS3,7,5.184,8.775,noerror,NA,NA
+babylab-potsdam,b6893,ADS,ADS3,8,14.849,18,noerror,NA,NA
+babylab-potsdam,b6893,IDS,IDS2,9,6.152,9.968,noerror,NA,trial start without looking
+babylab-potsdam,b6893,ADS,ADS2,10,8.337,13.438,noerror,NA,NA
+babylab-potsdam,b6893,ADS,ADS4,11,5.08,7.415,noerror,NA,NA
+babylab-potsdam,b6893,IDS,IDS4,12,5.808,11.101,noerror,NA,NA
+babylab-potsdam,b6893,ADS,ADS6,13,1.521,3.859,noerror,NA,NA
+babylab-potsdam,b6893,IDS,IDS6,14,3.928,6.19,noerror,NA,NA
+babylab-potsdam,b6893,ADS,ADS8,15,12.585,15.588,noerror,NA,NA
+babylab-potsdam,b6893,IDS,IDS8,16,7.858,12.597,noerror,NA,NA
+babylab-potsdam,b6902,training,train1,-2,17.809,18.001,noerror,NA,NA
+babylab-potsdam,b6902,training,train2,-1,17.184,18,error,experimenter error,button press error by experimenter - about 400 ms should be subtracted - evaluation not possible because in this video the trial information is missing
+babylab-potsdam,b6902,IDS,IDS1,1,16.27,18.001,noerror,NA,NA
+babylab-potsdam,b6902,ADS,ADS1,2,6.392,16.772,noerror,NA,NA
+babylab-potsdam,b6902,IDS,IDS2,3,3.538,5.539,noerror,NA,NA
+babylab-potsdam,b6902,ADS,ADS2,4,3.78,5.78,noerror,NA,NA
+babylab-potsdam,b6902,ADS,ADS3,5,6.639,8.64,noerror,NA,NA
+babylab-potsdam,b6902,IDS,IDS3,6,12.633,16.132,noerror,NA,NA
+babylab-potsdam,b6902,IDS,IDS4,7,3.746,5.748,noerror,NA,NA
+babylab-potsdam,b6902,ADS,ADS4,8,7.403,9.404,noerror,NA,NA
+babylab-potsdam,b6902,ADS,ADS5,9,3.323,5.324,noerror,NA,NA
+babylab-potsdam,b6902,IDS,IDS5,10,5.795,7.796,noerror,NA,NA
+babylab-potsdam,b6902,ADS,ADS6,11,9.288,13.906,noerror,NA,NA
+babylab-potsdam,b6902,IDS,IDS6,12,3.652,6.148,noerror,NA,NA
+babylab-potsdam,b6902,IDS,IDS7,13,13.904,18.001,noerror,NA,NA
+babylab-potsdam,b6902,ADS,ADS7,14,4.083,6.084,noerror,NA,NA
+babylab-potsdam,b6902,ADS,ADS8,15,8.708,11.837,noerror,NA,NA
+babylab-potsdam,b6902,IDS,IDS8,16,5.482,7.483,noerror,NA,NA
+babylab-potsdam,b6907,training,train2,-2,13.064,15.065,noerror,NA,NA
+babylab-potsdam,b6907,training,train1,-1,17.568,18.001,noerror,NA,NA
+babylab-potsdam,b6907,ADS,ADS5,1,9.984,13.345,noerror,NA,NA
+babylab-potsdam,b6907,IDS,IDS5,2,16.615,18.001,noerror,NA,NA
+babylab-potsdam,b6907,IDS,IDS7,3,10.209,13.482,noerror,NA,NA
+babylab-potsdam,b6907,ADS,ADS7,4,8.293,10.294,noerror,NA,NA
+babylab-potsdam,b6907,IDS,IDS1,5,16.312,18.001,noerror,NA,NA
+babylab-potsdam,b6907,ADS,ADS1,6,4.695,6.696,noerror,NA,NA
+babylab-potsdam,b6907,IDS,IDS3,7,15.812,18.001,noerror,NA,trial start without looking
+babylab-potsdam,b6907,ADS,ADS3,8,2.524,4.525,noerror,NA,NA
+babylab-potsdam,b6907,IDS,IDS2,9,2.361,4.362,noerror,NA,NA
+babylab-potsdam,b6907,ADS,ADS2,10,16.361,18.001,noerror,NA,NA
+babylab-potsdam,b6907,ADS,ADS4,11,3.524,5.525,noerror,NA,NA
+babylab-potsdam,b6907,IDS,IDS4,12,1.494,3.495,noerror,NA,NA
+babylab-potsdam,b6907,ADS,ADS6,13,8.473,13.014,noerror,NA,trial start without looking
+babylab-potsdam,b6907,IDS,IDS6,14,2.855,4.857,noerror,NA,NA
+babylab-potsdam,b6907,ADS,ADS8,15,NC,NC,error,experiment ended early,stop of experiment was mistake by experimenter - child was ok
+babylab-potsdam,b6907,IDS,IDS8,16,NC,NC,error,experiment ended early,NA
+babylab-potsdam,b6909,training,train2,-2,14.711,18,noerror,NA,NA
+babylab-potsdam,b6909,training,train1,-1,14.562,18,noerror,NA,NA
+babylab-potsdam,b6909,ADS,ADS1,1,6.371,8.373,noerror,NA,NA
+babylab-potsdam,b6909,IDS,IDS1,2,15.079,18.001,noerror,NA,NA
+babylab-potsdam,b6909,ADS,ADS2,3,6.06,9.79,noerror,NA,baby almost lying down
+babylab-potsdam,b6909,IDS,IDS2,4,4.371,6.373,noerror,NA,NA
+babylab-potsdam,b6909,IDS,IDS3,5,5.224,9.824,noerror,NA,baby turned around
+babylab-potsdam,b6909,ADS,ADS3,6,4.145,9.842,noerror,NA,baby turned around
+babylab-potsdam,b6909,ADS,ADS4,7,2.94,4.941,noerror,NA,NA
+babylab-potsdam,b6909,IDS,IDS4,8,2.454,4.455,noerror,NA,NA
+babylab-potsdam,b6909,IDS,IDS5,9,7.316,10.574,noerror,NA,NA
+babylab-potsdam,b6909,ADS,ADS5,10,3.933,5.934,noerror,NA,NA
+babylab-potsdam,b6909,IDS,IDS6,11,1.264,6.435,noerror,NA,distracted - touches head phones
+babylab-potsdam,b6909,ADS,ADS6,12,6.716,8.718,noerror,NA,NA
+babylab-potsdam,b6909,ADS,ADS7,13,7.466,9.468,noerror,NA,NA
+babylab-potsdam,b6909,IDS,IDS7,14,4.793,6.794,noerror,NA,NA
+babylab-potsdam,b6909,IDS,IDS8,15,2.841,4.842,noerror,NA,NA
+babylab-potsdam,b6909,ADS,ADS8,16,7.665,11.537,noerror,NA,NA
+babylab-potsdam,b6913,training,train1,-2,3.309,5.31,noerror,NA,very active and not attending
+babylab-potsdam,b6913,training,train2,-1,17.305,18.001,noerror,NA,NA
+babylab-potsdam,b6913,IDS,IDS5,1,17.405,18,noerror,NA,NA
+babylab-potsdam,b6913,ADS,ADS5,2,7.013,9.447,noerror,NA,NA
+babylab-potsdam,b6913,ADS,ADS7,3,11.632,13.634,noerror,NA,NA
+babylab-potsdam,b6913,IDS,IDS7,4,7.203,9.204,noerror,NA,NA
+babylab-potsdam,b6913,ADS,ADS1,5,12.049,16.679,noerror,NA,trial start without looking
+babylab-potsdam,b6913,IDS,IDS1,6,5.79,7.791,noerror,NA,NA
+babylab-potsdam,b6913,ADS,ADS3,7,5.257,7.258,noerror,NA,NA
+babylab-potsdam,b6913,IDS,IDS3,8,12.181,16.261,noerror,NA,NA
+babylab-potsdam,b6913,ADS,ADS2,9,3.873,5.874,noerror,NA,NA
+babylab-potsdam,b6913,IDS,IDS2,10,2.625,4.626,noerror,NA,NA
+babylab-potsdam,b6913,IDS,IDS4,11,11.038,14.599,noerror,NA,very active
+babylab-potsdam,b6913,ADS,ADS4,12,8.113,10.114,noerror,NA,very active
+babylab-potsdam,b6913,IDS,IDS6,13,3.21,5.212,noerror,NA,very active
+babylab-potsdam,b6913,ADS,ADS6,14,4.562,6.563,noerror,NA,very active
+babylab-potsdam,b6913,IDS,IDS8,15,5.511,7.512,noerror,NA,very active
+babylab-potsdam,b6913,ADS,ADS8,16,,18.001,noerror,NA,very active - trial start without looking
+babylab-potsdam,b6917,training,train1,-2,18.002,18.002,noerror,NA,NA
+babylab-potsdam,b6917,training,train2,-1,15.625,18.001,noerror,NA,NA
+babylab-potsdam,b6917,IDS,IDS5,1,6.653,9.798,noerror,NA,NA
+babylab-potsdam,b6917,ADS,ADS5,2,17.357,18.001,noerror,NA,NA
+babylab-potsdam,b6917,ADS,ADS7,3,14.814,16.816,noerror,NA,NA
+babylab-potsdam,b6917,IDS,IDS7,4,14.77,18.001,noerror,NA,NA
+babylab-potsdam,b6917,ADS,ADS1,5,8.449,12.931,noerror,NA,NA
+babylab-potsdam,b6917,IDS,IDS1,6,6.24,8.243,noerror,NA,NA
+babylab-potsdam,b6917,ADS,ADS3,7,6.438,8.439,noerror,NA,NA
+babylab-potsdam,b6917,IDS,IDS3,8,6.194,10.101,noerror,NA,NA
+babylab-potsdam,b6917,ADS,ADS2,9,3.583,5.585,noerror,NA,NA
+babylab-potsdam,b6917,IDS,IDS2,10,2.234,4.236,noerror,NA,NA
+babylab-potsdam,b6917,IDS,IDS4,11,1.607,3.608,noerror,NA,NA
+babylab-potsdam,b6917,ADS,ADS4,12,10.109,13.111,noerror,NA,NA
+babylab-potsdam,b6917,IDS,IDS6,13,16.713,18.001,noerror,NA,NA
+babylab-potsdam,b6917,ADS,ADS6,14,5.424,16.328,noerror,NA,NA
+babylab-potsdam,b6917,IDS,IDS8,15,4.951,6.953,noerror,NA,NA
+babylab-potsdam,b6917,ADS,ADS8,16,1.685,3.686,noerror,NA,NA
+babylab-potsdam,b6921,training,train1,-2,10.633,13.842,noerror,NA,NA
+babylab-potsdam,b6921,training,train2,-1,3.485,5.486,noerror,NA,NA
+babylab-potsdam,b6921,IDS,IDS1,1,15.881,18.001,noerror,NA,NA
+babylab-potsdam,b6921,ADS,ADS1,2,4.455,7.426,noerror,NA,hard to code because gaze direction hard to tell
+babylab-potsdam,b6921,IDS,IDS2,3,8.636,10.637,noerror,NA,NA
+babylab-potsdam,b6921,ADS,ADS2,4,6.994,8.995,noerror,NA,NA
+babylab-potsdam,b6921,ADS,ADS3,5,2.948,4.949,noerror,NA,NA
+babylab-potsdam,b6921,IDS,IDS3,6,14.531,18.001,noerror,NA,NA
+babylab-potsdam,b6921,IDS,IDS4,7,4.446,6.447,noerror,NA,NA
+babylab-potsdam,b6921,ADS,ADS4,8,3.008,5.009,noerror,NA,NA
+babylab-potsdam,b6921,ADS,ADS5,9,3.945,5.946,noerror,NA,NA
+babylab-potsdam,b6921,IDS,IDS5,10,1.619,3.62,noerror,NA,NA
+babylab-potsdam,b6921,ADS,ADS6,11,3.135,5.136,noerror,NA,NA
+babylab-potsdam,b6921,IDS,IDS6,12,14.079,18.001,noerror,NA,NA
+babylab-potsdam,b6921,IDS,IDS7,13,8.011,10.013,noerror,NA,NA
+babylab-potsdam,b6921,ADS,ADS7,14,3.86,5.861,noerror,NA,NA
+babylab-potsdam,b6921,ADS,ADS8,15,1.41,3.411,noerror,NA,NA
+babylab-potsdam,b6921,IDS,IDS8,16,5.823,7.825,noerror,NA,NA
+babylab-potsdam,b6926,training,train2,-2,16.344,18,noerror,NA,NA
+babylab-potsdam,b6926,training,train1,-1,12.386,15.739,noerror,NA,NA
+babylab-potsdam,b6926,ADS,ADS1,1,15.679,18,noerror,NA,NA
+babylab-potsdam,b6926,IDS,IDS1,2,16.281,18.001,noerror,NA,NA
+babylab-potsdam,b6926,ADS,ADS2,3,15.914,18.001,noerror,NA,NA
+babylab-potsdam,b6926,IDS,IDS2,4,15.284,17.285,noerror,NA,NA
+babylab-potsdam,b6926,IDS,IDS3,5,8.687,12.681,noerror,NA,NA
+babylab-potsdam,b6926,ADS,ADS3,6,9.684,13.237,noerror,NA,NA
+babylab-potsdam,b6926,ADS,ADS4,7,9.677,11.679,noerror,NA,NA
+babylab-potsdam,b6926,IDS,IDS4,8,4.349,6.351,noerror,NA,NA
+babylab-potsdam,b6926,IDS,IDS5,9,3.293,5.294,noerror,NA,NA
+babylab-potsdam,b6926,ADS,ADS5,10,5.527,7.528,noerror,NA,NA
+babylab-potsdam,b6926,IDS,IDS6,11,2.171,4.173,noerror,NA,NA
+babylab-potsdam,b6926,ADS,ADS6,12,2.383,4.384,noerror,NA,NA
+babylab-potsdam,b6926,ADS,ADS7,13,8.587,12.429,noerror,NA,NA
+babylab-potsdam,b6926,IDS,IDS7,14,4.27,7.167,noerror,NA,NA
+babylab-potsdam,b6926,IDS,IDS8,15,3.46,5.461,noerror,NA,NA
+babylab-potsdam,b6926,ADS,ADS8,16,8.399,11.64,noerror,NA,NA
+babylab-potsdam,b6939,training,train2,-2,18.001,18.001,noerror,NA,NA
+babylab-potsdam,b6939,training,train1,-1,6.847,8.848,noerror,NA,NA
+babylab-potsdam,b6939,ADS,ADS5,1,18,18.001,noerror,NA,NA
+babylab-potsdam,b6939,IDS,IDS5,2,18.001,18.001,noerror,NA,NA
+babylab-potsdam,b6939,IDS,IDS7,3,15.603,18.001,noerror,NA,NA
+babylab-potsdam,b6939,ADS,ADS7,4,13.55,18,noerror,NA,NA
+babylab-potsdam,b6939,IDS,IDS1,5,16.576,18.001,noerror,NA,NA
+babylab-potsdam,b6939,ADS,ADS1,6,3.353,5.354,noerror,NA,NA
+babylab-potsdam,b6939,IDS,IDS3,7,11.823,13.824,noerror,NA,NA
+babylab-potsdam,b6939,ADS,ADS3,8,5.129,8.746,noerror,NA,NA
+babylab-potsdam,b6939,IDS,IDS2,9,5.508,7.509,noerror,NA,NA
+babylab-potsdam,b6939,ADS,ADS2,10,2.924,4.925,noerror,NA,NA
+babylab-potsdam,b6939,ADS,ADS4,11,2.812,4.813,noerror,NA,NA
+babylab-potsdam,b6939,IDS,IDS4,12,2.229,4.23,noerror,NA,NA
+babylab-potsdam,b6939,ADS,ADS6,13,1.434,3.435,noerror,NA,NA
+babylab-potsdam,b6939,IDS,IDS6,14,16.321,18.001,noerror,NA,NA
+babylab-potsdam,b6939,ADS,ADS8,15,8.437,13.719,noerror,NA,NA
+babylab-potsdam,b6939,IDS,IDS8,16,8.169,10.17,noerror,NA,NA
+babylab-potsdam,b6940,training,train1,-2,14.647,18.001,noerror,NA,NA
+babylab-potsdam,b6940,training,train2,-1,15.278,18,noerror,NA,NA
+babylab-potsdam,b6940,IDS,IDS1,1,16.465,18.001,noerror,NA,NA
+babylab-potsdam,b6940,ADS,ADS1,2,15.659,18.001,noerror,NA,NA
+babylab-potsdam,b6940,IDS,IDS2,3,16.952,18,noerror,NA,NA
+babylab-potsdam,b6940,ADS,ADS2,4,14.87,18.001,noerror,NA,NA
+babylab-potsdam,b6940,ADS,ADS3,5,17.121,18.001,noerror,NA,NA
+babylab-potsdam,b6940,IDS,IDS3,6,17.521,18.001,noerror,NA,NA
+babylab-potsdam,b6940,IDS,IDS4,7,17.025,18.001,noerror,NA,NA
+babylab-potsdam,b6940,ADS,ADS4,8,17.432,18.001,noerror,NA,NA
+babylab-potsdam,b6940,ADS,ADS5,9,6.587,8.588,noerror,NA,NA
+babylab-potsdam,b6940,IDS,IDS5,10,18.001,18.002,noerror,NA,NA
+babylab-potsdam,b6940,ADS,ADS6,11,16.823,18,noerror,NA,NA
+babylab-potsdam,b6940,IDS,IDS6,12,11.872,14.665,noerror,NA,NA
+babylab-potsdam,b6940,IDS,IDS7,13,17.704,18,noerror,NA,NA
+babylab-potsdam,b6940,ADS,ADS7,14,14.054,17.497,noerror,NA,NA
+babylab-potsdam,b6940,ADS,ADS8,15,14.954,18.001,noerror,NA,NA
+babylab-potsdam,b6940,IDS,IDS8,16,15.713,18.001,error,parental interference,mother points to the screen during the presentation
+babylab-potsdam,b6948,training,train1,-2,16.632,18.001,noerror,NA,NA
+babylab-potsdam,b6948,training,train2,-1,4.4,6.809,noerror,NA,NA
+babylab-potsdam,b6948,IDS,IDS5,1,16.512,18.001,noerror,NA,NA
+babylab-potsdam,b6948,ADS,ADS5,2,17.802,18,noerror,NA,NA
+babylab-potsdam,b6948,ADS,ADS7,3,10.777,13.379,noerror,NA,NA
+babylab-potsdam,b6948,IDS,IDS7,4,17.473,18,noerror,NA,NA
+babylab-potsdam,b6948,ADS,ADS1,5,16.343,18,noerror,NA,NA
+babylab-potsdam,b6948,IDS,IDS1,6,11.881,15.465,noerror,NA,NA
+babylab-potsdam,b6948,ADS,ADS3,7,17.064,18,noerror,NA,NA
+babylab-potsdam,b6948,IDS,IDS3,8,17.572,18.001,noerror,NA,NA
+babylab-potsdam,b6948,ADS,ADS2,9,3.713,6.346,noerror,NA,NA
+babylab-potsdam,b6948,IDS,IDS2,10,17.59,18,noerror,NA,NA
+babylab-potsdam,b6948,IDS,IDS4,11,6.506,9.743,noerror,NA,NA
+babylab-potsdam,b6948,ADS,ADS4,12,3.935,6.63,noerror,NA,NA
+babylab-potsdam,b6948,IDS,IDS6,13,14.385,18.001,noerror,NA,NA
+babylab-potsdam,b6948,ADS,ADS6,14,17.073,18.001,noerror,NA,NA
+babylab-potsdam,b6948,IDS,IDS8,15,17.771,18,noerror,NA,NA
+babylab-potsdam,b6948,ADS,ADS8,16,14.99,18,noerror,NA,NA
+babylab-potsdam,b6971,training,train2,-2,7.536,9.538,noerror,NA,NA
+babylab-potsdam,b6971,training,train1,-1,2.315,4.317,noerror,NA,NA
+babylab-potsdam,b6971,ADS,ADS1,1,4.938,7.899,noerror,NA,NA
+babylab-potsdam,b6971,IDS,IDS1,2,11.159,13.521,noerror,NA,baby turns around at the end of the trial
+babylab-potsdam,b6971,ADS,ADS2,3,2.558,4.559,noerror,NA,very distracted
+babylab-potsdam,b6971,IDS,IDS2,4,2.181,6.055,noerror,NA,mother holds him up
+babylab-potsdam,b6971,IDS,IDS3,5,3.678,5.68,noerror,NA,mother holds him up
+babylab-potsdam,b6971,ADS,ADS3,6,1.547,3.549,noerror,NA,mother holds him up
+babylab-potsdam,b6971,ADS,ADS4,7,2.44,4.441,noerror,NA,mother holds him up
+babylab-potsdam,b6971,IDS,IDS4,8,3.214,5.215,noerror,NA,mother holds him up
+babylab-potsdam,b6971,IDS,IDS5,9,3.407,5.408,noerror,NA,mother holds him up
+babylab-potsdam,b6971,ADS,ADS5,10,2.348,4.35,noerror,NA,mother holds him up
+babylab-potsdam,b6971,IDS,IDS6,11,1.222,3.224,noerror,NA,mother holds him up
+babylab-potsdam,b6971,ADS,ADS6,12,1.411,3.413,noerror,NA,mother holds him up
+babylab-potsdam,b6971,ADS,ADS7,13,2.764,5.91,noerror,NA,mother holds him up
+babylab-potsdam,b6971,IDS,IDS7,14,1.144,3.146,noerror,NA,mother holds him up
+babylab-potsdam,b6971,IDS,IDS8,15,1.953,3.955,noerror,NA,mother holds him up
+babylab-potsdam,b6971,ADS,ADS8,16,7.032,10.437,noerror,NA,mother holds him up - trial start without looking
+babylab-potsdam,b7003,training,train2,-2,10.41,13.251,noerror,NA,NA
+babylab-potsdam,b7003,training,train1,-1,15.78,17.781,noerror,NA,NA
+babylab-potsdam,b7003,ADS,ADS1,1,2.664,4.666,noerror,NA,NA
+babylab-potsdam,b7003,IDS,IDS1,2,9.611,11.613,noerror,NA,NA
+babylab-potsdam,b7003,ADS,ADS2,3,4.625,6.626,noerror,NA,NA
+babylab-potsdam,b7003,IDS,IDS2,4,6.89,8.892,noerror,NA,NA
+babylab-potsdam,b7003,IDS,IDS3,5,2.532,4.535,noerror,NA,NA
+babylab-potsdam,b7003,ADS,ADS3,6,11.912,15.752,noerror,NA,NA
+babylab-potsdam,b7003,ADS,ADS4,7,5.813,9.214,noerror,NA,NA
+babylab-potsdam,b7003,IDS,IDS4,8,4.063,7.875,noerror,NA,NA
+babylab-potsdam,b7003,IDS,IDS5,9,1.836,3.838,noerror,NA,NA
+babylab-potsdam,b7003,ADS,ADS5,10,3.061,5.065,noerror,NA,NA
+babylab-potsdam,b7003,IDS,IDS6,11,5.545,7.547,noerror,NA,NA
+babylab-potsdam,b7003,ADS,ADS6,12,2.405,4.408,noerror,NA,NA
+babylab-potsdam,b7003,ADS,ADS7,13,9.985,14.276,noerror,NA,NA
+babylab-potsdam,b7003,IDS,IDS7,14,3.651,5.685,noerror,NA,NA
+babylab-potsdam,b7003,IDS,IDS8,15,4.525,6.526,noerror,NA,NA
+babylab-potsdam,b7003,ADS,ADS8,16,2.237,4.238,noerror,NA,NA

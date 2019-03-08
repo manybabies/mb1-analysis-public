@@ -1,0 +1,667 @@
+lab,subid,trial_type,stimulus,trial_num,looking_time,total_trial_time,trial_error,trial_error_type,notes
+babylablang-essex,mb12_15_02,Train1,training,-2,7.236,11.887,noerror,NA,NA
+babylablang-essex,mb12_15_02,Train2,training,-1,0,2.007,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_02,ADS,ADS1,1,1.116,5.822,noerror,NA,NA
+babylablang-essex,mb12_15_02,IDS,IDS1,2,3.776,6.822,noerror,NA,NA
+babylablang-essex,mb12_15_02,ADS,ADS2,3,0.62,6.991,noerror,NA,NA
+babylablang-essex,mb12_15_02,IDS,IDS2,4,0,2.013,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_02,IDS,IDS3,5,0,2.006,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_02,ADS,ADS3,6,0,2.01,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_02,ADS,ADS4,7,0,2.016,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_02,ADS,ADS4,8,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb12_15_02,ADS,ADS5,9,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb12_15_02,IDS,IDS5,10,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb12_15_02,ADS,ADS6,11,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb12_15_02,IDS,IDS6,12,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb12_15_02,IDS,IDS7,13,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb12_15_02,ADS,ADS7,14,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb12_15_02,ADS,ADS8,15,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb12_15_02,IDS,IDS8,16,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb12_15_03,Train2,training,-2,3.915,6.112,noerror,NA,NA
+babylablang-essex,mb12_15_03,Train1,training,-1,2.203,4.496,noerror,NA,NA
+babylablang-essex,mb12_15_03,IDS,IDS5,1,7.974,14.582,noerror,NA,NA
+babylablang-essex,mb12_15_03,ADS,ADS5,2,1.778,4.086,noerror,NA,NA
+babylablang-essex,mb12_15_03,ADS,ADS7,3,1.175,3.459,noerror,NA,NA
+babylablang-essex,mb12_15_03,IDS,IDS7,4,1.322,3.435,noerror,NA,NA
+babylablang-essex,mb12_15_03,ADS,ADS1,5,6.384,14.695,noerror,NA,NA
+babylablang-essex,mb12_15_03,IDS,IDS1,6,0.867,2.93,noerror,NA,NA
+babylablang-essex,mb12_15_03,ADS,ADS3,7,0.797,2.87,noerror,NA,NA
+babylablang-essex,mb12_15_03,IDS,IDS3,8,4.431,9.054,noerror,NA,NA
+babylablang-essex,mb12_15_03,ADS,ADS2,9,1.074,3.266,noerror,NA,NA
+babylablang-essex,mb12_15_03,IDS,IDS2,10,3.363,6.053,noerror,NA,NA
+babylablang-essex,mb12_15_03,IDS,IDS4,11,0.593,2.638,noerror,NA,NA
+babylablang-essex,mb12_15_03,ADS,ADS4,12,1.805,5.971,noerror,NA,NA
+babylablang-essex,mb12_15_03,IDS,IDS6,13,0.378,2.428,noerror,NA,NA
+babylablang-essex,mb12_15_03,ADS,ADS6,14,2.896,5.402,noerror,NA,NA
+babylablang-essex,mb12_15_03,IDS,IDS8,15,8.196,16.797,noerror,NA,NA
+babylablang-essex,mb12_15_03,ADS,ADS8,16,2.275,4.402,noerror,NA,NA
+babylablang-essex,mb12_15_04,Train2,training,-2,0.702,2.746,noerror,NA,NA
+babylablang-essex,mb12_15_04,Train1,training,-1,0.462,2.688,noerror,NA,NA
+babylablang-essex,mb12_15_04,ADS,ADS5,1,0,2.012,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_04,IDS,IDS5,2,0,2.01,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_04,IDS,IDS7,3,0,2.006,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_04,ADS,ADS7,4,2.774,4.809,noerror,NA,NA
+babylablang-essex,mb12_15_04,IDS,IDS1,5,3.925,6.913,noerror,NA,NA
+babylablang-essex,mb12_15_04,ADS,ADS1,6,0,2.01,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_04,IDS,IDS3,7,0,2.008,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_04,ADS,ADS3,8,3.17,8.524,noerror,NA,NA
+babylablang-essex,mb12_15_04,IDS,IDS2,9,2.988,7.501,noerror,NA,NA
+babylablang-essex,mb12_15_04,ADS,ADS2,10,7.55,9.991,noerror,NA,NA
+babylablang-essex,mb12_15_04,ADS,ADS4,11,1.08,3.191,noerror,NA,NA
+babylablang-essex,mb12_15_04,IDS,IDS4,12,1.712,3.805,noerror,NA,NA
+babylablang-essex,mb12_15_04,ADS,ADS6,13,0,2.008,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_04,IDS,IDS6,14,10.722,13.505,noerror,NA,NA
+babylablang-essex,mb12_15_04,ADS,ADS8,15,2.221,4.322,noerror,NA,NA
+babylablang-essex,mb12_15_04,IDS,IDS8,16,0.19,2.229,noerror,NA,NA
+babylablang-essex,mb12_15_05,Train1,training,-2,14.802,18.002,noerror,NA,NA
+babylablang-essex,mb12_15_05,Train2,training,-1,4.739,9.216,noerror,NA,NA
+babylablang-essex,mb12_15_05,IDS,IDS1,1,2.267,4.376,noerror,NA,NA
+babylablang-essex,mb12_15_05,ADS,ADS1,2,2.088,4.187,noerror,NA,NA
+babylablang-essex,mb12_15_05,IDS,IDS2,3,1.598,3.763,noerror,NA,NA
+babylablang-essex,mb12_15_05,ADS,ADS2,4,1.466,3.616,noerror,NA,NA
+babylablang-essex,mb12_15_05,ADS,ADS3,5,1.47,3.606,noerror,NA,NA
+babylablang-essex,mb12_15_05,IDS,IDS3,6,4.855,10.8,noerror,NA,NA
+babylablang-essex,mb12_15_05,IDS,IDS4,7,1.661,3.821,noerror,NA,NA
+babylablang-essex,mb12_15_05,ADS,ADS4,8,3.16,6.281,noerror,NA,NA
+babylablang-essex,mb12_15_05,ADS,ADS5,9,2.299,4.751,noerror,NA,NA
+babylablang-essex,mb12_15_05,IDS,IDS5,10,2.739,6.485,noerror,NA,NA
+babylablang-essex,mb12_15_05,ADS,ADS6,11,3.438,7.238,noerror,NA,NA
+babylablang-essex,mb12_15_05,IDS,IDS6,12,1.352,3.873,noerror,NA,NA
+babylablang-essex,mb12_15_05,IDS,IDS7,13,0,2.012,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_05,ADS,ADS7,14,0,2.016,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_05,ADS,ADS8,15,0.3,2.604,noerror,NA,NA
+babylablang-essex,mb12_15_05,IDS,IDS8,16,0,2.006,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_06,Train1,training,-2,5.804,9.738,noerror,NA,NA
+babylablang-essex,mb12_15_06,Train2,training,-1,0.403,2.45,noerror,NA,NA
+babylablang-essex,mb12_15_06,ADS,ADS1,1,0.769,2.828,noerror,NA,NA
+babylablang-essex,mb12_15_06,IDS,IDS1,2,4.964,7.155,noerror,NA,NA
+babylablang-essex,mb12_15_06,ADS,ADS2,3,1.584,5.268,noerror,NA,NA
+babylablang-essex,mb12_15_06,IDS,IDS2,4,4.88,7.062,noerror,NA,NA
+babylablang-essex,mb12_15_06,IDS,IDS3,5,1.687,3.983,noerror,NA,NA
+babylablang-essex,mb12_15_06,ADS,ADS3,6,1.782,5.343,noerror,NA,NA
+babylablang-essex,mb12_15_06,ADS,ADS4,7,6.796,9.743,noerror,NA,NA
+babylablang-essex,mb12_15_06,IDS,IDS4,8,0.847,3.08,noerror,NA,NA
+babylablang-essex,mb12_15_06,IDS,IDS5,9,5.3,12.172,noerror,NA,NA
+babylablang-essex,mb12_15_06,ADS,ADS5,10,0,2.011,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_06,IDS,IDS6,11,2.913,8.486,noerror,NA,NA
+babylablang-essex,mb12_15_06,ADS,ADS6,12,0.301,2.364,noerror,NA,NA
+babylablang-essex,mb12_15_06,ADS,ADS7,13,1.28,6.23,noerror,NA,NA
+babylablang-essex,mb12_15_06,IDS,IDS7,14,1.236,5.722,noerror,NA,NA
+babylablang-essex,mb12_15_06,IDS,IDS8,15,0,2.008,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_06,ADS,ADS8,16,5.182,7.985,noerror,NA,NA
+babylablang-essex,mb12_15_07,Train1,training,-2,NC,NC,error,child did not look at the screen and cried,NA
+babylablang-essex,mb12_15_07,Train2,training,-1,NC,NC,error,child did not look at the screen and cried,NA
+babylablang-essex,mb12_15_07,IDS,IDS1,1,NC,NC,error,child did not look at the screen and cried,NA
+babylablang-essex,mb12_15_07,ADS,ADS1,2,NC,NC,error,child did not look at the screen and cried,NA
+babylablang-essex,mb12_15_07,IDS,IDS2,3,NC,NC,error,child did not look at the screen and cried,NA
+babylablang-essex,mb12_15_07,ADS,ADS2,4,NC,NC,error,child did not look at the screen and cried,NA
+babylablang-essex,mb12_15_07,ADS,ADS3,5,NC,NC,error,child did not look at the screen and cried,NA
+babylablang-essex,mb12_15_07,IDS,IDS3,6,NC,NC,error,child did not look at the screen and cried,NA
+babylablang-essex,mb12_15_07,IDS,IDS4,7,NC,NC,error,child did not look at the screen and cried,NA
+babylablang-essex,mb12_15_07,ADS,ADS4,8,NC,NC,error,child did not look at the screen and cried,NA
+babylablang-essex,mb12_15_07,ADS,ADS5,9,NC,NC,error,child did not look at the screen and cried,NA
+babylablang-essex,mb12_15_07,IDS,IDS5,10,NC,NC,error,child did not look at the screen and cried,NA
+babylablang-essex,mb12_15_07,ADS,ADS6,11,NC,NC,error,child did not look at the screen and cried,NA
+babylablang-essex,mb12_15_07,IDS,IDS6,12,NC,NC,error,child did not look at the screen and cried,NA
+babylablang-essex,mb12_15_07,IDS,IDS7,13,NC,NC,error,child did not look at the screen and cried,NA
+babylablang-essex,mb12_15_07,ADS,ADS7,14,NC,NC,error,child did not look at the screen and cried,NA
+babylablang-essex,mb12_15_07,ADS,ADS8,15,NC,NC,error,child did not look at the screen and cried,NA
+babylablang-essex,mb12_15_07,IDS,IDS8,16,NC,NC,error,child did not look at the screen and cried,NA
+babylablang-essex,mb12_15_08,Train2,training,-2,3.534,6.432,noerror,NA,NA
+babylablang-essex,mb12_15_08,Train1,training,-1,1.191,3.243,noerror,NA,NA
+babylablang-essex,mb12_15_08,ADS,ADS5,1,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb12_15_08,IDS,IDS5,2,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb12_15_08,IDS,IDS7,3,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb12_15_08,ADS,ADS7,4,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb12_15_08,IDS,IDS1,5,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb12_15_08,ADS,ADS1,6,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb12_15_08,IDS,IDS3,7,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb12_15_08,ADS,ADS3,8,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb12_15_08,IDS,IDS2,9,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb12_15_08,ADS,ADS2,10,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb12_15_08,ADS,ADS4,11,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb12_15_08,IDS,IDS4,12,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb12_15_08,ADS,ADS6,13,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb12_15_08,IDS,IDS6,14,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb12_15_08,ADS,ADS8,15,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb12_15_08,IDS,IDS8,16,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb12_15_09,Train1,training,-2,0,2.005,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_09,Train2,training,-1,0.394,3.25,noerror,NA,NA
+babylablang-essex,mb12_15_09,IDS,IDS1,1,0,2.012,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_09,ADS,ADS1,2,0,2.011,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_09,IDS,IDS2,3,0,6.496,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_09,ADS,ADS2,4,0,2.009,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_09,ADS,ADS3,5,0,3.294,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_09,IDS,IDS3,6,0,3.417,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_09,IDS,IDS4,7,0,2.014,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_09,ADS,ADS4,8,0,3.321,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_09,ADS,ADS5,9,0.284,6.128,noerror,NA,NA
+babylablang-essex,mb12_15_09,IDS,IDS5,10,0.26,3.629,noerror,NA,NA
+babylablang-essex,mb12_15_09,ADS,ADS6,11,0,2.009,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_09,IDS,IDS6,12,0,2.007,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_09,IDS,IDS7,13,0,2.01,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_09,ADS,ADS7,14,0,2.013,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_09,ADS,ADS8,15,0,2.441,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_09,IDS,IDS8,16,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb12_15_10,Train1,training,-2,3.66,5.843,noerror,NA,NA
+babylablang-essex,mb12_15_10,Train2,training,-1,2.973,5.044,noerror,NA,NA
+babylablang-essex,mb12_15_10,IDS,IDS1,1,0.964,3.04,noerror,NA,NA
+babylablang-essex,mb12_15_10,ADS,ADS1,2,8.052,12.38,noerror,NA,NA
+babylablang-essex,mb12_15_10,IDS,IDS2,3,4.437,8.731,noerror,NA,NA
+babylablang-essex,mb12_15_10,ADS,ADS2,4,3.496,7.588,noerror,NA,NA
+babylablang-essex,mb12_15_10,ADS,ADS3,5,3.804,6.071,noerror,NA,NA
+babylablang-essex,mb12_15_10,IDS,IDS3,6,6.197,9.198,noerror,NA,NA
+babylablang-essex,mb12_15_10,IDS,IDS4,7,3.459,5.602,noerror,NA,NA
+babylablang-essex,mb12_15_10,ADS,ADS4,8,0.735,2.782,noerror,NA,NA
+babylablang-essex,mb12_15_10,ADS,ADS5,9,0,2.013,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_10,IDS,IDS5,10,0,2.009,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_10,ADS,ADS6,11,0,2.014,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_10,IDS,IDS6,12,0,2.009,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_10,IDS,IDS7,13,0.334,2.624,noerror,NA,NA
+babylablang-essex,mb12_15_10,ADS,ADS7,14,4.769,7.027,noerror,NA,NA
+babylablang-essex,mb12_15_10,ADS,ADS8,15,16.357,18.007,noerror,NA,NA
+babylablang-essex,mb12_15_10,IDS,IDS8,16,5.186,8.213,noerror,NA,NA
+babylablang-essex,mb12_15_11,Train2,training,-2,3.724,6.234,noerror,NA,NA
+babylablang-essex,mb12_15_11,Train1,training,-1,7.756,11.191,noerror,NA,NA
+babylablang-essex,mb12_15_11,IDS,IDS5,1,6.107,8.208,noerror,NA,NA
+babylablang-essex,mb12_15_11,ADS,ADS5,2,5.549,8.731,noerror,NA,NA
+babylablang-essex,mb12_15_11,ADS,ADS7,3,15.152,18.011,noerror,NA,NA
+babylablang-essex,mb12_15_11,IDS,IDS7,4,10.356,13.709,noerror,NA,NA
+babylablang-essex,mb12_15_11,ADS,ADS1,5,1.325,4.145,noerror,NA,NA
+babylablang-essex,mb12_15_11,IDS,IDS1,6,1.832,4.84,noerror,NA,NA
+babylablang-essex,mb12_15_11,ADS,ADS3,7,1.148,5.099,noerror,NA,NA
+babylablang-essex,mb12_15_11,IDS,IDS3,8,12.738,16.052,noerror,NA,NA
+babylablang-essex,mb12_15_11,ADS,ADS2,9,0,2.007,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_11,IDS,IDS2,10,0.344,3.561,noerror,NA,NA
+babylablang-essex,mb12_15_11,IDS,IDS4,11,0,2.007,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_11,ADS,ADS4,12,0.142,4.132,noerror,NA,NA
+babylablang-essex,mb12_15_11,IDS,IDS6,13,0,2.012,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_11,ADS,ADS6,14,0.616,2.682,noerror,NA,NA
+babylablang-essex,mb12_15_11,IDS,IDS8,15,0,2.012,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_11,ADS,ADS8,16,0,2.009,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_12,Train2,training,-2,14.733,18.005,noerror,NA,NA
+babylablang-essex,mb12_15_12,Train1,training,-1,15.997,18.008,noerror,NA,NA
+babylablang-essex,mb12_15_12,ADS,ADS5,1,5.34,8.198,noerror,NA,NA
+babylablang-essex,mb12_15_12,IDS,IDS5,2,2.845,4.97,noerror,NA,NA
+babylablang-essex,mb12_15_12,IDS,IDS7,3,11.312,13.927,noerror,NA,NA
+babylablang-essex,mb12_15_12,ADS,ADS7,4,1.79,3.938,noerror,NA,NA
+babylablang-essex,mb12_15_12,IDS,IDS1,5,8.552,12.274,noerror,NA,NA
+babylablang-essex,mb12_15_12,ADS,ADS1,6,3.594,5.782,noerror,NA,NA
+babylablang-essex,mb12_15_12,IDS,IDS3,7,5.954,9.341,noerror,NA,NA
+babylablang-essex,mb12_15_12,ADS,ADS3,8,5.816,8.535,noerror,NA,NA
+babylablang-essex,mb12_15_12,IDS,IDS2,9,1.71,3.805,noerror,NA,NA
+babylablang-essex,mb12_15_12,ADS,ADS2,10,1.652,3.793,noerror,NA,NA
+babylablang-essex,mb12_15_12,ADS,ADS4,11,2.381,4.559,noerror,NA,NA
+babylablang-essex,mb12_15_12,IDS,IDS4,12,6.414,9.891,noerror,NA,NA
+babylablang-essex,mb12_15_12,ADS,ADS6,13,3.51,7.306,noerror,NA,NA
+babylablang-essex,mb12_15_12,IDS,IDS6,14,3.223,6.7,noerror,NA,NA
+babylablang-essex,mb12_15_12,ADS,ADS8,15,0.88,3.644,noerror,NA,NA
+babylablang-essex,mb12_15_12,IDS,IDS8,16,1.14,4.494,noerror,NA,NA
+babylablang-essex,mb12_15_13,Train1,training,-2,4.924,8.555,noerror,NA,NA
+babylablang-essex,mb12_15_13,Train2,training,-1,17.964,18.008,noerror,NA,NA
+babylablang-essex,mb12_15_13,IDS,IDS1,1,10.601,18.012,noerror,NA,NA
+babylablang-essex,mb12_15_13,ADS,ADS1,2,3.704,6.519,noerror,NA,NA
+babylablang-essex,mb12_15_13,IDS,IDS2,3,6.713,11.256,noerror,NA,NA
+babylablang-essex,mb12_15_13,ADS,ADS2,4,2.046,4.132,noerror,NA,NA
+babylablang-essex,mb12_15_13,ADS,ADS3,5,3.303,5.553,noerror,NA,NA
+babylablang-essex,mb12_15_13,IDS,IDS3,6,2.358,5.006,noerror,NA,NA
+babylablang-essex,mb12_15_13,IDS,IDS4,7,2.062,4.169,noerror,NA,NA
+babylablang-essex,mb12_15_13,ADS,ADS4,8,4.732,9.344,noerror,NA,NA
+babylablang-essex,mb12_15_13,ADS,ADS5,9,5.195,9.778,noerror,NA,NA
+babylablang-essex,mb12_15_13,IDS,IDS5,10,4.156,7.665,noerror,NA,NA
+babylablang-essex,mb12_15_13,ADS,ADS6,11,1.138,3.349,noerror,NA,NA
+babylablang-essex,mb12_15_13,IDS,IDS6,12,7.034,9.99,noerror,NA,NA
+babylablang-essex,mb12_15_13,IDS,IDS7,13,1.312,6.801,noerror,NA,NA
+babylablang-essex,mb12_15_13,ADS,ADS7,14,4,8.385,noerror,NA,NA
+babylablang-essex,mb12_15_13,ADS,ADS8,15,3.649,6.145,noerror,NA,NA
+babylablang-essex,mb12_15_13,IDS,IDS8,16,4.555,7.606,noerror,NA,NA
+babylablang-essex,mb12_15_14,Train1,training,-2,7.912,15.555,noerror,NA,NA
+babylablang-essex,mb12_15_14,Train2,training,-1,8.4,18.009,noerror,NA,NA
+babylablang-essex,mb12_15_14,ADS,ADS1,1,0,2.007,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_14,IDS,IDS1,2,0,2.011,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_14,ADS,ADS2,3,0,2.004,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_14,IDS,IDS2,4,0,2.007,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_14,IDS,IDS3,5,0,2.015,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_14,ADS,ADS3,6,0,2.011,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_14,ADS,ADS4,7,1.398,6.349,noerror,NA,NA
+babylablang-essex,mb12_15_14,IDS,IDS4,8,0,2.013,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_14,IDS,IDS5,9,0,2.009,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_14,ADS,ADS5,10,0,2.007,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_14,IDS,IDS6,11,0,2.013,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_14,ADS,ADS6,12,8.192,18.01,noerror,NA,NA
+babylablang-essex,mb12_15_14,ADS,ADS7,13,2.482,7.368,noerror,NA,NA
+babylablang-essex,mb12_15_14,IDS,IDS7,14,5.478,9.944,noerror,NA,NA
+babylablang-essex,mb12_15_14,IDS,IDS8,15,0,2.004,error,child did not look at the screen following AG,NA
+babylablang-essex,mb12_15_14,ADS,ADS8,16,0,2.009,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_01,Train1,training,-2,16.853,18.011,noerror,NA,NA
+babylablang-essex,mb6_9_01,Train2,training,-1,17.223,18.003,noerror,NA,NA
+babylablang-essex,mb6_9_01,IDS,IDS1,1,17.206,18.002,noerror,NA,NA
+babylablang-essex,mb6_9_01,ADS,ADS1,2,17.263,18.01,noerror,NA,NA
+babylablang-essex,mb6_9_01,IDS,IDS2,3,16.407,18.011,noerror,NA,NA
+babylablang-essex,mb6_9_01,ADS,ADS2,4,15.373,18.003,noerror,NA,NA
+babylablang-essex,mb6_9_01,ADS,ADS3,5,17.174,18.004,noerror,NA,NA
+babylablang-essex,mb6_9_01,IDS,IDS3,6,15.942,18.004,noerror,NA,NA
+babylablang-essex,mb6_9_01,IDS,IDS4,7,15.345,18.013,noerror,NA,NA
+babylablang-essex,mb6_9_01,ADS,ADS4,8,12.741,15.935,noerror,NA,NA
+babylablang-essex,mb6_9_01,ADS,ADS5,9,8.228,16.396,noerror,NA,NA
+babylablang-essex,mb6_9_01,IDS,IDS5,10,0,2.01,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_01,ADS,ADS6,11,0,2.007,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_01,IDS,IDS6,12,0,4.221,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_01,IDS,IDS7,13,0.29,6.256,noerror,NA,NA
+babylablang-essex,mb6_9_01,ADS,ADS7,14,0,2.005,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_01,ADS,ADS8,15,0,2.007,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_01,IDS,IDS8,16,0,2.004,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_02,Train1,training,-2,2,9.937,noerror,NA,NA
+babylablang-essex,mb6_9_02,Train2,training,-1,1.066,4.528,noerror,NA,NA
+babylablang-essex,mb6_9_02,ADS,ADS1,1,10.512,18.004,noerror,NA,NA
+babylablang-essex,mb6_9_02,IDS,IDS1,2,14.626,18.008,noerror,NA,NA
+babylablang-essex,mb6_9_02,ADS,ADS2,3,1.71,8.392,noerror,NA,NA
+babylablang-essex,mb6_9_02,IDS,IDS2,4,3.508,13.902,noerror,NA,NA
+babylablang-essex,mb6_9_02,IDS,IDS3,5,0.561,2.617,noerror,NA,NA
+babylablang-essex,mb6_9_02,ADS,ADS3,6,4.364,7.794,noerror,NA,NA
+babylablang-essex,mb6_9_02,ADS,ADS4,7,0,2.007,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_02,IDS,IDS4,8,0.45,2.485,noerror,NA,NA
+babylablang-essex,mb6_9_02,IDS,IDS5,9,0,2.015,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_02,ADS,ADS5,10,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb6_9_02,IDS,IDS6,11,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb6_9_02,ADS,ADS6,12,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb6_9_02,ADS,ADS7,13,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb6_9_02,IDS,IDS7,14,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb6_9_02,IDS,IDS8,15,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb6_9_02,ADS,ADS8,16,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb6_9_03,Train2,training,-2,12.783,18.005,noerror,NA,NA
+babylablang-essex,mb6_9_03,Train1,training,-1,12.959,18.009,noerror,NA,NA
+babylablang-essex,mb6_9_03,IDS,IDS5,1,13.623,18.009,noerror,NA,NA
+babylablang-essex,mb6_9_03,ADS,ADS5,2,4.648,8.197,noerror,NA,NA
+babylablang-essex,mb6_9_03,ADS,ADS7,3,9.798,15.793,noerror,NA,NA
+babylablang-essex,mb6_9_03,IDS,IDS7,4,14.937,18.007,noerror,NA,NA
+babylablang-essex,mb6_9_03,ADS,ADS1,5,14.527,18.013,noerror,NA,NA
+babylablang-essex,mb6_9_03,IDS,IDS1,6,2.856,5.317,noerror,NA,NA
+babylablang-essex,mb6_9_03,ADS,ADS3,7,3.488,7.811,noerror,NA,NA
+babylablang-essex,mb6_9_03,IDS,IDS3,8,2.678,5.234,noerror,NA,NA
+babylablang-essex,mb6_9_03,ADS,ADS2,9,0.882,3.348,noerror,NA,NA
+babylablang-essex,mb6_9_03,IDS,IDS2,10,0,2.012,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_03,IDS,IDS4,11,2.131,6.318,noerror,NA,NA
+babylablang-essex,mb6_9_03,ADS,ADS4,12,2.132,6.415,noerror,NA,NA
+babylablang-essex,mb6_9_03,IDS,IDS6,13,2.618,6.572,noerror,NA,NA
+babylablang-essex,mb6_9_03,ADS,ADS6,14,2.65,6,noerror,NA,NA
+babylablang-essex,mb6_9_03,IDS,IDS8,15,0.446,3.894,noerror,NA,NA
+babylablang-essex,mb6_9_03,ADS,ADS8,16,1.061,3.32,noerror,NA,NA
+babylablang-essex,mb6_9_04,Train2,training,-2,6.347,18.01,noerror,NA,NA
+babylablang-essex,mb6_9_04,Train1,training,-1,1.208,3.295,noerror,NA,NA
+babylablang-essex,mb6_9_04,ADS,ADS5,1,13.914,18.007,noerror,NA,NA
+babylablang-essex,mb6_9_04,IDS,IDS5,2,5,9.936,noerror,NA,NA
+babylablang-essex,mb6_9_04,IDS,IDS7,3,0.644,4.206,noerror,NA,NA
+babylablang-essex,mb6_9_04,ADS,ADS7,4,4.464,12.429,noerror,NA,NA
+babylablang-essex,mb6_9_04,IDS,IDS1,5,3.614,8.025,noerror,NA,NA
+babylablang-essex,mb6_9_04,ADS,ADS1,6,3.272,6.57,noerror,NA,NA
+babylablang-essex,mb6_9_04,IDS,IDS3,7,2.649,11.286,noerror,NA,NA
+babylablang-essex,mb6_9_04,ADS,ADS3,8,0.584,4.748,noerror,NA,NA
+babylablang-essex,mb6_9_04,IDS,IDS2,9,0,2.012,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_04,ADS,ADS2,10,0.324,4.358,noerror,NA,NA
+babylablang-essex,mb6_9_04,ADS,ADS4,11,0,2.006,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_04,IDS,IDS4,12,0,2.008,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_04,ADS,ADS6,13,0.232,4.573,noerror,NA,NA
+babylablang-essex,mb6_9_04,IDS,IDS6,14,0.282,2.913,noerror,NA,NA
+babylablang-essex,mb6_9_04,ADS,ADS8,15,0,2.009,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_04,IDS,IDS8,16,0,2.007,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_05,Train2,training,-2,15.841,18.003,noerror,NA,NA
+babylablang-essex,mb6_9_05,Train1,training,-1,16.886,18.004,noerror,NA,NA
+babylablang-essex,mb6_9_05,ADS,ADS5,1,17.32,18.004,noerror,NA,NA
+babylablang-essex,mb6_9_05,IDS,IDS5,2,17.063,18.007,noerror,NA,NA
+babylablang-essex,mb6_9_05,IDS,IDS7,3,7.642,14.371,noerror,NA,NA
+babylablang-essex,mb6_9_05,ADS,ADS7,4,6.338,9.988,noerror,NA,NA
+babylablang-essex,mb6_9_05,IDS,IDS1,5,5.202,8.389,noerror,NA,NA
+babylablang-essex,mb6_9_05,ADS,ADS1,6,6.602,9.185,noerror,NA,NA
+babylablang-essex,mb6_9_05,IDS,IDS3,7,1.129,3.223,noerror,NA,NA
+babylablang-essex,mb6_9_05,ADS,ADS3,8,7.267,11.076,noerror,NA,NA
+babylablang-essex,mb6_9_05,IDS,IDS2,9,5.371,14.459,noerror,NA,NA
+babylablang-essex,mb6_9_05,ADS,ADS2,10,2.984,5.11,noerror,NA,NA
+babylablang-essex,mb6_9_05,ADS,ADS4,11,1.767,4.036,noerror,NA,NA
+babylablang-essex,mb6_9_05,IDS,IDS4,12,0.442,2.508,noerror,NA,NA
+babylablang-essex,mb6_9_05,ADS,ADS6,13,0.455,2.524,noerror,NA,NA
+babylablang-essex,mb6_9_05,IDS,IDS6,14,5.694,7.801,noerror,NA,NA
+babylablang-essex,mb6_9_05,ADS,ADS8,15,2.528,6.384,noerror,NA,NA
+babylablang-essex,mb6_9_05,IDS,IDS8,16,0.499,2.571,noerror,NA,NA
+babylablang-essex,mb6_9_06,Train1,training,-2,1.33,6.267,noerror,NA,NA
+babylablang-essex,mb6_9_06,Train2,training,-1,0.916,4.703,noerror,NA,NA
+babylablang-essex,mb6_9_06,ADS,ADS1,1,0,2.007,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_06,IDS,IDS1,2,8.322,12.751,noerror,NA,NA
+babylablang-essex,mb6_9_06,ADS,ADS2,3,0,2.006,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_06,IDS,IDS2,4,0,2.009,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_06,IDS,IDS3,5,0,2.013,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_06,ADS,ADS3,6,1.476,4.778,noerror,NA,NA
+babylablang-essex,mb6_9_06,ADS,ADS4,7,0,2.009,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_06,IDS,IDS4,8,0,2.005,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_06,IDS,IDS5,9,0,2.01,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_06,ADS,ADS5,10,0,2.007,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_06,IDS,IDS6,11,2.258,4.32,noerror,NA,NA
+babylablang-essex,mb6_9_06,ADS,ADS6,12,0,2.008,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_06,ADS,ADS7,13,0,2.014,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_06,IDS,IDS7,14,0.729,2.762,noerror,NA,NA
+babylablang-essex,mb6_9_06,IDS,IDS8,15,6.21,11.565,noerror,NA,NA
+babylablang-essex,mb6_9_06,ADS,ADS8,16,3.259,5.585,noerror,NA,NA
+babylablang-essex,mb6_9_07,Train2,training,-2,10.015,13.175,noerror,NA,NA
+babylablang-essex,mb6_9_07,Train1,training,-1,6.564,9.425,noerror,NA,NA
+babylablang-essex,mb6_9_07,IDS,IDS5,1,15.807,18.005,noerror,NA,NA
+babylablang-essex,mb6_9_07,ADS,ADS5,2,14.926,18.01,noerror,NA,NA
+babylablang-essex,mb6_9_07,ADS,ADS7,3,13.849,18.011,noerror,NA,NA
+babylablang-essex,mb6_9_07,IDS,IDS7,4,15.481,18.005,noerror,NA,NA
+babylablang-essex,mb6_9_07,ADS,ADS1,5,12.205,18.005,noerror,NA,NA
+babylablang-essex,mb6_9_07,IDS,IDS1,6,14.514,18.01,noerror,NA,NA
+babylablang-essex,mb6_9_07,ADS,ADS3,7,10.037,13.951,noerror,NA,NA
+babylablang-essex,mb6_9_07,IDS,IDS3,8,15.502,18.01,noerror,NA,NA
+babylablang-essex,mb6_9_07,ADS,ADS2,9,9.564,12.37,noerror,NA,NA
+babylablang-essex,mb6_9_07,IDS,IDS2,10,12.958,18.004,noerror,NA,NA
+babylablang-essex,mb6_9_07,IDS,IDS4,11,12.716,18.01,noerror,NA,NA
+babylablang-essex,mb6_9_07,ADS,ADS4,12,8.37,14.405,noerror,NA,NA
+babylablang-essex,mb6_9_07,IDS,IDS6,13,8.25,15.479,noerror,NA,NA
+babylablang-essex,mb6_9_07,ADS,ADS6,14,8.159,13.199,noerror,NA,NA
+babylablang-essex,mb6_9_07,IDS,IDS8,15,8.763,15.759,noerror,NA,NA
+babylablang-essex,mb6_9_07,ADS,ADS8,16,6.69,12.465,noerror,NA,NA
+babylablang-essex,mb6_9_08,Train2,training,-2,3.43,5.908,noerror,NA,NA
+babylablang-essex,mb6_9_08,Train1,training,-1,2.651,5.101,noerror,NA,NA
+babylablang-essex,mb6_9_08,ADS,ADS5,1,1.785,4.215,noerror,NA,NA
+babylablang-essex,mb6_9_08,IDS,IDS5,2,2.374,5.826,noerror,NA,NA
+babylablang-essex,mb6_9_08,IDS,IDS7,3,3.444,6.826,noerror,NA,NA
+babylablang-essex,mb6_9_08,ADS,ADS7,4,3.087,7.112,noerror,NA,NA
+babylablang-essex,mb6_9_08,IDS,IDS1,5,3.126,8.103,noerror,NA,NA
+babylablang-essex,mb6_9_08,ADS,ADS1,6,0.516,3.113,noerror,NA,NA
+babylablang-essex,mb6_9_08,IDS,IDS3,7,1.92,7.526,noerror,NA,NA
+babylablang-essex,mb6_9_08,ADS,ADS3,8,0.991,4.193,noerror,NA,NA
+babylablang-essex,mb6_9_08,IDS,IDS2,9,17.243,18.007,noerror,NA,NA
+babylablang-essex,mb6_9_08,ADS,ADS2,10,7.198,14.172,noerror,NA,NA
+babylablang-essex,mb6_9_08,ADS,ADS4,11,1.328,3.441,noerror,NA,NA
+babylablang-essex,mb6_9_08,IDS,IDS4,12,1.438,3.9,noerror,NA,NA
+babylablang-essex,mb6_9_08,ADS,ADS6,13,2.036,6.595,noerror,NA,NA
+babylablang-essex,mb6_9_08,IDS,IDS6,14,0.51,3.005,noerror,NA,NA
+babylablang-essex,mb6_9_08,ADS,ADS8,15,0,2.008,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_08,IDS,IDS8,16,1.224,5.053,noerror,NA,NA
+babylablang-essex,mb6_9_09,Train1,training,-2,3.648,6.209,noerror,NA,NA
+babylablang-essex,mb6_9_09,Train2,training,-1,1.807,4.822,noerror,NA,NA
+babylablang-essex,mb6_9_09,IDS,IDS1,1,1.292,3.389,noerror,NA,NA
+babylablang-essex,mb6_9_09,ADS,ADS1,2,3.518,6.472,noerror,NA,NA
+babylablang-essex,mb6_9_09,IDS,IDS2,3,0.026,2.989,noerror,NA,NA
+babylablang-essex,mb6_9_09,ADS,ADS2,4,0,2.004,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_09,ADS,ADS3,5,1.638,3.707,noerror,NA,NA
+babylablang-essex,mb6_9_09,IDS,IDS3,6,5.767,8.794,noerror,NA,NA
+babylablang-essex,mb6_9_09,IDS,IDS4,7,1.936,4.481,noerror,NA,NA
+babylablang-essex,mb6_9_09,ADS,ADS4,8,0.848,2.932,noerror,NA,NA
+babylablang-essex,mb6_9_09,ADS,ADS5,9,0,2.009,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_09,IDS,IDS5,10,0,2.012,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_09,ADS,ADS6,11,0,2.007,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_09,IDS,IDS6,12,0.039,2.079,noerror,NA,NA
+babylablang-essex,mb6_9_09,IDS,IDS7,13,0,2.011,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_09,ADS,ADS7,14,0.326,2.367,noerror,NA,NA
+babylablang-essex,mb6_9_09,ADS,ADS8,15,0.588,3.124,noerror,NA,NA
+babylablang-essex,mb6_9_09,IDS,IDS8,16,0,2.005,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_10,Train1,training,-2,0,2.408,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_10,Train2,training,-1,0,3.633,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_10,ADS,ADS1,1,0,2.013,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_10,IDS,IDS1,2,0,3.156,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_10,ADS,ADS2,3,0.162,4.371,noerror,NA,NA
+babylablang-essex,mb6_9_10,IDS,IDS2,4,0,2.767,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_10,IDS,IDS3,5,0,2.005,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_10,ADS,ADS3,6,0.088,4.706,noerror,NA,NA
+babylablang-essex,mb6_9_10,ADS,ADS4,7,0,4.78,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_10,IDS,IDS4,8,0,4.622,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_10,IDS,IDS5,9,0.258,4.268,noerror,NA,NA
+babylablang-essex,mb6_9_10,ADS,ADS5,10,0.036,4.495,noerror,NA,NA
+babylablang-essex,mb6_9_10,IDS,IDS6,11,0,2.007,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_10,ADS,ADS6,12,0,4.309,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_10,ADS,ADS7,13,0,4.204,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_10,IDS,IDS7,14,0,3.917,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_10,IDS,IDS8,15,0.188,4.713,noerror,NA,NA
+babylablang-essex,mb6_9_10,ADS,ADS8,16,1.124,11.901,noerror,NA,NA
+babylablang-essex,mb6_9_11,Train2,training,-2,10.536,13.892,noerror,NA,NA
+babylablang-essex,mb6_9_11,Train1,training,-1,0,3.094,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_11,IDS,IDS5,1,1.811,3.997,noerror,NA,NA
+babylablang-essex,mb6_9_11,ADS,ADS5,2,1.738,4.877,noerror,NA,NA
+babylablang-essex,mb6_9_11,ADS,ADS7,3,1.163,3.728,noerror,NA,NA
+babylablang-essex,mb6_9_11,IDS,IDS7,4,0,4.014,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_11,ADS,ADS1,5,0.308,4.742,noerror,NA,NA
+babylablang-essex,mb6_9_11,IDS,IDS1,6,0.881,3.034,noerror,NA,NA
+babylablang-essex,mb6_9_11,ADS,ADS3,7,0.834,5.835,noerror,NA,NA
+babylablang-essex,mb6_9_11,IDS,IDS3,8,1.848,5.455,noerror,NA,NA
+babylablang-essex,mb6_9_11,ADS,ADS2,9,0,2.01,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_11,IDS,IDS2,10,0,2.227,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_11,IDS,IDS4,11,0,2.013,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_11,ADS,ADS4,12,0,2.011,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_11,IDS,IDS6,13,4.912,8.007,noerror,NA,NA
+babylablang-essex,mb6_9_11,ADS,ADS6,14,2.757,6.287,noerror,NA,NA
+babylablang-essex,mb6_9_11,IDS,IDS8,15,0,2.007,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_11,ADS,ADS8,16,0,2.005,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_12,Train2,training,-2,1.358,9.765,noerror,NA,NA
+babylablang-essex,mb6_9_12,Train1,training,-1,1.182,14.81,noerror,NA,NA
+babylablang-essex,mb6_9_12,ADS,ADS5,1,0.572,7.642,noerror,NA,NA
+babylablang-essex,mb6_9_12,IDS,IDS5,2,1.264,12.946,noerror,NA,NA
+babylablang-essex,mb6_9_12,IDS,IDS7,3,3.808,15.401,noerror,NA,NA
+babylablang-essex,mb6_9_12,ADS,ADS7,4,0,3.755,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_12,IDS,IDS1,5,0.722,4.139,noerror,NA,NA
+babylablang-essex,mb6_9_12,ADS,ADS1,6,0,2.009,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_12,IDS,IDS3,7,0,2.013,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_12,ADS,ADS3,8,0,2.006,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_12,IDS,IDS2,9,0,4.71,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_12,ADS,ADS2,10,0.432,3.713,noerror,NA,NA
+babylablang-essex,mb6_9_12,ADS,ADS4,11,1.566,10.44,noerror,NA,NA
+babylablang-essex,mb6_9_12,IDS,IDS4,12,0,2.011,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_12,ADS,ADS6,13,0.032,6.195,noerror,NA,NA
+babylablang-essex,mb6_9_12,IDS,IDS6,14,0.544,3.978,noerror,NA,NA
+babylablang-essex,mb6_9_12,ADS,ADS8,15,0.642,4.579,noerror,NA,NA
+babylablang-essex,mb6_9_12,IDS,IDS8,16,2.229,18.009,noerror,NA,NA
+babylablang-essex,mb6_9_13,Train1,training,-2,4.096,8.061,noerror,NA,NA
+babylablang-essex,mb6_9_13,Train2,training,-1,12.581,16.115,noerror,NA,NA
+babylablang-essex,mb6_9_13,IDS,IDS1,1,13.093,16.083,noerror,NA,NA
+babylablang-essex,mb6_9_13,ADS,ADS1,2,2.782,4.965,noerror,NA,NA
+babylablang-essex,mb6_9_13,IDS,IDS2,3,6.829,9.35,noerror,NA,NA
+babylablang-essex,mb6_9_13,ADS,ADS2,4,0,2.013,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_13,ADS,ADS3,5,6.013,8.46,noerror,NA,NA
+babylablang-essex,mb6_9_13,IDS,IDS3,6,2.61,6.976,noerror,NA,NA
+babylablang-essex,mb6_9_13,IDS,IDS4,7,4.242,11.234,noerror,NA,NA
+babylablang-essex,mb6_9_13,ADS,ADS4,8,1.652,3.861,noerror,NA,NA
+babylablang-essex,mb6_9_13,ADS,ADS5,9,4.874,10.008,noerror,NA,NA
+babylablang-essex,mb6_9_13,IDS,IDS5,10,0,2.013,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_13,ADS,ADS6,11,2.112,4.185,noerror,NA,NA
+babylablang-essex,mb6_9_13,IDS,IDS6,12,1.103,3.906,noerror,NA,NA
+babylablang-essex,mb6_9_13,IDS,IDS7,13,2.096,5.214,noerror,NA,NA
+babylablang-essex,mb6_9_13,ADS,ADS7,14,0.028,2.84,noerror,NA,NA
+babylablang-essex,mb6_9_13,ADS,ADS8,15,3.14,6.18,noerror,NA,NA
+babylablang-essex,mb6_9_13,IDS,IDS8,16,1.272,4.521,noerror,NA,NA
+babylablang-essex,mb6_9_14,Train1,training,-2,8.846,13.731,noerror,NA,NA
+babylablang-essex,mb6_9_14,Train2,training,-1,10.75,18.007,noerror,NA,NA
+babylablang-essex,mb6_9_14,IDS,IDS1,1,14.218,18.01,noerror,NA,NA
+babylablang-essex,mb6_9_14,ADS,ADS1,2,8.655,18.01,noerror,NA,NA
+babylablang-essex,mb6_9_14,IDS,IDS2,3,9.727,14.483,noerror,NA,NA
+babylablang-essex,mb6_9_14,ADS,ADS2,4,0,2.004,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_14,ADS,ADS3,5,0,2.01,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_14,IDS,IDS3,6,1.211,3.508,noerror,NA,NA
+babylablang-essex,mb6_9_14,IDS,IDS4,7,0,2.011,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_14,ADS,ADS4,8,3.646,8.004,noerror,NA,NA
+babylablang-essex,mb6_9_14,ADS,ADS5,9,0.422,5.108,noerror,NA,NA
+babylablang-essex,mb6_9_14,IDS,IDS5,10,9.16,18.011,noerror,NA,NA
+babylablang-essex,mb6_9_14,ADS,ADS6,11,4.825,8.359,noerror,NA,NA
+babylablang-essex,mb6_9_14,IDS,IDS6,12,11.63,16.763,noerror,NA,NA
+babylablang-essex,mb6_9_14,IDS,IDS7,13,0,2.006,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_14,ADS,ADS7,14,6.079,18.01,noerror,NA,NA
+babylablang-essex,mb6_9_14,ADS,ADS8,15,6.919,10.984,noerror,NA,NA
+babylablang-essex,mb6_9_14,IDS,IDS8,16,0,2.009,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_15,Train1,training,-2,12.23,18.01,noerror,NA,NA
+babylablang-essex,mb6_9_15,Train2,training,-1,9.396,18.004,noerror,NA,NA
+babylablang-essex,mb6_9_15,ADS,ADS1,1,6.049,9.838,noerror,NA,NA
+babylablang-essex,mb6_9_15,IDS,IDS1,2,10.695,18.01,noerror,NA,NA
+babylablang-essex,mb6_9_15,ADS,ADS2,3,3.113,6.573,noerror,NA,NA
+babylablang-essex,mb6_9_15,IDS,IDS2,4,2.62,6.001,noerror,NA,NA
+babylablang-essex,mb6_9_15,IDS,IDS3,5,2.09,4.345,noerror,NA,NA
+babylablang-essex,mb6_9_15,ADS,ADS3,6,1.519,3.692,noerror,NA,NA
+babylablang-essex,mb6_9_15,ADS,ADS4,7,1.411,3.506,noerror,NA,NA
+babylablang-essex,mb6_9_15,IDS,IDS4,8,2.837,6.07,noerror,NA,NA
+babylablang-essex,mb6_9_15,IDS,IDS5,9,4.862,13.086,noerror,NA,NA
+babylablang-essex,mb6_9_15,ADS,ADS5,10,2.216,4.479,noerror,NA,NA
+babylablang-essex,mb6_9_15,IDS,IDS6,11,1.768,3.897,noerror,NA,NA
+babylablang-essex,mb6_9_15,ADS,ADS6,12,9.184,18.003,noerror,NA,NA
+babylablang-essex,mb6_9_15,ADS,ADS7,13,1.41,4.154,noerror,NA,NA
+babylablang-essex,mb6_9_15,IDS,IDS7,14,1.92,4.208,noerror,NA,NA
+babylablang-essex,mb6_9_15,IDS,IDS8,15,2.705,5.941,noerror,NA,NA
+babylablang-essex,mb6_9_15,ADS,ADS8,16,1.956,4.508,noerror,NA,NA
+babylablang-essex,mb6_9_16,Train2,training,-2,9.231,13.027,noerror,NA,NA
+babylablang-essex,mb6_9_16,Train1,training,-1,11.118,18.008,noerror,NA,NA
+babylablang-essex,mb6_9_16,ADS,ADS5,1,10.97,15.101,noerror,NA,NA
+babylablang-essex,mb6_9_16,IDS,IDS5,2,5.901,8.097,noerror,NA,NA
+babylablang-essex,mb6_9_16,IDS,IDS7,3,10.716,14.748,noerror,NA,NA
+babylablang-essex,mb6_9_16,ADS,ADS7,4,6.831,9.295,noerror,NA,NA
+babylablang-essex,mb6_9_16,IDS,IDS1,5,4.749,9.198,noerror,NA,NA
+babylablang-essex,mb6_9_16,ADS,ADS1,6,4.619,6.992,noerror,NA,NA
+babylablang-essex,mb6_9_16,IDS,IDS3,7,3.207,5.416,noerror,NA,NA
+babylablang-essex,mb6_9_16,ADS,ADS3,8,3.958,8.576,noerror,NA,NA
+babylablang-essex,mb6_9_16,IDS,IDS2,9,8.056,11.421,noerror,NA,NA
+babylablang-essex,mb6_9_16,ADS,ADS2,10,5.151,7.463,noerror,NA,NA
+babylablang-essex,mb6_9_16,ADS,ADS4,11,5.826,8.459,noerror,NA,NA
+babylablang-essex,mb6_9_16,IDS,IDS4,12,4.389,8.361,noerror,NA,NA
+babylablang-essex,mb6_9_16,ADS,ADS6,13,5.914,11.467,noerror,NA,NA
+babylablang-essex,mb6_9_16,IDS,IDS6,14,4.486,6.79,noerror,NA,NA
+babylablang-essex,mb6_9_16,ADS,ADS8,15,4.677,7.037,noerror,NA,NA
+babylablang-essex,mb6_9_16,IDS,IDS8,16,7.91,14.454,noerror,NA,NA
+babylablang-essex,mb6_9_17,Train1,training,-2,8.219,11.361,noerror,NA,NA
+babylablang-essex,mb6_9_17,Train2,training,-1,4.465,7.295,noerror,NA,NA
+babylablang-essex,mb6_9_17,IDS,IDS1,1,0.206,4.288,noerror,NA,NA
+babylablang-essex,mb6_9_17,ADS,ADS1,2,0.794,6.339,noerror,NA,NA
+babylablang-essex,mb6_9_17,IDS,IDS2,3,0,2.01,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_17,ADS,ADS2,4,0.17,5.866,noerror,NA,NA
+babylablang-essex,mb6_9_17,ADS,ADS3,5,0.775,2.857,noerror,NA,NA
+babylablang-essex,mb6_9_17,IDS,IDS3,6,2.688,9.003,noerror,NA,NA
+babylablang-essex,mb6_9_17,IDS,IDS4,7,3.004,8.667,noerror,NA,NA
+babylablang-essex,mb6_9_17,ADS,ADS4,8,0,2.006,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_17,ADS,ADS5,9,2.51,5.177,noerror,NA,NA
+babylablang-essex,mb6_9_17,IDS,IDS5,10,1.8,7.489,noerror,NA,NA
+babylablang-essex,mb6_9_17,ADS,ADS6,11,0.182,4.199,noerror,NA,NA
+babylablang-essex,mb6_9_17,IDS,IDS6,12,0.316,4.442,noerror,NA,NA
+babylablang-essex,mb6_9_17,IDS,IDS7,13,0.19,4.117,noerror,NA,NA
+babylablang-essex,mb6_9_17,ADS,ADS7,14,0,2.013,error,child did not look at the screen following AG,NA
+babylablang-essex,mb6_9_17,ADS,ADS8,15,15.819,18.01,noerror,NA,NA
+babylablang-essex,mb6_9_17,IDS,IDS8,16,11.957,15.167,noerror,NA,NA
+babylablang-essex,mb9_12_01,Train1,training,-2,1.565,4.907,noerror,NA,NA
+babylablang-essex,mb9_12_01,Train2,training,-1,2.028,4.184,noerror,NA,NA
+babylablang-essex,mb9_12_01,IDS,IDS1,1,4.914,7.173,noerror,NA,NA
+babylablang-essex,mb9_12_01,ADS,ADS1,2,2.385,4.455,noerror,NA,NA
+babylablang-essex,mb9_12_01,IDS,IDS2,3,4.83,7.211,noerror,NA,NA
+babylablang-essex,mb9_12_01,ADS,ADS2,4,2.914,6.471,noerror,NA,NA
+babylablang-essex,mb9_12_01,ADS,ADS3,5,3.54,5.869,noerror,NA,NA
+babylablang-essex,mb9_12_01,IDS,IDS3,6,1.208,3.266,noerror,NA,NA
+babylablang-essex,mb9_12_01,IDS,IDS4,7,2.948,6.673,noerror,NA,NA
+babylablang-essex,mb9_12_01,ADS,ADS4,8,2.767,4.822,noerror,NA,NA
+babylablang-essex,mb9_12_01,ADS,ADS5,9,0.231,2.556,noerror,NA,NA
+babylablang-essex,mb9_12_01,IDS,IDS5,10,0,2.009,error,child did not look at the screen following AG,NA
+babylablang-essex,mb9_12_01,ADS,ADS6,11,4.8,7.634,noerror,NA,NA
+babylablang-essex,mb9_12_01,IDS,IDS6,12,1.956,4.164,noerror,NA,NA
+babylablang-essex,mb9_12_01,IDS,IDS7,13,1.372,5.05,noerror,NA,NA
+babylablang-essex,mb9_12_01,ADS,ADS7,14,0,2.005,error,child did not look at the screen following AG,NA
+babylablang-essex,mb9_12_01,ADS,ADS8,15,0,2.008,error,child did not look at the screen following AG,NA
+babylablang-essex,mb9_12_01,IDS,IDS8,16,1.334,3.422,noerror,NA,NA
+babylablang-essex,mb9_12_02,Train1,training,-2,12.402,18.011,noerror,NA,NA
+babylablang-essex,mb9_12_02,Train2,training,-1,14.587,18.005,noerror,NA,NA
+babylablang-essex,mb9_12_02,ADS,ADS1,1,14.749,18.005,noerror,NA,NA
+babylablang-essex,mb9_12_02,IDS,IDS1,2,14.618,18.006,noerror,NA,NA
+babylablang-essex,mb9_12_02,ADS,ADS2,3,13.579,18.003,noerror,NA,NA
+babylablang-essex,mb9_12_02,IDS,IDS2,4,5.689,10.459,noerror,NA,NA
+babylablang-essex,mb9_12_02,IDS,IDS3,5,3.576,5.71,noerror,NA,NA
+babylablang-essex,mb9_12_02,ADS,ADS3,6,5.786,8.604,noerror,NA,NA
+babylablang-essex,mb9_12_02,ADS,ADS4,7,6.683,8.484,noerror,NA,NA
+babylablang-essex,mb9_12_02,IDS,IDS4,8,8.851,15.464,noerror,NA,NA
+babylablang-essex,mb9_12_02,IDS,IDS5,9,5.439,9.597,noerror,NA,NA
+babylablang-essex,mb9_12_02,ADS,ADS5,10,4.685,7.496,noerror,NA,NA
+babylablang-essex,mb9_12_02,IDS,IDS6,11,4.66,7.928,noerror,NA,NA
+babylablang-essex,mb9_12_02,ADS,ADS6,12,0.578,3.976,noerror,NA,NA
+babylablang-essex,mb9_12_02,ADS,ADS7,13,5.249,9.126,noerror,NA,NA
+babylablang-essex,mb9_12_02,IDS,IDS7,14,2.779,4.867,noerror,NA,NA
+babylablang-essex,mb9_12_02,IDS,IDS8,15,0,2.013,error,child did not look at the screen following AG,NA
+babylablang-essex,mb9_12_02,ADS,ADS8,16,3.52,7.13,noerror,NA,NA
+babylablang-essex,mb9_12_03,Train1,training,-2,2.944,5.231,noerror,NA,NA
+babylablang-essex,mb9_12_03,Train2,training,-1,1.174,6.557,noerror,NA,NA
+babylablang-essex,mb9_12_03,IDS,IDS1,1,3.887,7.234,noerror,NA,NA
+babylablang-essex,mb9_12_03,ADS,ADS1,2,1.038,5.435,noerror,NA,NA
+babylablang-essex,mb9_12_03,IDS,IDS2,3,3.472,6.618,noerror,NA,NA
+babylablang-essex,mb9_12_03,ADS,ADS2,4,7.184,17.222,noerror,NA,NA
+babylablang-essex,mb9_12_03,ADS,ADS3,5,3.064,6.46,noerror,NA,NA
+babylablang-essex,mb9_12_03,IDS,IDS3,6,11.021,15.176,noerror,NA,NA
+babylablang-essex,mb9_12_03,IDS,IDS4,7,0,2.006,error,child did not look at the screen following AG,NA
+babylablang-essex,mb9_12_03,ADS,ADS4,8,0,2.011,error,child did not look at the screen following AG,NA
+babylablang-essex,mb9_12_03,ADS,ADS5,9,2.088,4.743,noerror,NA,NA
+babylablang-essex,mb9_12_03,IDS,IDS5,10,0,3.228,error,child did not look at the screen following AG,NA
+babylablang-essex,mb9_12_03,ADS,ADS6,11,0.14,3.307,noerror,NA,NA
+babylablang-essex,mb9_12_03,IDS,IDS6,12,0,3.222,error,child did not look at the screen following AG,NA
+babylablang-essex,mb9_12_03,IDS,IDS7,13,0,2.008,error,child did not look at the screen following AG,NA
+babylablang-essex,mb9_12_03,ADS,ADS7,14,1.694,4.315,noerror,NA,NA
+babylablang-essex,mb9_12_03,ADS,ADS8,15,13.814,18.003,noerror,NA,NA
+babylablang-essex,mb9_12_03,IDS,IDS8,16,1.278,3.83,noerror,NA,NA
+babylablang-essex,mb9_12_04,Train1,training,-2,5.582,9.493,noerror,NA,NA
+babylablang-essex,mb9_12_04,Train2,training,-1,3.507,8.037,noerror,NA,NA
+babylablang-essex,mb9_12_04,ADS,ADS1,1,1.09,3.94,noerror,NA,NA
+babylablang-essex,mb9_12_04,IDS,IDS1,2,5.589,7.78,noerror,NA,NA
+babylablang-essex,mb9_12_04,ADS,ADS2,3,3.884,7.694,noerror,NA,NA
+babylablang-essex,mb9_12_04,IDS,IDS2,4,5.542,17.675,noerror,NA,NA
+babylablang-essex,mb9_12_04,IDS,IDS3,5,2.745,5.604,noerror,NA,NA
+babylablang-essex,mb9_12_04,ADS,ADS3,6,0,2.019,error,child did not look at the screen following AG,NA
+babylablang-essex,mb9_12_04,ADS,ADS4,7,7,12.804,noerror,NA,NA
+babylablang-essex,mb9_12_04,IDS,IDS4,8,1.258,4.41,noerror,NA,NA
+babylablang-essex,mb9_12_04,IDS,IDS5,9,1.079,3.132,noerror,NA,NA
+babylablang-essex,mb9_12_04,ADS,ADS5,10,5.322,7.67,noerror,NA,NA
+babylablang-essex,mb9_12_04,IDS,IDS6,11,0.872,3.136,noerror,NA,NA
+babylablang-essex,mb9_12_04,ADS,ADS6,12,2.81,6.557,noerror,NA,NA
+babylablang-essex,mb9_12_04,ADS,ADS7,13,6.526,11.671,noerror,NA,NA
+babylablang-essex,mb9_12_04,IDS,IDS7,14,2.914,5.986,noerror,NA,NA
+babylablang-essex,mb9_12_04,IDS,IDS8,15,1.245,6.278,noerror,NA,NA
+babylablang-essex,mb9_12_04,ADS,ADS8,16,0.654,4.645,noerror,NA,NA
+babylablang-essex,mb9_12_05,Train2,training,-2,3.021,6.362,noerror,NA,NA
+babylablang-essex,mb9_12_05,Train1,training,-1,11.787,15.642,noerror,NA,NA
+babylablang-essex,mb9_12_05,ADS,ADS5,1,3.538,8.436,noerror,NA,NA
+babylablang-essex,mb9_12_05,IDS,IDS5,2,1.955,5.83,noerror,NA,NA
+babylablang-essex,mb9_12_05,IDS,IDS7,3,2.68,4.97,noerror,NA,NA
+babylablang-essex,mb9_12_05,ADS,ADS7,4,0.746,4.066,noerror,NA,NA
+babylablang-essex,mb9_12_05,IDS,IDS1,5,0.65,3.344,noerror,NA,NA
+babylablang-essex,mb9_12_05,ADS,ADS1,6,0.961,3.038,noerror,NA,NA
+babylablang-essex,mb9_12_05,IDS,IDS3,7,6.677,12.537,noerror,NA,NA
+babylablang-essex,mb9_12_05,ADS,ADS3,8,0,2.009,error,child did not look at the screen following AG,NA
+babylablang-essex,mb9_12_05,IDS,IDS2,9,0,2.005,error,child did not look at the screen following AG,NA
+babylablang-essex,mb9_12_05,ADS,ADS2,10,3.738,8.338,noerror,NA,NA
+babylablang-essex,mb9_12_05,ADS,ADS4,11,3.05,6.469,noerror,NA,NA
+babylablang-essex,mb9_12_05,IDS,IDS4,12,2.5,4.686,noerror,NA,NA
+babylablang-essex,mb9_12_05,ADS,ADS6,13,1.431,3.527,noerror,NA,NA
+babylablang-essex,mb9_12_05,IDS,IDS6,14,1.168,5.083,noerror,NA,NA
+babylablang-essex,mb9_12_05,ADS,ADS8,15,0.914,3.981,noerror,NA,NA
+babylablang-essex,mb9_12_05,IDS,IDS8,16,0.969,3.038,noerror,NA,NA
+babylablang-essex,mb9_12_06,Train2,training,-2,13.212,17.455,noerror,NA,NA
+babylablang-essex,mb9_12_06,Train1,training,-1,4.783,7.581,noerror,NA,NA
+babylablang-essex,mb9_12_06,ADS,ADS5,1,12.056,18.008,noerror,NA,NA
+babylablang-essex,mb9_12_06,IDS,IDS5,2,11.609,18.013,noerror,NA,NA
+babylablang-essex,mb9_12_06,IDS,IDS7,3,5.496,8.893,noerror,NA,NA
+babylablang-essex,mb9_12_06,ADS,ADS7,4,4.454,6.743,noerror,NA,NA
+babylablang-essex,mb9_12_06,IDS,IDS1,5,7.912,17.792,noerror,NA,NA
+babylablang-essex,mb9_12_06,ADS,ADS1,6,3.891,6.852,noerror,NA,NA
+babylablang-essex,mb9_12_06,IDS,IDS3,7,9.503,13.446,noerror,NA,NA
+babylablang-essex,mb9_12_06,ADS,ADS3,8,2.952,6.541,noerror,NA,NA
+babylablang-essex,mb9_12_06,IDS,IDS2,9,5.314,7.75,noerror,NA,NA
+babylablang-essex,mb9_12_06,ADS,ADS2,10,4.338,9.555,noerror,NA,NA
+babylablang-essex,mb9_12_06,ADS,ADS4,11,2.349,5.605,noerror,NA,NA
+babylablang-essex,mb9_12_06,IDS,IDS4,12,0,2.007,error,child did not look at the screen following AG,NA
+babylablang-essex,mb9_12_06,ADS,ADS6,13,1.922,5.145,noerror,NA,NA
+babylablang-essex,mb9_12_06,IDS,IDS6,14,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb9_12_06,ADS,ADS8,15,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb9_12_06,IDS,IDS8,16,NC,NC,error,experiment ended early,NA
+babylablang-essex,mb9_12_07,Train1,training,-2,5.37,7.84,noerror,NA,NA
+babylablang-essex,mb9_12_07,Train2,training,-1,12.909,16.43,noerror,NA,NA
+babylablang-essex,mb9_12_07,IDS,IDS1,1,10.693,18.004,noerror,NA,NA
+babylablang-essex,mb9_12_07,ADS,ADS1,2,6.644,8.855,noerror,NA,NA
+babylablang-essex,mb9_12_07,IDS,IDS2,3,0.483,2.535,noerror,NA,NA
+babylablang-essex,mb9_12_07,ADS,ADS2,4,16.661,18.008,noerror,NA,NA
+babylablang-essex,mb9_12_07,ADS,ADS3,5,5.462,9.606,noerror,NA,NA
+babylablang-essex,mb9_12_07,IDS,IDS3,6,0,2.01,error,child did not look at the screen following AG,NA
+babylablang-essex,mb9_12_07,IDS,IDS4,7,1.322,3.441,noerror,NA,NA
+babylablang-essex,mb9_12_07,ADS,ADS4,8,3.035,5.633,noerror,NA,NA
+babylablang-essex,mb9_12_07,ADS,ADS5,9,0.086,2.443,noerror,NA,NA
+babylablang-essex,mb9_12_07,IDS,IDS5,10,0.826,3.467,noerror,NA,NA
+babylablang-essex,mb9_12_07,ADS,ADS6,11,0.246,3.075,noerror,NA,NA
+babylablang-essex,mb9_12_07,IDS,IDS6,12,0,2.011,error,child did not look at the screen following AG,NA
+babylablang-essex,mb9_12_07,IDS,IDS7,13,5.879,8.199,noerror,NA,NA
+babylablang-essex,mb9_12_07,ADS,ADS7,14,0,2.013,error,child did not look at the screen following AG,NA
+babylablang-essex,mb9_12_07,ADS,ADS8,15,2.079,4.152,noerror,NA,NA
+babylablang-essex,mb9_12_07,IDS,IDS8,16,0.174,2.926,noerror,NA,NA

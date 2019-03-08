@@ -1,0 +1,344 @@
+lab,subid,trial_type,stimulus,trial_num,looking_time,total_trial_time,trial_error,trial_error_type,notes
+earlysocog-fm,s16,training,train1,-2,"	14.71","	15.00",noerror,NA,NA
+earlysocog-fm,s16,training,train2,-1,"	13.13","	15.00",noerror,NA,NA
+earlysocog-fm,s16,IDS,IDS5,1,"	0.59","	3.61",noerror,NA,baby was close to screen so eyes cut off
+earlysocog-fm,s16,ADS,ADS5,2,"	0.00","	2.00",noerror,NA,baby was close to screen so eyes cut off
+earlysocog-fm,s16,ADS,ADS7,3,"	0.00","	2.00",noerror,NA,baby was close to screen so eyes cut off
+earlysocog-fm,s16,IDS,IDS7,4,"	0.00","	2.00",noerror,NA,NA
+earlysocog-fm,s16,ADS,ADS1,5,"	10.37","	12.90",noerror,NA,NA
+earlysocog-fm,s16,IDS,IDS1,6,"	4.24","	6.55",noerror,NA,NA
+earlysocog-fm,s16,ADS,ADS3,7,"	0.40","	2.92",noerror,NA,baby was fussy
+earlysocog-fm,s16,IDS,IDS3,8,"	2.41","	4.92",noerror,NA,NA
+earlysocog-fm,s16,ADS,ADS2,9,"	1.94","	4.75",noerror,NA,NA
+earlysocog-fm,s16,IDS,IDS2,10,"	1.72","	4.12",noerror,NA,baby moving around a lot
+earlysocog-fm,s16,IDS,IDS4,11,"	3.62","	6.62",noerror,NA,NA
+earlysocog-fm,s16,ADS,ADS4,12,"	6.19","	8.53",noerror,NA,NA
+earlysocog-fm,s16,IDS,IDS6,13,NC,NC,error,got fussy and ended early,NA
+earlysocog-fm,s16,ADS,ADS6,14,NC,NC,error,got fussy and ended early,NA
+earlysocog-fm,s16,IDS,IDS8,15,NC,NC,error,got fussy and ended early,NA
+earlysocog-fm,s16,ADS,ADS8,16,NC,NC,error,got fussy and ended early,NA
+earlysocog-fm,s22,training,train2,-2,"	13.38","	15.00",noerror,NA,NA
+earlysocog-fm,s22,training,train1,-1,"	12.14","	15.00",noerror,NA,NA
+earlysocog-fm,s22,ADS,ADS5,1,"	12.79","	15.00",noerror,NA,NA
+earlysocog-fm,s22,IDS,IDS5,2,"	13.31","	15.00",noerror,NA,NA
+earlysocog-fm,s22,IDS,IDS7,3,"	13.60","	15.00",noerror,NA,NA
+earlysocog-fm,s22,ADS,ADS7,4,"	11.79","	15.00",noerror,NA,NA
+earlysocog-fm,s22,IDS,IDS1,5,"	4.31","	6.77",noerror,NA,NA
+earlysocog-fm,s22,ADS,ADS1,6,"	3.44","	5.72",noerror,NA,NA
+earlysocog-fm,s22,IDS,IDS3,7,"	11.75","	15.00",noerror,NA,NA
+earlysocog-fm,s22,ADS,ADS3,8,"	10.82","	15.00",noerror,NA,NA
+earlysocog-fm,s22,IDS,IDS2,9,"	7.33","	11.82",noerror,NA,NA
+earlysocog-fm,s22,ADS,ADS2,10,"	3.00","	5.65",noerror,NA,NA
+earlysocog-fm,s22,ADS,ADS4,11,"	9.53","	14.98",noerror,NA,NA
+earlysocog-fm,s22,IDS,IDS4,12,"	10.47","	15.00",noerror,NA,NA
+earlysocog-fm,s22,ADS,ADS6,13,"	6.06","	9.22",noerror,NA,NA
+earlysocog-fm,s22,IDS,IDS6,14,"	12.70","	15.00",noerror,NA,NA
+earlysocog-fm,s22,ADS,ADS8,15,"	9.37","	12.21",noerror,NA,NA
+earlysocog-fm,s22,IDS,IDS8,16,"	11.90","	15.00",noerror,NA,NA
+earlysocog-fm,s24,training,train1,-2,"	14.83","	15.00",noerror,NA,NA
+earlysocog-fm,s24,training,train2,-1,"	12.97","	15.00",noerror,NA,NA
+earlysocog-fm,s24,IDS,IDS1,1,"	14.80","	15.00",noerror,NA,NA
+earlysocog-fm,s24,ADS,ADS1,2,"	14.38","	15.00",noerror,NA,NA
+earlysocog-fm,s24,IDS,IDS2,3,"	13.36","	15.00",noerror,NA,NA
+earlysocog-fm,s24,ADS,ADS2,4,"	13.93","	15.00",noerror,NA,NA
+earlysocog-fm,s24,ADS,ADS3,5,"	11.19","	15.00",noerror,NA,NA
+earlysocog-fm,s24,IDS,IDS3,6,"	13.65","	15.00",noerror,NA,NA
+earlysocog-fm,s24,IDS,IDS4,7,"	14.77","	15.00",noerror,NA,NA
+earlysocog-fm,s24,ADS,ADS4,8,"	14.05","	15.00",noerror,NA,NA
+earlysocog-fm,s24,ADS,ADS5,9,"	4.14","	6.38",noerror,NA,NA
+earlysocog-fm,s24,IDS,IDS5,10,"	13.68","	15.00",noerror,NA,NA
+earlysocog-fm,s24,ADS,ADS6,11,"	9.26","	14.22",noerror,NA,NA
+earlysocog-fm,s24,IDS,IDS6,12,"	7.38","	9.93",noerror,NA,NA
+earlysocog-fm,s24,IDS,IDS7,13,"	4.49","	7.27",noerror,NA,NA
+earlysocog-fm,s24,ADS,ADS7,14,"	4.49","	6.78",noerror,NA,NA
+earlysocog-fm,s24,ADS,ADS8,15,"	11.07","	15.00",noerror,NA,NA
+earlysocog-fm,s24,IDS,IDS8,15,"	14.60","	15.00",noerror,NA,NA
+earlysocog-fm,s25,training,train2,-2,"	14.79","	15.00",noerror,NA,NA
+earlysocog-fm,s25,training,train1,-1,"	6.03","	10.15",noerror,NA,baby was close to screen so eyes cut off
+earlysocog-fm,s25,ADS,ADS1,1,"	4.03","	7.79",error,volume is too low,"volume is low, experimenter error; baby was close to screen so eyes cut off"
+earlysocog-fm,s25,IDS,IDS1,2,"	14.12","	15.00",error,volume is too low,"volume is low, experimenter error"
+earlysocog-fm,s25,ADS,ADS2,3,"	6.36","	8.52",error,volume is too low,"volume is low, experimenter error; baby was close to screen so eyes cut off"
+earlysocog-fm,s25,IDS,IDS2,4,"	2.77","	5.42",error,volume is too low,"volume is low, experimenter error"
+earlysocog-fm,s25,IDS,IDS3,5,"	13.42","	15.00",error,volume is too low,"volume is low, experimenter error"
+earlysocog-fm,s25,ADS,ADS3,6,"	5.84","	8.01",error,volume is too low,"volume is low, experimenter error"
+earlysocog-fm,s25,ADS,ADS4,7,"	4.31","	6.45",error,volume is too low,"volume is low, experimenter error"
+earlysocog-fm,s25,IDS,IDS4,8,"	1.71","	3.88",error,volume is too low,"volume is low, experimenter error"
+earlysocog-fm,s25,IDS,IDS5,9,"	2.92","	5.04",error,volume is too low,"volume is low, experimenter error"
+earlysocog-fm,s25,ADS,ADS5,10,"	3.43","	9.25",error,volume is too low,"volume is low, experimenter error"
+earlysocog-fm,s25,IDS,IDS6,11,"	1.93","	5.28",error,volume is too low,"volume is low, experimenter error"
+earlysocog-fm,s25,ADS,ADS6,12,"	0.52","	2.61",error,volume is too low,"volume is low, experimenter error"
+earlysocog-fm,s25,ADS,ADS7,13,"	1.81","	4.36",error,volume is too low,"volume is low, experimenter error"
+earlysocog-fm,s25,IDS,IDS7,14,"	1.05","	5.64",error,volume is too low,"volume is low, experimenter error"
+earlysocog-fm,s25,IDS,IDS8,15,"	0.20","	2.71",error,volume is too low,"volume is low, experimenter error"
+earlysocog-fm,s25,ADS,ADS8,16,"	1.54","	4.76",error,volume is too low,"volume is low, experimenter error"
+,,,,,"	0.00","	2.00",,,
+earlysocog-fm,s26,training,train1,-2,"	12.34","	15.00",noerror,NA,NA
+earlysocog-fm,s26,training,train2,-1,"	6.06","	9.94",noerror,NA,NA
+earlysocog-fm,s26,IDS,IDS1,1,"	1.83","	3.99",noerror,NA,NA
+earlysocog-fm,s26,ADS,ADS1,2,"	3.89","	7.28",noerror,NA,NA
+earlysocog-fm,s26,IDS,IDS2,3,"	7.13","	9.28",noerror,NA,NA
+earlysocog-fm,s26,ADS,ADS2,4,"	0.77","	2.91",noerror,NA,NA
+earlysocog-fm,s26,ADS,ADS3,5,"	5.69","	9.06",noerror,NA,baby moving around a lot
+earlysocog-fm,s26,IDS,IDS3,6,"	4.31","	6.49",noerror,NA,baby moving around a lot
+earlysocog-fm,s26,IDS,IDS4,7,"	2.93","	5.14",noerror,NA,baby moving around a lot
+earlysocog-fm,s26,ADS,ADS4,8,"	0.78","	4.96",noerror,NA,baby moving around a lot
+earlysocog-fm,s26,ADS,ADS5,9,NC,NC,error,got fussy and ended early,NA
+earlysocog-fm,s26,IDS,IDS5,10,NC,NC,error,got fussy and ended early,NA
+earlysocog-fm,s26,ADS,ADS6,11,NC,NC,error,got fussy and ended early,NA
+earlysocog-fm,s26,IDS,IDS6,12,NC,NC,error,got fussy and ended early,NA
+earlysocog-fm,s26,IDS,IDS7,13,NC,NC,error,got fussy and ended early,NA
+earlysocog-fm,s26,ADS,ADS7,14,NC,NC,error,got fussy and ended early,NA
+earlysocog-fm,s26,ADS,ADS8,15,NC,NC,error,got fussy and ended early,NA
+earlysocog-fm,s26,IDS,IDS8,15,NC,NC,error,got fussy and ended early,NA
+earlysocog-fm,s27,training,train2,-2,"	1.37","	3.50",noerror,NA,sibling in room running around distracting 
+earlysocog-fm,s27,training,train1,-1,"	9.54","	11.89",noerror,NA,sibling in room running around distracting 
+earlysocog-fm,s27,ADS,ADS5,1,"	0.00","	2.00",noerror,NA,baby was close to screen so eyes cut off; sibling running in room
+earlysocog-fm,s27,IDS,IDS5,2,"	0.96","	3.21",noerror,NA,sibling in room running around distracting 
+earlysocog-fm,s27,IDS,IDS7,3,"	1.68","	3.85",noerror,NA,sibling in room running around distracting 
+earlysocog-fm,s27,ADS,ADS7,4,"	1.93","	4.97",noerror,NA,sibling in room running around distracting 
+earlysocog-fm,s27,IDS,IDS1,5,"	0.00","	2.00",noerror,NA,sibling in room running around distracting 
+earlysocog-fm,s27,ADS,ADS1,6,"	0.00","	2.00",noerror,NA,baby standing up on mom 
+earlysocog-fm,s27,IDS,IDS3,7,"	2.00","	4.18",noerror,NA,baby standing up on mom 
+earlysocog-fm,s27,ADS,ADS3,8,"	0.00","	2.00",noerror,NA,baby standing up on mom 
+earlysocog-fm,s27,IDS,IDS2,9,"	0.00","	2.00",noerror,NA,baby standing up on mom 
+earlysocog-fm,s27,ADS,ADS2,10,"	7.22","	11.01",noerror,NA,baby standing up on mom 
+earlysocog-fm,s27,ADS,ADS4,11,"	1.12","	3.74",noerror,NA,baby standing up on mom 
+earlysocog-fm,s27,IDS,IDS4,12,"	0.00","	2.00",noerror,NA,baby standing up on mom 
+earlysocog-fm,s27,ADS,ADS6,13,"	2.49","	4.59",noerror,NA,baby standing up on mom 
+earlysocog-fm,s27,IDS,IDS6,14,"	2.90","	5.24",error,got fussy,NA
+earlysocog-fm,s27,ADS,ADS8,15,"	0.78","	2.91",error,got fussy,NA
+earlysocog-fm,s27,IDS,IDS8,16,"	1.05","	3.17",error,got fussy ,NA
+earlysocog-fm,s28 ,training,train1,-2,"	13.08","	15.00",noerror,NA,NA
+earlysocog-fm,s28 ,training,train2,-1,"	13.38","	15.00",noerror,NA,NA
+earlysocog-fm,s28 ,IDS,IDS1,1,"	13.68","	15.00",noerror,NA,NA
+earlysocog-fm,s28 ,ADS,ADS1,2,"	12.13","	15.00",noerror,NA,baby was close to screen so eyes cut off
+earlysocog-fm,s28 ,IDS,IDS2,3,"	7.18","	10.06",noerror,NA,NA
+earlysocog-fm,s28 ,ADS,ADS2,4,"	2.20","	4.50",noerror,NA,NA
+earlysocog-fm,s28 ,ADS,ADS3,5,"	5.80","	9.91",noerror,NA,NA
+earlysocog-fm,s28 ,IDS,IDS3,6,"	11.58","	15.00",noerror,NA,NA
+earlysocog-fm,s28 ,IDS,IDS4,7,"	6.99","	13.59",noerror,NA,baby was close to screen so eyes cut off
+earlysocog-fm,s28 ,ADS,ADS4,8,"	6.89","	12.80",noerror,NA,NA
+earlysocog-fm,s28 ,ADS,ADS5,9,"	3.82","	5.99",noerror,NA,NA
+earlysocog-fm,s28 ,IDS,IDS5,10,"	4.04","	7.44",noerror,NA,baby was close to screen so eyes cut off
+earlysocog-fm,s28 ,ADS,ADS6,11,"	5.24","	8.23",noerror,NA,NA
+earlysocog-fm,s28 ,IDS,IDS6,12,"	0.00","	2.00",noerror,NA,NA
+earlysocog-fm,s28 ,IDS,IDS7,13,"	11.41","	15.00",noerror,NA,NA
+earlysocog-fm,s28 ,ADS,ADS7,14,"	1.84","	5.16",noerror,NA,NA
+earlysocog-fm,s28 ,ADS,ADS8,15,"	4.95","	7.53",noerror,NA,NA
+earlysocog-fm,s28 ,IDS,IDS8,16,"	5.90","	11.00",noerror,NA,baby was close to screen so eyes cut off
+earlysocog-fm,s29,training,train2,-2,"	6.96","	9.58",noerror,NA,NA
+earlysocog-fm,s29,training,train1,-1,"	9.62","	12.36",noerror,NA,NA
+earlysocog-fm,s29,ADS,ADS1,1,"	4.80","	9.79",noerror,NA,NA
+earlysocog-fm,s29,IDS,IDS1,2,"	2.88","	5.92",noerror,NA,NA
+earlysocog-fm,s29,ADS,ADS2,3,"	2.71","	5.72",noerror,NA,NA
+earlysocog-fm,s29,IDS,IDS2,4,"	2.15","	4.31",noerror,NA,NA
+earlysocog-fm,s29,IDS,IDS3,5,"	2.78","	6.77",noerror,NA,NA
+earlysocog-fm,s29,ADS,ADS3,6,"	0.98","	3.17",noerror,NA,NA
+earlysocog-fm,s29,ADS,ADS4,7,"	2.07","	4.23",noerror,NA,NA
+earlysocog-fm,s29,IDS,IDS4,8,"	2.10","	4.23",error,volume goes out,NA
+earlysocog-fm,s29,IDS,IDS5,9,"	1.23","	3.33",error,volume goes out,NA
+earlysocog-fm,s29,ADS,ADS5,10,"	4.76","	8.66",error,volume goes out,NA
+earlysocog-fm,s29,IDS,IDS6,11,"	7.18","	15.00",error,volume goes out,NA
+earlysocog-fm,s29,ADS,ADS6,12,"	9.85","	15.00",error,volume goes out,NA
+earlysocog-fm,s29,ADS,ADS7,13,"	6.75","	12.51",error,volume goes out,NA
+earlysocog-fm,s29,IDS,IDS7,14,"	6.84","	14.37",error,volume goes out,NA
+earlysocog-fm,s29,IDS,IDS8,15,"	3.97","	14.42",error,volume goes out,NA
+earlysocog-fm,s29,ADS,ADS8,16,"	0.64","	3.63",error,volume goes out,NA
+earlysocog-fm,s30,training,train1,-2,"	12.60","	15.00",noerror,NA,NA
+earlysocog-fm,s30,training,train2,-1,"	4.44","	6.61",noerror,NA,NA
+earlysocog-fm,s30,IDS,IDS5,1,"	7.73","	9.95",noerror,NA,NA
+earlysocog-fm,s30,ADS,ADS5,2,"	6.11","	8.32",noerror,NA,NA
+earlysocog-fm,s30,ADS,ADS7,3,"	5.52","	9.96",noerror,NA,NA
+earlysocog-fm,s30,IDS,IDS7,4,"	3.03","	5.16",noerror,NA,NA
+earlysocog-fm,s30,ADS,ADS1,5,"	8.92","	14.35",noerror,NA,NA
+earlysocog-fm,s30,IDS,IDS1,6,"	2.34","	4.49",noerror,NA,baby standing up on mom 
+earlysocog-fm,s30,ADS,ADS3,7,"	6.51","	10.02",noerror,NA,baby standing up on mom 
+earlysocog-fm,s30,IDS,IDS3,8,"	5.25","	7.53",noerror,NA,baby standing up on mom 
+earlysocog-fm,s30,ADS,ADS2,9,"	2.19","	4.46",noerror,NA,baby standing up on mom 
+earlysocog-fm,s30,IDS,IDS2,10,"	3.46","	5.88",noerror,NA,baby standing up on mom 
+earlysocog-fm,s30,IDS,IDS4,11,"	1.61","	3.88",noerror,NA,baby standing up on mom 
+earlysocog-fm,s30,ADS,ADS4,12,"	2.29","	4.57",noerror,NA,NA
+earlysocog-fm,s30,IDS,IDS6,13,"	2.26","	6.13",noerror,NA,NA
+earlysocog-fm,s30,ADS,ADS6,14,"	1.30","	3.43",noerror,NA,NA
+earlysocog-fm,s30,IDS,IDS8,15,"	1.79","	3.99",noerror,NA,NA
+earlysocog-fm,s30,ADS,ADS8,16,"	5.75","	9.28",noerror,NA,baby standing up on mom 
+earlysocog-fm,s31,training,train2,-2,"	14.82","	15.00",noerror,NA,NA
+earlysocog-fm,s31,training,train1,-1,"	13.32","	15.00",noerror,NA,NA
+earlysocog-fm,s31,ADS,ADS5,1,"	11.65","	15.00",noerror,NA,NA
+earlysocog-fm,s31,IDS,IDS5,2,"	14.36","	15.00",noerror,NA,NA
+earlysocog-fm,s31,IDS,IDS7,3,"	12.80","	15.00",noerror,NA,NA
+earlysocog-fm,s31,ADS,ADS7,4,"	10.79","	15.00",noerror,NA,NA
+earlysocog-fm,s31,IDS,IDS1,5,"	1.97","	4.31",noerror,NA,NA
+earlysocog-fm,s31,ADS,ADS1,6,"	11.63","	15.00",noerror,NA,NA
+earlysocog-fm,s31,IDS,IDS3,7,"	14.88","	15.00",noerror,NA,NA
+earlysocog-fm,s31,ADS,ADS3,8,"	9.31","	14.88",noerror,NA,NA
+earlysocog-fm,s31,IDS,IDS2,9,"	10.88","	15.00",noerror,NA,NA
+earlysocog-fm,s31,ADS,ADS2,10,"	6.07","	10.98",noerror,NA,NA
+earlysocog-fm,s31,ADS,ADS4,11,"	5.26","	12.38",noerror,NA,NA
+earlysocog-fm,s31,IDS,IDS4,12,"	4.61","	10.36",noerror,NA,NA
+earlysocog-fm,s31,ADS,ADS6,13,"	7.10","	14.30",noerror,NA,NA
+earlysocog-fm,s31,IDS,IDS6,14,"	2.24","	5.47",noerror,NA,NA
+earlysocog-fm,s31,ADS,ADS8,15,"	3.77","	7.75",noerror,NA,NA
+earlysocog-fm,s31,IDS,IDS8,16,"	1.65","	4.13",noerror,NA,NA
+earlysocog-fm,s32,training,train1,-2,"	6.11","	8.28",noerror,NA,german is primary language
+earlysocog-fm,s32,training,train2,-1,"	12.56","	15.00",noerror,NA,german is primary language
+earlysocog-fm,s32,IDS,IDS1,1,"	10.98","	13.14",noerror,NA,german is primary language
+earlysocog-fm,s32,ADS,ADS1,2,"	2.89","	5.08",noerror,NA,german is primary language
+earlysocog-fm,s32,IDS,IDS2,3,"	4.67","	7.67",noerror,NA,german is primary language
+earlysocog-fm,s32,ADS,ADS2,4,"	5.61","	7.77",noerror,NA,german is primary language
+earlysocog-fm,s32,ADS,ADS3,5,"	2.09","	4.29",noerror,NA,german is primary language
+earlysocog-fm,s32,IDS,IDS3,6,"	2.38","	4.53",noerror,NA,german is primary language
+earlysocog-fm,s32,IDS,IDS4,7,"	1.58","	3.77",noerror,NA,german is primary language
+earlysocog-fm,s32,ADS,ADS4,8,"	1.72","	3.85",noerror,NA,german is primary language
+earlysocog-fm,s32,ADS,ADS5,9,"	3.17","	5.28",noerror,NA,german is primary language
+earlysocog-fm,s32,IDS,IDS5,10,"	2.02","	4.11",noerror,NA,german is primary language
+earlysocog-fm,s32,ADS,ADS6,11,"	1.43","	3.57",noerror,NA,german is primary language
+earlysocog-fm,s32,IDS,IDS6,12,"	1.19","	3.27",noerror,NA,german is primary language
+earlysocog-fm,s32,IDS,IDS7,13,"	11.38","	15.00",noerror,NA,german is primary language
+earlysocog-fm,s32,ADS,ADS7,14,"	10.05","	15.00",noerror,NA,german is primary language
+earlysocog-fm,s32,ADS,ADS8,15,"	13.03","	15.00",noerror,NA,german is primary language
+earlysocog-fm,s32,IDS,IDS8,16,"	4.76","	9.77",noerror,NA,german is primary language
+earlysocog-fm,s36,training,train2,-2,"	4.15","	6.37",noerror,NA,baby was standing on mom
+earlysocog-fm,s36,training,train1,-1,"	14.90","	15.00",noerror,NA,baby was standing on mom
+earlysocog-fm,s36,ADS,ADS1,1,"	14.88","	15.00",noerror,NA,baby was standing on mom
+earlysocog-fm,s36,IDS,IDS1,2,"	4.06","	6.28",noerror,NA,baby was standing on mom
+earlysocog-fm,s36,ADS,ADS2,3,NC,NC,noerror,NA,baby was standing on mom
+earlysocog-fm,s36,IDS,IDS2,4,NC,NC,noerror,NA,baby was standing on mom
+earlysocog-fm,s36,IDS,IDS3,5,NC,NC,noerror,NA,baby was standing on mom
+earlysocog-fm,s36,ADS,ADS3,6,NC,NC,noerror,NA,baby was standing on mom
+earlysocog-fm,s36,ADS,ADS4,7,NC,NC,noerror,NA,baby was standing on mom
+earlysocog-fm,s36,IDS,IDS4,8,NC,NC,noerror,NA,baby was standing on mom
+earlysocog-fm,s36,IDS,IDS5,9,NC,NC,noerror,NA,baby was standing on mom
+earlysocog-fm,s36,ADS,ADS5,10,NC,NC,noerror,NA,baby was standing on mom
+earlysocog-fm,s36,IDS,IDS6,11,NC,NC,noerror,NA,baby was standing on mom
+earlysocog-fm,s36,ADS,ADS6,12,NC,NC,noerror,NA,baby was standing on mom
+earlysocog-fm,s36,ADS,ADS7,13,NC,NC,noerror,NA,baby was standing on mom
+earlysocog-fm,s36,IDS,IDS7,14,NC,NC,noerror,NA,baby was standing on mom
+earlysocog-fm,s36,IDS,IDS8,15,NC,NC,noerror,NA,baby was standing on mom
+earlysocog-fm,s36,ADS,ADS8,16,NC,NC,noerror,NA,baby was standing on mom
+earlysocog-fm,s38,training,train1,-2,"	0.49","	3.09",error,no eyetracking data,NA
+earlysocog-fm,s38,training,train2,-1,"	9.03","	12.53",error,no eyetracking data,NA
+earlysocog-fm,s38,IDS,IDS5,1,"	11.13","	15.00",error,no eyetracking data,NA
+earlysocog-fm,s38,ADS,ADS5,2,"	7.14","	9.76",error,no eyetracking data,NA
+earlysocog-fm,s38,ADS,ADS7,3,"	13.32","	15.00",error,no eyetracking data,NA
+earlysocog-fm,s38,IDS,IDS7,4,"	7.74","	10.38",error,no eyetracking data,NA
+earlysocog-fm,s38,ADS,ADS1,5,"	9.33","	13.01",error,no eyetracking data,NA
+earlysocog-fm,s38,IDS,IDS1,6,"	8.66","	15.00",error,no eyetracking data,NA
+earlysocog-fm,s38,ADS,ADS3,7,"	13.68","	15.00",error,no eyetracking data,NA
+earlysocog-fm,s38,IDS,IDS3,8,"	7.22","	11.83",error,no eyetracking data,NA
+earlysocog-fm,s38,ADS,ADS2,9,"	4.47","	7.16",error,no eyetracking data,NA
+earlysocog-fm,s38,IDS,IDS2,10,NC,NC,error,got fussy and ended early,NA
+earlysocog-fm,s38,IDS,IDS4,11,NC,NC,error,got fussy and ended early,NA
+earlysocog-fm,s38,ADS,ADS4,12,NC,NC,error,got fussy and ended early,NA
+earlysocog-fm,s38,IDS,IDS6,13,NC,NC,error,got fussy and ended early,NA
+earlysocog-fm,s38,ADS,ADS6,14,NC,NC,error,got fussy and ended early,NA
+earlysocog-fm,s38,IDS,IDS8,15,NC,NC,error,got fussy and ended early,NA
+earlysocog-fm,s38,ADS,ADS8,16,NC,NC,error,got fussy and ended early,NA
+earlysocog-fm,s40,training,train1,-2,"	8.53",12.01,noerror,NA,baby's eyes out of camera view
+earlysocog-fm,s40,training,train2,-1,"	11.49",14.88,noerror,NA,baby's eyes out of camera view
+earlysocog-fm,s40,IDS,IDS1,1,"	12.16",15,noerror,NA,baby's eyes out of camera view
+earlysocog-fm,s40,ADS,ADS1,2,"	4.76",7.24,noerror,NA,baby's eyes out of camera view
+earlysocog-fm,s40,IDS,IDS2,3,"	4.62",7.52,noerror,NA,baby's eyes out of camera view
+earlysocog-fm,s40,ADS,ADS2,4,"	3.43",5.77,noerror,NA,baby's eyes out of camera view
+earlysocog-fm,s40,ADS,ADS3,5,"	5.07",7.47,noerror,NA,baby's eyes out of camera view
+earlysocog-fm,s40,IDS,IDS3,6,"	7.65",14.35,noerror,NA,baby's eyes out of camera view
+earlysocog-fm,s40,IDS,IDS4,7,"	1.00",3.41,noerror,NA,baby's eyes out of camera view
+earlysocog-fm,s40,ADS,ADS4,8,"	0.59",2.99,noerror,NA,baby's eyes out of camera view
+earlysocog-fm,s40,ADS,ADS5,9,"	1.61",3.98,noerror,NA,baby's eyes out of camera view
+earlysocog-fm,s40,IDS,IDS5,10,"	2.16",5.89,noerror,NA,baby's eyes out of camera view
+earlysocog-fm,s40,ADS,ADS6,11,"	1.75",4.14,noerror,NA,baby's eyes out of camera view
+earlysocog-fm,s40,IDS,IDS6,12,NC,NC,noerror,missing jHab data,baby's eyes out of camera view
+earlysocog-fm,s40,IDS,IDS7,13,NC,NC,noerror,missing jHab data,baby's eyes out of camera view
+earlysocog-fm,s40,ADS,ADS7,14,NC,NC,noerror,missing jHab data,baby's eyes out of camera view
+earlysocog-fm,s40,ADS,ADS8,15,NC,NC,noerror,missing jHab data,baby's eyes out of camera view
+earlysocog-fm,s40,IDS,IDS8,16,NC,NC,noerror,missing jHab data,baby's eyes out of camera view
+earlysocog-fm,s42,training,train2,-2,"	12.34","	15.00",noerror,NA,NA
+earlysocog-fm,s42,training,train1,-1,"	9.52","	12.95",noerror,NA,NA
+earlysocog-fm,s42,ADS,ADS1,1,"	12.65","	15.00",noerror,NA,NA
+earlysocog-fm,s42,IDS,IDS1,2,"	14.78","	15.00",noerror,NA,NA
+earlysocog-fm,s42,ADS,ADS2,3,"	8.12","	14.07",noerror,NA,NA
+earlysocog-fm,s42,IDS,IDS2,4,"	12.77","	15.00",noerror,NA,NA
+earlysocog-fm,s42,IDS,IDS3,5,"	12.70","	15.00",noerror,NA,NA
+earlysocog-fm,s42,ADS,ADS3,6,"	6.25","	8.30",noerror,NA,NA
+earlysocog-fm,s42,ADS,ADS4,7,"	1.13","	3.34",noerror,NA,NA
+earlysocog-fm,s42,IDS,IDS4,8,"	11.40","	15.00",noerror,NA,NA
+earlysocog-fm,s42,IDS,IDS5,9,"	3.09","	5.22",noerror,NA,NA
+earlysocog-fm,s42,ADS,ADS5,10,"	3.11","	5.77",noerror,NA,NA
+earlysocog-fm,s42,IDS,IDS6,11,"	9.28","	13.69",noerror,NA,NA
+earlysocog-fm,s42,ADS,ADS6,12,"	1.55","	3.68",noerror,NA,NA
+earlysocog-fm,s42,ADS,ADS7,13,"	0.69","	2.75",noerror,NA,NA
+earlysocog-fm,s42,IDS,IDS7,14,"	5.50","	9.72",noerror,NA,NA
+earlysocog-fm,s42,IDS,IDS8,15,"	0.80","	2.91",noerror,NA,NA
+earlysocog-fm,s42,ADS,ADS8,16,"	0.69","	2.75",noerror,NA,NA
+earlysocog-fm,s43,training,train1,-2,"	11.59",14.48,noerror,NA,no eyetracking data
+earlysocog-fm,s43,training,train2,-1,"	0.80",3.62,noerror,NA,no eyetracking data
+earlysocog-fm,s43,IDS,IDS5,1,"	5.42",8.65,noerror,NA,no eyetracking data
+earlysocog-fm,s43,ADS,ADS5,2,"	6.07",10.16,noerror,NA,no eyetracking data
+earlysocog-fm,s43,ADS,ADS7,3,"	10.64",15,noerror,NA,no eyetracking data
+earlysocog-fm,s43,IDS,IDS7,4,"	2.94",5.38,noerror,NA,no eyetracking data
+earlysocog-fm,s43,ADS,ADS1,5,"	2.00",4.3,noerror,NA,no eyetracking data
+earlysocog-fm,s43,IDS,IDS1,6,"	0.66",4.11,noerror,NA,no eyetracking data
+earlysocog-fm,s43,ADS,ADS3,7,"	3.29",5.68,noerror,NA,no eyetracking data
+earlysocog-fm,s43,IDS,IDS3,8,"	2.20",4.76,noerror,NA,no eyetracking data
+earlysocog-fm,s43,ADS,ADS2,9,"	3.40",5.66,noerror,NA,no eyetracking data
+earlysocog-fm,s43,IDS,IDS2,10,"	0.77",3.07,noerror,NA,no eyetracking data
+earlysocog-fm,s43,IDS,IDS4,11,"	1.99",4.24,noerror,NA,no eyetracking data
+earlysocog-fm,s43,ADS,ADS4,12,"	3.89",8.27,noerror,NA,no eyetracking data
+earlysocog-fm,s43,IDS,IDS6,13,"	0.00",2,noerror,NA,no eyetracking data
+earlysocog-fm,s43,ADS,ADS6,14,"	1.15",3.39,noerror,NA,no eyetracking data
+earlysocog-fm,s43,IDS,IDS8,15,"	1.20",3.28,noerror,NA,no eyetracking data
+earlysocog-fm,s43,ADS,ADS8,16,"	3.13",5.59,noerror,NA,no eyetracking data
+earlysocog-fm,s46,training,train2,-2,"	10.65",15.02,noerror,NA,NA
+earlysocog-fm,s46,training,train1,-1,"	5.35",8.81,noerror,NA,NA
+earlysocog-fm,s46,ADS,ADS5,1,"	7.54",11.92,noerror,NA,NA
+earlysocog-fm,s46,IDS,IDS5,2,"	5.28",9.41,noerror,NA,NA
+earlysocog-fm,s46,IDS,IDS7,3,"	0.84",3.18,noerror,NA,NA
+earlysocog-fm,s46,ADS,ADS7,4,"	1.66",3.97,noerror,NA,NA
+earlysocog-fm,s46,IDS,IDS1,5,"	0.66",2.95,noerror,NA,NA
+earlysocog-fm,s46,ADS,ADS1,6,"	0.49",2.79,noerror,NA,NA
+earlysocog-fm,s46,IDS,IDS3,7,"	11.96",15.03,noerror,NA,NA
+earlysocog-fm,s46,ADS,ADS3,8,"	2.49",4.77,noerror,NA,NA
+earlysocog-fm,s46,IDS,IDS2,9,"	8.30",10.58,noerror,NA,NA
+earlysocog-fm,s46,ADS,ADS2,10,"	1.36",3.66,noerror,NA,NA
+earlysocog-fm,s46,ADS,ADS4,11,"	1.29",7.18,noerror,NA,NA
+earlysocog-fm,s46,IDS,IDS4,12,"	1.99",4.23,noerror,NA,NA
+earlysocog-fm,s46,ADS,ADS6,13,"	6.74",10.47,noerror,NA,NA
+earlysocog-fm,s46,IDS,IDS6,14,"	1.01",3.22,noerror,NA,NA
+earlysocog-fm,s46,ADS,ADS8,15,"	0.82",3.07,noerror,NA,NA
+earlysocog-fm,s46,IDS,IDS8,16,"	0.00",2,noerror,NA,NA
+earlysocog-fm,s48,training,train1,-2,"	12.85",15,noerror,NA,NA
+earlysocog-fm,s48,training,train2,-1,"	13.57",15.01,noerror,NA,NA
+earlysocog-fm,s48,IDS,IDS1,1,"	14.86",15.02,noerror,NA,NA
+earlysocog-fm,s48,ADS,ADS1,2,"	13.95",15,noerror,NA,NA
+earlysocog-fm,s48,IDS,IDS2,3,"	11.62",15,noerror,NA,NA
+earlysocog-fm,s48,ADS,ADS2,4,"	11.79",15,noerror,NA,NA
+earlysocog-fm,s48,ADS,ADS3,5,"	13.47",15.01,noerror,NA,NA
+earlysocog-fm,s48,IDS,IDS3,6,"	13.43",15.01,noerror,NA,NA
+earlysocog-fm,s48,IDS,IDS4,7,"	1.70",5.09,noerror,NA,NA
+earlysocog-fm,s48,ADS,ADS4,8,"	11.74",15,noerror,NA,NA
+earlysocog-fm,s48,ADS,ADS5,9,"	12.15",15,noerror,NA,NA
+earlysocog-fm,s48,IDS,IDS5,10,"	14.93",15.02,noerror,NA,NA
+earlysocog-fm,s48,ADS,ADS6,11,"	14.83",15.02,noerror,NA,NA
+earlysocog-fm,s48,IDS,IDS6,12,"	12.75",15,noerror,NA,NA
+earlysocog-fm,s48,IDS,IDS7,13,"	14.95",15.02,noerror,NA,NA
+earlysocog-fm,s48,ADS,ADS7,14,"	14.79",15,noerror,NA,NA
+earlysocog-fm,s48,ADS,ADS8,15,"	13.86",15,noerror,NA,NA
+earlysocog-fm,s48,IDS,IDS8,16,"	6.79",10.63,noerror,NA,NA
+earlysocog-fm,s50,training,train2,-2,"	1.92","	3.94",noerror,NA,NA
+earlysocog-fm,s50,training,train1,-1,"	14.94","	15.00",noerror,NA,NA
+earlysocog-fm,s50,ADS,ADS1,1,"	10.60","	12.76",noerror,NA,NA
+earlysocog-fm,s50,IDS,IDS1,2,"	2.25","	4.35",noerror,NA,NA
+earlysocog-fm,s50,ADS,ADS2,3,"	1.11","	3.31",noerror,NA,NA
+earlysocog-fm,s50,IDS,IDS2,4,"	0.48","	2.69",noerror,NA,NA
+earlysocog-fm,s50,IDS,IDS3,5,"	5.39","	7.49",noerror,NA,NA
+earlysocog-fm,s50,ADS,ADS3,6,"	1.51","	3.63",noerror,NA,NA
+earlysocog-fm,s50,ADS,ADS4,7,"	0.25","	2.53",noerror,NA,NA
+earlysocog-fm,s50,IDS,IDS4,8,"	2.65","	4.71",noerror,NA,NA
+earlysocog-fm,s50,IDS,IDS5,9,NC,NC,error,ended early,NA
+earlysocog-fm,s50,ADS,ADS5,10,NC,NC,error,ended early,NA
+earlysocog-fm,s50,IDS,IDS6,11,NC,NC,error,ended early,NA
+earlysocog-fm,s50,ADS,ADS6,12,NC,NC,error,ended early,NA
+earlysocog-fm,s50,ADS,ADS7,13,NC,NC,error,ended early,NA
+earlysocog-fm,s50,IDS,IDS7,14,NC,NC,error,ended early,NA
+earlysocog-fm,s50,IDS,IDS8,15,NC,NC,error,ended early,NA
+earlysocog-fm,s50,ADS,ADS8,16,NC,NC,error,ended early,NA

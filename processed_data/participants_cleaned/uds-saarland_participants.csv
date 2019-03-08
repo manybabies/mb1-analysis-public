@@ -1,0 +1,48 @@
+lab,subid,method,RA,age_days,trial_order,session_error,session_error_type,second session,lang_group,lang1,lang1_exposure,lang2,lang2_exposure,lang3,lang3_exposure,lang4,lang4_exposure,caregiver_seat,MacArthur,gender,parebtA_gender,parentA_education,parentB_gender,parentB_education,preterm,days_preterm,prev_earinfection,curr_earinfection,hear_vision,hear_vision_info,cognitive_development,cognitive_development_info,sib1_age,sib1_gender,sib2_age,sib2_gender,sib3_age,sib3_gender,sib4_age,sib4_gender
+uds-saarland,1,SingleScreen,Exp1,249,1,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,6,M,F,10,M,9,term,NA,N,N,N,NA,N,NA,11,F,NA,NA,NA,NA,NA,NA
+uds-saarland,2,SingleScreen,Exp2,256,1,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,7,M,F,18,F,18,term,NA,N,N,N,NA,N,NA,9,M,NA,NA,NA,NA,NA,NA
+uds-saarland,3,SingleScreen,Exp1,232,1,error,participant error,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,7,F,F,10,M,18,term,NA,Y,N,N,NA,N,NA,3,M,NA,NA,NA,NA,NA,NA
+uds-saarland,4,SingleScreen,Exp2,190,1,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,8,F,F,18,M,18,term,NA,N,N,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+uds-saarland,5,SingleScreen,Exp1,263,2,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,6,M,F,12,M,12,term,NA,N,N,N,NA,N,NA,6,F,NA,NA,NA,NA,NA,NA
+uds-saarland,6,SingleScreen,Exp2,258,2,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,7,M,M,13,F,13,term,NA,N,N,N,NA,N,NA,14,F,20,M,23,F,NA,NA
+uds-saarland,7,SingleScreen,Exp1,232,2,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,NA,F,NA,NA,NA,NA,term,NA,N,N,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+uds-saarland,8,SingleScreen,Exp2,280,2,noerror,NA,N,monolingual,German,90,French,10,NA,NA,NA,NA,caregiver,8,F,F,18,M,18,term,NA,N,N,N,NA,N,NA,3,M,NA,NA,NA,NA,NA,NA
+uds-saarland,9,SingleScreen,Exp1,241,3,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,6,M,F,18,M,18,term,NA,N,N,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+uds-saarland,10,SingleScreen,Exp2,279,3,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,5,M,F,18,M,18,term,NA,N,N,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+uds-saarland,11,SingleScreen,Exp1,280,3,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,NA,F,F,12,M,10,term,NA,N,N,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+uds-saarland,12,SingleScreen,Exp2,301,3,noerror,NA,N,bilingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,7,F,F,18,M,12,term,NA,N,N,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+uds-saarland,13,SingleScreen,Exp2,288,4,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,6,M,F,18,M,18,term,NA,N,N,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+uds-saarland,14,SingleScreen,Exp2,199,4,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,7,M,M,10,F,10,term,NA,Y,N,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+uds-saarland,16,SingleScreen,Exp1,270,4,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,7,F,F,20,M,12,term,NA,N,N,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+uds-saarland,17,SingleScreen,Exp1,315,1,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,5,M,F,10,M,10,term,NA,N,N,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+uds-saarland,18,SingleScreen,Exp1,395,1,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,7,M,F,18,F,18,term,NA,N,N,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+uds-saarland,19,SingleScreen,Exp1,328,1,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,5,F,F,10,M,10,term,NA,N,N,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+uds-saarland,20,SingleScreen,Exp1,380,1,error,participant error,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,8,F,M,20,F,18,term,NA,N,N,N,NA,N,NA,5,M,2,M,NA,NA,NA,NA
+uds-saarland,21,SingleScreen,Exp2,393,2,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,4,M,F,16,M,18,term,NA,N,N,N,NA,N,NA,3,M,NA,NA,NA,NA,NA,NA
+uds-saarland,22,SingleScreen,Exp1,381,2,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,6,M,M,18,F,18,term,NA,Y,Y,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+uds-saarland,23,SingleScreen,Exp1,354,2,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,7,F,F,10,M,10,term,NA,N,N,N,NA,N,NA,5,F,NA,NA,NA,NA,NA,NA
+uds-saarland,24,SingleScreen,Exp1,351,2,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,5,F,F,18,M,18,term,NA,N,N,N,NA,N,NA,7,M,1,M,NA,NA,NA,NA
+uds-saarland,25,SingleScreen,Exp2,372,3,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,8,M,F,18,M,10,term,NA,N,N,N,NA,N,NA,7,M,NA,NA,NA,NA,NA,NA
+uds-saarland,26,SingleScreen,Exp1,376,3,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,7,M,F,10,M,18,term,NA,N,N,N,NA,N,NA,3,M,NA,NA,NA,NA,NA,NA
+uds-saarland,27,SingleScreen,Exp1,390,3,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,7,F,F,12,M,18,term,NA,N,N,N,NA,N,NA,8,F,5,M,NA,NA,NA,NA
+uds-saarland,28,SingleScreen,Exp2,371,3,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,7,F,F,18,M,18,term,NA,N,N,N,NA,N,NA,8,F,NA,NA,NA,NA,NA,NA
+uds-saarland,30,SingleScreen,Exp2,312,4,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,7,M,F,10,M,18,term,NA,N,N,N,NA,N,NA,8,M,6,M,NA,NA,NA,NA
+uds-saarland,31,SingleScreen,Exp2,388,4,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,8,F,F,18,M,18,term,NA,N,N,N,NA,N,NA,4,M,NA,NA,NA,NA,NA,NA
+uds-saarland,32,SingleScreen,Exp2,313,4,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,7,F,F,10,M,18,term,NA,N,N,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+uds-saarland,33,SingleScreen,Exp2,456,1,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,7,M,F,13,NA,NA,term,NA,N,N,N,NA,N,NA,12,M,NA,NA,NA,NA,NA,NA
+uds-saarland,34,SingleScreen,Exp2,434,1,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,5,M,F,9,M,9,term,NA,N,N,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+uds-saarland,37,SingleScreen,Exp2,414,2,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,NA,M,NA,NA,NA,NA,term,NA,N,N,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+uds-saarland,38,SingleScreen,Exp2,443,2,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,5,M,F,10,M,12,term,NA,N,N,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+uds-saarland,39,SingleScreen,Exp2,450,2,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,5,F,F,10,M,10,term,NA,N,N,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+uds-saarland,41,SingleScreen,Exp2,446,3,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,5,M,F,10,M,10,term,NA,N,N,N,NA,N,NA,3,M,NA,NA,NA,NA,NA,NA
+uds-saarland,42,SingleScreen,Exp2,446,3,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,7,M,F,10,M,10,term,NA,N,N,N,NA,N,NA,4,F,NA,NA,NA,NA,NA,NA
+uds-saarland,45,SingleScreen,Exp2,410,4,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,6,M,F,10,M,13,term,NA,N,N,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+uds-saarland,46,SingleScreen,Exp2,424,4,error,participant error,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,7,M,F,12,M,18,term,NA,N,N,N,NA,N,NA,3,M,NA,NA,NA,NA,NA,NA
+uds-saarland,56,SingleScreen,Exp2,300,4,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,7,F,M,18,F,16,term,NA,N,N,N,NA,N,NA,3,F,NA,NA,NA,NA,NA,NA
+uds-saarland,64,SingleScreen,Exp1,311,4,error,participant error,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,7,F,M,18,F,18,term,NA,N,N,N,NA,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+uds-saarland,71,SingleScreen,Exp2,250,3,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,7,M,F,18,M,18,term,NA,N,N,N,N,N,NA,7,F,3,M,NA,NA,NA,NA
+uds-saarland,75,SingleScreen,Exp2,214,4,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,6,F,F,16,M,18,term,NA,N,N,N,N,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+uds-saarland,76,SingleScreen,Exp2,361,1,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,7,M,F,18,M,10,term,NA,N,N,N,N,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+uds-saarland,78,SingleScreen,Exp2,337,2,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,7,M,F,18,M,18,term,NA,N,N,N,N,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
+uds-saarland,80,SingleScreen,Exp2,309,3,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,7,F,F,18,M,18,term,NA,N,N,N,N,N,NA,2,M,NA,NA,NA,NA,NA,NA
+uds-saarland,83,SingleScreen,Exp2,385,4,noerror,NA,N,monolingual,German,100,NA,NA,NA,NA,NA,NA,caregiver,8,M,M,13,F,16,term,NA,N,N,N,N,N,NA,NA,NA,NA,NA,NA,NA,NA,NA
