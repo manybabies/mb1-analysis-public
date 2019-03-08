@@ -149,13 +149,27 @@ write_csv(diffs, "processed_data/03_data_diff_main.csv")
 ## Dataset without second session babies
 
 ```{r}
-d <- exclude_by(d, quo(second_session))
-diffs <- exclude_by(diffs, quo(second_session))
+d_no2s <- exclude_by(d, quo(second_session))
+diffs_no2s <- exclude_by(diffs, quo(second_session))
 ```
 
 and write: 
 
 ```{r}
-write_csv(d, "processed_data/03_data_trial_no2ndsess.csv")
-write_csv(diffs, "processed_data/03_data_diff_no2ndsess.csv")
+write_csv(d_no2s, "processed_data/03_data_trial_no2ndsess.csv")
+write_csv(diffs_no2s, "processed_data/03_data_diff_no2ndsess.csv")
+```
+
+## Dataset with *only* second session babies
+
+```{r}
+d_2s <- exclude_by(d, quo(second_session), action = "include")
+diffs_2s <- exclude_by(diffs, quo(second_session), action = "include")
+```
+
+and write: 
+
+```{r}
+write_csv(d_2s, "processed_data/03_data_trial_2ndsess.csv")
+write_csv(diffs_2s, "processed_data/03_data_diff_2ndsess.csv")
 ```
