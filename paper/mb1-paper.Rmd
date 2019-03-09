@@ -400,7 +400,7 @@ Experimenters making online coding decisions (in CF and HPP methods) were blind 
 
 ### Demographics
 
-All labs were instructed to collect a set of basic participant demographic information: gender, date of birth, estimated proportion language exposure for the language(s) that they hear in their daily life, race/ethnicity (using categories appropriate for the cultural and geographic context), preterm/fullterm status, history of ear infections, known hearing or visual impairments, and known developmental concerns (e.g., developmental disorders). Parents were also asked to report information about themselves (gender, level of education, and native language/languages) and the child's siblings (gender and date of birth). A standard recommended participant questionnaire was distributed to participating labs as part of the instructions, although labs were permitted to use their own forms as long as they gathered the necessary information. In addition, a subset of participating laboratories provided extensive additional information about infants and testing circumstances (not analyzed here), for use in planned followup projects.
+All labs were instructed to collect a set of basic participant demographic information: sex, date of birth, estimated proportion language exposure for the language(s) that they hear in their daily life, race/ethnicity (using categories appropriate for the cultural and geographic context), preterm/fullterm status, history of ear infections, known hearing or visual impairments, and known developmental concerns (e.g., developmental disorders). Parents were also asked to report information about themselves (gender, level of education, and native language/languages) and the child's siblings (sex/gender and date of birth). A standard recommended participant questionnaire was distributed to participating labs as part of the instructions, although labs were permitted to use their own forms as long as they gathered the necessary information. In addition, a subset of participating laboratories provided extensive additional information about infants and testing circumstances (not analyzed here), for use in planned followup projects.
 
 <!-- FIXME - LAB LEVEL -->
 
@@ -770,11 +770,11 @@ We preregistered an analysis of whether second-session infants showed a differen
 
 <!-- Because XYZ labs contributed both first- and second-session infants (with XYZ contributing only first and XYZ only second), we followed the mixed-effects approach described above. We fit the model specified above with the addition of a second-session main effect and trial type by second-session interaction (and with a second-session random slope and intercept nested within labs). The main effect of second session was $\beta$=XYZ (SE=XYZ, p=XYZ) and the interaction with trial type was $\beta$=XYZ (SE=XYZ, p=XYZ). -->
 
-### Gender and IDS preference
+### Sex and IDS preference
 
 
-```{r coef_table_gender, results="asis"}
-gender_mod_lmer <- lmer(log_lt ~ trial_type * method +
+```{r coef_table_sex, results="asis"}
+sex_mod_lmer <- lmer(log_lt ~ trial_type * method +
                           trial_type * trial_num +
                           age_mo * trial_num +
                           trial_type * age_mo * nae +
@@ -785,12 +785,12 @@ gender_mod_lmer <- lmer(log_lt ~ trial_type * method +
                         data = filter(d_lmer, 
                                       gender %in% c("M","F")))
 
-gender_coefs <- summary(gender_mod_lmer)$coef
+sex_coefs <- summary(sex_mod_lmer)$coef
 ```
 
 <!-- and intercept  NOTE WE PREREGISTERED AN INTERCEPT AND SLOPE BUT THIS DOESN"T MAKE SENSE-->
 
-In order to investigate effects of gender on IDS preference, we fit the model specified above with the addition of a gender main effect and trial type by gender interaction (and with a random effect of gender nested within labs). Female was coded as the reference level, so effects are stated in terms of changes for male infants. The main effect of gender was $\beta$=`r signif(gender_coefs["genderM","Estimate"], 2)` (SE=`r signif(gender_coefs["genderM","Std. Error"], 2)`, p=`r signif(gender_coefs["genderM","Pr(>|t|)"], 2)`) and the interaction with trial type was $\beta$=`r signif(gender_coefs["trial_typeIDS:genderM","Estimate"], 3)` (SE=`r signif(gender_coefs["trial_typeIDS:genderM","Std. Error"], 2)`, p=`r signif(gender_coefs["trial_typeIDS:genderM","Pr(>|t|)"], 2)`). These predictors were small and nonsignificant, suggesting that gender was not a strong determinant of measured IDS preferences in our data. 
+In order to investigate effects of biological sex on IDS preference, we fit the model specified above with the addition of a sex main effect and trial type by sex interaction (and with a random effect of sex nested within labs). Female was coded as the reference level, so effects are stated in terms of changes for male infants. The main effect of sex $\beta$=`r signif(sex_coefs["genderM","Estimate"], 2)` (SE=`r signif(sex_coefs["genderM","Std. Error"], 2)`, p=`r signif(sex_coefs["genderM","Pr(>|t|)"], 2)`) and the interaction with trial type was $\beta$=`r signif(sex_coefs["trial_typeIDS:genderM","Estimate"], 3)` (SE=`r signif(sex_coefs["trial_typeIDS:genderM","Std. Error"], 2)`, p=`r signif(sex_coefs["trial_typeIDS:genderM","Pr(>|t|)"], 2)`). These predictors were small and nonsignificant, suggesting that sex was not a strong determinant of measured IDS preferences in our data. 
 
 ### Moderator effects on missing data
 
