@@ -1028,7 +1028,7 @@ Our manuscript was reviewed prior to data collection; in addition, we registered
 
 ## Data, materials, and online resources
 
-All materials, data, and analytic code are available at https://osf.io/re95x/.
+All materials, data, and analytic code are available at https://osf.io/re95x/; the specific code and data required to render this document are available at https://osf.io/zaewn/. 
 
 ## Reporting 
 

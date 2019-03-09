@@ -163,8 +163,8 @@ write_csv(diffs_no2s, "processed_data/03_data_diff_no2ndsess.csv")
 ## Dataset with *only* second session babies
 
 ```{r}
-d_2s <- exclude_by(d, quo(second_session), action = "include")
-diffs_2s <- exclude_by(diffs, quo(second_session), action = "include")
+d_2s <- exclude_by(d, quo(!second_session), action = "exclude")
+diffs_2s <- exclude_by(diffs, quo(!second_session), action = "exclude")
 ```
 
 and write: 
