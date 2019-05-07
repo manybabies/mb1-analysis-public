@@ -4,7 +4,7 @@
 
 nc_na <- function(x) {
   if (is.character(x[1])) {
-    x[x == "NC"] <- NA
+    x[x == "NC" | x == "nc"] <- NA
   }
   return(x) 
 }
@@ -92,12 +92,12 @@ read_multiformat_file <- function(path, fname) {
     L <- readLines(full_path, n = 1)
     numfields <- count.fields(textConnection(L), sep = ";")
     if (numfields == 1) {
-      d <- read_csv(full_path, col_types = cols())
+      d <- read_csv(full_path, col_types = cols(parentA_gender = col_character(), ParentA_gender = col_character()))
     } else {
-      d <- read_csv2(full_path, col_types = cols())
+      d <- read_csv2(full_path, col_types = cols(parentA_gender = col_character(), ParentA_gender = col_character()))
     }
   } else if (str_detect(fname, ".txt")) {
-    d <- read_tsv(full_path, col_types = cols())
+    d <- read_tsv(full_path, col_types = cols(parentA_gender = col_character(), ParentA_gender = col_character()))
   } 
   
   return(d)
