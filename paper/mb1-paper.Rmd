@@ -290,9 +290,9 @@ Our next goal was to create eight IDS and eight ADS stimuli that were exactly 18
 
 * *Total duration*. We fixed all stimuli to have a total duration of 18 s by concatenating individual utterance files into single audio files that were > 18 s in length, trimming these down to 18 s and fading the audio in and out with 0.5 s half-cosine windows. 
 
-Table 2 and Figure 1 provide additional details regarding the final stimulus set. Measurements were made using STRAIGHT [@kawahara2011technical], using default values for F0 extraction. 
+Table 2 and Figure 1 provide additional details regarding the final stimulus set. Measurements were made using STRAIGHT [@kawahara2011technical], using default values for F0 extraction. For Figure 1, F0 values for voiced portions of the stimuli were collapsed into a series of logarithmically-spaced bins spanning the algorithm's F0 search range of 32-650 Hz. 
 
-```{r stimfreq, fig.cap="Distribution of F0 values for IDS and ADS stimuli. The figure shows the mean proportion of voiced segments, averaged over all the stimuli for IDS/ADS, for F0 values in 30 bins spanning the range of measured F0 frequencies (Hz) across all stimuli. Dashed lines give mean plus or minus standard error.", fig.align="center", out.width = "5in"}
+```{r stimfreq, fig.cap="The distribution of F0 values for IDS and ADS is displayed as the proportion of voiced segments that fell in each F0 bin. Dashed lines show mean plus or minus one standard error across stimuli.", fig.align="center", out.width = "5in"}
 include_graphics("plot_stim_freq.png")
 ```
 
@@ -305,7 +305,9 @@ stim_data <- tribble(
 "Number of objects mentioned per stimulus", 2.75, 0.71, 2.75, 0.71,
 "Mean F0 (Hz) per stimulus",206.9, 19.5, 174.9, 13.2,
 "10th percentile F0 (Hz) per stimulus", 131.4, 26.1, 139.0, 17.7, 
-"90th percentile F0 (Hz) per stimulus", 340.0, 21.5, 232.0, 13.8
+"90th percentile F0 (Hz) per stimulus", 340.0, 21.5, 232.0, 13.8,
+"Mean duration (sec) of utterances", 1.53, 1.07, 1.79, 1.27,
+"Mean inter-utterance interval (sec)", 0.71, 0.33, 0.51, 0.34
 )
 
 t1_caption <- "Characteristics of the IDS and ADS stimuli, with standard deviations computed across stimuli."
@@ -321,12 +323,12 @@ To confirm that our composite IDS and ADS stimuli were rated as natural and that
 ```{r comparisontable, results="asis"}
 comp_data <- tribble(
   ~`Study`, ~`Mean Ages (Months)`, ~`Context of Recording`, ~`Quantity of Stimuli`, ~`Mean IDS F0 (Hz)`, ~`Mean ADS F0 (Hz)`, ~`IDS-ADS (Hz)`, ~`IDS/ADS`, 
-  "Present Study", "3 – 15", "semi-structured, 4-8 month old child present", "8 full trial lengths' worth for each type", 206, 179, 27,1.15, 
-  "Cooper & Aslin (1990)", "0, 1", "read speech, no infant present", "4 sentences produced in each type", 316, 260, 56, 1.22,
-  "Newman & Hussain (2006)", "4.5, 9, 13", "read speech, no infant present", "4 passages produced in each type", 226, 190, 36, 1.19, 
+  "Present Study", "3 – 15", "semi-structured, 4-8 month old child present", "8 full trial lengths' worth for each type", 206.90, 174.90, 32.0,1.18, 
+  "Cooper & Aslin (1990)", "0, 1", "read speech, no infant present", "4 sentences produced in each type", 315.88, 259.58, 56.3, 1.22,
+  "Newman & Hussain (2006)", "4.5, 9, 13", "read speech, no infant present", "4 passages produced in each type", 225.70, 189.65, 36.05, 1.19, 
   "Thiessen et al. (2005)", "7", "nonsense strings of syllables, no infant present", "12 sentences in each style", 292, 230, 62, 1.27,
-  "Cooper et al. (1997)", "1, 4", "naturalistic speech to own infants", "20s of each style", 219, 184, 35, 1.19,
-  "Schachner & Hannon (2011)", "5", "elicited speech, with speaker looking at a picture", "1 min long videos, 2 in each style", 273, 225, 48, 1.21
+  "Cooper et al. (1997)", "1, 4", "naturalistic speech to own infants", "20s of each style", 219.30, 184.30, 35, 1.19,
+  "Schachner & Hannon (2011)", "5", "elicited speech, with speaker looking at a picture", "1 min long videos, 2 in each style", 273.00, 224.70, 48.30, 1.21
 )
 
 t3_caption <- "Comparison of our study’s stimuli to those of previous studies on infant-directed speech preferences."
