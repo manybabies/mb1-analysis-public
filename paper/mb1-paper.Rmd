@@ -233,7 +233,7 @@ nae_bins <- d_participants %>%
 The mean age of infants included in the study was `r round(age_stat$mean, 2)` days (range: `r age_stat$min` -- `r age_stat$max`). There were `r age_bins$n_babies[age_bins$age_group == "3-6 mo"]` infants in the 3- to 6-month-old bin (`r age_bins$n_labs[age_bins$age_group == "3-6 mo"]` labs), `r age_bins$n_babies[age_bins$age_group == "6-9 mo"]` infants in the 6- to 9-month-old bin (`r age_bins$n_labs[age_bins$age_group == "6-9 mo"]` labs), `r age_bins$n_babies[age_bins$age_group == "9-12 mo"]` infants in the 9- to 12-month-old bin (`r age_bins$n_labs[age_bins$age_group == "9-12 mo"]` labs), and `r age_bins$n_babies[age_bins$age_group == "12-15 mo"]` infants in the 12- to 15-month-old bin (`r age_bins$n_labs[age_bins$age_group == "12-15 mo"]` labs). Many labs collected data in more than one bin. Of the total sample,  `r nae_bins$n_babies[nae_bins$nae]` infants (from `r nae_bins$n_labs[nae_bins$nae]` labs) were acquiring NAE, and `r nae_bins$n_babies[!nae_bins$nae]` infants (from `r nae_bins$n_labs[!nae_bins$nae]` labs) were acquiring a language other than NAE. As discussed above, a separate sample of bilingual children was tested in a parallel investigation, but these data are not reported in the current manuscript.
 
 ```{r results="asis"}
-langs <- read_csv(here("metadata","languages_per_lab.csv"))
+langs <- read_csv(here("metadata","languages_per_lab_simple.csv"))
 
 lab_stats <- d_participants %>%
   mutate(method = case_when(
@@ -249,13 +249,13 @@ lab_stats <- d_participants %>%
             N = n(), 
             Method = paste(unique(method[!is.na(method)]), collapse = ", ")) %>%
   arrange(Method, lab) %>%
-  left_join(select(langs, lab, language_harmonized)) %>%
-  rename(Language = language_harmonized)
+  left_join(select(langs, lab, language_simple, country)) %>%
+  rename(Country = country,Language = language_simple)
 
 kable(lab_stats, digits = 2, 
       format = "latex", booktabs = TRUE,
       longtable = TRUE, 
-      caption = "Statistics of the included labs. N refers to the number of infants included in the final analysis. English (US) and English (CAN) are both treated as North American English.")
+      caption = "Statistics of the included labs. N refers to the number of infants included in the final analysis. English from the US and Canada are both treated as North American English.")
 ```
 
 
