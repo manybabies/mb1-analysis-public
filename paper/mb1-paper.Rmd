@@ -286,7 +286,7 @@ Our next goal was to create eight IDS and eight ADS stimuli that were exactly 18
 
 * *Questions*. IDS tends to include a much higher proportion of questions compared with ADS [@snow1977development; @soderstrom2008acoustical]. However, because the nature of the recording task may have served to inflate this difference, we preferentially selected declaratives over questions in the IDS sample. The final stimulus set contained 47% questions in the IDS samples and 3% questions in the ADS samples. We felt that retaining this naturally-occurring difference in IDS and ADS within our stimuli was more appropriate than precisely and artificially controlling for utterance-type across registers.
 
-* *Duration of individual clips*. As expected, the utterances in IDS were much shorter than those in ADS, so it was not possible to match on duration or number of clips. Because there were more clips per stimulus in the IDS samples, there were also more utterances boundaries. This property is consistent with the literature on the natural characteristics of IDS.  
+* *Duration of individual clips*. As expected, the utterances in IDS were much shorter than those in ADS (see Table 2), so it was not possible to match on duration or number of clips. Because there were more clips per stimulus in the IDS samples, there were also more utterances boundaries. This property is consistent with the literature on the natural characteristics of IDS.  
 
 * *Total duration*. We fixed all stimuli to have a total duration of 18 s by concatenating individual utterance files into single audio files that were > 18 s in length, trimming these down to 18 s and fading the audio in and out with 0.5 s half-cosine windows. 
 
@@ -306,8 +306,8 @@ stim_data <- tribble(
 "Mean F0 (Hz) per stimulus",206.9, 19.5, 174.9, 13.2,
 "10th percentile F0 (Hz) per stimulus", 131.4, 26.1, 139.0, 17.7, 
 "90th percentile F0 (Hz) per stimulus", 340.0, 21.5, 232.0, 13.8,
-"Mean duration (sec) of utterances", 1.53, 1.07, 1.79, 1.27,
-"Mean inter-utterance interval (sec)", 0.71, 0.33, 0.51, 0.34
+"Mean duration (sec) of utterances", 1.58, 0.74, 2.12, 1.41,
+"Mean inter-utterance interval (sec)", 0.75, 0.30, 0.59, 0.33
 )
 
 t1_caption <- "Characteristics of the IDS and ADS stimuli, with standard deviations computed across stimuli."
