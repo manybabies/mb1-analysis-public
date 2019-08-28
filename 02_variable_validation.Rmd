@@ -713,6 +713,37 @@ see_if(all(d$gender %in% c("M", "F", NA)))
 
 ```
 
+## Parent A Gender
+
+
+```{r}
+unique(d$parenta_gender)
+d$parenta_gender <- toupper(d$parenta_gender)
+
+#change "V" for gender to "F" (V used occasionally by Dutch labs for female)
+
+d$parenta_gender[d$parenta_gender == "V"] <- "F"
+
+see_if(all(d$parenta_gender %in% c("M", "F", "OTHER", NA)))
+
+```
+
+## Parent B Gender
+
+
+```{r}
+unique(d$parentb_gender)
+d$parentb_gender <- toupper(d$parentb_gender)
+
+#change "NA" values to be an actual NA
+
+d$parentb_gender[d$parentb_gender == "NA"] <- NA
+
+see_if(all(d$parentb_gender %in% c("M", "F", "OTHER", NA)))
+
+
+```
+
 
 ## age_days and age_group
 
