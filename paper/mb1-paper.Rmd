@@ -233,7 +233,7 @@ nae_bins <- d_participants %>%
 The mean age of infants included in the study was `r round(age_stat$mean, 2)` days (range: `r age_stat$min` -- `r age_stat$max`). There were `r age_bins$n_babies[age_bins$age_group == "3-6 mo"]` infants in the 3- to 6-month-old bin (`r age_bins$n_labs[age_bins$age_group == "3-6 mo"]` labs), `r age_bins$n_babies[age_bins$age_group == "6-9 mo"]` infants in the 6- to 9-month-old bin (`r age_bins$n_labs[age_bins$age_group == "6-9 mo"]` labs), `r age_bins$n_babies[age_bins$age_group == "9-12 mo"]` infants in the 9- to 12-month-old bin (`r age_bins$n_labs[age_bins$age_group == "9-12 mo"]` labs), and `r age_bins$n_babies[age_bins$age_group == "12-15 mo"]` infants in the 12- to 15-month-old bin (`r age_bins$n_labs[age_bins$age_group == "12-15 mo"]` labs). Many labs collected data in more than one bin. Of the total sample,  `r nae_bins$n_babies[nae_bins$nae]` infants (from `r nae_bins$n_labs[nae_bins$nae]` labs) were acquiring NAE, and `r nae_bins$n_babies[!nae_bins$nae]` infants (from `r nae_bins$n_labs[!nae_bins$nae]` labs) were acquiring a language other than NAE. As discussed above, a separate sample of bilingual children was tested in a parallel investigation, but these data are not reported in the current manuscript.
 
 ```{r results="asis"}
-langs <- read_csv(here("metadata","languages_per_lab.csv"))
+langs <- read_csv(here("metadata","languages_per_lab_simple.csv"))
 
 lab_stats <- d_participants %>%
   mutate(method = case_when(
@@ -249,13 +249,13 @@ lab_stats <- d_participants %>%
             N = n(), 
             Method = paste(unique(method[!is.na(method)]), collapse = ", ")) %>%
   arrange(Method, lab) %>%
-  left_join(select(langs, lab, language_harmonized)) %>%
-  rename(Language = language_harmonized)
+  left_join(select(langs, lab, language_simple, country)) %>%
+  rename(Country = country,Language = language_simple)
 
 kable(lab_stats, digits = 2, 
       format = "latex", booktabs = TRUE,
       longtable = TRUE, 
-      caption = "Statistics of the included labs. N refers to the number of infants included in the final analysis. English (US) and English (CAN) are both treated as North American English.")
+      caption = "Statistics of the included labs. N refers to the number of infants included in the final analysis. English from the US and Canada are both treated as North American English.")
 ```
 
 
@@ -290,9 +290,9 @@ Our next goal was to create eight IDS and eight ADS stimuli that were exactly 18
 
 * *Total duration*. We fixed all stimuli to have a total duration of 18 s by concatenating individual utterance files into single audio files that were > 18 s in length, trimming these down to 18 s and fading the audio in and out with 0.5 s half-cosine windows. 
 
-Table 2 and Figure 1 provide additional details regarding the final stimulus set. Measurements were made using STRAIGHT [@kawahara2011technical]. 
+Table 2 and Figure 1 provide additional details regarding the final stimulus set. Measurements were made using STRAIGHT [@kawahara2011technical], using default values for F0 extraction. For Figure 1, F0 values for voiced portions of the stimuli were collapsed into a series of logarithmically-spaced bins spanning the algorithm's F0 search range of 32-650 Hz. 
 
-```{r stimfreq, fig.cap="Distribution of fundamental frequencies for IDS and ADS stimuli. Dashed lines give mean plus or minus standard error.", fig.align="center", out.width = "5in"}
+```{r stimfreq, fig.cap="The distribution of F0 values for IDS and ADS is displayed as the proportion of voiced segments that fell in each F0 bin. Dashed lines show mean plus or minus one standard error across stimuli.", fig.align="center", out.width = "5in"}
 include_graphics("plot_stim_freq.png")
 ```
 
@@ -303,9 +303,12 @@ stim_data <- tribble(
 "Number of mothers speaking per stimulus", 4.00, 0.00, 3.75, 0.46,
 "Number of clips per stimulus", 6.88, 1.13, 4.50, 0.76,
 "Number of objects mentioned per stimulus", 2.75, 0.71, 2.75, 0.71,
-"Mean pitch per stimulus",206.9, 19.5, 174.9, 13.2,
-"10th percentile pitch per stimulus", 131.4, 26.1, 139.0, 17.7, 
-"90th percentile pitch per stimulus", 340.0, 21.5, 232.0, 13.8
+"Mean F0 (Hz) per stimulus",206.9, 19.5, 174.9, 13.2,
+"10th percentile F0 (Hz) per stimulus", 131.4, 26.1, 139.0, 17.7, 
+"90th percentile F0 (Hz) per stimulus", 340.0, 21.5, 232.0, 13.8,
+"Mean number of utterances per stimulus", 7.75, 1.04, 6.63, 0.92,
+"Mean duration (sec) of utterances", 1.58, 0.74, 2.12, 1.41,
+"Mean inter-utterance interval (sec)", 0.75, 0.30, 0.59, 0.33
 )
 
 t1_caption <- "Characteristics of the IDS and ADS stimuli, with standard deviations computed across stimuli."
@@ -320,13 +323,13 @@ To confirm that our composite IDS and ADS stimuli were rated as natural and that
 
 ```{r comparisontable, results="asis"}
 comp_data <- tribble(
-  ~`Study`, ~`Mean Ages (Months)`, ~`Context of Recording`, ~`Quantity of Stimuli`, ~`Mean IDS F0 (Hz)`, ~`Mean ADS F0 (Hz)`, ~`IDS/ADS mean F0 difference (Hz)`, 
-  "Present Study", "3 – 15", "semi-structured, 4-8 month old child present", "8 full trial lengths' worth for each type", 206, 179, 27, 
-  "Cooper & Aslin (1990)", "0, 1", "read speech, no infant present", "4 sentences produced in each type", 316, 260, 56,
-  "Newman & Hussain (2006)", "4.5, 9, 13", "read speech, no infant present", "4 passages produced in each type", 226, 190, 36, 
-  "Thiessen et al. (2005)", "7", "nonsense strings of syllables, no infant present", "12 sentences in each style", 292, 230, 62,
-  "Cooper et al. (1997)", "1, 4", "naturalistic speech to own infants", "20s of each style", 219, 184, 35,
-  "Schachner & Hannon (2011)", "5", "elicited speech, with speaker looking at a picture", "1 min long videos, 2 in each style", 273, 225, 48
+  ~`Study`, ~`Mean Ages (Months)`, ~`Context of Recording`, ~`Quantity of Stimuli`, ~`Mean IDS F0 (Hz)`, ~`Mean ADS F0 (Hz)`, ~`IDS-ADS (Hz)`, ~`IDS/ADS`, 
+  "Present Study", "3 – 15", "semi-structured, 4-8 month old child present", "8 full trial lengths' worth for each type", 206.90, 174.90, 32.0,1.18, 
+  "Cooper & Aslin (1990)", "0, 1", "read speech, no infant present", "4 sentences produced in each type", 315.88, 259.58, 56.3, 1.22,
+  "Newman & Hussain (2006)", "4.5, 9, 13", "read speech, no infant present", "4 passages produced in each type", 225.70, 189.65, 36.05, 1.19, 
+  "Thiessen et al. (2005)", "7", "nonsense strings of syllables, no infant present", "12 sentences in each style", 292, 230, 62, 1.27,
+  "Cooper et al. (1997)", "1, 4", "naturalistic speech to own infants", "20s of each style", 219.30, 184.30, 35, 1.19,
+  "Schachner & Hannon (2011)", "5", "elicited speech, with speaker looking at a picture", "1 min long videos, 2 in each style", 273.00, 224.70, 48.30, 1.21
 )
 
 t3_caption <- "Comparison of our study’s stimuli to those of previous studies on infant-directed speech preferences."
