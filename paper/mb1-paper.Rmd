@@ -55,6 +55,7 @@ library(tidyverse)
 library(here)
 library(knitr)
 library(kableExtra)
+library(ggpubr)
 
 
 opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, cache = TRUE)
@@ -118,6 +119,17 @@ n <- labs %>%
   sum
 
 n_labs <- length(unique(labs$lab))
+
+agegroups_lab <- d_participants %>%
+  filter(!is.na(age_group)) %>%
+  group_by(lab) %>%
+  summarize(n = length(unique(age_group)))
+
+n_labs_multiple_agegroups <- agegroups_lab %>%
+  filter(n>1) %>%
+  summarize(n=length(n)) %>%
+  pull
+
 ```
 
 
@@ -200,7 +212,7 @@ excluded_labs <- read_csv(here("processed_data","02_validated_output.csv")) %>%
   length
 ```
 
-Our final sample was comprised of `r n` monolingual infants from `r n_labs` labs (mean sample size per lab: `r round(mean(labs$n), 2)`, SD: `r round(sd(labs$n), 2)`, range: `r round(min(labs$n), 2)` -- `r round(max(labs$n), 2)`). Demographic exclusions were primarily implemented during recruitment; despite this, additional infants were tested and excluded based on preset criteria (see Exclusions below for percentages). 
+Our final sample was comprised of `r n` monolingual infants from `r n_labs` labs (mean sample size per lab: `r round(mean(labs$n), 2)`, SD: `r round(sd(labs$n), 2)`, range: `r round(min(labs$n), 2)` -- `r round(max(labs$n), 2)`; `r n_labs_multiple_agegroups` contributed data at multiple ages). Demographic exclusions were primarily implemented during recruitment; despite this, additional infants were tested and excluded based on preset criteria (see Exclusions below for percentages). 
 In addition, `r excluded_labs` labs registered to participate but failed to collect data from at least 10 included infants, and so their data were not included.
 Information about all included labs is given in Table 1. 
 
@@ -425,10 +437,8 @@ All laboratories provided a "walk-through" video that detailed their basic proce
 
 All data collected for the study (i.e., every infant for whom a data file was generated, regardless of how many trials were completed) were given to the analysis team for confirmatory analyses. Participants were only included in the analysis if they met all of the criteria below. All exclusion rules are applied sequentially, and percentages reflect this sequential application. N.B.: the first three criteria preemptively prevent participation (except in case of erroneously running the experiment with children outside of the inclusion guidelines). 
 
-
 ```{r exclusions, child = "exclusions.Rmd"}
 ```
-
 
 ## Post-Data Collection Methods Addendum
 
@@ -719,7 +729,7 @@ Overall, the fitted coefficients of the mixed effects model were consistent with
 
 In addition to these results, a number of other factors were significant predictors of looking time. Looking time decreased across trials, and did so especially for older children, generally confirming that all infants habituated to our experimental stimuli and older infants did so more quickly. Further, eye-tracking led to lower looking times overall across stimulus classes.
 
-```{r lookingtimes, fig.cap="Individual participants’ IDS preferences, plotted by age and language group. Lines show simple linear trends. Vertical axis is truncated to show trends more effectively."}
+```{r lookingtimes, fig.cap = "Simple linear trends for IDS preference by age and language group, plotted (A) with individual participants' preferences and (B) without individual participants' preferences to show trends more effectively."}
 
 mss_diffs <- diffs %>%
   group_by(lab, method, nae, subid) %>%
@@ -727,17 +737,19 @@ mss_diffs <- diffs %>%
             age_mo = mean(age_mo), 
             diff = mean(diff, na.rm=TRUE))
 
-ggplot(mss_diffs, aes(x = age_mo, y = diff, col = method, lty = nae)) + 
-  geom_point(data = filter(mss_diffs, n == 8), alpha = .1) +
+mss_diffs_plot_b <- ggplot(mss_diffs, aes(x = age_mo, y = diff, col = method, lty = nae)) + 
   geom_smooth(method = "lm", se=FALSE) + 
   geom_hline(yintercept = 0, lty = 2) + 
   ylab("IDS preference (s)") + 
   scale_color_ptol(name = "Method") + 
   scale_linetype(name = "North American English") + 
-  xlab("Age (Months)") + 
-  ylim(-3, 5) + 
-  theme(legend.position = "bottom", legend.box = "vertical") 
+  xlab("Age (Months)") 
 
+mss_diffs_plot_a <-mss_diffs_plot_b +
+    geom_point(data = filter(mss_diffs, n == 8), alpha = .1) 
+
+ggarrange(mss_diffs_plot_a, mss_diffs_plot_b, labels = c("A", "B"), ncol = 2, nrow = 1, legend = "bottom", common.legend = TRUE)
+  
 ```
 
 
@@ -980,7 +992,8 @@ There are several possible interpretations of the native language effect we obse
 
 Our fourth and final goal was to examine differences across methodological approaches in the measured experimental effect. We found a stronger effect when using HPP than central fixation or eye-tracking approaches. One potential interpretation of this finding is that the greater effort on the part of the infant in HPP (i.e., a turning of the head, as opposed to small eye movements) leads to stronger engagement in the task and therefore to stronger effects. 
 
-It is important to keep in mind, however, that methodology was not randomly assigned to laboratories, and the characteristics of laboratories probably varied systematically with their methodological choices. It may well be, for example, that laboratories with more expertise in infant language acquisition research were more likely to use HPP. Furthermore, these findings should not be interpreted as suggesting that HPP would be best suited for all research questions. Instead, a more modest interpretation is simply that a theoretically irrelevant variable related to laboratories and their methodological decisions appears to have a substantial and systematic effect on measured effect size [see also @bergmann2018promoting for a similar conclusion based on meta-analytic data]. Further large-scale projects that include methodological contrasts of this type -- perhaps with random assignment -- may allow us to draw more specific conclusions about the sources of methodological variability, and their interactions with phenomenon and participant age. 
+It is important to keep in mind, however, that methodology was not randomly assigned to laboratories, and the characteristics of laboratories probably varied systematically with their methodological choices. 
+It may well be, for example, that laboratories with more expertise in infant language acquisition research were more likely to use HPP. Furthermore, these findings should not be interpreted as suggesting that HPP would be best suited for all research questions. Instead, a more modest interpretation is simply that a theoretically irrelevant variable related to laboratories and their methodological decisions appears to have a substantial and systematic effect on measured effect size [see also @bergmann2018promoting for a similar conclusion based on meta-analytic data]. We hope to undertake future secondary analyses of our dataset to better understand factors that may have covaried with methodological choices.  Moreove, further large-scale projects that include methodological contrasts of this type -- perhaps with random assignment -- may allow us to draw more specific conclusions about the sources of methodological variability, and their interactions with phenomenon and participant age. 
 
 Another methodological contribution of this project was our investigation of how different infant-level inclusion criteria affect the magnitude of the obtained effect size. For our main analysis, we included all infants who completed at least one IDS and one ADS trial. This is somewhat a departure from the literature using this paradigm, as most participating labs reported using a stricter inclusion criterion in their own independent work. Our original meta-analytic effect size was `r round(intercept_mod$beta[1], 2)` when we included all infants with a minimum of two trials, grew to `r round(intercept_mod_4$beta[1], 2)` with a minimum of four trials, and `r round(intercept_mod_8$beta[1], 2)` with a minimum of eight trials. Moreover, there was substantially more missing data from younger infants in the eye-tracking paradigm compared with the other methods. While missing data increased across the length of the experiment, this increase was particularly prevalent for eye tracking. <!-- Concretely, we found that with HPP 99% of infants were included with the 2-trial minimum, and 79% were included with the 8-trial minimum.  However, with eye tracking, the exclusion rate dropped much more sharply, from 87% to 37% from the 2-trial to 8-trial exclusion criterion.  --> Setting stricter inclusion criteria necessarily decreases sample size with the same number of total infants tested, but at the same time stricter criteria appear to lead to more robust effects in this paradigm. 
 

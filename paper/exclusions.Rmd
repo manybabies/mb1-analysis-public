@@ -29,6 +29,15 @@ d$out_of_age <- d$age_mo < 3 | d$age_mo > 15 | is.na(d$age_mo)
 d <- exclude_by(d, quo(out_of_age), quiet=TRUE)
 ```
 
+```{r}
+
+n_before_exclusion <- d %>%
+  summarise(n = length(unique(subid))) %>%
+  pull
+
+```
+
+All data collected for the study (i.e., every infant for whom a data file was generated, regardless of how many trials were completed) were given to the analysis team for confirmatory analyses. Participants were only included in analysis if they met all of the criteria below. All exclusion rules are applied sequentially, and percentages reflect this sequential application to an initial sample prior to exclusions of `r n_before_exclusion`. N.B.: the first three criteria preemptively prevent participation (except in case of erroneously running the experiment with children outside of the inclusion guidelines).
 
 ```{r}
 mono <- exclude_by(d, quo(monolingual), action = "include", 
