@@ -83,7 +83,8 @@ usable_pairs <- d %>%
 d <- d %>% 
   left_join(usable_pairs) 
 
-usablepair <- exclude_by(d, quo(usable_pair), action = "include", 
+usablepair <- exclude_by(d, quo(usable_pair), 
+                         action = "include", 
                          return_pcts = TRUE, 
                          quiet = TRUE)
 

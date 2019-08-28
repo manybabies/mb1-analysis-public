@@ -56,6 +56,8 @@ d %>%
 
 Make sure that our trial pairs are not duplicated once we have removed these missing data and the training trials.  
 
+The condition is `trial_pairs$n <= 2` because you don't want any cases where there are >2 trials (because of coding errors or join errors). 
+
 ```{r}
 d <- filter(d, trial_type != "TRAIN", 
             !is.na(trial_type))
