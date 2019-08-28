@@ -435,8 +435,6 @@ All laboratories provided a "walk-through" video that detailed their basic proce
 
 ## Exclusion Criteria
 
-All data collected for the study (i.e., every infant for whom a data file was generated, regardless of how many trials were completed) were given to the analysis team for confirmatory analyses. Participants were only included in the analysis if they met all of the criteria below. All exclusion rules are applied sequentially, and percentages reflect this sequential application. N.B.: the first three criteria preemptively prevent participation (except in case of erroneously running the experiment with children outside of the inclusion guidelines). 
-
 ```{r exclusions, child = "exclusions.Rmd"}
 ```
 
