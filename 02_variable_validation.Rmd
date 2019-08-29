@@ -815,6 +815,12 @@ d %>%
   filter(more_than_18 != 0) %>%
   datatable
 
+# coverletter outputs
+sum(d$looking_time > 18, na.rm=TRUE)
+mean(d$looking_time > 18, na.rm=TRUE)
+sum(d$looking_time > 19, na.rm=TRUE)
+mean(d$looking_time > 19, na.rm=TRUE)
+
 ## per decision made on 10/19, cropping all looking times over 18s to exactly 18s
 
 d <- d %>% 
