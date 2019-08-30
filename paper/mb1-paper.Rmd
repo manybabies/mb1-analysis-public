@@ -107,7 +107,8 @@ grants <- author_data  %>%
 
 
 ```{r load_labs}
-d_participants <- read_csv(here("processed_data/03_data_trial_main.csv"))
+d_participants <- read_csv(here("processed_data/03_data_trial_main.csv"), 
+                           na = c("NA", "N/A"))
 
 labs <- d_participants %>%
   group_by(lab) %>%
@@ -207,7 +208,8 @@ We included data from a lab in our analysis if they were able to achieve the min
 ## Participants
 
 ```{r}
-excluded_labs <- read_csv(here("processed_data","02_validated_output.csv")) %>%
+excluded_labs <- read_csv(here("processed_data","02_validated_output.csv"), 
+                          na = c("NA", "N/A")) %>%
   pull(lab) %>%
   unique %>%
   setdiff(unique(d_participants$lab)) %>%
@@ -484,13 +486,15 @@ In our mixed-effects models, we planned a maximal random effects structure [@bar
 
 
 ```{r}
-d <- read_csv(here("processed_data/03_data_trial_main.csv")) %>%
+d <- read_csv(here("processed_data/03_data_trial_main.csv"), 
+              na = c("NA", "N/A")) %>%
   mutate(method = case_when(
     method == "singlescreen" ~ "Central fixation",
     method == "eyetracking" ~ "Eye tracking",
     method == "hpp" ~ "HPP",
     TRUE ~ method)) 
-diffs <- read_csv(here("processed_data/03_data_diff_main.csv")) %>%
+diffs <- read_csv(here("processed_data/03_data_diff_main.csv"),
+                  na = c("NA", "N/A")) %>%
   mutate(method = case_when(
     method == "singlescreen" ~ "Central fixation",
     method == "eyetracking" ~ "Eye tracking",
@@ -759,8 +763,10 @@ ggarrange(mss_diffs_plot_a, mss_diffs_plot_b, labels = c("A", "B"), ncol = 2, nr
 ### Effects of second-session testing on IDS preference
 
 ```{r secondsession}
-d_second <- read_csv(here("processed_data/03_data_trial_2ndsess.csv")) 
-diff_second <- read_csv(here("processed_data/03_data_diff_2ndsess.csv")) 
+d_second <- read_csv(here("processed_data/03_data_trial_2ndsess.csv"), 
+                     na = c("NA", "N/A")) 
+diff_second <- read_csv(here("processed_data/03_data_diff_2ndsess.csv"), 
+                        na = c("NA", "N/A")) 
 
 n_ss <- d_second %>%
   filter(second_session) %>%
