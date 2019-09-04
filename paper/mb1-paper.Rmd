@@ -706,7 +706,7 @@ mod_lmer <- lmer(log_lt ~ trial_type * method +
                    trial_type * trial_num +
                    age_mo * trial_num +
                    trial_type * age_mo * nae +
-                   (trial_type + 1 | subid) +
+                   (trial_type + 1 | subid_unique) +
                    (1 | item) + 
                    (trial_type | lab), 
                  data = d_lmer)
@@ -804,7 +804,7 @@ sex_mod_lmer <- lmer(log_lt ~ trial_type * method +
                           age_mo * trial_num +
                           trial_type * age_mo * nae +
                           gender * trial_type +
-                          (trial_type + 1 | subid) +
+                          (trial_type + 1 | subid_unique) +
                           (1 | item) + 
                           (gender + trial_type | lab), 
                         data = filter(d_lmer, 
