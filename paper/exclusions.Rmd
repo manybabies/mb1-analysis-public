@@ -32,7 +32,7 @@ d <- exclude_by(d, quo(out_of_age), quiet=TRUE)
 ```{r}
 
 n_before_exclusion <- d %>%
-  summarise(n = length(unique(subid))) %>%
+  summarise(n = length(unique(subid_unique))) %>%
   pull
 
 ```

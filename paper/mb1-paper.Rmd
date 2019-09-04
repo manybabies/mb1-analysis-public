@@ -450,15 +450,17 @@ These protocol deviations include the following:
 
 * Before labs had commenced data collection, we altered our attention-getter stimulus to be a precessing annulus accompanied by chimes (to address the concern that a laughing baby might be more associated with infant-directed speech); some labs used the old stimulus. 
 * Variation in trial length beyond the assumed maximum of 18 s emerged due to deviations in lab’s protocols for a variety of reasons. In all cases, looking times on these trials were truncated to 18 s.
-* A number of laboratories marked participants as session-level errors for reasons other than equipment error, experimenter error or outside interference. For example, some labs marked participants as exclusions at the participant level for trial-level errors (e.g. infant fussy, parental interference), even though there was sufficient trial-level data available for analysis. Similarly, individual trials were sometimes marked as errors for reasons related to participant-level issues. All trial-level and participant-level errors were reviewed centrally by at least two coders using all available information in the spreadsheet to determine whether a trial-level or participant-level error was appropriate. Specific information about each trial or participant error coding that was changed during this process can be found by reviewing the metadata documentation within the data analysis pipeline (https://github.com/manybabies/mb1-analysis-public/tree/master/metadata). 
+* A number of labs provided data from infants that were within the 3--15 month age range, but outside of the submitting lab’s pre-registered age bin. These infants were included in the analyses. 
+* Many labs deviated from their pre-registered sample size due to constraints on testing resources. We included these labs provided they met the minimum inclusion criteria for the study as a whole. All such labs certified that they did not make decisions regarding sample size on a data-dependent basis.
+* A number of laboratories marked participants as session-level errors for reasons other than equipment error, experimenter error or outside interference. 
+
+This last point bears further discussion. Some labs marked participants as exclusions at the participant level for trial-level errors (e.g. infant fussy, parental interference), even though there was sufficient trial-level data available for analysis. Similarly, individual trials were sometimes marked as errors for reasons related to participant-level issues. All trial-level and participant-level errors were reviewed centrally by at least two coders using all available information in the spreadsheet to determine whether a trial-level or participant-level error was appropriate. Specific information about each trial or participant error coding that was changed during this process can be found by reviewing metadata within the data analysis codebase. 
 
 In total, 313 participants from 50 labs previously marked as participant-level exclusions were retained for further processing and analysis. Participants originally coded as having session-level errors were recoded for the following reasons: when the participant-level exclusion was based solely on the existence of trial-level errors (190 infants), when exclusion was based on a different exclusion criterion (e.g., participants were out of the age range or were preterm) (93 infants), or if an issue identified by the lab at the participant level was deemed acceptable by the central analysis team (e.g., if a lab implemented a slightly different look-away criterion, see below) (30 infants). Note that many of the retained participants were subsequently excluded at other points in the analysis pipeline because, although they did not meet the criteria for session-level errors, they did meet the conditions for other exclusion criteria (e.g., participants did not contribute enough useable trials or were excluded based on language exposure). 
 
 In addition to recoding session-level errors, we also corrected the coding of trial-level errors where appropriate. 778 total trial-level errors from 62 participants in 16 different labs were recoded. The majority of trials were corrected when labs coded a participant-level error (e.g. age exclusion) on the trial level (584 trials) or coded a trial-level error on the participant level (e.g., if labs marked a participant as a session-level error for fussiness on a specific trial, but did not code the affected trials as errors) (133 trials). Other trials were corrected when subsequent investigation of lab notes and discussion with lab members revealed that the original trial-level error code needed to be changed (61 trials).
 
-In addition, a variety of errors were found (e.g. pilot participants not properly excluded but noted in the comments) and fixed within the spreadsheets. Video data were not reviewed centrally, although in some cases where a question arose, the laboratory reviewed their own video in house in order to respond. The entire process has been carefully documented and can be accessed upon request, but because in some cases this included identifiable information about participants, it is not possible to share it publicly.
-* A number of labs provided data from infants that were within the 3--15 month age range, but outside of the submitting lab’s pre-registered age bin. These infants were included in the analyses. 
-* Many labs deviated from their pre-registered sample size due to constraints on testing resources. We included these labs provided they met the minimum inclusion criteria for the study as a whole. All such labs certified that they did not make decisions regarding sample size on a data-dependent basis. 
+In addition, a variety of errors were found (e.g., pilot participants not properly excluded but noted in the comments) and fixed within the spreadsheets. Video data were not reviewed centrally, although in some cases where a question arose, the laboratory reviewed their own video in-house in order to respond. The entire process has been carefully documented and can be accessed upon request, but because in some cases this included identifiable information about participants, it is not possible to share it publicly.
 
 Other reported protocol deviations included: No preregistration form submitted (1 lab); trial look-away time set to 3 s for some participants (1 lab); lab temporarily moved location during data collection (1 lab); minor protocol technical changes after start of data collection (2 labs); alternated left-right presentation and tested skin conduction during procedure (1 lab); procedural differences related to high-chair usage (1 lab); attention-getter deviation (4 labs); use of a pinwheel rather than checkerboard as the main visual fixation stimulus in HPP (1 lab).
 
@@ -681,7 +683,7 @@ Our main model was:
 \end{split}
 \end{equation}
 
-Trial type was dummy-coded, with ADS trials as the reference level (so that positive effects of trial type indicate longer looking to IDS). To increase the interpretability of coefficients, age (in months) was centered and trial number was coded with trial 1 as the reference level.
+Trial type, language, and method were dummy-coded (with ADS trials, non-NAE, and single-screen method) as the reference level; thus, coefficients are interpretable such that e.g., positive effects of trial type indicate longer looking to IDS. To increase the interpretability of coefficients, age (in months) was centered and trial number was coded with trial 1 as the reference level.
 
 We specified this model to minimize higher-order interactions but preserve theoretically-important interactions. We included main effects of trial type, method, language, age, and trial number, capturing the basic effects of each on looking time (e.g., longer looking times for IDS, shorter looking times on later trials). In addition, we included two-way interactions of trial type with method (modeling the possibility that some methods show larger IDS preferences) and trial type with trial number (modeling the possibility of faster habituation to ADS) as well as age and trial number (modeling faster habituation for older children). We also included two- and three-way interactions of age, trial type, and language (modeling possible developmental changes in IDS preference across age and language group). Both developmental effects and trial effects are treated linearly in this model; although both likely have non-linear effects, adding quadratic or other effects would have substantially increased model complexity. After pruning random effects for non-convergence, our final model specification was:
 
@@ -689,14 +691,13 @@ We specified this model to minimize higher-order interactions but preserve theor
 \begin{split}
 \text{log lt} \sim & \text{trial type} * \text{method} + \text{trial type} * \text{trial num} + \text{age} * \text{trial num} + \\
 & \text{trial type} * \text{age} * \text{language} + \\
-& (\text{trial type} \mid \text{subid}) + \\
-& (\text{trial type} \mid \text{lab}) + \\
+& (1 \mid \text{subid}) + \\
+& (1 \mid \text{lab}) + \\
 & (1 \mid \text{item}).
 \end{split}
 \end{equation}
 
 \noindent Table 4 shows coefficient estimates from this model. 
-
 
 ```{r coef_table, results="asis"}
 library(lmerTest)
@@ -712,13 +713,13 @@ mod_lmer <- lmer(log_lt ~ trial_type * method +
                    trial_type * trial_num +
                    age_mo * trial_num +
                    trial_type * age_mo * nae +
-                   (trial_type + 1 | subid_unique) +
+                   (1 | subid_unique) +
                    (1 | item) + 
-                   (trial_type | lab), 
+                   (1 | lab), 
                  data = d_lmer)
 
 coefs <- summary(mod_lmer)$coef %>%
-  as_data_frame %>%
+  as_tibble %>%
   mutate_at(c("Estimate","Std. Error","df", "t value", "Pr(>|t|)"), 
             function (x) signif(x, digits = 3)) %>%
   rename(SE = `Std. Error`, 
@@ -737,7 +738,7 @@ papaja::apa_table(coefs,
                   format.args = list(digits = 3))
 ```
 
-Overall, the fitted coefficients of the mixed effects model were consistent with the results of the individual meta-analyses. Within the structure of the mixed effects model, IDS preferences are shown by positive coefficients on the IDS predictor (reflecting greater looking times to IDS stimuli). The fitted model shows a significant positive effect of IDS stimuli, consistent with a global IDS preference. Consistent with the age- and language-moderated meta-analyses, there were significant and positive two-way interations of IDS with age and with NAE, suggesting greater IDS preferences for older children and for children in NAE contexts. Further, there was a positive, marginal interaction with the HPP method, consistent with the method-moderated model. There was not a significant three-way interaction of IDS, age, and NAE, however, suggesting that there was not a reliable differential change in IDS preference for older children in NAE contexts over and above that expected based on each of these factors alone. 
+Overall, the fitted coefficients of the mixed effects model were consistent with the results of the individual meta-analyses. Within the structure of the mixed effects model, IDS preferences are shown by positive coefficients on the IDS predictor (reflecting greater looking times to IDS stimuli). The fitted model shows a significant positive effect of IDS stimuli, consistent with a global IDS preference. Consistent with the age- and language-moderated meta-analyses, there were significant and positive two-way interations of IDS with age and with NAE, suggesting greater IDS preferences for older children and for children in NAE contexts. Further, there was a positive interaction with the HPP method, consistent with the method-moderated model. There was not a significant three-way interaction of IDS, age, and NAE, however, suggesting that there was not a reliable differential change in IDS preference for older children in NAE contexts over and above that expected based on each of these factors alone. 
 
 In addition to these results, a number of other factors were significant predictors of looking time. Looking time decreased across trials, and did so especially for older children, generally confirming that all infants habituated to our experimental stimuli and older infants did so more quickly. Further, eye-tracking led to lower looking times overall across stimulus classes.
 
@@ -810,9 +811,9 @@ sex_mod_lmer <- lmer(log_lt ~ trial_type * method +
                           age_mo * trial_num +
                           trial_type * age_mo * nae +
                           gender * trial_type +
-                          (trial_type + 1 | subid_unique) +
-                          (1 | item) + 
-                          (gender + trial_type | lab), 
+                          (1 | subid_unique) +
+                          # (1 | item) + 
+                          (1 | lab), 
                         data = filter(d_lmer, 
                                       gender %in% c("M","F")))
 
@@ -821,7 +822,7 @@ sex_coefs <- summary(sex_mod_lmer)$coef
 
 <!-- and intercept  NOTE WE PREREGISTERED AN INTERCEPT AND SLOPE BUT THIS DOESN"T MAKE SENSE-->
 
-In order to investigate effects of biological sex on IDS preference, we fit the model specified above with the addition of a sex main effect and trial type by sex interaction (and with a random effect of sex nested within labs). Female was coded as the reference level, so effects are stated in terms of changes for male infants. The main effect of sex $\beta$=`r signif(sex_coefs["genderM","Estimate"], 2)` (SE=`r signif(sex_coefs["genderM","Std. Error"], 2)`, p=`r signif(sex_coefs["genderM","Pr(>|t|)"], 2)`) and the interaction with trial type was $\beta$=`r signif(sex_coefs["trial_typeIDS:genderM","Estimate"], 3)` (SE=`r signif(sex_coefs["trial_typeIDS:genderM","Std. Error"], 2)`, p=`r signif(sex_coefs["trial_typeIDS:genderM","Pr(>|t|)"], 2)`). These predictors were small and nonsignificant, suggesting that sex was not a strong determinant of measured IDS preferences in our data. 
+In order to investigate effects of biological sex on IDS preference, we fit the model specified above with the addition of a sex main effect and trial type by sex interaction.\footnote{Because this model did not converge, following our protocol, we pruned random effects of item.} Female was coded as the reference level, so effects are stated in terms of changes for male infants. The main effect of sex $\beta$=`r signif(sex_coefs["genderM","Estimate"], 2)` (SE=`r signif(sex_coefs["genderM","Std. Error"], 2)`, p=`r signif(sex_coefs["genderM","Pr(>|t|)"], 2)`) and the interaction with trial type was $\beta$=`r signif(sex_coefs["trial_typeIDS:genderM","Estimate"], 3)` (SE=`r signif(sex_coefs["trial_typeIDS:genderM","Std. Error"], 2)`, p=`r signif(sex_coefs["trial_typeIDS:genderM","Pr(>|t|)"], 2)`). These predictors were small and nonsignificant, suggesting that sex was not a strong determinant of measured IDS preferences in our data. 
 
 ### Moderator effects on missing data
 
@@ -881,7 +882,6 @@ rownames(missing_coefs) <- c("Intercept", "Eye-tracking", "HPP",
 papaja::apa_table(missing_coefs, format.args = list(digits = 3),
                   caption = "Coefficient estimates from a linear mixed effects model predicting whether an observation was missing.")
 ```
-
 
 ## Exploratory Analyses
 
