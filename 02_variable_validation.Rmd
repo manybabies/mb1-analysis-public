@@ -341,7 +341,7 @@ Note there is some missing data.
 
 ```{r}
 d$monolingual <- d$lang_group %in% 
-  c("monolingual","monilingual","monolinugal","Monolinugal")
+  c("monolingual","monilingual","monolinugal","Monolinugal", "monolingual, not english")
 ```
 
 We can also approach classifying monolingual status based on whether any of the langX_exposure columns are >= 90%.

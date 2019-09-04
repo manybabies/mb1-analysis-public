@@ -169,7 +169,7 @@ labexcl <- exclude_by(d, quo(include_lab),
 d <- labexcl$data
 ```
 
-As discussed above, we included a lab's data if they were able to achieve the minimum N required for a half-sample and if, after exclusions, they contributed more than 10 data points. `r labexcl$percents$any_sum` (`r round(labexcl$percents$any_mean*100, 2)`%) infants from `r n_labs_excluded` labs were not included in the final sample because of this criterion.
+As discussed above, we included a lab's data if they were able to achieve the minimum N required for a half-sample and if, after exclusions, they contributed 10 or more data points. `r labexcl$percents$any_sum` (`r round(labexcl$percents$any_mean*100, 2)`%) infants from `r n_labs_excluded` labs were not included in the final sample because of this criterion.
 
 ```{r}
 

@@ -114,6 +114,19 @@ d <- d %>%
   
 ```
 
+# Remove unvalidated variables
+
+This step filters out a number of variables that were used in the exclusion or have other information in them to create a smaller, cleaner dataset. 
+
+```{r}
+d <- d %>%
+  select(lab, subid, subid_unique, trial_order, trial_num,
+         trial_type, stimulus_num, method, age_days, age_mo, age_group, 
+         nae, gender, second_session, looking_time, missing) 
+  
+```
+
+
 # Output 
 
 

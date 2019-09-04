@@ -201,7 +201,7 @@ During study planning, we used data from MetaLab [@bergmann2018promoting] to com
 
 <!-- Note github issue #138 for interpretation of this point. -->
 
-We included data from a lab in our analysis if they were able to achieve the minimum N required for a half-sample in their age bin ($N=16$) by the end date of testing and if, after exclusions, they contributed more than 10 data points. If a lab collected more than their required sample, we included the extra data as well. Laboratories were cautioned not to consider the data (e.g., whether a statistically significant effect was evident) in their lab internal decision-making regarding how many infants to recruit/when to stop recruitment. 	
+We included data from a lab in our analysis if they were able to achieve the minimum N required for a half-sample in their age bin ($N=16$) by the end date of testing and if, after exclusions, they contributed 10 or more data points. If a lab collected more than their required sample, we included the extra data as well. Laboratories were cautioned not to consider the data (e.g., whether a statistically significant effect was evident) in their lab internal decision-making regarding how many infants to recruit/when to stop recruitment. 	
 
 
 
@@ -466,6 +466,8 @@ Other reported protocol deviations included: No preregistration form submitted (
 
 We also detected a large number of data submission errors (typographical or otherwise) as a result of the comprehensive checking process in analysis. These were resolved when necessary by contacting the original lab. In general, we were inclusive of data with minor protocol deviations, and erred on the side of excluding data, when necessary, at the trial rather than participant level. A few demographic variables required greater central scrutiny than originally anticipated. Most notably, there was considerable variability in the interpretation of preterm and bilingual designations (despite centrally-dictated standards). When necessary, we recoded lab data so as to conform to the original protocol definitions. 
 
+There was an ambiguity in our lab-level exclusion criteria between whether labs would be included if they contributed 10 or more datapoints, or more than 10 datapoints. We chose the more liberal of these two criteria.
+
 Finally, two labs submitted data after the deadline. In one case this was due to a communication error; in the other case, the lab continued data collection, resulting in 8 additional infants being tested. Both datasets are included in the final analysis here. 
 
 # Results
@@ -685,7 +687,7 @@ Our main model was:
 
 Trial type, language, and method were dummy-coded (with ADS trials, non-NAE, and single-screen method) as the reference level; thus, coefficients are interpretable such that e.g., positive effects of trial type indicate longer looking to IDS. To increase the interpretability of coefficients, age (in months) was centered and trial number was coded with trial 1 as the reference level.
 
-We specified this model to minimize higher-order interactions but preserve theoretically-important interactions. We included main effects of trial type, method, language, age, and trial number, capturing the basic effects of each on looking time (e.g., longer looking times for IDS, shorter looking times on later trials). In addition, we included two-way interactions of trial type with method (modeling the possibility that some methods show larger IDS preferences) and trial type with trial number (modeling the possibility of faster habituation to ADS) as well as age and trial number (modeling faster habituation for older children). We also included two- and three-way interactions of age, trial type, and language (modeling possible developmental changes in IDS preference across age and language group). Both developmental effects and trial effects are treated linearly in this model; although both likely have non-linear effects, adding quadratic or other effects would have substantially increased model complexity. After pruning random effects for non-convergence, our final model specification was:
+We specified this model to minimize higher-order interactions but preserve theoretically-important interactions. We included main effects of trial type, method, language, age, and trial number, capturing the basic effects of each on looking time (e.g., longer looking times for IDS, shorter looking times on later trials). In addition, we included two-way interactions of trial type with method (modeling the possibility that some methods show larger IDS preferences) and trial type with trial number (modeling the possibility of faster habituation to ADS) as well as age and trial number (modeling faster habituation for older children). We also included two- and three-way interactions of age, trial type, and language (modeling possible developmental changes in IDS preference across age and language group). Both developmental effects and trial effects are treated linearly in this model; although both likely have non-linear effects, adding quadratic or other effects would have substantially increased model complexity. After pruning random effects for non-convergence,\footnote{Pruning was done using models fitted with `lme4` version 1.1-21.} our final model specification was:
 
 \begin{equation}
 \begin{split}
