@@ -268,10 +268,11 @@ lab_stats <- d_participants %>%
   left_join(select(langs, lab, language_simple, country)) %>%
   rename(Country = country,Language = language_simple)
 
-kable(lab_stats, digits = 2, 
-      format = "latex", booktabs = TRUE,
-      longtable = TRUE, 
-      caption = "Statistics of the included labs. N refers to the number of infants included in the final analysis. English from the US and Canada are both treated as North American English.")
+papaja::apa_table(lab_stats,
+                 caption = "Statistics of the included labs. N refers to the number of infants included in the final analysis. English from the US and Canada are both treated as North American English.",
+                 format.args = list(digits = 2),
+                 longtable = TRUE,font_size="footnotesize",
+                 align=c("l","c","c","c","l","l"))
 ```
 
 
