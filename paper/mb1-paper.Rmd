@@ -352,8 +352,8 @@ t3_caption <- "Comparison of our study’s stimuli to those of previous studies 
 
 #papaja::apa_table(comp_data, caption = t3_caption, landscape = TRUE)
 
-kable_input=kable(comp_data,caption = t3_caption,format = "latex",booktabs=TRUE) %>%
-  kable_styling(latex_options="scale_down")
+kable_input=kable(comp_data,caption = t3_caption,format = "latex",booktabs=TRUE, align = c("l","c","l","l",rep("c",4))) %>%
+ kable_styling(latex_options="scale_down")
 
 landscape(kable_input, margin = NULL)
 ```
