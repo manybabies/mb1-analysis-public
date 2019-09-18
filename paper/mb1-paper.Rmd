@@ -197,11 +197,11 @@ Each participating lab was asked to recruit participants in one or more of four 
 
 ### Lab participation criterion 
 
-During study planning, we used data from MetaLab [@bergmann2018promoting] to compute  the meta-analytic mean effect size for IDS preference; the resulting value was  Cohen’s *d* = .72. In a paired *t*-test, 95% power to detect this effect requires 27 participants, and 80% power requires 17. On the basis of these calculations, we asked participating labs to commit to samples with a minimum of N = 32 in a single age group. However, given that for many of our analyses, power across labs is more critical than within a lab [@judd2017experiments], we allowed labs to contribute a “half sample” of N = 16, with the assumption that this would increase the number of laboratories capable of participating and allow more laboratories to contribute samples from multiple age bins. We specified that labs should recruit with respect to the desired demographic characteristics of the study (e.g., full-term infants; see below for full list of exclusion criteria). Given this recruitment strategy, however, we asked that sample Ns be calculated on the basis of the number of total infants tested, not the infants retained after exclusions (which were performed centrally as part of the broader data analysis, not at the lab level). 
+During study planning, we used data from MetaLab [@bergmann2018promoting] to compute  the meta-analytic mean effect size for IDS preference; the resulting value was  Cohen’s *d* = .72. In a paired *t*-test, 95% power to detect this effect requires 27 participants, and 80% power requires 17. On the basis of these calculations, we asked participating labs to commit to samples with a minimum of $N = 32$ in a single age group. However, given that for many of our analyses, power across labs is more critical than within a lab [@judd2017experiments], we allowed labs to contribute a “half sample” of $N = 16$, with the assumption that this would increase the number of laboratories capable of participating and allow more laboratories to contribute samples from multiple age bins. We specified that labs should recruit with respect to the desired demographic characteristics of the study (e.g., full-term infants; see below for full list of exclusion criteria). Given this recruitment strategy, however, we asked that sample *N*s be calculated on the basis of the number of total infants tested, not the infants retained after exclusions (which were performed centrally as part of the broader data analysis, not at the lab level). 
 
 <!-- Note github issue #138 for interpretation of this point. -->
 
-We included data from a lab in our analysis if they were able to achieve the minimum N required for a half-sample in their age bin ($N=16$) by the end date of testing and if, after exclusions, they contributed 10 or more data points. If a lab collected more than their required sample, we included the extra data as well. Laboratories were cautioned not to consider the data (e.g., whether a statistically significant effect was evident) in their lab internal decision-making regarding how many infants to recruit/when to stop recruitment. 	
+We included data from a lab in our analysis if they were able to achieve the minimum *N* required for a half-sample in their age bin ($N=16$) by the end date of testing and if, after exclusions, they contributed 10 or more data points. If a lab collected more than their required sample, we included the extra data as well. Laboratories were cautioned not to consider the data (e.g., whether a statistically significant effect was evident) in their lab internal decision-making regarding how many infants to recruit/when to stop recruitment. 	
 
 
 
@@ -216,7 +216,7 @@ excluded_labs <- read_csv(here("processed_data","02_validated_output.csv"),
   length
 ```
 
-Our final sample was comprised of `r n` monolingual infants from `r n_labs` labs (mean sample size per lab: `r round(mean(labs$n), 2)`, SD: `r round(sd(labs$n), 2)`, range: `r round(min(labs$n), 2)` -- `r round(max(labs$n), 2)`; `r n_labs_multiple_agegroups` contributed data at multiple ages). Demographic exclusions were primarily implemented during recruitment; despite this, additional infants were tested and excluded based on preset criteria (see Exclusions below for percentages). 
+Our final sample was comprised of `r n` monolingual infants from `r n_labs` labs (mean sample size per lab: `r round(mean(labs$n), 2)`, $SD= `r round(sd(labs$n), 2)`$, range: `r round(min(labs$n), 2)` -- `r round(max(labs$n), 2)`; `r n_labs_multiple_agegroups` contributed data at multiple ages). Demographic exclusions were primarily implemented during recruitment; despite this, additional infants were tested and excluded based on preset criteria (see Exclusions below for percentages). 
 In addition, `r excluded_labs` labs registered to participate but failed to collect data from at least 10 included infants, and so their data were not included.
 Information about all included labs is given in Table 1. 
 
@@ -272,7 +272,8 @@ papaja::apa_table(lab_stats,
                  caption = "Statistics of the included labs. N refers to the number of infants included in the final analysis. English from the US and Canada are both treated as North American English.",
                  format.args = list(digits = 2),
                  longtable = TRUE,font_size="footnotesize",
-                 align=c("l","c","c","c","l","l"))
+                 align=c("l","c","c","c","l","l"),
+                 col.names = c("lab","Mean age (days)","$N$", "Method","Language","Country"))
 ```
 
 
@@ -291,7 +292,7 @@ Source recordings were collected in two laboratories, one in central Canada and 
 
 There were a total of 179 unedited minutes of recording from Canada and 44 from the United States. A first-pass selection of low-noise IDS and ADS samples yielded 1281 utterances, for a total of 4479 s. From this first pass, 238 utterances were selected that were considered to be the best examples of IDS and ADS and met other basic stimulus selection criteria (e.g., did not contain laughter or the baby’s name). 
 
-This library of 238 utterances was then normed on five variables: accent, affect, naturalness, noisiness, and IDS-ness. The goal of this norming was to gather intuitive judgments about each variable so as to identify utterances that were clearly anomalous in some respect and exclude them. In each case, a set of naïve, North American English-speaking adults recruited from Amazon Mechanical Turk (MTurk) listened to all 238 of the utterances and rated them on a 7-point Likert scale. Raters were assigned randomly to one of the five variables, with the number of participants assigned to a particular rating task ranging between eight and 18 due to variability in random assignment. Affect and IDS ratings were made using low-pass filtered recordings (a 120-dB filter with standard rolloff was applied twice using the `sox` software package). These ratings were intended to give us a principled basis on which to exclude clips that were outliers on particular dimensions (such as having odd affect or background noise). In general, with the exception of IDS-ness, ratings were not highly variable across clips (the largest SD was .85, for noise ratings). 
+This library of 238 utterances was then normed on five variables: accent, affect, naturalness, noisiness, and IDS-ness. The goal of this norming was to gather intuitive judgments about each variable so as to identify utterances that were clearly anomalous in some respect and exclude them. In each case, a set of naïve, North American English-speaking adults recruited from Amazon Mechanical Turk (MTurk) listened to all 238 of the utterances and rated them on a 7-point Likert scale. Raters were assigned randomly to one of the five variables, with the number of participants assigned to a particular rating task ranging between eight and 18 due to variability in random assignment. Affect and IDS ratings were made using low-pass filtered recordings (a 120-dB filter with standard rolloff was applied twice using the `sox` software package). These ratings were intended to give us a principled basis on which to exclude clips that were outliers on particular dimensions (such as having odd affect or background noise). In general, with the exception of IDS-ness, ratings were not highly variable across clips (the largest *SD* was .85, for noise ratings). 
 
 Ratings from the tasks were then used to produce a set of utterances such that accent was rated similar to “standard English” (ratings < 3, with 1 being completely standard), naturalness was rated high (> 4, with 7 being completely natural), noisiness was rated low (< 4, with 1 being noiseless), and IDS and ADS clips were consistently distinguished (with IDS having ratings > 4 and ADS having ratings < 4, with 7 being clearly directed at a baby or child). This procedure resulted in 163 total utterances that met our inclusion criteria. 
 
@@ -330,7 +331,8 @@ stim_data <- tribble(
 
 t1_caption <- "Characteristics of the IDS and ADS stimuli, with standard deviations computed across stimuli."
 
-papaja::apa_table(stim_data, caption = t1_caption)
+papaja::apa_table(stim_data, caption = t1_caption,
+                  col.names=c("Measurement", "IDS Mean","IDS $SD$","ADS Mean", "ADS $SD$"))
 ```
 
 Table 3 provides a comparison of our stimuli to a sample of others that have been used previously in the IDS preference literature. Across studies, the only statistic that was reported reliably across papers was the mean pitch (F0) for IDS and ADS and even this one was only reported in about half the studies we sampled. Various measures of variability were reported in some studies (e.g., range within each sample, range across samples, standard deviation), but due to variation in the length and number of different samples used in each study, and a lack of systematicity in reporting, it was difficult to compare directly. Numerically, the average IDS/ADS pitch difference in our materials was less extreme than that found in previous studies. 
@@ -402,7 +404,7 @@ dB <- dB %>%
   mutate(SNR = with_reference / without_reference)
 ```
 
-Each lab was asked to use a stimulus volume level that was consistent with their general lab practices – this decision was not standardized across labs. Labs were instead instructed to measure and report their average dB SPL level with and without a white noise reference audio clip playing, though not all contributing labs reported these measurements (N: `r sum(!is.na(dB$SNR))`). From these values, we calculated a signal to noise ratio for each lab, mean: `r round(mean(dB$SNR, na.rm = TRUE), 2)`, SD: `r round(sd(dB$SNR, na.rm = TRUE), 2)`, range: `r round(min(dB$SNR, na.rm = TRUE), 2)` -- `r round(max(dB$SNR, na.rm = TRUE), 2)`. 
+Each lab was asked to use a stimulus volume level that was consistent with their general lab practices – this decision was not standardized across labs. Labs were instead instructed to measure and report their average dB SPL level with and without a white noise reference audio clip playing, though not all contributing labs reported these measurements ($N = `r sum(!is.na(dB$SNR))`$). From these values, we calculated a signal to noise ratio for each lab, $M = `r round(mean(dB$SNR, na.rm = TRUE), 2)`$, $SD = `r round(sd(dB$SNR, na.rm = TRUE), 2)`$, range: `r round(min(dB$SNR, na.rm = TRUE), 2)` -- `r round(max(dB$SNR, na.rm = TRUE), 2)`. 
 
 ### Minimizing caregiver bias
 
@@ -551,7 +553,7 @@ pref <- diffs %>%
 ```
 
 
-What was the overall magnitude of the IDS preference we observed? This question is answered within the cross-lab meta-analysis by fitting the main effect model specified by $dz \sim 1$ to the `r nrow(ds_zt)` separate group means and variances (after aggregating by lab and age group). The mean effect size estimate was `r round(intercept_mod$b[1], 2)` (CI = [`r round(intercept_mod$ci.lb[1], 2)` - `r round(intercept_mod$ci.ub[1], 2)`], z = `r round(intercept_mod$z[1], 2)`, $p `r papaja::printp(intercept_mod$pval)`$). A forest plot for this meta-analysis is shown in Figure 2. Further, `r pref$pref`/`r pref$n` infants (`r round(pref$pct, 2)`%) showed a numerical preference for IDS. 
+What was the overall magnitude of the IDS preference we observed? This question is answered within the cross-lab meta-analysis by fitting the main effect model specified by $dz \sim 1$ to the `r nrow(ds_zt)` separate group means and variances (after aggregating by lab and age group). The mean effect size estimate was `r round(intercept_mod$b[1], 2)` (CI = [`r round(intercept_mod$ci.lb[1], 2)` - `r round(intercept_mod$ci.ub[1], 2)`], $z = `r round(intercept_mod$z[1], 2)`$, $p `r papaja::printp(intercept_mod$pval)`$). A forest plot for this meta-analysis is shown in Figure 2. Further, `r pref$pref`/`r pref$n` infants (`r round(pref$pct, 2)`%) showed a numerical preference for IDS. 
 
 
 ```{r fig.cap="Forest plot. Standardized effect sizes are shown for each lab, with error bars showing 95% confidence intervals. Labs are grouped by method. Points are scaled by inverse variance and colored by experimental method. In each panel, the diamond and associated interval represents the meta-analytic estimate from the method-moderated model and its 95% confidence interval. The bottom panel shows the global meta-analytic estimate from the unmoderated model.", fig.height = 5.5, fig.pos="p!"}
@@ -644,7 +646,7 @@ ggplot(forest_data, aes(x = lab, y = effects)) +
 
 ### Independent relationship of IDS preference to moderating variables
 
-We next fit a set of moderated meta-analytic models. We began by examining the relationship of IDS preferences to age, using the average age in months for each lab’s contributed sample as the moderator value. Labs that contributed samples from two age bins had values added separately for each age (because of the small number of these, we did not model this dependency between labs). For ease of interpretation, we centered age in this analysis. The age-moderated model, $dz \sim 1 + \text{age}$, yielded an estimated main effect of  `r round(age_mod$b[1], 2)` (CI = [`r round(age_mod$ci.lb[1], 2)` - `r round(age_mod$ci.ub[1], 2)`], z = `r round(age_mod$z[1], 2)`, $p `r papaja::printp(age_mod$pval[1])`$) and an age effect of `r round(age_mod$b[2], 2)` (CI = [`r round(age_mod$ci.lb[2], 2)` - `r round(age_mod$ci.ub[2], 2)`], z = `r round(age_mod$z[2], 2)`, $p `r papaja::printp(age_mod$pval[2])`$). This positive age coefficient indicated that the measured IDS preference was on average larger for older children. Age trends are plotted in Figure 3.
+We next fit a set of moderated meta-analytic models. We began by examining the relationship of IDS preferences to age, using the average age in months for each lab’s contributed sample as the moderator value. Labs that contributed samples from two age bins had values added separately for each age (because of the small number of these, we did not model this dependency between labs). For ease of interpretation, we centered age in this analysis. The age-moderated model, $dz \sim 1 + \text{age}$, yielded an estimated main effect of  `r round(age_mod$b[1], 2)` (CI = [`r round(age_mod$ci.lb[1], 2)` - `r round(age_mod$ci.ub[1], 2)`], $z = `r round(age_mod$z[1], 2)`$, $p `r papaja::printp(age_mod$pval[1])`$) and an age effect of `r round(age_mod$b[2], 2)` (CI = [`r round(age_mod$ci.lb[2], 2)` - `r round(age_mod$ci.ub[2], 2)`], $z = `r round(age_mod$z[2], 2)`$, $p `r papaja::printp(age_mod$pval[2])`$). This positive age coefficient indicated that the measured IDS preference was on average larger for older children. Age trends are plotted in Figure 3.
 
 ```{r fig3, fig.cap = "Lab effect size estimates plotted by age and method. Subplots show language groups. Standardized effect sizes are shown for each lab, with error bars showing 95% confidence intervals. Points are scaled by number of participants and colored by experimental method; they are slightly transparent to avoid overplotting."}
 ds_zt$english <- factor(ds_zt$nae, levels = c(TRUE, FALSE), 
@@ -665,9 +667,9 @@ ggplot(ds_zt,
   theme(legend.position = "bottom")
 ```
 
-We next investigated effects of experimental method, with method dummy-coded using single-screen central fixation as the reference level. The method-moderated model ($dz \sim 1 + \text{method})$ yielded a reference-level intercept of `r round(method_mod$b[1], 2)` (CI = [`r round(method_mod$ci.lb[1], 2)` - `r round(method_mod$ci.ub[1], 2)`], z = `r round(method_mod$z[1], 2)`, $p `r papaja::printp(method_mod$pval[1])`$), reflecting the mean effect size for single-screen presentation. The HPP yielded an additional effect of `r round(method_mod$b[3], 2)` (CI = [`r round(method_mod$ci.lb[3], 2)` - `r round(method_mod$ci.ub[3], 2)`], z = `r round(method_mod$z[3], 2)`, $p = `r papaja::printp(method_mod$pval[3])`$), indicating a substantial gain in measured IDS preference for those labs using HPP as compared with single-screen central fixation. In contrast, eye-tracking yielded an effect of `r round(method_mod$b[2], 2)` (CI = [`r round(method_mod$ci.lb[2], 2)` - `r round(method_mod$ci.ub[2], 2)`], z = `r round(method_mod$z[2], 2)`, $p = `r papaja::printp(method_mod$pval[2])`$), indicating a slight, non-significant decrease in measured effect size for eye-tracking relative to single-screen central fixation. 
+We next investigated effects of experimental method, with method dummy-coded using single-screen central fixation as the reference level. The method-moderated model ($dz \sim 1 + \text{method})$ yielded a reference-level intercept of `r round(method_mod$b[1], 2)` (CI = [`r round(method_mod$ci.lb[1], 2)` - `r round(method_mod$ci.ub[1], 2)`], $z = `r round(method_mod$z[1], 2)`$, $p `r papaja::printp(method_mod$pval[1])`$), reflecting the mean effect size for single-screen presentation. The HPP yielded an additional effect of `r round(method_mod$b[3], 2)` (CI = [`r round(method_mod$ci.lb[3], 2)` - `r round(method_mod$ci.ub[3], 2)`], $z = `r round(method_mod$z[3], 2)`$, $p = `r papaja::printp(method_mod$pval[3])`$), indicating a substantial gain in measured IDS preference for those labs using HPP as compared with single-screen central fixation. In contrast, eye-tracking yielded an effect of `r round(method_mod$b[2], 2)` (CI = [`r round(method_mod$ci.lb[2], 2)` - `r round(method_mod$ci.ub[2], 2)`], $z = `r round(method_mod$z[2], 2)`$, $p = `r papaja::printp(method_mod$pval[2])`$), indicating a slight, non-significant decrease in measured effect size for eye-tracking relative to single-screen central fixation. 
 
-The language-moderated model ($dz \sim 1 + \text{language}$) was fit with language group coded as a categorical variable indicating whether infants were tested in a lab in which NAE was the standard language (e.g., in the United States or Canada). The reference level effect (i.e., not NAE) was `r round(lang_mod$b[1], 2)` (CI = [`r round(lang_mod$ci.lb[1], 2)` - `r round(lang_mod$ci.ub[1], 2)`], z = `r round(lang_mod$z[1], 2)`, $p `r papaja::printp(lang_mod$pval[1])`$), while for infants in North American labs, the effect was increased by  `r round(lang_mod$b[2], 2)` (CI = [`r round(lang_mod$ci.lb[2], 2)` - `r round(lang_mod$ci.ub[2], 2)`], z = `r round(lang_mod$z[2], 2)`, $p = `r papaja::printp(lang_mod$pval[2])`$). Thus, measured IDS preferences were higher in those infants for whom the stimuli were native-language congruent.
+The language-moderated model ($dz \sim 1 + \text{language}$) was fit with language group coded as a categorical variable indicating whether infants were tested in a lab in which NAE was the standard language (e.g., in the United States or Canada). The reference level effect (i.e., not NAE) was `r round(lang_mod$b[1], 2)` (CI = [`r round(lang_mod$ci.lb[1], 2)` - `r round(lang_mod$ci.ub[1], 2)`], $z = `r round(lang_mod$z[1], 2)`$, $p `r papaja::printp(lang_mod$pval[1])`$), while for infants in North American labs, the effect was increased by  `r round(lang_mod$b[2], 2)` (CI = [`r round(lang_mod$ci.lb[2], 2)` - `r round(lang_mod$ci.ub[2], 2)`], $z = `r round(lang_mod$z[2], 2)`$, $p = `r papaja::printp(lang_mod$pval[2])`$). Thus, measured IDS preferences were higher in those infants for whom the stimuli were native-language congruent.
 
 
 ### Joint relationship of IDS preference to moderating variables
@@ -738,7 +740,9 @@ rownames(coefs) <- c("Intercept", "IDS", "Eye-tracking", "HPP",
 
 papaja::apa_table(coefs, 
                   caption = "Coefficient estimates from a linear mixed effects model predicting log looking time.", 
-                  format.args = list(digits = 3))
+                  format.args = list(digits = 3),
+                  col.names =c("","Estimate","$SE$","$t$","$p$"),
+                  align=c("l","l","c","c","c"))
 ```
 
 Overall, the fitted coefficients of the mixed effects model were consistent with the results of the individual meta-analyses. Within the structure of the mixed effects model, IDS preferences are shown by positive coefficients on the IDS predictor (reflecting greater looking times to IDS stimuli). The fitted model shows a significant positive effect of IDS stimuli, consistent with a global IDS preference. Consistent with the age- and language-moderated meta-analyses, there were significant and positive two-way interations of IDS with age and with NAE, suggesting greater IDS preferences for older children and for children in NAE contexts. Further, there was a positive interaction with the HPP method, consistent with the method-moderated model. There was not a significant three-way interaction of IDS, age, and NAE, however, suggesting that there was not a reliable differential change in IDS preference for older children in NAE contexts over and above that expected based on each of these factors alone. 
@@ -759,7 +763,8 @@ mss_diffs_plot_b <- ggplot(mss_diffs, aes(x = age_mo, y = diff, col = method, lt
   ylab("IDS preference (s)") + 
   scale_color_ptol(name = "Method") + 
   scale_linetype(name = "North American English") + 
-  xlab("Age (Months)") 
+  xlab("Age (Months)") +
+  theme(legend.title=element_text(size=10),legend.text=element_text(size=8))
 
 mss_diffs_plot_a <-mss_diffs_plot_b +
     geom_point(data = filter(mss_diffs, n == 8), alpha = .1) 
@@ -825,7 +830,7 @@ sex_coefs <- summary(sex_mod_lmer)$coef
 
 <!-- and intercept  NOTE WE PREREGISTERED AN INTERCEPT AND SLOPE BUT THIS DOESN"T MAKE SENSE-->
 
-In order to investigate effects of biological sex on IDS preference, we fit the model specified above with the addition of a sex main effect and trial type by sex interaction.\footnote{Because this model did not converge, following our protocol, we pruned random effects of item.} Female was coded as the reference level, so effects are stated in terms of changes for male infants. The main effect of sex $\beta$=`r signif(sex_coefs["genderM","Estimate"], 2)` (SE=`r signif(sex_coefs["genderM","Std. Error"], 2)`, p=`r signif(sex_coefs["genderM","Pr(>|t|)"], 2)`) and the interaction with trial type was $\beta$=`r signif(sex_coefs["trial_typeIDS:genderM","Estimate"], 3)` (SE=`r signif(sex_coefs["trial_typeIDS:genderM","Std. Error"], 2)`, p=`r signif(sex_coefs["trial_typeIDS:genderM","Pr(>|t|)"], 2)`). These predictors were small and nonsignificant, suggesting that sex was not a strong determinant of measured IDS preferences in our data. 
+In order to investigate effects of biological sex on IDS preference, we fit the model specified above with the addition of a sex main effect and trial type by sex interaction.\footnote{Because this model did not converge, following our protocol, we pruned random effects of item.} Female was coded as the reference level, so effects are stated in terms of changes for male infants. The main effect of sex $\beta = `r signif(sex_coefs["genderM","Estimate"], 2)`$ ($SE=`r signif(sex_coefs["genderM","Std. Error"], 2)`$, $p=`r signif(sex_coefs["genderM","Pr(>|t|)"], 2)`$) and the interaction with trial type was $\beta=`r signif(sex_coefs["trial_typeIDS:genderM","Estimate"], 3)`$ ($SE=`r signif(sex_coefs["trial_typeIDS:genderM","Std. Error"], 2)`$, $p=`r signif(sex_coefs["trial_typeIDS:genderM","Pr(>|t|)"], 2)`$). These predictors were small and nonsignificant, suggesting that sex was not a strong determinant of measured IDS preferences in our data. 
 
 ### Moderator effects on missing data
 
@@ -883,7 +888,9 @@ rownames(missing_coefs) <- c("Intercept", "Eye-tracking", "HPP",
                      "Trial # * Age")
 
 papaja::apa_table(missing_coefs, format.args = list(digits = 3),
-                  caption = "Coefficient estimates from a linear mixed effects model predicting whether an observation was missing.")
+                  caption = "Coefficient estimates from a linear mixed effects model predicting whether an observation was missing.",
+                  col.names =c("","Estimate","$SE$","$z$","$p$"),
+                  align=c("l","l","c","c","c"))
 ```
 
 ## Exploratory Analyses
@@ -939,8 +946,8 @@ intercept_mod_8 <- metafor::rma(d_z ~ 1, vi = d_z_var, slab = lab, data = ds_exc
 ```
 
 
-Because our criterion for including infants in the analysis was so liberal (infants needed to contribute data from only two trials to be included), we next conducted an exploration of the effects of different inclusion rules on the results we reported above. In particular, we calculated the meta-analytic effect size with 4 trials and 8 trials as minimum inclusion criteria. For a minimum of 4 trials, the effect size was `r round(intercept_mod_4$b[1], 2)` (CI = [`r round(intercept_mod_4$ci.lb[1], 2)` - `r round(intercept_mod_4$ci.ub[1], 2)`], z = `r round(intercept_mod_4$z[1], 2)`, $p `r papaja::printp(intercept_mod_4$pval)`$) and for a minimum of 8 trials the effect size was `r round(intercept_mod_8$b[1], 2)` (CI = [`r round(intercept_mod_8$ci.lb[1], 2)` - `r round(intercept_mod_8$ci.ub[1], 2)`], z = `r round(intercept_mod_8$z[1], 2)`, $p `r papaja::printp(intercept_mod_8$pval)`$). In comparison, our original results showed a meta-analytic effect size of
-`r round(intercept_mod_2$b[1], 2)` (CI = [`r round(intercept_mod_2$ci.lb[1], 2)` - `r round(intercept_mod_2$ci.ub[1], 2)`], z = `r round(intercept_mod_2$z[1], 2)`, $p `r papaja::printp(intercept_mod_2$pval)`$).
+Because our criterion for including infants in the analysis was so liberal (infants needed to contribute data from only two trials to be included), we next conducted an exploration of the effects of different inclusion rules on the results we reported above. In particular, we calculated the meta-analytic effect size with 4 trials and 8 trials as minimum inclusion criteria. For a minimum of 4 trials, the effect size was `r round(intercept_mod_4$b[1], 2)` (CI = [`r round(intercept_mod_4$ci.lb[1], 2)` - `r round(intercept_mod_4$ci.ub[1], 2)`], $z = `r round(intercept_mod_4$z[1], 2)`$, $p `r papaja::printp(intercept_mod_4$pval)`$) and for a minimum of 8 trials the effect size was `r round(intercept_mod_8$b[1], 2)` (CI = [`r round(intercept_mod_8$ci.lb[1], 2)` - `r round(intercept_mod_8$ci.ub[1], 2)`], $z = `r round(intercept_mod_8$z[1], 2)`$, $p `r papaja::printp(intercept_mod_8$pval)`$). In comparison, our original results showed a meta-analytic effect size of
+`r round(intercept_mod_2$b[1], 2)` (CI = [`r round(intercept_mod_2$ci.lb[1], 2)` - `r round(intercept_mod_2$ci.ub[1], 2)`], $z = `r round(intercept_mod_2$z[1], 2)`$, $p `r papaja::printp(intercept_mod_2$pval)`$).
 Furthermore, we computed effect sizes for each method for each of these additional exclusion criteria (see Table 6). Overall, more stringent inclusion criteria yielded substantially larger effects, although they also led to substantial data loss (especially for eye-tracking labs).
 
 <!-- In addition, all original analyses were repeated with the new exlusion criteria (see APPENDIX). -->
