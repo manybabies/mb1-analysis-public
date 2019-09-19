@@ -270,7 +270,7 @@ lab_stats <- d_participants %>%
 
 papaja::apa_table(lab_stats,
                  caption = "Statistics of the included labs. N refers to the number of infants included in the final analysis. English from the US and Canada are both treated as North American English.",
-                 format.args = list(digits = 2),
+                 format.args = list(digits = 0),
                  longtable = TRUE,font_size="footnotesize",
                  align=c("l","c","c","c","l","l"),
                  col.names = c("lab","Mean age (days)","$N$", "Method","Language","Country"))
