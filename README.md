@@ -2,6 +2,8 @@
 
 This repository contains the data and code for the project ManyBabies 1: Infant-Directed Speech Preference.
 Materials related to the project can be found on OSF: https://osf.io/re95x/
+General information on ManyBabies, including an overview of current projects, can be found on the project website: http://manybabies.stanford.edu
+
 
 ## Follow-up analyses
 
