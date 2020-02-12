@@ -14,11 +14,17 @@ source(here("helper/preprocessing_helper.R"))
 lab_contribs_pre_exclusion <- d %>%
   group_by(lab) %>%
   summarise(n = length(unique(subid)))
+
+d %>% group_by(lab) %>% summarise(n = length(unique(subid))) %>% pull(n) %>% sum
+length(unique(d$subid_unique))
 ```
 
 ```{r pilot}
 # We exclude kids who are explicitly marked as pilot.
 d <- exclude_by(d, quo(pilot), quiet = TRUE)
+
+d %>% group_by(lab) %>% summarise(n = length(unique(subid))) %>% pull(n) %>% sum
+length(unique(d$subid_unique))
 ```
 
 
@@ -27,6 +33,9 @@ d <- exclude_by(d, quo(pilot), quiet = TRUE)
 d$out_of_age <- d$age_mo < 3 | d$age_mo > 15 | is.na(d$age_mo)
 
 d <- exclude_by(d, quo(out_of_age), quiet=TRUE)
+
+d %>% group_by(lab) %>% summarise(n = length(unique(subid))) %>% pull(n) %>% sum
+length(unique(d$subid_unique))
 ```
 
 ```{r}
@@ -44,6 +53,9 @@ mono <- exclude_by(d, quo(monolingual), action = "include",
                    return_pcts = TRUE, 
                    quiet = TRUE)
 d <- mono$data
+
+length(unique(d$subid_unique))
+mono$percents$all_sum
 ```
 
 * *Monolingual*. Monolingual infants of any language background were included in the sample. Monolingual was defined as 90% parent-reported exposure to the native language. This cutoff score struck a balance between including most infants who are typically considered monolingual in infant language studies, while excluding those who might be considered bilingual [@byers2015methods]. `r mono$percents$any_sum` (`r round(mono$percents$any_mean*100, 2)`%) infants were tested but did not meet this criterion.
@@ -55,6 +67,9 @@ full_term <- exclude_by(d, quo(full_term), action = "include",
                 quiet = TRUE)
 
 d <- full_term$data
+
+length(unique(d$subid_unique))
+full_term$percents$all_sum
 ```
 
 * *Full-term*. We defined full term as gestation times greater than or equal to 37 weeks. Of the remaining sample, `r full_term$percents$any_sum` (`r round(full_term$percents$any_mean*100, 2)`%) infants were tested but did not meet this criterion.
@@ -65,6 +80,9 @@ ndd <- exclude_by(d, quo(td), action = "include",
                 quiet = TRUE)
 
 d <- ndd$data
+
+length(unique(d$subid_unique))
+ndd$percents$all_sum
 ```
 
 * *No diagnosed developmental disorders*. We excluded infants with parent-reported developmental disorders (e.g., chromosomal abnormalities) or diagnosed hearing impairments. Of the remaining sample, `r ndd$percents$any_sum` (`r round(ndd$percents$any_mean*100, 2)`%) infants were tested but did not meet this criterion. Due to concerns about the accuracy of parent reports, we did not exclude infants based on parent-reported ear infections unless parents reported medically-confirmed hearing loss. 
@@ -75,13 +93,18 @@ usable_pairs <- d %>%
   filter(trial_type != "TRAIN") %>%
   group_by(lab, subid, stimulus_num) %>%
   summarise(n_usable = sum(!is.na(looking_time))) %>%
-  summarise(usable_pair = any(n_usable == 2))
+  summarise(usable_pair = any(n_usable == 2, na.rm=TRUE)) %>%
+  mutate(usable_pair = ifelse(is.na(usable_pair), FALSE, usable_pair))
 ```
 
 
 ```{r usable_pairs2}
 d <- d %>% 
-  left_join(usable_pairs) 
+  left_join(usable_pairs) %>%
+  mutate(usable_pair = ifelse(is.na(usable_pair), FALSE, usable_pair))
+
+# d %>% group_by(lab) %>% summarise(n = length(unique(subid))) %>% pull(n) %>% sum
+# length(unique(d$subid_unique))
 
 usablepair <- exclude_by(d, quo(usable_pair), 
                          action = "include", 
@@ -89,6 +112,9 @@ usablepair <- exclude_by(d, quo(usable_pair),
                          quiet = TRUE)
 
 d <- usablepair$data
+
+length(unique(d$subid_unique))
+usablepair$percents$all_sum
 ```
 
 * *Contributed usable data*. A child must have contributed non-zero looking time on a pair of test trials (i.e., one trial each of IDS and ADS from a particular stimulus pair), after trial-level exclusions were applied, to be included in the study. Of the remaining sample, `r usablepair$percents$any_sum` (`r round(usablepair$percents$any_mean*100, 2)`%)  infants were tested but did not meet these criteria. We adopted this relatively liberal inclusion criterion even though it is at variance with the more stringent standards that are typically used in infancy research. We were interested in maximizing the amount of data from each lab we were able to include in the initial analysis, and our paradigm was, by design, less customized for any particular age group (and hence likely to produce greater data loss, especially for older children, who tend to habituate more quickly). In the exploratory analyses below, we consider how exclusion decisions affected our effect size estimates.
@@ -107,18 +133,27 @@ sessionerr <- exclude_by(d, quo(session_error),
                          quiet = TRUE)
 
 d <- sessionerr$data
+
+length(unique(d$subid_unique))
+sessionerr$percents$all_sum
 ```
 
 After these exclusions were applied, participants could also be excluded for analysis based on session-level errors, including: equipment error (e.g., no sound or visuals on the first pair of trials), experimenter error (e.g., an experimenter was unblinded in setups where infant looking was measured by live button press), or evidence of consistent parent/outside interference noted by participating labs (e.g., talking or pointing by parents, construction noise, sibling pounding on door). `r sessionerr$percents$any_sum` (`r round(sessionerr$percents$any_mean*100, 2)`%) infants for whom we had other reported data were dropped from analysis due to session-level error. This number is likely an underestimate, however. Many participating labs did not provide data for all children with session-level errors; in addition, session-level errors were not classified consistently across labs, so an accurate classification of the proportion of different types of errors was not possible. 
 
 
 ```{r trial_errors}
+
 trial_err <- exclude_by(d, quo(trial_error), 
                   setting = "any", 
                   return_pcts = TRUE, 
                   quiet = TRUE)
 
 d <- trial_err$data
+
+length(unique(d$subid_unique))
+trial_err$percents$all_sum
+
+# Note that 3 additional babies were found to have been excluded because of no usable trial pairs based on this step. (found during copy editing).
 ```
 
 We further excluded individual trials that were reported as having issues (e.g., fussiness, incorrect stimulus, single instance of parent or sibling interference). A total of `r trial_err$percent_trials$trial_sum` (`r round(trial_err$percent_trials$trial_mean*100,2)`%) trials were affected by such errors. As with session level errors, classification of these was inconsistent across participating labs, but the most common source of trial-level errors was infant fussiness.
@@ -133,6 +168,9 @@ short_lt <- exclude_by(d, quo(short_lt), action = "NA out",
                    return_pcts = TRUE, 
                    quiet = TRUE)
 d <- short_lt$data
+
+length(unique(d$subid_unique))
+short_lt$percents
 ```
 
 Based on our trial-length minimum, we also excluded `r short_lt$percent_trials$trial_sum` (`r round(short_lt$percent_trials$trial_mean*100, 2)`%) trials with total looking times shorter than 2 s. These trials are analyzed as "missing" in our planned analysis below. 
@@ -167,6 +205,9 @@ labexcl <- exclude_by(d, quo(include_lab),
                       action = "include", return_pcts = TRUE, quiet = TRUE)
 
 d <- labexcl$data
+
+length(unique(d$subid_unique))
+labexcl$percents$all_sum
 ```
 
 As discussed above, we included a lab's data if they were able to achieve the minimum *N* required for a half-sample and if, after exclusions, they contributed 10 or more data points. `r labexcl$percents$any_sum` (`r round(labexcl$percents$any_mean*100, 2)`%) infants from `r n_labs_excluded` labs were not included in the final sample because of this criterion.

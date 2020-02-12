@@ -25,12 +25,12 @@ affiliation:
     institution   : "See author note"
 
 author_note: |
-  The ManyBabies Consortium consists of Michael C. Frank (Stanford University), Katherine Jane Alcock (Lancaster University), Natalia Arias-Trejo (Universidad Nacional Autónoma de México, UNAM), Gisa Aschersleben (Saarland University), Dare Baldwin (University of Oregon), Stéphanie Barbu (Université de Rennes 1 - CNRS), Elika Bergelson (Duke University), Christina Bergmann (Max Planck Insitute for Psycholinguistics), Alexis K. Black (Haskins Laboratories), Ryan Blything (University of Bristol), Maximilian P. Böhland (Technische Universität Dresden), Petra Bolitho (Victoria University of Wellington), Arielle Borovsky (Purdue University), Shannon M. Brady (UCLA), Bettina Braun (University of Konstanz), Anna Brown (University of Liverpool), Krista Byers-Heinlein (Concordia University), Linda E. Campbell (University of Newcastle, Australia), Cara Cashon (University of Louisville), Mihye Choi (University of Massachusetts Boston), Joan Christodoulou (UCLA), Laura K. Cirelli (University of Toronto Mississauga), Stefania Conte (University of Milano-Bicocca), Sara Cordes (Boston College), Christopher Cox (University of York), Alejandrina Cristia (Laboratoire de Sciences Cognitives et Psycholinguistique, Dept d'Etudes Cognitives, ENS, PSL University, EHESS, CNRS), Rhodri Cusack (Trinity College Dublin), Catherine Davies (University of Leeds), Maartje de Klerk (Utrecht University), Laura de Ruiter (University of Manchester), Claire Delle Luche (University of Essex), Dhanya Dinakar (Western Sydney University), Kate C. Dixon (University of Louisville), Virginie Durier (Université de Rennes 1 - CNRS), Samantha Durrant (University of Liverpool), Christopher Fennell (University of Ottawa), Brock Ferguson (Strong Analytics), Alissa Ferry (University of Manchester), Paula Fikkert (Radboud University), Teresa Flanagan (Franklin & Marshall College), Caroline Floccia (University of Plymouth), Megan Foley (Florida State University), Tom Fritzsche (University of Potsdam), Rebecca L. A. Frost (Max Planck Institute for Psycholinguistics), Anja Gampe (University of Zurich), Judit Gervain (Université Paris Descartes), Nayeli Gonzalez-Gomez (Oxford Brookes University), Anna Gupta (Leiden University), Laura E. Hahn (Radboud University), J. Kiley Hamlin (University of British Columbia), Erin E. Hannon (University of Nevada, Las Vegas), Naomi Havron (Laboratoire de Sciences Cognitives et Psycholinguistique, Dept d'Etudes Cognitives, ENS, PSL University, EHESS, CNRS), Jessica Hay (University of Tennessee, Knoxville), Mikołaj Hernik (Central European University), Barbara Höhle (University of Potsdam), Derek M. Houston (The Ohio State University), Lauren H. Howard (Franklin & Marshall College), Mitsuhiko Ishikawa (Kyoto University), Shoji Itakura (Kyoto University), Iain Jackson (University of Manchester), Krisztina V. Jakobsen (James Madison University), Marianna Jarto (University of Hamburg), Scott P. Johnson (UCLA), Caroline Junge (Utrecht University), Didar Karadag (Bogazici University), Natalia Kartushina (University of Oslo), Danielle J. Kellier (Stanford University), Tamar Keren-Portnoy (University of York), Kelsey Klassen (University of Manitoba), Melissa Kline (Massachusetts Institute of Technology), Eon-Suk Ko (Chosun University), Jonathan F. Kominsky (Harvard University), Jessica E. Kosie (University of Oregon), Haley E. Kragness (McMaster University), Andrea A.R. Krieger (Saarland University), Florian Krieger (University of Luxembourg), Jill Lany (University of Notre Dame), Roberto J. Lazo (University of Miami), Michelle Lee (University of California, San Diego), Chloé Leservoisier (Université de Rennes 1 - CNRS), Claartje Levelt (Leiden University), Casey Lew-Williams (Princeton University), Matthias Lippold (University of Goettingen), Ulf Liszkowski (University of Hamburg), Liquan Liu (Western Sydney University), Steven G. Luke (Brigham Young University), Rebecca A. Lundwall (Brigham Young University), Viola Macchi Cassia (University of Milano-Bicocca), Nivedita Mani (University of Goettingen), Caterina Marino (Université Paris Descartes), Alia Martin (Victoria University of Wellington), Meghan Mastroberardino (Concordia University), Victoria Mateu (UCLA), Julien Mayor (University of Oslo), Katharina Menn (Radboud University), Christine Michel (Max Planck Institute for Human Cognitive and Brain Sciences), Yusuke Moriguchi (Kyoto University), Benjamin Morris (University of Chicago), Karli M. Nave (University of Nevada, Las Vegas), Thierry Nazzi (Université Paris Descartes), Claire Noble (University of Liverpool), Miriam A Novack (Northwestern University), Nonah M. Olesen (University of Louisville), Adriel John Orena (McGill University), Mitsuhiko Ota (University of Edinburgh), Robin Panneton (Virginia Tech), Sara Parvanezadeh Esfahani (University of Tennessee, Knoxville), Markus Paulus (Ludwig Maximilian University), Carolina Pletti (Ludwig Maximilian University), Linda Polka (McGill University), Christine Potter (Princeton University), Hugh Rabagliati (University of Edinburgh), Shruthilaya Ramachandran (National University of Singapore), Jennifer L. Rennels (University of Nevada, Las Vegas), Greg D. Reynolds (University of Tennessee, Knoxville), Kelly C. Roth (University of Tennessee, Knoxville), Charlotte Rothwell (Lancaster University), Doroteja Rubez (The Ohio State University), Yana Ryjova (University of Nevada, Las Vegas), Jenny Saffran (University of Wisconsin-Madison), Ayumi Sato (Shimane University), Sophie Savelkouls (Boston College), Adena Schachner (University of California, San Diego), Graham Schafer (University of Reading), Melanie S. Schreiner (University of Goettingen), Amanda Seidl (Purdue University), Mohinish Shukla (University of Massachusetts Boston), Elizabeth A. Simpson (University of Miami), Leher Singh (National University of Singapore), Barbora Skarabela (University of Edinburgh), Gaye Soley (Bogazici University), Megha Sundara (UCLA), Anna Theakston (University of Manchester), Abbie Thompson (University of Notre Dame), Laurel J. Trainor (McMaster University), Sandra E. Trehub (University of Toronto Mississauga), Anna S. Trøan (University of Oslo), Angeline Sin-Mei Tsui (University of Ottawa), Katherine Twomey (University of Manchester), Katie Von Holzen (Université Paris Descartes), Yuanyuan Wang (The Ohio State University), Sandra Waxman (Northwestern University), Janet F. Werker (University of British Columbia), Stephanie Wermelinger (University of Zurich), Alix Woolard (University of Newcastle, Australia), Daniel Yurovsky (University of Chicago), Katharina Zahner (University of Konstanz), Martin Zettersten (University of Wisconsin-Madison), Melanie Soderstrom (University of Manitoba). 
+The ManyBabies Consortium consists of Michael C. Frank (Stanford University), Katherine Jane Alcock (Lancaster University), Natalia Arias-Trejo (Universidad Nacional Autónoma de México, UNAM), Gisa Aschersleben (Saarland University), Dare Baldwin (University of Oregon), Stéphanie Barbu (Université de Rennes 1 - CNRS), Elika Bergelson (Duke University), Christina Bergmann (Max Planck Insitute for Psycholinguistics), Alexis K. Black (Haskins Laboratories), Ryan Blything (University of Bristol), Maximilian P. Böhland (Technische Universität Dresden), Petra Bolitho (Victoria University of Wellington), Arielle Borovsky (Purdue University), Shannon M. Brady (UCLA), Bettina Braun (University of Konstanz), Anna Brown (University of Liverpool), Krista Byers-Heinlein (Concordia University), Linda E. Campbell (University of Newcastle, Australia), Cara Cashon (University of Louisville), Mihye Choi (University of Massachusetts Boston), Joan Christodoulou (UCLA), Laura K. Cirelli (University of Toronto Mississauga), Stefania Conte (University of Milano-Bicocca), Sara Cordes (Boston College), Christopher Cox (University of York), Alejandrina Cristia (Laboratoire de Sciences Cognitives et Psycholinguistique, Dept d'Etudes Cognitives, ENS, PSL University, EHESS, CNRS), Rhodri Cusack (Trinity College Dublin), Catherine Davies (University of Leeds), Maartje de Klerk (Utrecht University), Laura de Ruiter (University of Manchester), Claire Delle Luche (University of Essex), Dhanya Dinakar (Western Sydney University), Kate C. Dixon (University of Louisville), Virginie Durier (Université de Rennes 1 - CNRS), Samantha Durrant (University of Liverpool), Christopher Fennell (University of Ottawa), Brock Ferguson (Strong Analytics), Alissa Ferry (University of Manchester), Paula Fikkert (Radboud University), Teresa Flanagan (Franklin & Marshall College), Caroline Floccia (University of Plymouth), Megan Foley (Florida State University), Tom Fritzsche (University of Potsdam), Rebecca L. A. Frost (Max Planck Institute for Psycholinguistics), Anja Gampe (University of Zurich), Judit Gervain (Université Paris Descartes), Nayeli Gonzalez-Gomez (Oxford Brookes University), Anna Gupta (Leiden University), Laura E. Hahn (Radboud University), J. Kiley Hamlin (University of British Columbia), Erin E. Hannon (University of Nevada, Las Vegas), Naomi Havron (Laboratoire de Sciences Cognitives et Psycholinguistique, Dept d'Etudes Cognitives, ENS, PSL University, EHESS, CNRS), Jessica Hay (University of Tennessee, Knoxville), Mikołaj Hernik (Central European University), Barbara Höhle (University of Potsdam), Derek M. Houston (The Ohio State University), Lauren H. Howard (Franklin & Marshall College), Mitsuhiko Ishikawa (Kyoto University), Shoji Itakura (Kyoto University), Iain Jackson (University of Manchester), Krisztina V. Jakobsen (James Madison University), Marianna Jarto (University of Hamburg), Scott P. Johnson (UCLA), Caroline Junge (Utrecht University), Didar Karadag (Bogazici University), Natalia Kartushina (University of Oslo), Danielle J. Kellier (Stanford University), Tamar Keren-Portnoy (University of York), Kelsey Klassen (University of Manitoba), Melissa Kline (Massachusetts Institute of Technology), Eon-Suk Ko (Chosun University), Jonathan F. Kominsky (Harvard University), Jessica E. Kosie (University of Oregon), Haley E. Kragness (McMaster University), Andrea A.R. Krieger (Saarland University), Florian Krieger (University of Luxembourg), Jill Lany (University of Notre Dame), Roberto J. Lazo (University of Miami), Michelle Lee (University of California, San Diego), Chloé Leservoisier (Université de Rennes 1 - CNRS), Claartje Levelt (Leiden University), Casey Lew-Williams (Princeton University), Matthias Lippold (University of Goettingen), Ulf Liszkowski (University of Hamburg), Liquan Liu (Western Sydney University), Steven G. Luke (Brigham Young University), Rebecca A. Lundwall (Brigham Young University), Viola Macchi Cassia (University of Milano-Bicocca), Nivedita Mani (University of Goettingen), Caterina Marino (Université Paris Descartes), Alia Martin (Victoria University of Wellington), Meghan Mastroberardino (Concordia University), Victoria Mateu (UCLA), Julien Mayor (University of Oslo), Katharina Menn (Radboud University), Christine Michel (Max Planck Institute for Human Cognitive and Brain Sciences), Yusuke Moriguchi (Kyoto University), Benjamin Morris (University of Chicago), Karli M. Nave (University of Nevada, Las Vegas), Thierry Nazzi (Université Paris Descartes), Claire Noble (University of Liverpool), Miriam A Novack (Northwestern University), Nonah M. Olesen (University of Louisville), Adriel John Orena (McGill University), Mitsuhiko Ota (University of Edinburgh), Robin Panneton (Virginia Tech), Sara Parvanezadeh Esfahani (University of Tennessee, Knoxville), Markus Paulus (Ludwig Maximilian University), Carolina Pletti (Ludwig Maximilian University), Linda Polka (McGill University), Christine Potter (Princeton University), Hugh Rabagliati (University of Edinburgh), Shruthilaya Ramachandran (National University of Singapore), Jennifer L. Rennels (University of Nevada, Las Vegas), Greg D. Reynolds (University of Tennessee, Knoxville), Kelly C. Roth (University of Tennessee, Knoxville), Charlotte Rothwell (Lancaster University), Doroteja Rubez (The Ohio State University), Yana Ryjova (University of Nevada, Las Vegas), Jenny Saffran (University of Wisconsin-Madison), Ayumi Sato (Shimane University), Sophie Savelkouls (Boston College), Adena Schachner (University of California, San Diego), Graham Schafer (University of Reading), Melanie S. Schreiner (University of Goettingen), Amanda Seidl (Purdue University), Mohinish Shukla (University of Massachusetts Boston), Elizabeth A. Simpson (University of Miami), Leher Singh (National University of Singapore), Barbora Skarabela (University of Edinburgh), Gaye Soley (Bogazici University), Megha Sundara (UCLA), Anna Theakston (University of Manchester), Abbie Thompson (University of Notre Dame), Laurel J. Trainor (McMaster University), Sandra E. Trehub (University of Toronto Mississauga), Anna S. Trøan (University of Oslo), Angeline Sin-Mei Tsui (University of Ottawa), Katherine Twomey (University of Manchester), Katie Von Holzen (Université Paris Descartes), Yuanyuan Wang (The Ohio State University), Sandra Waxman (Northwestern University), Janet F. Werker (University of British Columbia), Stephanie Wermelinger (University of Zurich), Alix Woolard (University of Newcastle, Australia), Daniel Yurovsky (University of Chicago), Katharina Zahner (University of Konstanz), Martin Zettersten (University of Wisconsin-Madison), Melanie Soderstrom (University of Manitoba). 
 
 abstract: |
-  The field of psychology has become increasingly concerned with issues related to methodology and replicability. Infancy researchers face specific challenges related to replicability: high-powered studies are difficult to conduct, testing conditions vary across labs, and different labs have access to different infant populations, amongst other factors. Addressing these concerns, we report on a large-scale, multi-site study aimed at 1) assessing the overall replicability of a single theoretically-important phenomenon and 2) examining methodological, situational, cultural, and developmental moderators. We focus on infants’ preference for infant-directed speech (IDS) over adult-directed speech (ADS). Stimuli of mothers speaking to their infants and to an adult were created using semi-naturalistic laboratory-based audio recordings in North American English. Infants’ relative preference for IDS and ADS was assessed across 67 laboratories in North America, Europe, Australia, and Asia using the three commonly-used infant discrimination methods (head-turn preference, central fixation, and eye tracking). The overall meta-analytic effect size (Cohen’s *d*) was 0.35 [0.29 - 0.42], which was reliably above zero but smaller than the meta-analytic mean computed from previous literature (0.67). The IDS preference was significantly stronger in older children, in those children for whom the stimuli matched their native language and dialect, and in data from labs using the head-turn preference procedure. Together these findings replicate the infant-directed speech preference but suggest that its magnitude is modulated by development, native language experience, and testing procedure.
+The field of psychology has become increasingly concerned with issues related to methodology and replicability. Infancy researchers face specific challenges related to replicability: high-powered studies are difficult to conduct, testing conditions vary across labs, and different labs have access to different infant populations, amongst other factors. Addressing these concerns, we report on a large-scale, multi-site study aimed at 1) assessing the overall replicability of a single theoretically-important phenomenon and 2) examining methodological, situational, cultural, and developmental moderators. We focus on infants’ preference for infant-directed speech (IDS) over adult-directed speech (ADS). Stimuli of mothers speaking to their infants and to an adult were created using semi-naturalistic laboratory-based audio recordings in North American English. Infants’ relative preference for IDS and ADS was assessed across 67 laboratories in North America, Europe, Australia, and Asia using the three commonly-used infant discrimination methods (head-turn preference, central fixation, and eye tracking). The overall meta-analytic effect size (Cohen’s *d*) was 0.35 [0.29 - 0.42], which was reliably above zero but smaller than the meta-analytic mean computed from previous literature (0.67). The IDS preference was significantly stronger in older children, in those children for whom the stimuli matched their native language and dialect, and in data from labs using the head-turn preference procedure. Together these findings replicate the infant-directed speech preference but suggest that its magnitude is modulated by development, native language experience, and testing procedure.
 
-  
+
 keywords          : "language acquisition; speech perception; infant-directed speech; reproducibility; experimental methods"
 wordcount         : "11680"
 
@@ -67,7 +67,7 @@ theme_set(theme_bw() +
 ```{r load_authors}
 # downloaded from https://docs.google.com/spreadsheets/d/1O225ib9wFjUjZJfz9jqwRkfFYaCGXrtDYnmkK9NM3r8/edit#gid=0 on 3/4/19
 author_data <- read_csv(here("metadata/ManyBabies1 Author List and Contributions - Sheet1.csv"), 
-                    skip = 5) %>% 
+                        skip = 5) %>% 
   rename(first = `Author First Name`, 
          last = `Author Last Name`,
          affil = Affiliation, 
@@ -88,10 +88,19 @@ author_data <- read_csv(here("metadata/ManyBabies1 Author List and Contributions
          status = case_when(last == "Frank" ~ 1, 
                             last == "Soderstrom" ~ 3, 
                             TRUE ~ 2), 
-         initials = paste0(gsub("[:a-zé\\öøł:\\.\\ \\-]","",first), gsub("[:a-zé\\öøł:\\.\\ \\-]","",last))) %>%
+         initials = paste0(
+           sapply(
+               lapply(
+                 str_split(
+                   gsub("[:a-zé\\öøł:\\.\\ \\-]","",first), 
+                   ""), 
+                 function(x) str_c(x,".")), 
+               function (x) paste(x, collapse =  " ")), 
+           " ",
+           last)) %>%
   group_by(status) %>% 
   arrange(last, .by_group = TRUE) 
-
+         
 authors <- author_data %>% 
   pull(full) %>% 
   paste(collapse = ", ")
@@ -269,11 +278,11 @@ lab_stats <- d_participants %>%
   rename(Country = country,Language = language_simple)
 
 papaja::apa_table(lab_stats,
-                 caption = "Statistics of the included labs. N refers to the number of infants included in the final analysis. English from the US and Canada are both treated as North American English.",
-                 format.args = list(digits = 0),
-                 longtable = TRUE,font_size="footnotesize",
-                 align=c("l","c","c","c","l","l"),
-                 col.names = c("lab","Mean age (days)","$N$", "Method","Language","Country"))
+                  caption = "Statistics of the included labs. N refers to the number of infants included in the final analysis. English from the US and Canada are both treated as North American English.",
+                  format.args = list(digits = 0),
+                  longtable = TRUE,font_size="footnotesize",
+                  align=c("l","c","c","c","l","l"),
+                  col.names = c("lab","Mean age (days)","$N$", "Method","Language","Country"))
 ```
 
 
@@ -318,15 +327,15 @@ include_graphics("plot_stim_freq.png")
 ```{r stimtable, results="asis"}
 stim_data <- tribble(
   ~`Measurement`, ~`IDS mean`,  ~`IDS SD`, ~`ADS mean`, ~`ADS SD`,
-"Number of mothers speaking per stimulus", 4.00, 0.00, 3.75, 0.46,
-"Number of clips per stimulus", 6.88, 1.13, 4.50, 0.76,
-"Number of objects mentioned per stimulus", 2.75, 0.71, 2.75, 0.71,
-"Mean F0 (Hz) per stimulus",206.9, 19.5, 174.9, 13.2,
-"10th percentile F0 (Hz) per stimulus", 131.4, 26.1, 139.0, 17.7, 
-"90th percentile F0 (Hz) per stimulus", 340.0, 21.5, 232.0, 13.8,
-"Mean number of utterances per stimulus", 7.75, 1.04, 6.63, 0.92,
-"Mean duration (sec) of utterances", 1.58, 0.74, 2.12, 1.41,
-"Mean inter-utterance interval (sec)", 0.75, 0.30, 0.59, 0.33
+  "Number of mothers speaking per stimulus", 4.00, 0.00, 3.75, 0.46,
+  "Number of clips per stimulus", 6.88, 1.13, 4.50, 0.76,
+  "Number of objects mentioned per stimulus", 2.75, 0.71, 2.75, 0.71,
+  "Mean F0 (Hz) per stimulus",206.9, 19.5, 174.9, 13.2,
+  "10th percentile F0 (Hz) per stimulus", 131.4, 26.1, 139.0, 17.7, 
+  "90th percentile F0 (Hz) per stimulus", 340.0, 21.5, 232.0, 13.8,
+  "Mean number of utterances per stimulus", 7.75, 1.04, 6.63, 0.92,
+  "Mean duration (sec) of utterances", 1.58, 0.74, 2.12, 1.41,
+  "Mean inter-utterance interval (sec)", 0.75, 0.30, 0.59, 0.33
 )
 
 t1_caption <- "Characteristics of the IDS and ADS stimuli, with standard deviations computed across stimuli."
@@ -356,7 +365,7 @@ t3_caption <- "Comparison of our study’s stimuli to those of previous studies 
 #papaja::apa_table(comp_data, caption = t3_caption, landscape = TRUE)
 
 kable_input=kable(comp_data,caption = t3_caption,format = "latex",booktabs=TRUE, align = c("l","c","l","l",rep("c",4))) %>%
- kable_styling(latex_options="scale_down")
+  kable_styling(latex_options="scale_down")
 
 landscape(kable_input, margin = NULL)
 ```
@@ -561,10 +570,10 @@ What was the overall magnitude of the IDS preference we observed? This question 
 ds_zt$age_mo_centered <- scale(ds_zt$age_mo, scale = FALSE)[,1]
 
 age_mod <- metafor::rma(d_z ~ age_mo_centered, 
-                    vi = d_z_var, slab = lab, data = ds_zt, method = "REML") 
+                        vi = d_z_var, slab = lab, data = ds_zt, method = "REML") 
 
 lang_mod <- metafor::rma(d_z ~ nae, vi = d_z_var, 
-                    slab = lab, data = ds_zt, method = "REML") 
+                         slab = lab, data = ds_zt, method = "REML") 
 
 method_mod <- metafor::rma(d_z ~ method, vi = d_z_var, 
                            slab = lab, data = ds_zt, method = "REML") 
@@ -589,7 +598,7 @@ forest_data <- data.frame(effects = as.numeric(intercept_mod$yi.f),
          identity = 1, 
          lab = str_replace(lab, "\\.[1-9]",""), 
          index = 1:n()) %>%
-    bind_cols(ungroup(ds_zt) %>% select(lab, method))
+  bind_cols(ungroup(ds_zt) %>% select(lab, method))
 
 # predict MA means for methods
 mf <- fitted(method_mod)
@@ -650,7 +659,7 @@ We next fit a set of moderated meta-analytic models. We began by examining the r
 
 ```{r fig3, fig.cap = "Lab effect size estimates plotted by age and method. Subplots show language groups. Standardized effect sizes are shown for each lab, with error bars showing 95% confidence intervals. Points are scaled by number of participants and colored by experimental method; they are slightly transparent to avoid overplotting."}
 ds_zt$english <- factor(ds_zt$nae, levels = c(TRUE, FALSE), 
-                     labels = c("North American English", "Non-North American English")) 
+                        labels = c("North American English", "Non-North American English")) 
 
 ggplot(ds_zt, 
        aes(x = age_mo, y = d_z)) + 
@@ -731,7 +740,7 @@ coefs <- summary(mod_lmer)$coef %>%
          t = `t value`,
          p = `Pr(>|t|)`) %>%
   select(-df)
-         
+
 rownames(coefs) <- c("Intercept", "IDS", "Eye-tracking", "HPP", 
                      "Trial #", "Age", "NAE", "IDS * Eye-tracking", 
                      "IDS * HPP", 
@@ -767,10 +776,10 @@ mss_diffs_plot_b <- ggplot(mss_diffs, aes(x = age_mo, y = diff, col = method, lt
   theme(legend.title=element_text(size=10),legend.text=element_text(size=8))
 
 mss_diffs_plot_a <-mss_diffs_plot_b +
-    geom_point(data = filter(mss_diffs, n == 8), alpha = .1) 
+  geom_point(data = filter(mss_diffs, n == 8), alpha = .1) 
 
 ggarrange(mss_diffs_plot_a, mss_diffs_plot_b, labels = c("A", "B"), ncol = 2, nrow = 1, legend = "bottom", common.legend = TRUE)
-  
+
 ```
 
 
@@ -804,7 +813,7 @@ pref_second <- diff_second %>%
 
 ```
 
-We preregistered an analysis of whether second-session infants showed a different pattern of infant-directed speech preference. Only `r nrow(n_ss)` labs contributed second-session infants, however, with a total of only `r sum(n_ss$nn)` infants represented. Thus, we did not fit the full, pre-registered mixed-effects model for this variable as we did not have enough variability on the important covariates to estimate this variable.  As an exploratory analysis, we note that `r pref_second$pref`/`r pref_second$n` second-session infants (`r round(pref_second$pct, 1)`% [`r round(pref_second$ci.l, 3)*100` - `r round(pref_second$ci.u, 3)*100`]) showed a numerical preference for IDS. This number was numerically different  but not distinguishable statistically from the `r round(pref$pct, 2)`% of IDS preferences in the first-session infants, likely due to the small sample of second-session infants.
+We preregistered an analysis of whether second-session infants showed a different pattern of infant-directed speech preference. Only `r nrow(n_ss)` labs contributed second-session infants, however, with a total of only `r sum(n_ss$n)` infants represented. Thus, we did not fit the full, pre-registered mixed-effects model for this variable as we did not have enough variability on the important covariates to estimate this variable.  As an exploratory analysis, we note that `r pref_second$pref`/`r pref_second$n` second-session infants (`r round(pref_second$pct, 1)`% [`r round(pref_second$ci.l, 4)*100` - `r round(pref_second$ci.u, 4)*100`]) showed a numerical preference for IDS. This number was numerically different  but not distinguishable statistically from the `r round(pref$pct, 2)`% of IDS preferences in the first-session infants, likely due to the small sample of second-session infants.
 
 
 
@@ -815,15 +824,15 @@ We preregistered an analysis of whether second-session infants showed a differen
 
 ```{r coef_table_sex, results="asis"}
 sex_mod_lmer <- lmer(log_lt ~ trial_type * method +
-                          trial_type * trial_num +
-                          age_mo * trial_num +
-                          trial_type * age_mo * nae +
-                          gender * trial_type +
-                          (1 | subid_unique) +
-                          # (1 | item) + 
-                          (1 | lab), 
-                        data = filter(d_lmer, 
-                                      gender %in% c("M","F")))
+                       trial_type * trial_num +
+                       age_mo * trial_num +
+                       trial_type * age_mo * nae +
+                       gender * trial_type +
+                       (1 | subid_unique) +
+                       # (1 | item) + 
+                       (1 | lab), 
+                     data = filter(d_lmer, 
+                                   gender %in% c("M","F")))
 
 sex_coefs <- summary(sex_mod_lmer)$coef
 ```
@@ -875,17 +884,17 @@ missing_coefs <- summary(missing_mod)$coef %>%
   as.data.frame %>%
   mutate_at(c("Estimate","Std. Error", "z value", "Pr(>|z|)"), 
             function (x) signif(x, digits = 3)) %>% 
-    rename(SE = `Std. Error`, 
+  rename(SE = `Std. Error`, 
          z = `z value`,
          p = `Pr(>|z|)`)
-         
+
 rownames(missing_coefs) <- c("Intercept", "Eye-tracking", "HPP", 
-                      "Age", "Trial #",
-                     "Eye-tracking * Age", 
-                     "HPP * Age", 
-                     "Eye-tracking * Trial #", 
-                     "HPP * Trial #", 
-                     "Trial # * Age")
+                             "Age", "Trial #",
+                             "Eye-tracking * Age", 
+                             "HPP * Age", 
+                             "Eye-tracking * Trial #", 
+                             "HPP * Trial #", 
+                             "Trial # * Age")
 
 papaja::apa_table(missing_coefs, format.args = list(digits = 3),
                   caption = "Coefficient estimates from a linear mixed effects model predicting whether an observation was missing.",
@@ -909,11 +918,11 @@ ds_excl <- diffs %>%
   group_by(lab, age_group, method, nae, subid) %>%
   summarise(excl2 = mean(diff, na.rm = TRUE),
             excl4 = ifelse(sum(!is.na(diff)) > 2,
-                            mean(diff, na.rm = TRUE), NA),
-             excl8 = ifelse(sum(!is.na(diff)) > 4,
-                            mean(diff, na.rm = TRUE), NA)) %>% 
-   gather(exclusion, mean_diff, excl2, excl4, excl8) %>% 
-   mutate(exclusion = as.numeric(str_replace(exclusion, "excl","")))
+                           mean(diff, na.rm = TRUE), NA),
+            excl8 = ifelse(sum(!is.na(diff)) > 4,
+                           mean(diff, na.rm = TRUE), NA)) %>% 
+  gather(exclusion, mean_diff, excl2, excl4, excl8) %>% 
+  mutate(exclusion = as.numeric(str_replace(exclusion, "excl","")))
 ```
 
 
@@ -924,7 +933,7 @@ ds_excl <- ds_excl %>%
   summarise(valid_cases=sum(!is.na(mean_diff)),all_cases=n()
             ,percentage=valid_cases/all_cases,d = mean(mean_diff, na.rm = TRUE))
 
-  ds_excl_agg<-ds_excl%>%
+ds_excl_agg<-ds_excl%>%
   group_by(exclusion,lab, age_group, method, nae) %>%
   summarise(d_z = mean(d, na.rm = TRUE) / sd(d, na.rm = TRUE), 
             n = length(unique(subid)), 
@@ -970,10 +979,10 @@ ds_excl=left_join(coef_exclusion,ds_excl,by=c("exclusion","method"))
 
 # prepare Table
 ds_excl_est=ds_excl %>% select(method,exclusion,estimate) %>%mutate(est='estimate') %>%
-     unite(exlest, exclusion, est) %>%  spread(exlest,estimate)
+  unite(exlest, exclusion, est) %>%  spread(exlest,estimate)
 
 ds_excl_se=ds_excl %>% select(method,exclusion,se) %>%mutate(se_l='se') %>%
-     unite(exlse, exclusion, se_l) %>%  spread(exlse,se)
+  unite(exlse, exclusion, se_l) %>%  spread(exlse,se)
 
 ds_excl_per=ds_excl %>% select(method,exclusion,percentage) %>%mutate(per_l='percentage') %>%unite(exlper, exclusion, per_l) %>%  spread(exlper,percentage)
 
@@ -1032,7 +1041,7 @@ The second challenging decision hinged around the elicitation of the IDS stimuli
 As the first collaboration of its kind, ManyBabies 1 revealed a number of important challenges in conducting multilab infant collaborations.  As any lab that has tested infant participants knows, data collection is slow and labour intensive.  Over a period of approximately 13 months, `r n_labs + n_labs_excluded` labs were able to collect data from `r sum(lab_contribs_pre_exclusion$n)` infants. In contrast, ManyLabs 1, a similar initiative with adults participants [@klein2014], was able to collect data from more than 6000 participants tested in 36 labs over just a handful of months. Moreover, while adults can often be tested in multiple studies in a single session, this option is very limited for infants.
 
 We expected challenges in implementing a standardized data collection procedure across infant labs, but the depth of these challenges, and the diversity of methodological implementation across laboratories, was surprising. Infant laboratories are highly diverse in both the software and hardware they have available to implement experimental infant testing methods.  We planned flexibility in the specific setup (eyetracking, HPP, central fixation) due to known variability, but despite this several labs were forced to deviate from aspects of the protocol, for example due to limitations of how stimuli could be presented (e.g., the ability to implement infant-controlled trial lengths, software settings for repeating trials, etc.). One important conclusion from our work, as evidenced in the “walk through videos” laboratories provided to illustrate their protocols (see below), is the extent to which a typical methods section fails to capture this methodological diversity. 
-	
+
 ## Additional Benefits of Large-Scale Collaboration
 
 While our primary goal was an empirical one, the ManyBabies 1 project had numerous additional benefits to both individual researchers as well as the field at large.  All of the questionnaires, and how-tos, and stimuli (e.g., attention getters) used in the project are freely available for re-use in future studies. Each participating lab created a walkthrough video that showed their lab and study setup. These videos provide an unprecedented peek “behind the curtain” of other infancy labs, which was previously only possible through visiting labs in person. Such information could be a particularly helpful resource for investigators setting up an infant lab for the first time. It also provides a unique dataset whereby the field of infant research can begin to understand the variety of lab setups and study implementations. 
