@@ -2,6 +2,8 @@
 
 This repository contains the data and code for the project ManyBabies 1: Infant-Directed Speech Preference.
 Materials related to the project can be found on OSF: https://osf.io/re95x/
+General information on ManyBabies, including an overview of current projects, can be found on the project website: http://manybabies.stanford.edu
+
 
 ## Follow-up analyses
 
@@ -17,4 +19,4 @@ The data and code are licensed for re-use. To coordinate with other interested p
 
 As courtesy, we ask that publications cite the manuscript describing the project and main results:
 
-The ManyBabies Consortium. (2019). "Quantifying sources of variability in infancy research using the infant-directed speech preference." Registered report with in principle acceptance, under Stage 2 review. *Advances in Methods and Practices in Psychological Science (AMPPS)*.
+The ManyBabies Consortium. (2019). "Quantifying sources of variability in infancy research using the infant-directed speech preference." In press at *Advances in Methods and Practices in Psychological Science (AMPPS)*.
