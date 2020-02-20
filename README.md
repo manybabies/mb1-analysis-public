@@ -4,6 +4,9 @@ This repository contains the data and code for the project ManyBabies 1: Infant-
 Materials related to the project can be found on OSF: https://osf.io/re95x/
 General information on ManyBabies, including an overview of current projects, can be found on the project website: http://manybabies.stanford.edu
 
+## Reproducibility
+
+The files in this directory generate the main dataset from the individual datafiles, they should be run in numerical order to regenerate the (cached) processed data. The `paper` directory then contains the `.Rmd` to generate the manuscript. Note that a number of minor changes were introduced during copy editing and hence not every line will be identical between the published paper and the manuscript generated via these changes. 
 
 ## Follow-up analyses
 
